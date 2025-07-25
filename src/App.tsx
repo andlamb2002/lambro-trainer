@@ -1,6 +1,5 @@
 import Timer from './Components/Timer';
-import '@picocss/pico';
-
+import '@picocss/pico/css/pico.min.css';
 
 function App() {
   return (
