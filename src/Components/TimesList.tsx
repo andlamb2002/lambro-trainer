@@ -13,8 +13,8 @@ function TimesList({ times }: Props) {
     return (
         <>
             <div>
-                <h2>Solves: {times.length}</h2>
-                <h2>Mean: {mean}</h2>
+                <h3>Solves: {times.length}</h3>
+                <h3>Mean: {mean}</h3>
                 { times.map((time, index) => (
                     <span key={index}>{(time / 1000).toFixed(2)}{index < times.length - 1 ? ', ' : ''}</span>
                 ))}
