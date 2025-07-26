@@ -1,6 +1,8 @@
 import { useState } from 'react';
-import Timer from './Components/Timer';
 import '@picocss/pico/css/pico.min.css';
+
+import Timer from './Components/Timer';
+import TimesList from './Components/TimesList';
 
 function App() {
 
@@ -13,11 +15,7 @@ function App() {
   return (
     <>
       <Timer onStop={handleOnStop} />
-      <ul>
-        {times.map((time, index) => (
-          <li key={index}>{(time / 1000).toFixed(2)}</li>
-        ))}
-      </ul>
+      <TimesList times={times} />
     </>
   )
 }
