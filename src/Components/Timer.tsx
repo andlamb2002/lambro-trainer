@@ -1,6 +1,10 @@
 import { useState, useEffect, useRef } from 'react'
 
-function Timer() {
+interface Props {
+    onStop: (time: number) => void;
+}
+
+function Timer({ onStop }: Props) {
 
     const [isRunning, setIsRunning] = useState<boolean>(false);
     const [time, setTime] = useState<number>(0);
@@ -17,6 +21,10 @@ function Timer() {
     function stop() {
         setIsRunning(false);
         hasStoppedRef.current = true;
+
+        const finalTime = Date.now() - startTimeRef.current;
+        setTime(finalTime);
+        onStop(finalTime);
     }
 
     useEffect(() => {
@@ -64,13 +72,9 @@ function Timer() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
-    function formatTime(): string {
-        return (time / 1000).toFixed(2);
-    }
-
     return (
         <>
-            {formatTime()}
+            {(time / 1000).toFixed(2)}
         </>
     );
 }
