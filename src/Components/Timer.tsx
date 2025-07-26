@@ -74,7 +74,7 @@ function Timer({ onStop }: Props) {
 
     return (
         <>
-            <h1>Time: {(time / 1000).toFixed(2)}</h1>
+            <h1>{(time / 1000).toFixed(2)}</h1>
         </>
     );
 }
