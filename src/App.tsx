@@ -5,31 +5,34 @@ import Scramble from './Components/Scramble';
 import Timer from './Components/Timer';
 import TimesList from './Components/TimesList';
 
+import { formattedScrambles } from './generateCases';
+
 function App() {
 
-const scrambles = [
-    'R2 U2 R U2 R2 U2 R2 U2 R U2 R2',
-    'R U\' R U R U R U\' R\' U\' R2',
-    'R2 U R U R\' U\' R\' U\' R\' U R\'',
-    'R\' U\' R2 U R U R\' U\' R U R U\' R U\' R\'',
-]
+interface Case {
+    id: string;
+    scrambles: string;
+    img: string;
+    enabled: boolean;
+}
 
 const [times, setTimes] = useState<number[]>([]);
-const [currentScramble, setCurrentScramble] = useState<string>(() => getRandomScramble(scrambles));
+const [currentCase, setCurrentCase] = useState<Case>(() => getRandomCase(formattedScrambles));
 
-function getRandomScramble(scrambles: string[]): string {
-    const randomIndex = Math.floor(Math.random() * scrambles.length);
-    return scrambles[randomIndex];
+function getRandomCase(cases: Case[]): Case {
+    const randomIndex = Math.floor(Math.random() * cases.length);
+    console.log(cases[randomIndex]);
+    return cases[randomIndex];
 }
 
 const handleOnStop = (time: number) => {
     setTimes(prev => [...prev, time]);
-    setCurrentScramble(getRandomScramble(scrambles));
+    setCurrentCase(getRandomCase(formattedScrambles));
 };
 
 return (
         <>
-            <Scramble currentScramble={currentScramble} />
+            <Scramble currentScramble={currentCase.scrambles} />
             <Timer onStop={handleOnStop} />
             <TimesList times={times} />
         </>
