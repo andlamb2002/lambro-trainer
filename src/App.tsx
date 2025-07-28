@@ -16,17 +16,32 @@ interface Case {
     enabled: boolean;
 }
 
-const [times, setTimes] = useState<number[]>([]);
+interface Solve {
+    id: string;
+    scramble: string;
+    img: string;
+    time: number;
+}
+
+// const [times, setTimes] = useState<number[]>([]);
 const [currentCase, setCurrentCase] = useState<Case>(() => getRandomCase(formattedScrambles));
+const [solves, setSolves] = useState<Solve[]>([]);
 
 function getRandomCase(cases: Case[]): Case {
     const randomIndex = Math.floor(Math.random() * cases.length);
-    console.log(cases[randomIndex]);
+    // console.log(cases[randomIndex]);
     return cases[randomIndex];
 }
 
 const handleOnStop = (time: number) => {
-    setTimes(prev => [...prev, time]);
+    const newSolve: Solve = {
+        id: currentCase.id,
+        scramble: currentCase.scrambles,
+        img: currentCase.img,
+        time: time
+    }
+    console.log(newSolve);
+    setSolves(prev => [...prev, newSolve]);
     setCurrentCase(getRandomCase(formattedScrambles));
 };
 
@@ -34,7 +49,7 @@ return (
         <>
             <Scramble currentScramble={currentCase.scrambles} />
             <Timer onStop={handleOnStop} />
-            <TimesList times={times} />
+            <TimesList solves={solves} />
         </>
     )
 }
