@@ -10,7 +10,7 @@ function App() {
 const scrambles = [
     'R2 U2 R U2 R2 U2 R2 U2 R U2 R2',
     'R U\' R U R U R U\' R\' U\' R2',
-    'R2\' U R U R\' U\' R\' U\' R\' U R\'',
+    'R2 U R U R\' U\' R\' U\' R\' U R\'',
     'R\' U\' R2 U R U R\' U\' R U R U\' R U\' R\'',
 ]
 
