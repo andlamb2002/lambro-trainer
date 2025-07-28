@@ -29,20 +29,22 @@ const [solves, setSolves] = useState<Solve[]>([]);
 
 function getRandomCase(cases: Case[]): Case {
     const randomIndex = Math.floor(Math.random() * cases.length);
-    // console.log(cases[randomIndex]);
+    console.log("Random case:", cases[randomIndex]);
     return cases[randomIndex];
 }
 
 const handleOnStop = (time: number) => {
+    console.log(`Stopping timer for case: ${currentCase.id}`);
     const newSolve: Solve = {
         id: currentCase.id,
         scramble: currentCase.scrambles,
         img: currentCase.img,
         time: time
     }
-    console.log(newSolve);
+    console.log("Saving solve:", newSolve);
     setSolves(prev => [...prev, newSolve]);
     setCurrentCase(getRandomCase(formattedScrambles));
+    console.log("Next case:", currentCase);
 };
 
 return (
