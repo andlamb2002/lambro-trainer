@@ -10,7 +10,7 @@ interface Solve {
     time: number;
 }
 
-function solvesList({ solves }: Props) {
+function SolvesList({ solves }: Props) {
 
     const mean: string = 
         solves.length > 0
@@ -42,4 +42,4 @@ function solvesList({ solves }: Props) {
     )
 }
 
-export default solvesList
+export default SolvesList

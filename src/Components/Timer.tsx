@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from 'react'
 interface Props {
     cases: Case[];
     onStop: (solve: Solve) => void;
-    setDisplayedCase: (currentCase: Case) => void;
+    onCaseChange: (currentCase: Case) => void;
 }
 
 interface Case {
@@ -20,7 +20,7 @@ interface Solve {
     time: number;
 }
 
-function Timer({ cases, onStop, setDisplayedCase }: Props) {
+function Timer({ cases, onStop, onCaseChange }: Props) {
 
     const [isRunning, setIsRunning] = useState<boolean>(false);
     const [time, setTime] = useState<number>(0);
@@ -53,13 +53,9 @@ function Timer({ cases, onStop, setDisplayedCase }: Props) {
             time: finalTime,
         }
     
-        console.log("Solve recorded:", solve);
         onStop(solve);
-
         const newCase: Case = getRandomCase(cases);
-        console.log("New case:", newCase);
         setCurrentCase(newCase);
-        console.log("Current case:", newCase);
     }
 
     function getRandomCase(cases: Case[]): Case {
@@ -87,8 +83,8 @@ function Timer({ cases, onStop, setDisplayedCase }: Props) {
 
     useEffect(() => {
         currentCaseRef.current = currentCase;
-        setDisplayedCase(currentCase);
-    }, [currentCase, setDisplayedCase]);
+        onCaseChange(currentCase);
+    }, [currentCase, onCaseChange]);
 
     useEffect(() => {
         const handleKeyDown = () => {

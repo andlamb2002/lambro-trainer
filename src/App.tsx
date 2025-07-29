@@ -3,11 +3,9 @@ import '@picocss/pico/css/pico.min.css';
 
 import Scramble from './Components/Scramble';
 import Timer from './Components/Timer';
-import TimesList from './Components/TimesList';
+import SolvesList from './Components/SolvesList';
 
 import { formattedScrambles } from './generateCases';
-
-function App() {
 
 interface Case {
     id: string;
@@ -23,6 +21,8 @@ interface Solve {
     time: number;
 }
 
+function App() {
+
 const [currentCase, setCurrentCase] = useState<Case | null>(null);
 const [solves, setSolves] = useState<Solve[]>([]);
 
@@ -33,8 +33,8 @@ const handleOnStop = (solve: Solve) => {
 return (
         <>
             {currentCase && <Scramble currentScramble={currentCase.scrambles} />}
-            <Timer cases={formattedScrambles} onStop={handleOnStop} setDisplayedCase={setCurrentCase} />
-            <TimesList solves={solves} />
+            <Timer cases={formattedScrambles} onStop={handleOnStop} onCaseChange={setCurrentCase} />
+            <SolvesList solves={solves} />
         </>
     )
 }
