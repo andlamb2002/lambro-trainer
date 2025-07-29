@@ -21,23 +21,20 @@ function SolvesList({ solves }: Props) {
 
     return (
         <>
-            <div>
 
-                 {latest && (
-                    <div>
-                        <p><strong>Last Case:</strong> {latest.id}</p>
-                        <p><img src={latest.img} alt={`Case ${latest.id}`} style={{ width: '80px' }} /></p>
-                        <p><strong>Scramble:</strong> {latest.scramble}</p>
-                        <p><strong>Time:</strong> {(latest.time / 1000).toFixed(2)}</p>
-                    </div>
-                )}
+                {latest && (
+                <div>
+                    <p>Case {latest.id}: {(latest.time / 1000).toFixed(2)}</p>
+                    <p><img src={latest.img} alt={`Case ${latest.id}`} style={{ width: '80px' }} /></p>
+                    <p>{latest.scramble}</p>
+                </div>
+            )}
 
-                <h3>Solves: {solves.length}</h3>
-                <h3>Mean: {mean}</h3>
-                { solves.map((solve, index) => (
-                    <span key={index}>{(solve.time / 1000).toFixed(2)}{index < solves.length - 1 ? ', ' : ''}</span>
-                ))}
-            </div>
+            <h3>Solves: {solves.length}</h3>
+            <h3>Mean: {mean}</h3>
+            { solves.map((solve, index) => (
+                <span key={index}>{(solve.time / 1000).toFixed(2)}{index < solves.length - 1 ? ', ' : ''}</span>
+            ))}
         </>
     )
 }

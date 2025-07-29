@@ -6,9 +6,9 @@ interface Props {
 function Scramble({ currentScramble }: Props) {
         
     return (
-        <>
+        <h3>
             {currentScramble}
-        </>
+        </h3>
     )
 }
 
