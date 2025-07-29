@@ -1,17 +1,36 @@
 import { useState, useEffect, useRef } from 'react'
 
 interface Props {
-    onStop: (time: number) => void;
+    cases: Case[];
+    onStop: (solve: Solve) => void;
+    setDisplayedCase: (currentCase: Case) => void;
 }
 
-function Timer({ onStop }: Props) {
+interface Case {
+    id: string;
+    scrambles: string;
+    img: string;
+    enabled: boolean;
+}
+
+interface Solve {
+    id: string;
+    scramble: string;
+    img: string;
+    time: number;
+}
+
+function Timer({ cases, onStop, setDisplayedCase }: Props) {
 
     const [isRunning, setIsRunning] = useState<boolean>(false);
     const [time, setTime] = useState<number>(0);
+    const [currentCase, setCurrentCase] = useState<Case>(() => getRandomCase(cases));
+
     const intervalIdRef = useRef<number | undefined>(undefined);
     const startTimeRef = useRef<number>(0);
     const isRunningRef = useRef<boolean>(isRunning);
     const hasStoppedRef = useRef<boolean>(false);
+    const currentCaseRef = useRef<Case>(currentCase);
     
     function start() {
         setIsRunning(true);
@@ -24,7 +43,28 @@ function Timer({ onStop }: Props) {
 
         const finalTime = Date.now() - startTimeRef.current;
         setTime(finalTime);
-        onStop(finalTime);
+
+        const caseUsed = currentCaseRef.current;
+
+        const solve: Solve = {
+            id: caseUsed.id,
+            scramble: caseUsed.scrambles,
+            img: caseUsed.img,
+            time: finalTime,
+        }
+    
+        console.log("Solve recorded:", solve);
+        onStop(solve);
+
+        const newCase: Case = getRandomCase(cases);
+        console.log("New case:", newCase);
+        setCurrentCase(newCase);
+        console.log("Current case:", newCase);
+    }
+
+    function getRandomCase(cases: Case[]): Case {
+        const randomIndex = Math.floor(Math.random() * cases.length);
+        return cases[randomIndex];
     }
 
     useEffect(() => {
@@ -44,6 +84,11 @@ function Timer({ onStop }: Props) {
     useEffect (() => {
         isRunningRef.current = isRunning;
     }, [isRunning]);
+
+    useEffect(() => {
+        currentCaseRef.current = currentCase;
+        setDisplayedCase(currentCase);
+    }, [currentCase, setDisplayedCase]);
 
     useEffect(() => {
         const handleKeyDown = () => {

@@ -23,34 +23,17 @@ interface Solve {
     time: number;
 }
 
-// const [times, setTimes] = useState<number[]>([]);
-const [currentCase, setCurrentCase] = useState<Case>(() => getRandomCase(formattedScrambles));
+const [currentCase, setCurrentCase] = useState<Case | null>(null);
 const [solves, setSolves] = useState<Solve[]>([]);
 
-function getRandomCase(cases: Case[]): Case {
-    const randomIndex = Math.floor(Math.random() * cases.length);
-    console.log("Random case:", cases[randomIndex]);
-    return cases[randomIndex];
+const handleOnStop = (solve: Solve) => {
+    setSolves(prev => [...prev, solve]);
 }
-
-const handleOnStop = (time: number) => {
-    console.log(`Stopping timer for case: ${currentCase.id}`);
-    const newSolve: Solve = {
-        id: currentCase.id,
-        scramble: currentCase.scrambles,
-        img: currentCase.img,
-        time: time
-    }
-    console.log("Saving solve:", newSolve);
-    setSolves(prev => [...prev, newSolve]);
-    setCurrentCase(getRandomCase(formattedScrambles));
-    console.log("Next case:", currentCase);
-};
 
 return (
         <>
-            <Scramble currentScramble={currentCase.scrambles} />
-            <Timer onStop={handleOnStop} />
+            {currentCase && <Scramble currentScramble={currentCase.scrambles} />}
+            <Timer cases={formattedScrambles} onStop={handleOnStop} setDisplayedCase={setCurrentCase} />
             <TimesList solves={solves} />
         </>
     )
