@@ -40,6 +40,11 @@ const deleteSolve = (solve: Solve) => {
     }
 }
 
+const deleteAllSolves = () => {
+    setSolves([]);
+    setSelectedSolve(null);
+}
+
 return (
         <>
             {currentCase && <Scramble currentScramble={currentCase.scrambles} />}
@@ -49,6 +54,7 @@ return (
                 selectedSolve={selectedSolve} 
                 setSelectedSolve={setSelectedSolve} 
                 deleteSolve={deleteSolve} 
+                deleteAllSolves={deleteAllSolves}
             />
         </>
     )

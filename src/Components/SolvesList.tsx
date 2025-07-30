@@ -4,6 +4,7 @@ interface Props {
     selectedSolve: Solve | null;
     setSelectedSolve: (solve: Solve | null) => void;
     deleteSolve: (solve: Solve) => void;
+    deleteAllSolves: () => void;
 }
 
 interface Solve {
@@ -13,7 +14,7 @@ interface Solve {
     time: number;
 }
 
-function SolvesList({ solves, selectedSolve, setSelectedSolve, deleteSolve }: Props) {
+function SolvesList({ solves, selectedSolve, setSelectedSolve, deleteSolve, deleteAllSolves }: Props) {
 
     const mean: string = 
         solves.length > 0
@@ -47,6 +48,11 @@ function SolvesList({ solves, selectedSolve, setSelectedSolve, deleteSolve }: Pr
                     {index < solves.length - 1 ? ', ' : ''}
                 </span>
             ))}
+            <button 
+                onClick={() => deleteAllSolves()} 
+            >
+                Delete All Solves
+            </button>
         </>
     )
 }
