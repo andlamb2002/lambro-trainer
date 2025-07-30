@@ -25,16 +25,18 @@ function App() {
 
 const [currentCase, setCurrentCase] = useState<Case | null>(null);
 const [solves, setSolves] = useState<Solve[]>([]);
+const [selectedSolve, setSelectedSolve] = useState<Solve | null>(null);
 
 const handleOnStop = (solve: Solve) => {
     setSolves(prev => [...prev, solve]);
+    setSelectedSolve(solve);
 }
 
 return (
         <>
             {currentCase && <Scramble currentScramble={currentCase.scrambles} />}
             <Timer cases={formattedScrambles} onStop={handleOnStop} onCaseChange={setCurrentCase} />
-            <SolvesList solves={solves} />
+            <SolvesList solves={solves} selectedSolve={selectedSolve} setSelectedSolve={setSelectedSolve} />
         </>
     )
 }

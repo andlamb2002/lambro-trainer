@@ -1,6 +1,8 @@
 
 interface Props {
     solves: Solve[];
+    selectedSolve: Solve | null;
+    setSelectedSolve: (solve: Solve | null) => void;
 }
 
 interface Solve {
@@ -10,30 +12,34 @@ interface Solve {
     time: number;
 }
 
-function SolvesList({ solves }: Props) {
+function SolvesList({ solves, selectedSolve, setSelectedSolve }: Props) {
 
     const mean: string = 
         solves.length > 0
         ? (solves.reduce((sum, t) => sum + t.time, 0) / solves.length / 1000).toFixed(2)
         : '0.00';
 
-    const latest: Solve | undefined = solves[solves.length - 1];
-
     return (
         <>
-
-                {latest && (
+                {selectedSolve && (
                 <div>
-                    <p>Case {latest.id}: {(latest.time / 1000).toFixed(2)}</p>
-                    <p><img src={latest.img} alt={`Case ${latest.id}`} style={{ width: '80px' }} /></p>
-                    <p>{latest.scramble}</p>
+                    <p>Case {selectedSolve.id}: {(selectedSolve.time / 1000).toFixed(2)}</p>
+                    <p><img src={selectedSolve.img} alt={`Case ${selectedSolve.id}`} style={{ width: '80px' }} /></p>
+                    <p>{selectedSolve.scramble}</p>
                 </div>
             )}
 
             <h3>Solves: {solves.length}</h3>
             <h3>Mean: {mean}</h3>
             { solves.map((solve, index) => (
-                <span key={index}>{(solve.time / 1000).toFixed(2)}{index < solves.length - 1 ? ', ' : ''}</span>
+                <span 
+                    key={index}
+                    onClick={() => setSelectedSolve(solve)}
+                    style={{ cursor: 'pointer' }}
+                >
+                    {(solve.time / 1000).toFixed(2)}
+                    {index < solves.length - 1 ? ', ' : ''}
+                </span>
             ))}
         </>
     )
