@@ -32,11 +32,24 @@ const handleOnStop = (solve: Solve) => {
     setSelectedSolve(solve);
 }
 
+const deleteSolve = (solve: Solve) => {
+    setSolves(prev => prev.filter(s => s !== solve));
+
+    if (selectedSolve === solve) {
+        setSelectedSolve(null);
+    }
+}
+
 return (
         <>
             {currentCase && <Scramble currentScramble={currentCase.scrambles} />}
             <Timer cases={formattedScrambles} onStop={handleOnStop} onCaseChange={setCurrentCase} />
-            <SolvesList solves={solves} selectedSolve={selectedSolve} setSelectedSolve={setSelectedSolve} />
+            <SolvesList 
+                solves={solves} 
+                selectedSolve={selectedSolve} 
+                setSelectedSolve={setSelectedSolve} 
+                deleteSolve={deleteSolve} 
+            />
         </>
     )
 }

@@ -3,6 +3,7 @@ interface Props {
     solves: Solve[];
     selectedSolve: Solve | null;
     setSelectedSolve: (solve: Solve | null) => void;
+    deleteSolve: (solve: Solve) => void;
 }
 
 interface Solve {
@@ -12,7 +13,7 @@ interface Solve {
     time: number;
 }
 
-function SolvesList({ solves, selectedSolve, setSelectedSolve }: Props) {
+function SolvesList({ solves, selectedSolve, setSelectedSolve, deleteSolve }: Props) {
 
     const mean: string = 
         solves.length > 0
@@ -26,6 +27,11 @@ function SolvesList({ solves, selectedSolve, setSelectedSolve }: Props) {
                     <p>Case {selectedSolve.id}: {(selectedSolve.time / 1000).toFixed(2)}</p>
                     <p><img src={selectedSolve.img} alt={`Case ${selectedSolve.id}`} style={{ width: '80px' }} /></p>
                     <p>{selectedSolve.scramble}</p>
+                    <button 
+                        onClick={() => deleteSolve(selectedSolve)} 
+                    >
+                        Delete Solve
+                    </button>
                 </div>
             )}
 
