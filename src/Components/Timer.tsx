@@ -87,13 +87,27 @@ function Timer({ cases, onStop, onCaseChange }: Props) {
     }, [currentCase, onCaseChange]);
 
     useEffect(() => {
-        const handleKeyDown = () => {
+        const handleKeyDown = (event: KeyboardEvent) => {
+            if (
+                document.activeElement instanceof HTMLElement &&
+                (document.activeElement.tagName === 'BUTTON' || document.activeElement.tagName === 'A')
+            ) {
+                event.preventDefault();
+            }
+            
             if (isRunningRef.current) {
                 stop();
             }
         }
 
         const handleKeyUp = (event: KeyboardEvent) => {
+            if (
+                document.activeElement instanceof HTMLElement &&
+                (document.activeElement.tagName === 'BUTTON' || document.activeElement.tagName === 'A')
+            ) {
+                event.preventDefault();
+            }
+            
             if (event.code === 'Space' && !isRunningRef.current && !hasStoppedRef.current) {
                 start();
             }

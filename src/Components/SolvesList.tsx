@@ -48,11 +48,13 @@ function SolvesList({ solves, selectedSolve, setSelectedSolve, deleteSolve, dele
                     {index < solves.length - 1 ? ', ' : ''}
                 </span>
             ))}
-            <button 
-                onClick={() => deleteAllSolves()} 
-            >
-                Delete All Solves
-            </button>
+            <div>
+                <button 
+                    onClick={() => deleteAllSolves()} 
+                >
+                    Delete All Solves
+                </button>
+            </div>
         </>
     )
 }
