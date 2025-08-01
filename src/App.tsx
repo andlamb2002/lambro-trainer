@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import '@picocss/pico/css/pico.min.css';
 
 import Scramble from './Components/Scramble';
@@ -24,7 +24,12 @@ interface Solve {
 function App() {
 
 const [currentCase, setCurrentCase] = useState<Case | null>(null);
-const [solves, setSolves] = useState<Solve[]>([]);
+
+const [solves, setSolves] = useState<Solve[]>(() => {
+    const stored = localStorage.getItem('solves');
+    return stored ? JSON.parse(stored) : [];
+});
+
 const [selectedSolve, setSelectedSolve] = useState<Solve | null>(null);
 
 const handleOnStop = (solve: Solve) => {
@@ -44,6 +49,10 @@ const deleteAllSolves = () => {
     setSolves([]);
     setSelectedSolve(null);
 }
+
+useEffect(() => {
+    localStorage.setItem('solves', JSON.stringify(solves));
+}, [solves]);
 
 return (
         <>
