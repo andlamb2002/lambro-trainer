@@ -14,6 +14,11 @@ interface Case {
     enabled: boolean;
 }
 
+interface Preset {
+    name: string;
+    cases: Case[];
+}
+
 function App() {
 
 const [cases, setCases] = useState<Case[]>(() => {
@@ -35,6 +40,28 @@ useEffect(() => {
     localStorage.setItem('cases', JSON.stringify(cases));
 }, [cases]);
 
+const [presets, setPresets] = useState<Preset[]>(() => {
+    const stored = localStorage.getItem('presets');
+    return stored ? JSON.parse(stored) : [];
+});
+
+const savePreset = (name: string) => {
+    const newPreset: Preset = { name, cases };
+    setPresets(prev => [...prev, newPreset]);
+}
+
+const loadPreset = (preset: Preset) => {
+    setCases(preset.cases);
+}
+
+const deletePreset = (name: string) => {
+    setPresets(prev => prev.filter(p => p.name !== name));
+}
+
+useEffect(() => {
+    localStorage.setItem('presets', JSON.stringify(presets));
+}, [presets]);
+
 return (
         <>
             <Link to="/">Case Selection</Link> | <Link to="/timer">Timer</Link>
@@ -45,7 +72,16 @@ return (
                 />
                 <Route 
                     path="/" 
-                    element={<CaseSelectionPage cases={cases} toggleCase={toggleCase}/>} 
+                    element={
+                        <CaseSelectionPage 
+                            cases={cases} 
+                            toggleCase={toggleCase}
+                            presets={presets}
+                            savePreset={savePreset}
+                            loadPreset={loadPreset}
+                            deletePreset={deletePreset}
+                        /> 
+                    }
                 />
                 <Route path="*" element={"Page Not Found"} />
             </Routes>
