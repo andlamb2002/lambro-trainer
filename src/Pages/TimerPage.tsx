@@ -4,7 +4,9 @@ import Scramble from '../Components/Scramble';
 import Timer from '../Components/Timer';
 import SolvesList from '../Components/SolvesList';
 
-import { formattedScrambles } from '../generateCases';
+interface Props {
+    scrambles: Case[];
+}
 
 interface Case {
     id: string;
@@ -20,7 +22,7 @@ interface Solve {
     time: number;
 }
 
-function TimerPage() {
+function TimerPage({ scrambles }: Props) {
 
 const [currentCase, setCurrentCase] = useState<Case | null>(null);
 
@@ -56,7 +58,7 @@ useEffect(() => {
 return (
         <>
             {currentCase && <Scramble currentScramble={currentCase.scrambles} />}
-            <Timer cases={formattedScrambles} onStop={handleOnStop} onCaseChange={setCurrentCase} />
+            <Timer cases={scrambles} onStop={handleOnStop} onCaseChange={setCurrentCase} />
             <SolvesList 
                 solves={solves} 
                 selectedSolve={selectedSolve} 
