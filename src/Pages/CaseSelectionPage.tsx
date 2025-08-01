@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import type { Case, Preset } from '../interfaces';
+
 interface Props {
     cases: Case[];
     toggleCase: (id: string) => void;
@@ -7,18 +9,6 @@ interface Props {
     savePreset: (name: string) => void;
     loadPreset: (preset: Preset) => void;
     deletePreset: (name: string) => void;
-}
-
-interface Case {
-    id: string;
-    scrambles: string;
-    img: string;
-    enabled: boolean;
-}
-
-interface Preset {
-    name: string;
-    cases: Case[];
 }
 
 function CaseSelectionPage({ cases, toggleCase, presets, savePreset, loadPreset, deletePreset }: Props) {

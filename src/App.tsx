@@ -7,17 +7,7 @@ import TimerPage from './Pages/TimerPage';
 
 import { formattedCases } from './generateCases';
 
-interface Case {
-    id: string;
-    scrambles: string;
-    img: string;
-    enabled: boolean;
-}
-
-interface Preset {
-    name: string;
-    cases: Case[];
-}
+import type { Case, Preset } from './interfaces';
 
 function App() {
 

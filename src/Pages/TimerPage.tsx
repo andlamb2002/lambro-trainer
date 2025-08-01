@@ -4,22 +4,10 @@ import Scramble from '../Components/Scramble';
 import Timer from '../Components/Timer';
 import SolvesList from '../Components/SolvesList';
 
+import type { Case, Solve } from '../interfaces';
+
 interface Props {
     cases: Case[];
-}
-
-interface Case {
-    id: string;
-    scrambles: string;
-    img: string;
-    enabled: boolean;
-}
-
-interface Solve {
-    id: string;
-    scramble: string;
-    img: string;
-    time: number;
 }
 
 function TimerPage({ cases }: Props) {

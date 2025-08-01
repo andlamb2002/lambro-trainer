@@ -1,23 +1,11 @@
 import { useState, useEffect, useRef } from 'react'
 
+import type { Case, Solve } from '../interfaces';
+
 interface Props {
     cases: Case[];
     onStop: (solve: Solve) => void;
     onCaseChange: (currentCase: Case) => void;
-}
-
-interface Case {
-    id: string;
-    scrambles: string;
-    img: string;
-    enabled: boolean;
-}
-
-interface Solve {
-    id: string;
-    scramble: string;
-    img: string;
-    time: number;
 }
 
 function Timer({ cases, onStop, onCaseChange }: Props) {

@@ -1,3 +1,4 @@
+import type { Solve } from '../interfaces';
 
 interface Props {
     solves: Solve[];
@@ -5,13 +6,6 @@ interface Props {
     setSelectedSolve: (solve: Solve | null) => void;
     deleteSolve: (solve: Solve) => void;
     deleteAllSolves: () => void;
-}
-
-interface Solve {
-    id: string;
-    scramble: string;
-    img: string;
-    time: number;
 }
 
 function SolvesList({ solves, selectedSolve, setSelectedSolve, deleteSolve, deleteAllSolves }: Props) {
