@@ -5,7 +5,7 @@ import '@picocss/pico/css/pico.min.css';
 import CaseSelectionPage from './Pages/CaseSelectionPage';
 import TimerPage from './Pages/TimerPage';
 
-import { formattedScrambles } from './generateCases';
+import { formattedCases } from './generateCases';
 
 // interface Case {
 //     id: string;
@@ -29,7 +29,7 @@ return (
         <>
             <Link to="/">Case Selection</Link> | <Link to="/timer">Timer</Link>
             <Routes>
-                <Route path="/timer" element={<TimerPage scrambles={formattedScrambles}/>} />
+                <Route path="/timer" element={<TimerPage cases={formattedCases}/>} />
                 <Route path="/" element={<CaseSelectionPage />} />
                 <Route path="*" element={"Page Not Found"} />
             </Routes>

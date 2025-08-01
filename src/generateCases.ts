@@ -35,4 +35,4 @@ function generateCases(scrambles: string[]): Case[] {
     }));
 }
 
-export const formattedScrambles: Case[] = generateCases(scrambles);
+export const formattedCases: Case[] = generateCases(scrambles);
