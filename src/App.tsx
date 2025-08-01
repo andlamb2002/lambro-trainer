@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import '@picocss/pico/css/pico.min.css';
 
@@ -14,16 +14,12 @@ interface Case {
     enabled: boolean;
 }
 
-// interface Solve {
-//     id: string;
-//     scramble: string;
-//     img: string;
-//     time: number;
-// }
-
 function App() {
 
-const [cases, setCases] = useState<Case[]>(formattedCases);
+const [cases, setCases] = useState<Case[]>(() => {
+    const stored = localStorage.getItem('cases');
+    return stored ? JSON.parse(stored) : formattedCases;
+});
 
 const toggleCase = (id: string) => {
     setCases(prev => 
@@ -34,6 +30,10 @@ const toggleCase = (id: string) => {
 }
 
 const enabledCases = cases.filter(c => c.enabled);
+
+useEffect(() => {
+    localStorage.setItem('cases', JSON.stringify(cases));
+}, [cases]);
 
 return (
         <>
