@@ -25,6 +25,11 @@ function CaseSelectionPage({ cases, toggleCase, presets, savePreset, loadPreset,
 
     const [presetName, setPresetName] = useState<string>('');
 
+    const handleLoadPreset = (preset: Preset) => {
+        loadPreset(preset);
+        setPresetName(preset.name);
+    };
+
     return (
         <>
             <div>
@@ -48,12 +53,11 @@ function CaseSelectionPage({ cases, toggleCase, presets, savePreset, loadPreset,
                 />
                 <button onClick={() => {
                     savePreset(presetName);
-                    setPresetName('');
                 }}>Save Preset</button>
                 <ul>
                     {presets.map(preset => (
                     <li key={preset.name}>
-                        <span onClick={() => loadPreset(preset)} style={{ cursor: 'pointer' }}>
+                        <span onClick={() => handleLoadPreset(preset)} style={{ cursor: 'pointer' }}>
                         {preset.name}
                         </span>
                         {' '}

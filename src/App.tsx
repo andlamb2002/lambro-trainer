@@ -46,8 +46,20 @@ const [presets, setPresets] = useState<Preset[]>(() => {
 });
 
 const savePreset = (name: string) => {
+    if (!name.trim()) return;
+
     const newPreset: Preset = { name, cases };
-    setPresets(prev => [...prev, newPreset]);
+
+    setPresets(prev => {
+        const index = prev.findIndex(p => p.name === name);
+        if (index !== -1) {
+            const updated = [...prev];
+            updated[index] = newPreset;
+            return updated;
+        } else {
+            return [...prev, newPreset];
+        }
+    });
 }
 
 const loadPreset = (preset: Preset) => {
