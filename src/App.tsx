@@ -1,4 +1,4 @@
-// import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import '@picocss/pico/css/pico.min.css';
 
@@ -7,12 +7,12 @@ import TimerPage from './Pages/TimerPage';
 
 import { formattedCases } from './generateCases';
 
-// interface Case {
-//     id: string;
-//     scrambles: string;
-//     img: string;
-//     enabled: boolean;
-// }
+interface Case {
+    id: string;
+    scrambles: string;
+    img: string;
+    enabled: boolean;
+}
 
 // interface Solve {
 //     id: string;
@@ -23,14 +23,30 @@ import { formattedCases } from './generateCases';
 
 function App() {
 
-// const [selectedSolve, setSelectedSolve] = useState<Solve | null>(null);
+const [cases, setCases] = useState<Case[]>(formattedCases);
+
+const toggleCase = (id: string) => {
+    setCases(prev => 
+        prev.map(c => 
+            c.id === id ? { ...c, enabled: !c.enabled } : c
+        )
+    );
+}
+
+const enabledCases = cases.filter(c => c.enabled);
 
 return (
         <>
             <Link to="/">Case Selection</Link> | <Link to="/timer">Timer</Link>
             <Routes>
-                <Route path="/timer" element={<TimerPage cases={formattedCases}/>} />
-                <Route path="/" element={<CaseSelectionPage />} />
+                <Route 
+                    path="/timer" 
+                    element={<TimerPage cases={enabledCases}/>} 
+                />
+                <Route 
+                    path="/" 
+                    element={<CaseSelectionPage cases={cases} toggleCase={toggleCase}/>} 
+                />
                 <Route path="*" element={"Page Not Found"} />
             </Routes>
         </>
