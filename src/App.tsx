@@ -57,7 +57,9 @@ const loadPreset = (preset: Preset) => {
 }
 
 const deletePreset = (name: string) => {
-    setPresets(prev => prev.filter(p => p.name !== name));
+    if (window.confirm(`Delete preset ${name}?`)) {
+        setPresets(prev => prev.filter(p => p.name !== name));
+    }
 }
 
 useEffect(() => {

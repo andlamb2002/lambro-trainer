@@ -27,16 +27,20 @@ const handleOnStop = (solve: Solve) => {
 }
 
 const deleteSolve = (solve: Solve) => {
-    setSolves(prev => prev.filter(s => s !== solve));
+    if (window.confirm(`Delete solve ${solve.id}?`)) {
+        setSolves(prev => prev.filter(s => s !== solve));
 
-    if (selectedSolve === solve) {
-        setSelectedSolve(null);
+        if (selectedSolve === solve) {
+            setSelectedSolve(null);
+        }
     }
 }
 
 const deleteAllSolves = () => {
-    setSolves([]);
-    setSelectedSolve(null);
+    if (window.confirm('Delete all solves?')) {
+        setSolves([]);
+        setSelectedSolve(null);
+    }
 }
 
 useEffect(() => {
