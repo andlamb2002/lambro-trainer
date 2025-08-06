@@ -19,7 +19,11 @@ const [solves, setSolves] = useState<Solve[]>(() => {
     return stored ? JSON.parse(stored) : [];
 });
 
-const [selectedSolve, setSelectedSolve] = useState<Solve | null>(null);
+const [selectedSolve, setSelectedSolve] = useState<Solve | null>(() => {
+    const stored = localStorage.getItem('solves');
+    const parsed = stored ? JSON.parse(stored) : [];
+    return parsed.length > 0 ? parsed[parsed.length - 1] : null;
+});
 
 const handleOnStop = (solve: Solve) => {
     setSolves(prev => [...prev, solve]);
@@ -28,11 +32,15 @@ const handleOnStop = (solve: Solve) => {
 
 const deleteSolve = useCallback((solve: Solve) => {
     if (window.confirm(`Delete solve?`)) {
-        setSolves(prev => prev.filter(s => s !== solve));
+        setSolves(prev => {
+            const updated = prev.filter(s => s !== solve);
 
-        if (selectedSolve === solve) {
-            setSelectedSolve(null);
-        }
+            if (selectedSolve === solve) {
+                setSelectedSolve(updated.length > 0 ? updated[updated.length - 1] : null);
+            }
+
+            return updated;
+        });
     }
 }, [selectedSolve]);
 
