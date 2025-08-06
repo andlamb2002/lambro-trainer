@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 
 import Scramble from '../Components/Scramble';
 import Timer from '../Components/Timer';
@@ -26,26 +26,46 @@ const handleOnStop = (solve: Solve) => {
     setSelectedSolve(solve);
 }
 
-const deleteSolve = (solve: Solve) => {
-    if (window.confirm(`Delete solve ${solve.id}?`)) {
+const deleteSolve = useCallback((solve: Solve) => {
+    if (window.confirm(`Delete solve?`)) {
         setSolves(prev => prev.filter(s => s !== solve));
 
         if (selectedSolve === solve) {
             setSelectedSolve(null);
         }
     }
-}
+}, [selectedSolve]);
 
-const deleteAllSolves = () => {
+const deleteAllSolves = useCallback(() => {
     if (window.confirm('Delete all solves?')) {
         setSolves([]);
         setSelectedSolve(null);
     }
-}
+}, []);
 
 useEffect(() => {
     localStorage.setItem('solves', JSON.stringify(solves));
 }, [solves]);
+
+useEffect(() => {
+  const handleHotkeys = (e: KeyboardEvent) => {
+    if (e.altKey && e.key.toLowerCase() === 'z') {
+      if (selectedSolve) {
+        deleteSolve(selectedSolve);
+      }
+    }
+
+    if (e.altKey && e.key.toLowerCase() === 'd') {
+      deleteAllSolves();
+    }
+  };
+
+  window.addEventListener('keydown', handleHotkeys);
+  return () => {
+    window.removeEventListener('keydown', handleHotkeys);
+  };
+}, [selectedSolve, deleteSolve, deleteAllSolves]);
+
 
 return (
         <>
