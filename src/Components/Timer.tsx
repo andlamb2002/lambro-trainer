@@ -21,18 +21,18 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
 
     const intervalIdRef = useRef<number | undefined>(undefined);
     const startTimeRef = useRef<number>(0);
-    const isRunningRef = useRef<boolean>(isRunning);
+    const isRunningRef = useRef<boolean>(false);
     const hasStoppedRef = useRef<boolean>(false);
     const currentCaseRef = useRef<Case>(currentCase);
-    const recapModeRef = useRef<boolean>(recapMode);
-    const recapQueueRef = useRef<Case[]>(recapQueue);
+    const recapModeRef = useRef<boolean>(false);
+    const recapQueueRef = useRef<Case[]>([]);
     const recapIndexRef = useRef(0);
     
     function start() {
         setIsRunning(true);
         startTimeRef.current = Date.now() - time;
     }
-    
+
     function stop() {
         setIsRunning(false);
         hasStoppedRef.current = true;
@@ -40,8 +40,7 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
         const finalTime = Date.now() - startTimeRef.current;
         setTime(finalTime);
 
-        const caseUsed = currentCaseRef.current;
-
+        const caseUsed = currentCaseRef.current!;
         const solve: Solve = {
             id: caseUsed.id,
             scramble: caseUsed.scrambles,
@@ -49,40 +48,35 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
             time: finalTime,
         };
 
-        console.log('✅ Stopping timer');
-        console.log('Final time (ms):', finalTime);
-        console.log('Used case:', caseUsed);
-        console.log('Recap mode?', recapModeRef.current);
-        console.log('Current recapIndex:', recapIndexRef.current);
-        console.log('Recap queue length:', recapQueue.length);
-
         onStop(solve);
 
         if (recapModeRef.current) {
             const nextIndex = recapIndexRef.current + 1;
-            console.log('Next index:', nextIndex);
 
             if (nextIndex < recapQueueRef.current.length) {
-                recapIndexRef.current = nextIndex;
-                onRecapIndexChange(nextIndex);
-                const nextCase = recapQueueRef.current[nextIndex];
-                setCurrentCase(nextCase);
-                currentCaseRef.current = nextCase;
+            recapIndexRef.current = nextIndex;
+            onRecapIndexChange(nextIndex);
+
+            const nextCase = recapQueueRef.current[nextIndex];
+            updateCurrentCase(nextCase);
             } else {
-                setRecapMode(false);
-                recapIndexRef.current = 0;
-                onRecapIndexChange(0);
-                const newCase = getRandomCase(cases);
-                setCurrentCase(newCase);
-                currentCaseRef.current = newCase;
+            setRecapMode(false);
+            recapIndexRef.current = 0;
+            onRecapIndexChange(0);
+
+            const newCase = getRandomCase(cases);
+            updateCurrentCase(newCase);
             }
         } else {
             const newCase = getRandomCase(cases);
-            console.log('Standard mode - new random case:', newCase);
-
-            setCurrentCase(newCase);
-            currentCaseRef.current = newCase;
+            updateCurrentCase(newCase);
         }
+    }
+
+    function updateCurrentCase(newCase: Case) {
+        setCurrentCase(newCase);
+        currentCaseRef.current = newCase;
+        onCaseChange(newCase);
     }
 
     useEffect(() => {
@@ -96,7 +90,6 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
             clearInterval(intervalIdRef.current);
             intervalIdRef.current = undefined;
         }
-
     }, [isRunning]);
 
     useEffect (() => {
