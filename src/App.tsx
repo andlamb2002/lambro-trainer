@@ -16,6 +16,13 @@ const [cases, setCases] = useState<Case[]>(() => {
     return stored ? JSON.parse(stored) : formattedCases;
 });
 
+const enabledCases = cases.filter(c => c.enabled);
+
+const [presets, setPresets] = useState<Preset[]>(() => {
+    const stored = localStorage.getItem('presets');
+    return stored ? JSON.parse(stored) : [];
+});
+
 const toggleCase = (id: string) => {
     setCases(prev => 
         prev.map(c => 
@@ -23,17 +30,6 @@ const toggleCase = (id: string) => {
         )
     );
 }
-
-const enabledCases = cases.filter(c => c.enabled);
-
-useEffect(() => {
-    localStorage.setItem('cases', JSON.stringify(cases));
-}, [cases]);
-
-const [presets, setPresets] = useState<Preset[]>(() => {
-    const stored = localStorage.getItem('presets');
-    return stored ? JSON.parse(stored) : [];
-});
 
 const savePreset = (name: string) => {
     if (!name.trim()) return;
@@ -63,6 +59,10 @@ const deletePreset = (name: string) => {
 }
 
 useEffect(() => {
+    localStorage.setItem('cases', JSON.stringify(cases));
+}, [cases]);
+
+useEffect(() => {
     localStorage.setItem('presets', JSON.stringify(presets));
 }, [presets]);
 
@@ -72,7 +72,11 @@ return (
             <Routes>
                 <Route 
                     path="/timer" 
-                    element={<TimerPage cases={enabledCases}/>} 
+                    element={
+                        <TimerPage 
+                            cases={enabledCases}
+                        />
+                    } 
                 />
                 <Route 
                     path="/" 

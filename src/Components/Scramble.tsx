@@ -1,14 +1,15 @@
-
 interface Props {
     currentScramble: string;
 }
 
 function Scramble({ currentScramble }: Props) {
-        
+
     return (
-        <h3>
-            {currentScramble}
-        </h3>
+        <>
+            <h3>
+                {currentScramble}
+            </h3>
+        </>
     )
 }
 

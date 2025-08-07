@@ -12,73 +12,121 @@ interface Props {
 
 function TimerPage({ cases }: Props) {
 
-const [currentCase, setCurrentCase] = useState<Case | null>(null);
+    const [recapQueue, setRecapQueue] = useState<Case[]>([]);
+    const [recapMode, setRecapMode] = useState(false);
+    const [recapIndex, setRecapIndex] = useState(0);
 
-const [solves, setSolves] = useState<Solve[]>(() => {
-    const stored = localStorage.getItem('solves');
-    return stored ? JSON.parse(stored) : [];
-});
+    const [currentCase, setCurrentCase] = useState<Case | null>(() => {
+        if (recapMode && recapQueue.length > 0) {
+            return recapQueue[0];
+        }
+        return getRandomCase(cases);
+    });
 
-const [selectedSolve, setSelectedSolve] = useState<Solve | null>(() => {
-    const stored = localStorage.getItem('solves');
-    const parsed = stored ? JSON.parse(stored) : [];
-    return parsed.length > 0 ? parsed[parsed.length - 1] : null;
-});
+    const [solves, setSolves] = useState<Solve[]>(() => {
+        const stored = localStorage.getItem('solves');
+        return stored ? JSON.parse(stored) : [];
+    });
 
-const handleOnStop = (solve: Solve) => {
-    setSolves(prev => [...prev, solve]);
-    setSelectedSolve(solve);
-}
+    const [selectedSolve, setSelectedSolve] = useState<Solve | null>(() => {
+        const stored = localStorage.getItem('solves');
+        const parsed = stored ? JSON.parse(stored) : [];
+        return parsed.length > 0 ? parsed[parsed.length - 1] : null;
+    });
 
-const deleteSolve = useCallback((solve: Solve) => {
-    if (window.confirm(`Delete solve?`)) {
-        setSolves(prev => {
-            const updated = prev.filter(s => s !== solve);
-
-            if (selectedSolve === solve) {
-                setSelectedSolve(updated.length > 0 ? updated[updated.length - 1] : null);
-            }
-
-            return updated;
-        });
-    }
-}, [selectedSolve]);
-
-const deleteAllSolves = useCallback(() => {
-    if (window.confirm('Delete all solves?')) {
-        setSolves([]);
-        setSelectedSolve(null);
-    }
-}, []);
-
-useEffect(() => {
-    localStorage.setItem('solves', JSON.stringify(solves));
-}, [solves]);
-
-useEffect(() => {
-  const handleHotkeys = (e: KeyboardEvent) => {
-    if (e.altKey && e.key.toLowerCase() === 'z') {
-      if (selectedSolve) {
-        deleteSolve(selectedSolve);
-      }
+    const handleOnStop = (solve: Solve) => {
+        setSolves(prev => [...prev, solve]);
+        setSelectedSolve(solve);
     }
 
-    if (e.altKey && e.key.toLowerCase() === 'd') {
-      deleteAllSolves();
-    }
-  };
+    function getRandomCase(cases: Case[]): Case {
+            const randomIndex = Math.floor(Math.random() * cases.length);
+            return cases[randomIndex];
+        }
 
-  window.addEventListener('keydown', handleHotkeys);
-  return () => {
-    window.removeEventListener('keydown', handleHotkeys);
-  };
-}, [selectedSolve, deleteSolve, deleteAllSolves]);
+    const deleteSolve = useCallback((solve: Solve) => {
+        if (window.confirm(`Delete solve?`)) {
+            setSolves(prev => {
+                const updated = prev.filter(s => s !== solve);
 
+                if (selectedSolve === solve) {
+                    setSelectedSolve(updated.length > 0 ? updated[updated.length - 1] : null);
+                }
 
-return (
+                return updated;
+            });
+        }
+    }, [selectedSolve]);
+
+    const deleteAllSolves = useCallback(() => {
+        if (window.confirm('Delete all solves?')) {
+            setSolves([]);
+            setSelectedSolve(null);
+        }
+    }, []);
+
+    const toggleRecap = () => {
+        if (recapMode) {
+            setRecapMode(false);
+            setRecapQueue([]);
+        } else {
+            const shuffled = [...cases].sort(() => Math.random() - 0.5);
+            setRecapQueue(shuffled);
+            console.log('Recap queue:', shuffled.map(c => c.id));
+            setRecapMode(true);
+        }
+    };
+
+    useEffect(() => {
+        localStorage.setItem('solves', JSON.stringify(solves));
+    }, [solves]);
+
+    useEffect(() => {
+    const handleHotkeys = (e: KeyboardEvent) => {
+        if (e.altKey && e.key.toLowerCase() === 'z') {
+        if (selectedSolve) {
+            deleteSolve(selectedSolve);
+        }
+        }
+
+        if (e.altKey && e.key.toLowerCase() === 'd') {
+        deleteAllSolves();
+        }
+    };
+
+    window.addEventListener('keydown', handleHotkeys);
+    return () => {
+        window.removeEventListener('keydown', handleHotkeys);
+    };
+    }, [selectedSolve, deleteSolve, deleteAllSolves]);
+
+    return (
         <>
-            {currentCase && <Scramble currentScramble={currentCase.scrambles} />}
-            <Timer cases={cases} onStop={handleOnStop} onCaseChange={setCurrentCase} />
+            {currentCase && 
+                <Scramble 
+                    currentScramble={currentCase.scrambles}
+                />
+            }
+            <div>
+                <button onClick={toggleRecap}>
+                    {recapMode ? 'End Recap' : 'Start Recap'}
+                </button>
+                {recapMode && (
+                    <span>
+                        Recap Progress: {recapIndex + 1} / {recapQueue.length}
+                    </span>
+                )}
+            </div>
+            <Timer 
+                cases={cases} 
+                onStop={handleOnStop} 
+                getRandomCase={getRandomCase}
+                onCaseChange={setCurrentCase} 
+                recapMode={recapMode}
+                recapQueue={recapQueue}
+                setRecapMode={setRecapMode}
+                onRecapIndexChange={setRecapIndex}
+            />
             <SolvesList 
                 solves={solves} 
                 selectedSolve={selectedSolve} 
