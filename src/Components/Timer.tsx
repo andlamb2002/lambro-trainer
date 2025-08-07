@@ -29,6 +29,8 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
     const recapIndexRef = useRef(0);
     
     function start() {
+        if (cases.length === 0) return;
+        
         setIsRunning(true);
         startTimeRef.current = Date.now() - time;
     }
