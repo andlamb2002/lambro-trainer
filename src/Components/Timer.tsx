@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useCallback } from 'react'
 
 import type { Case, Solve } from '../interfaces';
 
@@ -73,11 +73,11 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
         }
     }
 
-    function updateCurrentCase(newCase: Case) {
+    const updateCurrentCase = useCallback((newCase: Case) => {
         setCurrentCase(newCase);
         currentCaseRef.current = newCase;
         onCaseChange(newCase);
-    }
+    }, [onCaseChange]);
 
     useEffect(() => {
         if(isRunning) {
@@ -97,11 +97,6 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
     }, [isRunning]);
 
     useEffect(() => {
-        currentCaseRef.current = currentCase;
-        onCaseChange(currentCase);
-    }, [currentCase, onCaseChange]);
-
-    useEffect(() => {
         recapModeRef.current = recapMode;
     }, [recapMode]);
 
@@ -114,10 +109,9 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
             recapIndexRef.current === 0
         ) {
             const firstCase = recapQueue[0];
-            setCurrentCase(firstCase);
-            currentCaseRef.current = firstCase;
+            updateCurrentCase(firstCase);
         }
-    }, [recapQueue]);
+    }, [recapQueue, updateCurrentCase]);
 
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
