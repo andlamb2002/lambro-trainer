@@ -105,18 +105,12 @@ function TimerPage({ cases }: Props) {
             {currentCase && 
                 <Scramble 
                     currentScramble={currentCase.scrambles}
+                    recapMode={recapMode}
+                    recapQueue={recapQueue}
+                    recapIndex={recapIndex}
+                    toggleRecap={toggleRecap}
                 />
             }
-            <div>
-                <button onClick={toggleRecap}>
-                    {recapMode ? 'End Recap' : 'Start Recap'}
-                </button>
-                {recapMode && (
-                    <span>
-                        Recap Progress: {recapIndex + 1} / {recapQueue.length}
-                    </span>
-                )}
-            </div>
             <Timer 
                 cases={cases} 
                 onStop={handleOnStop} 
