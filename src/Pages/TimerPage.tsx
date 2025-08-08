@@ -23,6 +23,8 @@ function TimerPage({ cases }: Props) {
         return getRandomCase(cases);
     });
 
+    const [currentScramble, setCurrentScramble] = useState<string>('');
+
     const [solves, setSolves] = useState<Solve[]>(() => {
         const stored = localStorage.getItem('solves');
         return stored ? JSON.parse(stored) : [];
@@ -40,9 +42,19 @@ function TimerPage({ cases }: Props) {
     }
 
     function getRandomCase(cases: Case[]): Case {
-            const randomIndex = Math.floor(Math.random() * cases.length);
-            return cases[randomIndex];
-        }
+        const randomIndex = Math.floor(Math.random() * cases.length);
+        return cases[randomIndex];
+    }
+
+    const getRandomScramble = (c: Case) => {
+        if (!c.scrambles || c.scrambles.length === 0) return '';
+        return c.scrambles[Math.floor(Math.random() * c.scrambles.length)];
+    };
+
+    const updateCurrentCaseAndScramble = (newCase: Case) => {
+        setCurrentCase(newCase);
+        setCurrentScramble(getRandomScramble(newCase));
+    };
 
     const deleteSolve = useCallback((solve: Solve) => {
         if (window.confirm(`Delete solve?`)) {
@@ -78,6 +90,13 @@ function TimerPage({ cases }: Props) {
     };
 
     useEffect(() => {
+        if (cases.length > 0) {
+            updateCurrentCaseAndScramble(getRandomCase(cases));
+        }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [cases]);
+
+    useEffect(() => {
         localStorage.setItem('solves', JSON.stringify(solves));
     }, [solves]);
 
@@ -104,7 +123,7 @@ function TimerPage({ cases }: Props) {
         <>
             {currentCase && 
                 <Scramble 
-                    currentScramble={currentCase.scrambles}
+                    currentScramble={currentScramble}
                     recapMode={recapMode}
                     recapQueue={recapQueue}
                     recapIndex={recapIndex}
@@ -113,7 +132,8 @@ function TimerPage({ cases }: Props) {
             }
             <Timer 
                 cases={cases} 
-                onStop={handleOnStop} 
+                onStop={handleOnStop}
+                currentScramble={currentScramble}
                 getRandomCase={getRandomCase}
                 onCaseChange={setCurrentCase} 
                 recapMode={recapMode}

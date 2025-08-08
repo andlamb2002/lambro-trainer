@@ -5,6 +5,7 @@ import type { Case, Solve } from '../interfaces';
 interface Props {
     cases: Case[];
     onStop: (solve: Solve) => void;
+    currentScramble: string;
     getRandomCase: (cases: Case[]) => Case;
     onCaseChange: (currentCase: Case) => void;
     recapMode: boolean;
@@ -13,7 +14,7 @@ interface Props {
     onRecapIndexChange: (index: number) => void;
 }
 
-function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQueue, setRecapMode, onRecapIndexChange }: Props) {
+function Timer({ cases, onStop, currentScramble, getRandomCase, onCaseChange, recapMode, recapQueue, setRecapMode, onRecapIndexChange }: Props) {
 
     const [isRunning, setIsRunning] = useState<boolean>(false);
     const [time, setTime] = useState<number>(0);
@@ -45,7 +46,8 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
         const caseUsed = currentCaseRef.current!;
         const solve: Solve = {
             id: caseUsed.id,
-            scramble: caseUsed.scrambles,
+            // scramble: caseUsed.scrambles,
+            scramble: currentScramble,
             img: caseUsed.img,
             time: finalTime,
         };

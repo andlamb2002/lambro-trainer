@@ -1,6 +1,6 @@
 export interface Case {
     id: string;
-    scrambles: string;
+    scrambles: string[];
     img: string;
     enabled: boolean;
 }

@@ -5,7 +5,9 @@ import '@picocss/pico/css/pico.min.css';
 import CaseSelectionPage from './Pages/CaseSelectionPage';
 import TimerPage from './Pages/TimerPage';
 
-import { formattedCases } from './generateCases';
+// import { formattedCases } from './generateCases';
+
+import generatedCases from './data/cases.json';
 
 import type { Case, Preset } from './interfaces';
 
@@ -13,7 +15,7 @@ function App() {
 
 const [cases, setCases] = useState<Case[]>(() => {
     const stored = localStorage.getItem('cases');
-    return stored ? JSON.parse(stored) : formattedCases;
+    return stored ? JSON.parse(stored) : generatedCases;
 });
 
 const enabledCases = cases.filter(c => c.enabled);
