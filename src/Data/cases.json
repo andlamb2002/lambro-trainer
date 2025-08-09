@@ -7,6 +7,7 @@
       "L2 B2 D F2 D' B2 D F2 D' L2 U'",
       "L2 D' L2 D F2 L2 U L2 U' F2 U2"
     ],
+    "originalAlg": "x R2 D2 R U R' D2 R U' R x'",
     "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=xR'UR'D2RU'R'D2R2x'",
     "enabled": true
   },
@@ -18,6 +19,7 @@
       "L2 D L2 D' B2 L2 U' L2 U B2 U",
       "L2 F2 U' B2 U F2 U' B2 U L2 U2"
     ],
+    "originalAlg": "x R' U R' D2 R U' R' D2 R2 x'",
     "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=xR2D2RUR'D2RU'Rx'",
     "enabled": true
   },
@@ -29,6 +31,7 @@
       "L' B' L F2 L' B L F2 R2 B2 D' L2 D B2 R2 U' F2",
       "L D2 R2 D R2 D2 L F2 U L2 U L2 U2 F2 D' L2 U'"
     ],
+    "originalAlg": "x' D R U R' D' R U' R' D R U' R' D' R U R' x",
     "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=x'RU'R'DRUR'D'RUR'DRU'R'D'x",
     "enabled": true
   },
@@ -40,6 +43,7 @@
       "L B' L F2 L' B L' U F2 D' L2 U F2 D R2 U' R2",
       "D2 F' B R2 U2 F B D' F2 U L2 U' L2 F2 B2 U R2"
     ],
+    "originalAlg": "R' U' R U' R' U R U R2 F' R U R U' R' F U R",
     "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=R'U'F'RUR'U'R'FR2U'R'U'RUR'UR",
     "enabled": true
   },
@@ -51,6 +55,7 @@
       "L D R' D2 L D' R' B2 L2 F2 R2 U L2 B2 D' L2 U2",
       "F2 L' R' B2 L' R D' B2 L2 U B2 U' F2 U B2 R2"
     ],
+    "originalAlg": "D R' U' R U D' R2 U R' U R U' R U' R2",
     "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=R2UR'UR'U'RU'R2DU'R'URD'",
     "enabled": true
   },
@@ -62,6 +67,7 @@
       "L R U2 L' R D' R2 F2 D' L2 D F2 R2 D R2",
       "L R U2 L' R' F2 D L2 D' B2 U B2 U' F2 U'"
     ],
+    "originalAlg": "D' R2 U R' U R' U' R U' R2 D U' R' U R",
     "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=R'U'RUD'R2UR'URU'RU'R2D",
     "enabled": true
   },
@@ -73,6 +79,7 @@
       "L2 F' B' R2 F B' D R2 B2 U' L2 F2 D' L2 D L2",
       "L' D' R D2 L' D R F2 L2 B2 R2 U' L2 F2 D L2 U"
     ],
+    "originalAlg": "D' R U R' U' D R2 U' R U' R' U R' U R2",
     "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=R2U'RU'RUR'UR2D'URU'R'D",
     "enabled": true
   },
@@ -84,6 +91,7 @@
       "L' R D2 L' R D F2 R2 D L2 D' R2 D R2 U2",
       "L R' F2 L' R' D L2 F2 D F2 D' R2 D L2 D'"
     ],
+    "originalAlg": "D R2 U' R U' R U R' U R2 D' U R U' R'",
     "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=RUR'U'DR2U'RU'R'UR'UR2D'",
     "enabled": true
   },
@@ -95,6 +103,7 @@
       "L2 F2 B2 R2 D L2 F2 B2 R2",
       "L2 F2 B2 R2 D L2 F2 B2 R2 U"
     ],
+    "originalAlg": "R2 U2 R' U2 R2 U2 R2 U2 R' U2 R2",
     "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=R2U2RU2R2U2R2U2RU2R2",
     "enabled": true
   },
@@ -106,6 +115,7 @@
       "U2 F2 D' L2 D L2 U' L2 U L2 F2",
       "F2 L2 D' B2 U B2 U' L2 D F2 U2"
     ],
+    "originalAlg": "x U2 r' U' r U2 R' F R' F' R2 x'",
     "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=xR2FRF'RU2r'UrU2x'",
     "enabled": true
   },
@@ -117,6 +127,7 @@
       "D B2 L2 D F2 D' L2 U B2 D' R2",
       "U2 L2 D F2 D' F2 U F2 U' F2 L2"
     ],
+    "originalAlg": "R U R2 F' R U R U' R' F R U' R'",
     "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=RUR'F'RUR'U'R'FR2U'R'",
     "enabled": true
   },
@@ -128,6 +139,7 @@
       "L R' D2 F2 L' R' U R2 F2 U2 F2 U F2 L2 D2 L2",
       "D L R F2 D2 L R' D B2 L2 U2 L2 U' L2 B2 U2 B2"
     ],
+    "originalAlg": "R U R' U2 R U R2 F' R U R U' R' F R U' R' U' R U' R'",
     "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=RUR'URUR'F'RUR'U'R'FR2U'R'U2RU'R'",
     "enabled": true
   },
@@ -139,6 +151,7 @@
       "D L R F2 D2 L R' D' R2 U2 F2 U' F2 R2 D2 B2 L2",
       "L R F2 D2 L R' D B2 L2 U2 L2 D L2 F2 U2 F2"
     ],
+    "originalAlg": "L' U R' U2 L U' R L' U R' U2 L U' R",
     "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=R'UL'U2RU'LR'UL'U2RU'L",
     "enabled": true
   },
@@ -150,6 +163,7 @@
       "L2 F' B R2 F B' D' R2 D' B2 D B2 L2 D R2 D'",
       "L U2 L' R B2 R' F2 U R2 U' L2 U B2 L2 D R2"
     ],
+    "originalAlg": "R U2 R D R' U R D' R' U' R' U R U R'",
     "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=RU'R'U'RURDR'U'RD'R'U2R'",
     "enabled": true
   },
@@ -161,6 +175,7 @@
       "D F B' R2 F B' L2 D' L2 D B2 D' F2 R2 D' R2",
       "F2 L R' B2 L' R D B2 D R2 D' R2 F2 D' B2 D"
     ],
+    "originalAlg": "R' U2 R U2 R' F R U R' U' R' F' R2",
     "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=R2FRURU'R'F'RU2R'U2R",
     "enabled": true
   },
@@ -172,6 +187,7 @@
       "U2 F2 D' L2 D F2 R2 D B2 D' R2",
       "L2 D F2 D' L2 B2 D' R2 D B2 U"
     ],
+    "originalAlg": "F R U' R' U R U R2 F' R U R U' R'",
     "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=RUR'U'R'FR2U'R'U'RUR'F'",
     "enabled": true
   },
@@ -183,6 +199,7 @@
       "F2 D2 L2 F2 R2 U F2 L2 B2 D' F2",
       "L R D2 L R D R2 F2 L2 U' L2 F2 B2 L2 U'"
     ],
+    "originalAlg": "R2 U R U R' U' R' U' R' U R'",
     "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=RU'RURURU'R'U'R2",
     "enabled": true
   },
@@ -194,6 +211,7 @@
       "F2 D F2 L2 B2 U' L2 F2 R2 D2 F2",
       "L R D2 L R D' L2 B2 R2 D F2 L2 R2 F2 D'"
     ],
+    "originalAlg": "R U' R U R U R U' R' U' R2",
     "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=R2URUR'U'R'U'R'UR'",
     "enabled": true
   },
@@ -205,6 +223,7 @@
       "L2 D L' R F2 L' R D' L2 D' R2 D2 F2 D' F2 U2 L2",
       "L D R' D2 L D' R' B2 D2 B2 D R2 U' L2 F2 D' U'"
     ],
+    "originalAlg": "R' f' R U R' U R U2 R' U f R U R' U' R",
     "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=R'URU'R'f'U'RU2R'U'RU'R'fR",
     "enabled": true
   },
@@ -216,6 +235,7 @@
       "L D L' B2 L D' L' U' B2 D' R2 U2 R2 U' R2 D R2",
       "L F L' B2 L F' L R2 D2 F2 D' F2 D' L2 R2 B2 U'"
     ],
+    "originalAlg": "F R' F' R U R U' R' F R U' R' U R U R' F'",
     "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=FRU'R'U'RUR'F'RUR'U'R'FRF'",
     "enabled": true
   },
@@ -227,6 +247,7 @@
       "L R' U2 L' R U B2 U B2 U B2 U B2 U B2",
       "L D2 L2 R2 U2 L' D L2 R2 U' L2 F2 L2 R2 B2 R2"
     ],
+    "originalAlg": "R U R2 U' R' U' R U R' U' R' U R' U R",
     "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=R'U'RU'RURU'R'URUR2U'R'",
     "enabled": true
   }

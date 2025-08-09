@@ -2,7 +2,6 @@ import pycuber as pc
 import kociemba
 import json
 
-# Map pycuber colors to kociemba face letters
 color_map = {
     "white": "U",
     "red": "R",
@@ -12,7 +11,6 @@ color_map = {
     "blue": "B"
 }
 
-# Simplified face rotation mapping for z2 (180° rotation)
 z2_map = {
     'U': 'D',
     'D': 'U',
@@ -21,6 +19,18 @@ z2_map = {
     'F': 'F',
     'B': 'B'
 }
+
+def invert_alg(alg: str) -> str:
+    moves = alg.split()
+    inverted = []
+    for move in reversed(moves):
+        if move.endswith("'"):
+            inverted.append(move[:-1])
+        elif move.endswith("2"):
+            inverted.append(move)
+        else:
+            inverted.append(move + "'")
+    return ' '.join(inverted)
 
 def rotate_move_z2(move):
     face = move[0]
@@ -48,7 +58,6 @@ def cube_to_kociemba_string(cube):
         raise ValueError(f"Cube string length invalid: {len(s)}")
     return s
 
-# Helper: Convert U moves to integer (mod 4)
 def move_to_int(move):
     if move == 'U':
         return 1
@@ -59,7 +68,6 @@ def move_to_int(move):
     else:
         return None
 
-# Helper: Convert int (mod 4) back to U move
 def int_to_move(i):
     if i == 1:
         return 'U'
@@ -70,7 +78,6 @@ def int_to_move(i):
     else:
         return ''
 
-# Merge adjacent U moves (including at joins)
 def merge_adjacent_u_moves(moves_list):
     result = []
     i = 0
@@ -123,7 +130,6 @@ def choose_unique_solutions(solutions, max_solutions=4):
         if len(chosen) == max_solutions:
             break
 
-    # If not enough chosen, fill with remaining
     if len(chosen) < max_solutions:
         for sol in solutions:
             if sol not in chosen:
@@ -141,7 +147,7 @@ def solve_scrambles(scrambles):
         for var_scramble in auf_variations:
             cube = pc.Cube()
             cube(var_scramble)
-            cube("z2")  # normalize orientation
+            cube("z2") 
             state_str = cube_to_kociemba_string(cube)
             solution = kociemba.solve(state_str)
             corrected_solution = apply_z2_to_moves(solution)
@@ -154,6 +160,7 @@ def generate_case(scramble, solutions, index):
     return {
         'id': str(index + 1).zfill(2),
         'scrambles': solutions,
+        'originalAlg': invert_alg(scramble),
         'img': f'https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case={scramble.replace(" ", "")}',
         'enabled': True,
     }
@@ -193,7 +200,6 @@ def main():
     results = solve_scrambles(scrambles)
     export_cases_to_json(scrambles, results, filename="../data/cases.json")
 
-    # Optionally print results
     for scramble, chosen_solutions in results:
         print(f"Base Scramble: {scramble}")
         for solution in chosen_solutions:
