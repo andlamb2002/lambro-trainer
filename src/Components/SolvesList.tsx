@@ -1,3 +1,5 @@
+import SolveItem from './SolveItem';
+
 import type { Solve } from '../interfaces';
 
 interface Props {
@@ -32,15 +34,13 @@ function SolvesList({ solves, selectedSolve, setSelectedSolve, deleteSolve, dele
 
             <h3>Solves: {solves.length}</h3>
             <h3>Mean: {mean}</h3>
-            { solves.map((solve, index) => (
-                <span 
-                    key={index}
-                    onClick={() => setSelectedSolve(solve)}
-                    style={{ cursor: 'pointer' }}
-                >
-                    {(solve.time / 1000).toFixed(2)}
-                    {index < solves.length - 1 ? ', ' : ''}
-                </span>
+            {solves.map((solve, index) => (
+                <SolveItem
+                key={solve.id ?? index}
+                solve={solve}
+                isLast={index === solves.length - 1}
+                onSelect={(s) => setSelectedSolve(s)}
+                />
             ))}
             <div>
                 <button 
