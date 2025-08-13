@@ -1,4 +1,5 @@
 import { useState } from "react";
+import CaseItem from "../Components/CaseItem";
 
 import type { Case, Preset } from '../interfaces';
 
@@ -23,15 +24,8 @@ function CaseSelectionPage({ cases, toggleCase, presets, savePreset, loadPreset,
     return (
         <>
             <div>
-                {cases.map(c => (
-                    <div key={c.id}>
-                        <img
-                            src={c.img}
-                            alt={`Case ${c.id}`}
-                            onClick={() => toggleCase(c.id)}
-                            style={{ width: '80px', cursor: 'pointer', opacity: c.enabled ? 1 : 0.4 }}
-                        />
-                    </div>
+                {cases.map((c) => (
+                    <CaseItem key={c.id} c={c} toggleCase={toggleCase} />
                 ))}
             </div>
             <div>
