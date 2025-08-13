@@ -1,11 +1,10 @@
 import { useState, useEffect } from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import '@picocss/pico/css/pico.min.css';
 
+import Header from './Components/Header';
 import CaseSelectionPage from './Pages/CaseSelectionPage';
 import TimerPage from './Pages/TimerPage';
-
-// import { formattedCases } from './generateCases';
 
 import generatedCases from './data/cases.json';
 
@@ -70,7 +69,7 @@ useEffect(() => {
 
 return (
         <>
-            <Link to="/">Case Selection</Link> | <Link to="/timer">Timer</Link>
+            <Header />
             <Routes>
                 <Route 
                     path="/timer" 
