@@ -1,5 +1,6 @@
 import { useState } from "react";
 import CaseItem from "../Components/CaseItem";
+import PresetItem from "../Components/PresetItem";
 
 import type { Case, Preset } from '../interfaces';
 
@@ -39,14 +40,13 @@ function CaseSelectionPage({ cases, toggleCase, presets, savePreset, loadPreset,
                     savePreset(presetName);
                 }}>Save Preset</button>
                 <ul>
-                    {presets.map(preset => (
-                    <li key={preset.name}>
-                        <span onClick={() => handleLoadPreset(preset)} style={{ cursor: 'pointer' }}>
-                        {preset.name}
-                        </span>
-                        {' '}
-                        <button onClick={() => deletePreset(preset.name)}>Delete</button>
-                    </li>
+                    {presets.map((preset) => (
+                    <PresetItem
+                        key={preset.name}
+                        preset={preset}
+                        onLoad={handleLoadPreset}
+                        onDelete={deletePreset}
+                    />
                     ))}
                 </ul>
             </div>
