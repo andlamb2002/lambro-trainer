@@ -45,6 +45,7 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
         const caseUsed = currentCaseRef.current!;
         const solve: Solve = {
             id: caseUsed.id,
+            label: caseUsed.label,
             scramble: caseUsed.originalAlg,
             img: caseUsed.img,
             time: finalTime,

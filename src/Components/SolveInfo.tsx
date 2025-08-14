@@ -7,10 +7,10 @@ interface Props {
 
 function SolveInfo({ selectedSolve, deleteSolve }: Props) {
     if (!selectedSolve) return null;
-    
+
     return (
         <div>
-            <p>Case {selectedSolve.id}: {(selectedSolve.time / 1000).toFixed(2)}</p>
+            <p>Case {selectedSolve.label}: {(selectedSolve.time / 1000).toFixed(2)}</p>
             <p>
                 <img
                     src={selectedSolve.img}

@@ -156,19 +156,20 @@ def solve_scrambles(scrambles):
         results.append((scramble, chosen_solutions))
     return results
 
-def generate_case(scramble, solutions, index):
+def generate_case(scramble, label, solutions, index):
     return {
         'id': str(index + 1).zfill(2),
+        'label': label,
         'scrambles': solutions,
         'originalAlg': invert_alg(scramble),
         'img': f'https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case={scramble.replace(" ", "")}',
         'enabled': True,
     }
 
-def export_cases_to_json(scrambles, results, filename="cases.json"):
+def export_cases_to_json(scrambles, labels, results, filename="cases.json"):
     cases = []
     for i, (scramble, solutions) in enumerate(results):
-        cases.append(generate_case(scramble, solutions, i))
+        cases.append(generate_case(scramble, labels[i], solutions, i))
     with open(filename, 'w') as f:
         json.dump(cases, f, indent=2)
 
@@ -197,8 +198,13 @@ def main():
         "R' U' R U' R U R U' R' U R U R2 U' R'",
     ]
 
+    labels = [
+        "Aa","Ab","E","F","Ga","Gb","Gc","Gd","H","Ja","Jb",
+        "Na","Nb","Ra","Rb","T","Ua","Ub","V","Y","Z"
+    ]
+
     results = solve_scrambles(scrambles)
-    export_cases_to_json(scrambles, results, filename="../data/cases.json")
+    export_cases_to_json(scrambles, labels, results, filename="../data/cases.json")
 
     for scramble, chosen_solutions in results:
         print(f"Base Scramble: {scramble}")

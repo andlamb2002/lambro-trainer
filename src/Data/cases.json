@@ -1,6 +1,7 @@
 [
   {
     "id": "01",
+    "label": "Aa",
     "scrambles": [
       "L2 D' B2 D F2 D' B2 D F2 L2",
       "D L2 B2 U F2 D' R2 D F2 D' B2",
@@ -13,6 +14,7 @@
   },
   {
     "id": "02",
+    "label": "Ab",
     "scrambles": [
       "L2 F2 D' B2 D F2 D' B2 D L2",
       "D' L2 D F2 U' L2 U F2 U' L2 F2",
@@ -25,6 +27,7 @@
   },
   {
     "id": "03",
+    "label": "E",
     "scrambles": [
       "L F L' B2 L F' L F2 D' R2 D F2 L2 U' B2 U B2",
       "F D2 B2 D B2 D2 F R2 U F2 U F2 U2 R2 D' F2 U2",
@@ -37,6 +40,7 @@
   },
   {
     "id": "04",
+    "label": "F",
     "scrambles": [
       "D L' R F2 U2 L R U' F2 U L2 D' B2 L2 R2 D R2",
       "D2 F' B R2 U2 F' B' D B2 U' L2 U L2 F2 B2 U' R2",
@@ -49,6 +53,7 @@
   },
   {
     "id": "05",
+    "label": "Ga",
     "scrambles": [
       "D L2 F' B' U2 F B U F2 L2 U F2 L2 U L2 D' L2",
       "L2 F B R2 F B' D' R2 F2 U L2 B2 D L2 D' L2",
@@ -61,6 +66,7 @@
   },
   {
     "id": "06",
+    "label": "Gb",
     "scrambles": [
       "L R U2 L' R' B2 D R2 D' F2 U F2 U' B2 U",
       "L' R D2 L' R D' L2 U L2 U' F2 L2 D' R2",
@@ -73,6 +79,7 @@
   },
   {
     "id": "07",
+    "label": "Gc",
     "scrambles": [
       "D' L2 F B U2 F' B' U' B2 L2 U' B2 L2 U' L2 D L2",
       "L R U2 L2 B2 L R D' F2 D F2 U' F2 U F2 B2 R2",
@@ -85,6 +92,7 @@
   },
   {
     "id": "08",
+    "label": "Gd",
     "scrambles": [
       "L' R B2 L' R' D R2 B2 U R2 U' L2 U F2 U",
       "L R' D2 L R' D L2 U' L2 U B2 L2 D R2",
@@ -97,6 +105,7 @@
   },
   {
     "id": "09",
+    "label": "H",
     "scrambles": [
       "L2 F2 B2 R2 D L2 F2 B2 R2 U'",
       "L2 F2 B2 R2 D' L2 F2 B2 R2",
@@ -109,6 +118,7 @@
   },
   {
     "id": "10",
+    "label": "Ja",
     "scrambles": [
       "D R2 D' F2 U L2 D' B2 D L2 F2",
       "L2 B2 D' R2 U R2 U' B2 D L2 U2",
@@ -121,6 +131,7 @@
   },
   {
     "id": "11",
+    "label": "Jb",
     "scrambles": [
       "F2 D R2 D' R2 U R2 U' R2 F2 U2",
       "L2 D F2 D' F2 U F2 U' F2 L2 U",
@@ -133,6 +144,7 @@
   },
   {
     "id": "12",
+    "label": "Na",
     "scrambles": [
       "D L R' U2 F2 L R U' R2 F2 U2 B2 U B2 L2 D2 R2",
       "L R' U2 F2 L' R' U L2 F2 D2 F2 D F2 R2 D2 L2",
@@ -145,6 +157,7 @@
   },
   {
     "id": "13",
+    "label": "Nb",
     "scrambles": [
       "L R' U2 F2 L R U' R2 F2 D2 F2 D' F2 L2 D2 R2",
       "D L' R' F2 D2 L R' D' B2 R2 D2 L2 U L2 F2 U2 F2",
@@ -157,6 +170,7 @@
   },
   {
     "id": "14",
+    "label": "Ra",
     "scrambles": [
       "L' R B2 L R' F2 U R2 U' L2 U B2 L2 D R2",
       "D' F B' R2 F B' L2 D L2 D' F2 D B2 R2 D R2",
@@ -169,6 +183,7 @@
   },
   {
     "id": "15",
+    "label": "Rb",
     "scrambles": [
       "L R' F2 L R' B2 U' L2 U R2 U' F2 R2 D' R2",
       "L2 F' B R2 F B' D R2 D F2 D' F2 L2 D' R2 D",
@@ -181,6 +196,7 @@
   },
   {
     "id": "16",
+    "label": "T",
     "scrambles": [
       "D R2 D' F2 U F2 R2 U R2 U' R2",
       "F2 D' L2 D F2 R2 D B2 D' R2",
@@ -193,6 +209,7 @@
   },
   {
     "id": "17",
+    "label": "Ua",
     "scrambles": [
       "L2 D2 F2 L2 B2 U R2 B2 L2 D' L2",
       "L R D2 L R D L2 B2 R2 D' F2 L2 R2 F2 D",
@@ -205,6 +222,7 @@
   },
   {
     "id": "18",
+    "label": "Ub",
     "scrambles": [
       "L2 D L2 B2 R2 U' B2 L2 F2 D2 L2",
       "L R D2 L R D' R2 F2 L2 U L2 F2 B2 L2 U",
@@ -217,6 +235,7 @@
   },
   {
     "id": "19",
+    "label": "V",
     "scrambles": [
       "L D L' B2 L D' L F2 U2 B2 R2 D F2 R2 U R2 D",
       "L' D' R D2 L' D R D' F2 D2 F2 D L2 U' R2 B2",
@@ -229,6 +248,7 @@
   },
   {
     "id": "20",
+    "label": "Y",
     "scrambles": [
       "L D L' F2 R U' R' F2 D2 R2 B2 U' B2 U R2 D",
       "L F L' B2 L F' L' U2 B2 U' B2 U' B2 U2",
@@ -241,6 +261,7 @@
   },
   {
     "id": "21",
+    "label": "Z",
     "scrambles": [
       "D L R' U2 L' R U' B2 D' R2 U' R2 U' R2 U' R2",
       "F B' U2 F' B U' L2 U' L2 U' L2 U' L2 U' L2",

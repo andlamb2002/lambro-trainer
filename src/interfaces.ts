@@ -1,5 +1,6 @@
 export interface Case {
     id: string;
+    label: string;
     scrambles: string[];
     originalAlg: string; 
     img: string;
@@ -8,6 +9,7 @@ export interface Case {
 
 export interface Solve {
     id: string;
+    label: string;
     scramble: string;
     img: string;
     time: number;
