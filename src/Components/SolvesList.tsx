@@ -4,13 +4,11 @@ import type { Solve } from '../interfaces';
 
 interface Props {
     solves: Solve[];
-    selectedSolve: Solve | null;
     setSelectedSolve: (solve: Solve | null) => void;
-    deleteSolve: (solve: Solve) => void;
     deleteAllSolves: () => void;
 }
 
-function SolvesList({ solves, selectedSolve, setSelectedSolve, deleteSolve, deleteAllSolves }: Props) {
+function SolvesList({ solves, setSelectedSolve, deleteAllSolves }: Props) {
 
     const mean: string = 
         solves.length > 0
@@ -19,19 +17,6 @@ function SolvesList({ solves, selectedSolve, setSelectedSolve, deleteSolve, dele
 
     return (
         <>
-                {selectedSolve && (
-                <div>
-                    <p>Case {selectedSolve.id}: {(selectedSolve.time / 1000).toFixed(2)}</p>
-                    <p><img src={selectedSolve.img} alt={`Case ${selectedSolve.id}`} style={{ width: '80px' }} /></p>
-                    <p>{selectedSolve.scramble}</p>
-                    <button 
-                        onClick={() => deleteSolve(selectedSolve)} 
-                    >
-                        Delete Solve
-                    </button>
-                </div>
-            )}
-
             <h3>Solves: {solves.length}</h3>
             <h3>Mean: {mean}</h3>
             {solves.map((solve, index) => (

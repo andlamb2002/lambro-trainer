@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 
 import Scramble from '../Components/Scramble';
 import Timer from '../Components/Timer';
+import SolveInfo from '../Components/SolveInfo';
 import SolvesList from '../Components/SolvesList';
 
 import type { Case, Solve } from '../interfaces';
@@ -127,11 +128,13 @@ function TimerPage({ cases }: Props) {
                 setRecapMode={setRecapMode}
                 onRecapIndexChange={setRecapIndex}
             />
-            <SolvesList 
-                solves={solves} 
+            <SolveInfo 
                 selectedSolve={selectedSolve} 
-                setSelectedSolve={setSelectedSolve} 
                 deleteSolve={deleteSolve} 
+            />
+            <SolvesList 
+                solves={solves}
+                setSelectedSolve={setSelectedSolve}
                 deleteAllSolves={deleteAllSolves}
             />
         </>
