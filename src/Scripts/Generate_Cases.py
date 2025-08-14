@@ -2,6 +2,93 @@ import pycuber as pc
 import kociemba
 import json
 
+PLL_DATA = [
+  {
+    "label": "Aa",
+    "scramble": "x R' U R' D2 R U' R' D2 R2 x'"
+  },
+  {
+    "label": "Ab",
+    "scramble": "x R2 D2 R U R' D2 R U' R x'"
+  },
+  {
+    "label": "E",
+    "scramble": "x' R U' R' D R U R' D' R U R' D R U' R' D' x"
+  },
+  {
+    "label": "F",
+    "scramble": "R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R"
+  },
+  {
+    "label": "Ga",
+    "scramble": "R2 U R' U R' U' R U' R2 D U' R' U R D'"
+  },
+  {
+    "label": "Gb",
+    "scramble": "R' U' R U D' R2 U R' U R U' R U' R2 D"
+  },
+  {
+    "label": "Gc",
+    "scramble": "R2 U' R U' R U R' U R2 D' U R U' R' D"
+  },
+  {
+    "label": "Gd",
+    "scramble": "R U R' U' D R2 U' R U' R' U R' U R2 D'"
+  },
+  {
+    "label": "H",
+    "scramble": "R2 U2 R U2 R2 U2 R2 U2 R U2 R2"
+  },
+  {
+    "label": "Ja",
+    "scramble": "x R2 F R F' R U2 r' U r U2 x'"
+  },
+  {
+    "label": "Jb",
+    "scramble": "R U R' F' R U R' U' R' F R2 U' R'"
+  },
+  {
+    "label": "Na",
+    "scramble": "R U R' U R U R' F' R U R' U' R' F R2 U' R' U2 R U' R'"
+  },
+  {
+    "label": "Nb",
+    "scramble": "R' U L' U2 R U' L R' U L' U2 R U' L"
+  },
+  {
+    "label": "Ra",
+    "scramble": "R U' R' U' R U R D R' U' R D' R' U2 R'"
+  },
+  {
+    "label": "Rb",
+    "scramble": "R2 F R U R U' R' F' R U2 R' U2 R"
+  },
+  {
+    "label": "T",
+    "scramble": "R U R' U' R' F R2 U' R' U' R U R' F'"
+  },
+  {
+    "label": "Ua",
+    "scramble": "R U' R U R U R U' R' U' R2"
+  },
+  {
+    "label": "Ub",
+    "scramble": "R2 U R U R' U' R' U' R' U R'"
+  },
+  {
+    "label": "V",
+    "scramble": "R' U R U' R' f' U' R U2 R' U' R U' R' f R"
+  },
+  {
+    "label": "Y",
+    "scramble": "F R U' R' U' R U R' F' R U R' U' R' F R F'"
+  },
+  {
+    "label": "Z",
+    "scramble": "R' U' R U' R U R U' R' U R U R2 U' R'"
+  }
+]
+
 color_map = {
     "white": "U",
     "red": "R",
@@ -139,9 +226,10 @@ def choose_unique_solutions(solutions, max_solutions=4):
 
     return chosen
 
-def solve_scrambles(scrambles):
+def solve_scrambles(case_data):
     results = []
-    for scramble in scrambles:
+    for case in case_data:
+        scramble = case["scramble"]
         solutions_for_scramble = []
         auf_variations = generate_auf_variations(scramble)
         for var_scramble in auf_variations:
@@ -166,45 +254,18 @@ def generate_case(scramble, label, solutions, index):
         'enabled': True,
     }
 
-def export_cases_to_json(scrambles, labels, results, filename="cases.json"):
+def export_cases_to_json(cases_data, results, filename):
     cases = []
     for i, (scramble, solutions) in enumerate(results):
-        cases.append(generate_case(scramble, labels[i], solutions, i))
+        label = cases_data[i]["label"]
+        cases.append(generate_case(scramble, label, solutions, i))
     with open(filename, 'w') as f:
         json.dump(cases, f, indent=2)
 
 def main():
-    scrambles = [
-        "x R' U R' D2 R U' R' D2 R2 x'",
-        "x R2 D2 R U R' D2 R U' R x'",
-        "x' R U' R' D R U R' D' R U R' D R U' R' D' x",
-        "R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R",
-        "R2 U R' U R' U' R U' R2 D U' R' U R D'",
-        "R' U' R U D' R2 U R' U R U' R U' R2 D",
-        "R2 U' R U' R U R' U R2 D' U R U' R' D",
-        "R U R' U' D R2 U' R U' R' U R' U R2 D'",
-        "R2 U2 R U2 R2 U2 R2 U2 R U2 R2",
-        "x R2 F R F' R U2 r' U r U2 x'",
-        "R U R' F' R U R' U' R' F R2 U' R'",
-        "R U R' U R U R' F' R U R' U' R' F R2 U' R' U2 R U' R'",
-        "R' U L' U2 R U' L R' U L' U2 R U' L",
-        "R U' R' U' R U R D R' U' R D' R' U2 R'",
-        "R2 F R U R U' R' F' R U2 R' U2 R",
-        "R U R' U' R' F R2 U' R' U' R U R' F'",
-        "R U' R U R U R U' R' U' R2",
-        "R2 U R U R' U' R' U' R' U R'",
-        "R' U R U' R' f' U' R U2 R' U' R U' R' f R",
-        "F R U' R' U' R U R' F' R U R' U' R' F R F'",
-        "R' U' R U' R U R U' R' U R U R2 U' R'",
-    ]
-
-    labels = [
-        "Aa","Ab","E","F","Ga","Gb","Gc","Gd","H","Ja","Jb",
-        "Na","Nb","Ra","Rb","T","Ua","Ub","V","Y","Z"
-    ]
-
-    results = solve_scrambles(scrambles)
-    export_cases_to_json(scrambles, labels, results, filename="../data/cases.json")
+    results = solve_scrambles(PLL_DATA)
+    pll_file = "../data/pllCases.json"
+    export_cases_to_json(PLL_DATA, results, pll_file)
 
     for scramble, chosen_solutions in results:
         print(f"Base Scramble: {scramble}")

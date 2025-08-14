@@ -6,7 +6,7 @@ import Header from './Components/Header';
 import CaseSelectionPage from './Pages/CaseSelectionPage';
 import TimerPage from './Pages/TimerPage';
 
-import generatedCases from './data/cases.json';
+import generatedCases from './data/pllCases.json';
 
 import type { Case, Preset } from './interfaces';
 
