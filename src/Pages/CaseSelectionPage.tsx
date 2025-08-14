@@ -1,5 +1,5 @@
 import { useState } from "react";
-import CaseItem from "../Components/CaseItem";
+import CasesSection from "../Components/CasesSection";
 import PresetItem from "../Components/PresetItem";
 
 import type { Case, Preset } from '../interfaces';
@@ -24,11 +24,7 @@ function CaseSelectionPage({ cases, toggleCase, presets, savePreset, loadPreset,
 
     return (
         <>
-            <div>
-                {cases.map((c) => (
-                    <CaseItem key={c.id} c={c} toggleCase={toggleCase} />
-                ))}
-            </div>
+            <CasesSection cases={cases} toggleCase={toggleCase} />
             <div>
                 <input
                     type="text"
