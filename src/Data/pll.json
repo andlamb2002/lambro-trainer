@@ -5,11 +5,11 @@
     },
     {
         "label": "Aa",
-        "scramble": "x R' U R' D2 R U' R' D2 R2 x'"
+        "scramble": "x R' U R' D2 R U' R' D2 R2 x' U2"
     },
     {
         "label": "Ab",
-        "scramble": "x R2 D2 R U R' D2 R U' R x'"
+        "scramble": "x R2 D2 R U R' D2 R U' R x' U'"
     },
     {
         "label": "E",
@@ -45,7 +45,7 @@
     },
     {
         "label": "Jb",
-        "scramble": "R U R' F' R U R' U' R' F R2 U' R'"
+        "scramble": "R U R' F' R U R' U' R' F R2 U' R' U'"
     },
     {
         "label": "Na",
@@ -57,11 +57,11 @@
     },
     {
         "label": "Ra",
-        "scramble": "R U' R' U' R U R D R' U' R D' R' U2 R'"
+        "scramble": "R U' R' U' R U R D R' U' R D' R' U2 R' U'"
     },
     {
         "label": "Rb",
-        "scramble": "R2 F R U R U' R' F' R U2 R' U2 R"
+        "scramble": "R2 F R U R U' R' F' R U2 R' U2 R U"
     },
     {
         "label": "T",
