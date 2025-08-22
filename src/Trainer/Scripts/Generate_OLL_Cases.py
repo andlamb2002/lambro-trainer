@@ -93,7 +93,7 @@ def save_json(data, filename):
 
 def main():
     all_cases = process_all_cases(OLL_DATA, PLL_DATA)
-    save_json(all_cases, "all_cases.json")
+    save_json(all_cases, "oll_cases.json")
 
 if __name__ == "__main__":
     main()

@@ -264,7 +264,7 @@ def export_cases_to_json(cases_data, results, filename):
 
 def main():
     results = solve_scrambles(PLL_DATA)
-    pll_file = "../data/pllCases.json"
+    pll_file = "../data/pll_cases.json"
     export_cases_to_json(PLL_DATA, results, pll_file)
 
     for scramble, chosen_solutions in results:
