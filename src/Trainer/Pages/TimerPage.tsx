@@ -26,12 +26,12 @@ function TimerPage({ cases, algs }: Props) {
     });
 
     const [solves, setSolves] = useState<Solve[]>(() => {
-        const stored = localStorage.getItem(`${algs}_cases`);
+        const stored = localStorage.getItem(`${algs}_solves`);
         return stored ? JSON.parse(stored) : [];
     });
 
     const [selectedSolve, setSelectedSolve] = useState<Solve | null>(() => {
-        const stored = localStorage.getItem('solves');
+        const stored = localStorage.getItem(`${algs}_solves`);
         const parsed = stored ? JSON.parse(stored) : [];
         return parsed.length > 0 ? parsed[parsed.length - 1] : null;
     });
