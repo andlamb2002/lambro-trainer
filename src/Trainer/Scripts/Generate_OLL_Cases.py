@@ -81,7 +81,7 @@ def process_all_cases(oll_data, pll_data):
             "label": oll["label"],
             "originalAlg": oll["scramble"],
             "scrambles": scrambles,
-            "img": f"https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case={oll['scramble'].replace(' ','')}",
+            "img": f"https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=oll&bg=t&case={oll['scramble'].replace(' ','')}",
             "enabled": True
         })
         print(f"{oll['label']}: {len(scrambles)} scrambles")
