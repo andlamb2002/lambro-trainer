@@ -9,9 +9,10 @@ import type { Case, Solve } from '../interfaces';
 
 interface Props {
     cases: Case[];
+    algs: string;
 }
 
-function TimerPage({ cases }: Props) {
+function TimerPage({ cases, algs }: Props) {
 
     const [recapQueue, setRecapQueue] = useState<Case[]>([]);
     const [recapMode, setRecapMode] = useState(false);
@@ -25,7 +26,7 @@ function TimerPage({ cases }: Props) {
     });
 
     const [solves, setSolves] = useState<Solve[]>(() => {
-        const stored = localStorage.getItem('solves');
+        const stored = localStorage.getItem(`${algs}_cases`);
         return stored ? JSON.parse(stored) : [];
     });
 
@@ -85,8 +86,8 @@ function TimerPage({ cases }: Props) {
     };
 
     useEffect(() => {
-        localStorage.setItem('solves', JSON.stringify(solves));
-    }, [solves]);
+        localStorage.setItem(`${algs}_solves`, JSON.stringify(solves));
+    }, [algs, solves]);
 
     useEffect(() => {
     const handleHotkeys = (e: KeyboardEvent) => {

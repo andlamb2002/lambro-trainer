@@ -6,21 +6,26 @@ import Header from './Components/Header';
 import CaseSelectionPage from './Pages/CaseSelectionPage';
 import TimerPage from './Pages/TimerPage';
 
-import generatedCases from './Data/oll_Cases.json';
+// import generatedCases from './Data/oll_Cases.json';
 
 import type { Case, Preset } from './interfaces';
 
-function Trainer() {
+interface Props {
+    algs: string
+    data: Case[];
+}
+
+function Trainer({ algs, data }: Props) {
 
 const [cases, setCases] = useState<Case[]>(() => {
-    const stored = localStorage.getItem('cases');
-    return stored ? JSON.parse(stored) : generatedCases;
+    const stored = localStorage.getItem(`${algs}_cases`);
+    return stored ? JSON.parse(stored) : data;
 });
 
 const enabledCases = cases.filter(c => c.enabled);
 
 const [presets, setPresets] = useState<Preset[]>(() => {
-    const stored = localStorage.getItem('presets');
+    const stored = localStorage.getItem(`${algs}_presets`);
     return stored ? JSON.parse(stored) : [];
 });
 
@@ -60,12 +65,12 @@ const deletePreset = (name: string) => {
 }
 
 useEffect(() => {
-    localStorage.setItem('cases', JSON.stringify(cases));
-}, [cases]);
+    localStorage.setItem(`${algs}_cases`, JSON.stringify(cases));
+}, [algs, cases]);
 
 useEffect(() => {
-    localStorage.setItem('presets', JSON.stringify(presets));
-}, [presets]);
+    localStorage.setItem(`${algs}_presets`, JSON.stringify(presets));
+}, [algs, presets]);
 
 return (
         <>
@@ -76,6 +81,7 @@ return (
                     element={
                         <TimerPage 
                             cases={enabledCases}
+                            algs={algs}
                         />
                     } 
                 />
