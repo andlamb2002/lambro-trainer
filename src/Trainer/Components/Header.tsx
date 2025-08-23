@@ -6,7 +6,7 @@ function Header() {
 
     return (
         <header>
-            <Link to={onTimerPage ? '.' : 'timer'}>
+            <Link to={onTimerPage ? '..' : 'timer'} relative="path">
                 {onTimerPage ? 'Select' : 'Start'}
             </Link>
         </header>
