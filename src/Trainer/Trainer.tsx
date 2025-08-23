@@ -18,17 +18,7 @@ function Trainer({ algset, data }: Props) {
     const [cases, setCases] = useState<Case[]>(data);
     const [presets, setPresets] = useState<Preset[]>([]);
 
-    // const [cases, setCases] = useState<Case[]>(() => {
-    //     const stored = localStorage.getItem(`${algset}_cases`);
-    //     return stored ? JSON.parse(stored) : data;
-    // });
-
     const enabledCases = cases.filter(c => c.enabled);
-
-    // const [presets, setPresets] = useState<Preset[]>(() => {
-    //     const stored = localStorage.getItem(`${algset}_presets`);
-    //     return stored ? JSON.parse(stored) : [];
-    // });
 
     const toggleCase = (id: string) => {
         setCases(prev => 
