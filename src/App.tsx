@@ -10,8 +10,8 @@ function App() {
 return (
         <>
             <Routes>
-                <Route path="/pll/*" element={<Trainer algs="pll" data={pllCases} />} />
-                <Route path="/oll/*" element={<Trainer algs="oll" data={ollCases} />} />
+                <Route path="/pll/*" element={<Trainer algset="pll" data={pllCases} />} />
+                <Route path="/oll/*" element={<Trainer algset="oll" data={ollCases} />} />
                 <Route path="*" element={<div>Page not found</div>} />
             </Routes>
         </>

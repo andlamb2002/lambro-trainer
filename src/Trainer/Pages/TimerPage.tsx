@@ -9,10 +9,10 @@ import type { Case, Solve } from '../interfaces';
 
 interface Props {
     cases: Case[];
-    algs: string;
+    algset: string;
 }
 
-function TimerPage({ cases, algs }: Props) {
+function TimerPage({ cases, algset }: Props) {
 
     const [recapQueue, setRecapQueue] = useState<Case[]>([]);
     const [recapMode, setRecapMode] = useState(false);
@@ -26,12 +26,12 @@ function TimerPage({ cases, algs }: Props) {
     });
 
     const [solves, setSolves] = useState<Solve[]>(() => {
-        const stored = localStorage.getItem(`${algs}_solves`);
+        const stored = localStorage.getItem(`${algset}_solves`);
         return stored ? JSON.parse(stored) : [];
     });
 
     const [selectedSolve, setSelectedSolve] = useState<Solve | null>(() => {
-        const stored = localStorage.getItem(`${algs}_solves`);
+        const stored = localStorage.getItem(`${algset}_solves`);
         const parsed = stored ? JSON.parse(stored) : [];
         return parsed.length > 0 ? parsed[parsed.length - 1] : null;
     });
@@ -86,8 +86,8 @@ function TimerPage({ cases, algs }: Props) {
     };
 
     useEffect(() => {
-        localStorage.setItem(`${algs}_solves`, JSON.stringify(solves));
-    }, [algs, solves]);
+        localStorage.setItem(`${algset}_solves`, JSON.stringify(solves));
+    }, [algset, solves]);
 
     useEffect(() => {
     const handleHotkeys = (e: KeyboardEvent) => {

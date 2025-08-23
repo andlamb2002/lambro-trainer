@@ -11,21 +11,21 @@ import TimerPage from './Pages/TimerPage';
 import type { Case, Preset } from './interfaces';
 
 interface Props {
-    algs: string
+    algset: string
     data: Case[];
 }
 
-function Trainer({ algs, data }: Props) {
+function Trainer({ algset, data }: Props) {
 
 const [cases, setCases] = useState<Case[]>(() => {
-    const stored = localStorage.getItem(`${algs}_cases`);
+    const stored = localStorage.getItem(`${algset}_cases`);
     return stored ? JSON.parse(stored) : data;
 });
 
 const enabledCases = cases.filter(c => c.enabled);
 
 const [presets, setPresets] = useState<Preset[]>(() => {
-    const stored = localStorage.getItem(`${algs}_presets`);
+    const stored = localStorage.getItem(`${algset}_presets`);
     return stored ? JSON.parse(stored) : [];
 });
 
@@ -65,12 +65,12 @@ const deletePreset = (name: string) => {
 }
 
 useEffect(() => {
-    localStorage.setItem(`${algs}_cases`, JSON.stringify(cases));
-}, [algs, cases]);
+    localStorage.setItem(`${algset}_cases`, JSON.stringify(cases));
+}, [algset, cases]);
 
 useEffect(() => {
-    localStorage.setItem(`${algs}_presets`, JSON.stringify(presets));
-}, [algs, presets]);
+    localStorage.setItem(`${algset}_presets`, JSON.stringify(presets));
+}, [algset, presets]);
 
 return (
         <>
@@ -81,7 +81,7 @@ return (
                     element={
                         <TimerPage 
                             cases={enabledCases}
-                            algs={algs}
+                            algset={algset}
                         />
                     } 
                 />
