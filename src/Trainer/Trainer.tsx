@@ -77,7 +77,7 @@ return (
             <Header />
             <Routes>
                 <Route 
-                    path="/timer" 
+                    path="timer" 
                     element={
                         <TimerPage 
                             cases={enabledCases}
@@ -86,7 +86,7 @@ return (
                     } 
                 />
                 <Route 
-                    path="/" 
+                    index
                     element={
                         <CaseSelectionPage 
                             cases={cases} 

@@ -2,11 +2,11 @@ import { Link, useLocation } from 'react-router-dom';
 
 function Header() {
     const location = useLocation();
-    const onTimerPage = location.pathname === '/timer';
+    const onTimerPage = location.pathname.endsWith('/timer');
 
     return (
         <header>
-            <Link to={onTimerPage ? '/' : '/timer'}>
+            <Link to={onTimerPage ? '.' : 'timer'}>
                 {onTimerPage ? 'Select' : 'Start'}
             </Link>
         </header>
