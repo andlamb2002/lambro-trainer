@@ -48,6 +48,11 @@ function TimerPage({ cases, algset }: Props) {
         return cases[randomIndex];
     }
 
+    function handleCaseChange(c: Case, s: string) {
+        setCurrentCase(c);
+        setCurrentScramble(s);
+    }
+
     const deleteSolve = useCallback((solve: Solve) => {
         if (window.confirm(`Delete solve?`)) {
             setSolves(prev => {
@@ -119,7 +124,7 @@ function TimerPage({ cases, algset }: Props) {
                 cases={cases} 
                 onStop={handleOnStop}
                 getRandomCase={getRandomCase}
-                onCaseChange={(c, s) => { setCurrentCase(c); setCurrentScramble(s); }} 
+                onCaseChange={handleCaseChange} 
                 recapMode={recapMode}
                 recapQueue={recapQueue}
                 setRecapMode={setRecapMode}
