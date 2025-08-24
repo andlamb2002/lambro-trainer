@@ -6,7 +6,7 @@ interface Props {
     cases: Case[];
     onStop: (solve: Solve) => void;
     getRandomCase: (cases: Case[]) => Case;
-    onCaseChange: (currentCase: Case) => void;
+    onCaseChange: (currentCase: Case, scramble: string) => void;
     recapMode: boolean;
     recapQueue: Case[];
     setRecapMode: (mode: boolean) => void;
@@ -24,6 +24,7 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
     const isRunningRef = useRef<boolean>(false);
     const hasStoppedRef = useRef<boolean>(false);
     const currentCaseRef = useRef<Case>(currentCase);
+    const currentScrambleRef = useRef<string>("");
     const recapModeRef = useRef<boolean>(false);
     const recapQueueRef = useRef<Case[]>([]);
     const recapIndexRef = useRef(0);
@@ -43,10 +44,12 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
         setTime(finalTime);
 
         const caseUsed = currentCaseRef.current!;
+        const scrambleUsed = currentScrambleRef.current;
+
         const solve: Solve = {
             id: caseUsed.id,
             label: caseUsed.label,
-            scramble: caseUsed.originalAlg,
+            scramble: scrambleUsed,
             img: caseUsed.img,
             time: finalTime,
         };
@@ -76,10 +79,20 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
         }
     }
 
+    function getRandomScrambleFromCase(c: Case): string {
+        if (!c.scrambles || c.scrambles.length === 0) return '';
+        const randomIndex = Math.floor(Math.random() * c.scrambles.length);
+        return c.scrambles[randomIndex];
+    }
+
     const updateCurrentCase = useCallback((newCase: Case) => {
+        const scramble = getRandomScrambleFromCase(newCase);
         setCurrentCase(newCase);
+
         currentCaseRef.current = newCase;
-        onCaseChange(newCase);
+        currentScrambleRef.current = scramble;
+
+        onCaseChange(newCase, scramble);
     }, [onCaseChange]);
 
     useEffect(() => {
@@ -98,6 +111,13 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
     useEffect (() => {
         isRunningRef.current = isRunning;
     }, [isRunning]);
+
+    useEffect(() => {
+        if (cases.length > 0) {
+            updateCurrentCase(getRandomCase(cases));
+        }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []); 
 
     useEffect(() => {
         recapModeRef.current = recapMode;

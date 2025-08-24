@@ -25,6 +25,8 @@ function TimerPage({ cases, algset }: Props) {
         return getRandomCase(cases);
     });
 
+    const [currentScramble, setCurrentScramble] = useState<string>("");
+
     const [solves, setSolves] = useState<Solve[]>(() => {
         const stored = localStorage.getItem(`${algset}_solves`);
         return stored ? JSON.parse(stored) : [];
@@ -44,12 +46,6 @@ function TimerPage({ cases, algset }: Props) {
     function getRandomCase(cases: Case[]): Case {
         const randomIndex = Math.floor(Math.random() * cases.length);
         return cases[randomIndex];
-    }
-
-      function getRandomScrambleFromCase(c: Case): string {
-        if (!c.scrambles || c.scrambles.length === 0) return '';
-        const randomIndex = Math.floor(Math.random() * c.scrambles.length);
-        return c.scrambles[randomIndex];
     }
 
     const deleteSolve = useCallback((solve: Solve) => {
@@ -112,7 +108,7 @@ function TimerPage({ cases, algset }: Props) {
         <>
             {currentCase && 
                 <Scramble 
-                    currentScramble={getRandomScrambleFromCase(currentCase)}
+                    currentScramble={currentScramble}
                     recapMode={recapMode}
                     recapQueue={recapQueue}
                     recapIndex={recapIndex}
@@ -123,7 +119,7 @@ function TimerPage({ cases, algset }: Props) {
                 cases={cases} 
                 onStop={handleOnStop}
                 getRandomCase={getRandomCase}
-                onCaseChange={setCurrentCase} 
+                onCaseChange={(c, s) => { setCurrentCase(c); setCurrentScramble(s); }} 
                 recapMode={recapMode}
                 recapQueue={recapQueue}
                 setRecapMode={setRecapMode}
