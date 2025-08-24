@@ -10,6 +10,7 @@ export interface Case {
 export interface Solve {
     id: string;
     label: string;
+    originalAlg: string;
     scramble: string;
     img: string;
     time: number;

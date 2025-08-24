@@ -107,18 +107,6 @@ z2_map = {
     'B': 'B'
 }
 
-def invert_alg(alg: str) -> str:
-    moves = alg.split()
-    inverted = []
-    for move in reversed(moves):
-        if move.endswith("'"):
-            inverted.append(move[:-1])
-        elif move.endswith("2"):
-            inverted.append(move)
-        else:
-            inverted.append(move + "'")
-    return ' '.join(inverted)
-
 def rotate_move_z2(move):
     face = move[0]
     modifier = move[1:] if len(move) > 1 else ''
@@ -249,7 +237,7 @@ def generate_case(scramble, label, solutions, index):
         'id': str(index + 1).zfill(2),
         'label': label,
         'scrambles': solutions,
-        'originalAlg': invert_alg(scramble),
+        'originalAlg': scramble,
         'img': f'https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case={scramble.replace(" ", "")}',
         'enabled': True,
     }

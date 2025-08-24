@@ -19,6 +19,7 @@ function SolveInfo({ selectedSolve, deleteSolve }: Props) {
                 />
             </p>
             <p>{selectedSolve.scramble}</p>
+            <p>{selectedSolve.originalAlg}</p>
             <button onClick={() => deleteSolve(selectedSolve)}>
                 Delete Solve
             </button>
