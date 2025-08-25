@@ -79,9 +79,15 @@ function TimerPage({ cases, algset }: Props) {
             setRecapMode(false);
             setRecapQueue([]);
         } else {
-            const shuffled = [...cases].sort(() => Math.random() - 0.5);
+            const shuffled = [...cases]
+                .sort(() => Math.random() - 0.5)
+                .map(c => ({
+                    ...c,
+                    scrambles: [
+                    c.scrambles[Math.floor(Math.random() * c.scrambles.length)]
+                    ],
+                }));
             setRecapQueue(shuffled);
-            console.log('Recap queue:', shuffled.map(c => c.id));
             setRecapMode(true);
         }
     };
