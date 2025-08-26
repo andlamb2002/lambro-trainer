@@ -7,10 +7,24 @@ interface Props {
 }
 
 function CasesSection({ cases, toggleCase }: Props) {
+
+    const groupedCases = cases.reduce<Record<string, Case[]>>((acc, c) => {
+        if (!acc[c.set]) {
+            acc[c.set] = [];
+        }
+        acc[c.set].push(c);
+        return acc;
+    }, {});
+
     return (
         <div>
-            {cases.map((c) => (
-                <CaseItem key={c.id} c={c} toggleCase={toggleCase} />
+            {Object.entries(groupedCases).map(([setName, setCases]) => (
+                <div key={setName}>
+                    <h3>{setName}</h3>
+                    {setCases.map((c) => (
+                        <CaseItem key={c.id} c={c} toggleCase={toggleCase} />
+                    ))}
+                </div>
             ))}
         </div>
     )

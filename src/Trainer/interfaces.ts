@@ -1,5 +1,6 @@
 export interface Case {
     id: string;
+    set: string;
     label: string;
     scrambles: string[];
     originalAlg: string; 
