@@ -34,7 +34,7 @@ function Trainer({ algset, data }: Props) {
     const savePreset = (name: string) => {
         if (!name.trim()) return;
 
-        const newPreset: Preset = { name, cases };
+        const newPreset: Preset = { name, cases: enabledCases };
 
         setPresets(prev => {
             const index = prev.findIndex(p => p.name === name);

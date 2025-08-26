@@ -13,7 +13,7 @@ function PresetItem({ preset, onLoad, onDelete }: Props) {
                 onClick={() => onLoad(preset)}
                 style={{ cursor: 'pointer' }}
             >
-                {preset.name}
+                {preset.name} ({preset.cases.length})
             </span>{' '}
             <button onClick={() => onDelete(preset.name)}>Delete</button>
         </li>
