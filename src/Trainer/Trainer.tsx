@@ -66,8 +66,13 @@ function Trainer({ algset, data }: Props) {
     }
 
     const loadPreset = (preset: Preset) => {
-        setCases(preset.cases);
-    }
+        setCases(prev =>
+            prev.map(c => ({
+                ...c,
+                enabled: preset.cases.some(p => p.id === c.id)
+            }))
+        );
+    };
 
     const deletePreset = (name: string) => {
         if (window.confirm(`Delete preset ${name}?`)) {
