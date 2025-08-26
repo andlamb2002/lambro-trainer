@@ -1,7 +1,7 @@
 import pycuber as pc
 import kociemba
 
-from utils import load_json, save_json, invert_alg, apply_z2_to_moves, cube_to_kociemba_string, generate_case
+from utils import load_json, save_json, apply_z2_to_moves, cube_to_kociemba_string, generate_case
 
 def move_to_int(move):
     if move == 'U':
