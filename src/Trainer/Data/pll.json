@@ -57,7 +57,7 @@
     {
         "set": "adj_swap",
         "label": "Jb",
-        "scramble": "R U R' F' R U R' U' R' F R2 U' R' U'"
+        "scramble": "R U R' F' R U R' U' R' F R2 U' R'"
     },
     {
         "set": "diag_swap",

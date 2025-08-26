@@ -31,6 +31,16 @@ function Trainer({ algset, data }: Props) {
         );
     }
 
+    const toggleAllCases = (enabled: boolean) => {
+        setCases(prev => prev.map(c => ({ ...c, enabled })));
+    };
+
+    const toggleCasesInSet = (setName: string, enabled: boolean) => {
+        setCases(prev =>
+            prev.map(c => c.set === setName ? { ...c, enabled } : c)
+        );
+    };
+
     const savePreset = (name: string) => {
         if (!name.trim()) return;
 
@@ -95,6 +105,8 @@ function Trainer({ algset, data }: Props) {
                         <CaseSelectionPage 
                             cases={cases} 
                             toggleCase={toggleCase}
+                            toggleAllCases={toggleAllCases}
+                            toggleCasesInSet={toggleCasesInSet}
                             presets={presets}
                             savePreset={savePreset}
                             loadPreset={loadPreset}

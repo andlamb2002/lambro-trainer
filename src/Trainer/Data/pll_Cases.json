@@ -143,14 +143,14 @@
     "id": "PLL11",
     "set": "adj_swap",
     "label": "Jb",
-    "originalAlg": "R U R' F' R U R' U' R' F R2 U' R' U'",
+    "originalAlg": "R U R' F' R U R' U' R' F R2 U' R'",
     "scrambles": [
-      "D B2 L2 D F2 D' L2 U B2 D' R2",
       "F2 D R2 D' R2 U R2 U' R2 F2 U2",
-      "L2 F2 D R2 U' R2 U F2 D' L2 U2",
+      "L2 D F2 D' F2 U F2 U' F2 L2 U",
+      "D B2 L2 D F2 D' L2 U B2 D' R2",
       "U2 L2 D F2 D' F2 U F2 U' F2 L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=RUR'F'RUR'U'R'FR2U'R'U'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=RUR'F'RUR'U'R'FR2U'R'",
     "enabled": true
   },
   {
