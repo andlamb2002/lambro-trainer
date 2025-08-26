@@ -3,28 +3,28 @@
     "id": "PLL01",
     "set": "adj_swap",
     "label": "Aa",
-    "originalAlg": "x R' U R' D2 R U' R' D2 R2 x' U2",
+    "originalAlg": "U x R' U R' D2 R U' R' D2 R2 x'",
     "scrambles": [
-      "L2 D' L2 D F2 L2 U L2 U' F2 U2",
-      "D L2 B2 U F2 D' R2 D F2 D' B2",
-      "L2 B2 D F2 D' B2 D F2 D' L2 U'",
-      "L2 D' B2 D F2 D' B2 D F2 L2"
+      "L2 D' B2 D F2 D' B2 D F2 L2 U'",
+      "D L2 D' L2 U L2 B2 U B2 U' L2",
+      "L2 B2 D F2 D' B2 D F2 D' L2 U2",
+      "L2 B2 U F2 U' B2 U F2 U' L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=xR'UR'D2RU'R'D2R2x'U2",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=UxR'UR'D2RU'R'D2R2x'",
     "enabled": true
   },
   {
     "id": "PLL02",
     "set": "adj_swap",
     "label": "Ab",
-    "originalAlg": "x R2 D2 R U R' D2 R U' R x' U'",
+    "originalAlg": "U2 x R2 D2 R U R' D2 R U' R x'",
     "scrambles": [
-      "L2 D L2 D' B2 L2 U' L2 U B2 U",
-      "D' L2 D F2 U' L2 U F2 U' L2 F2",
-      "L2 F2 D' B2 D F2 D' B2 D L2",
-      "L2 F2 U' B2 U F2 U' B2 U L2 U2"
+      "L2 F2 D' B2 D F2 D' B2 D L2 U2",
+      "D' L2 D L2 U' L2 F2 U' F2 U L2",
+      "L2 D F2 D' B2 D F2 D' B2 L2 U",
+      "L2 F2 U' B2 U F2 U' B2 U L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=xR2D2RUR'D2RU'Rx'U'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case=U2xR2D2RUR'D2RU'Rx'",
     "enabled": true
   },
   {
