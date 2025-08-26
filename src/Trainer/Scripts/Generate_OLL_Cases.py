@@ -36,9 +36,11 @@ def process_oll(oll_data: list[dict], pll_data: list[dict]):
                 scrambles.append(invert_alg(generate_scramble(pll, auf, inv_oll)))
 
         case_id = f"OLL{str(counter).zfill(2)}"
+        output_label = f"{str(counter).zfill(2)}_{oll['label']}"
+
         cases.append(generate_case(
             case_id,
-            oll["label"],
+            output_label,
             scrambles,
             oll["scramble"],
             set_name=oll["set"],

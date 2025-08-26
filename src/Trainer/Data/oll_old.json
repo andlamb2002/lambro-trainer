@@ -1,291 +1,291 @@
 [
   {
     "set": "dot",
-    "label": "dot",
+    "label": "dot_01",
     "scramble": "R U2 R2 F R F' U2 R' F R F'"
   },
   {
     "set": "dot",
-    "label": "dot",
+    "label": "dot_02",
     "scramble": "r U r' U2 r U2 R' U2 R U' r'"
   },
   {
     "set": "dot",
-    "label": "dot",
+    "label": "dot_03",
     "scramble": "r' R2 U R' U r U2 r' U M'"
   },
   {
     "set": "dot",
-    "label": "dot",
+    "label": "dot_04",
     "scramble": "M U' r U2 r' U' R U' R' M'"
   },
   {
-    "set": "l_shape",
-    "label": "square_shape",
+    "set": "square_shape",
+    "label": "square_shape_05",
     "scramble": "l' U2 L U L' U l"
   },
   {
-    "set": "l_shape",
-    "label": "square_shape",
+    "set": "square_shape",
+    "label": "square_shape_06",
     "scramble": "r U2 R' U' R U' r'"
   },
   {
-    "set": "l_shape",
-    "label": "small_lightning_bolt",
+    "set": "small_lightning_bolt",
+    "label": "small_lightning_bolt_07",
     "scramble": "r U R' U R U2 r'"
   },
   {
-    "set": "l_shape",
-    "label": "small_lightning_bolt",
+    "set": "small_lightning_bolt",
+    "label": "small_lightning_bolt_08",
     "scramble": "l' U' L U' L' U2 l"
   },
   {
-    "set": "l_shape",
-    "label": "fish_shape",
+    "set": "fish_shape",
+    "label": "fish_shape_09",
     "scramble": "R U R' U' R' F R2 U R' U' F'"
   },
   {
-    "set": "l_shape",
-    "label": "fish_shape",
+    "set": "fish_shape",
+    "label": "fish_shape_10",
     "scramble": "R U R' U R' F R F' R U2 R'"
   },
   {
-    "set": "l_shape",
-    "label": "small_lightning_bolt",
+    "set": "small_lightning_bolt",
+    "label": "small_lightning_bolt_11",
     "scramble": "r U R' U R' F R F' R U2 r'"
   },
   {
-    "set": "l_shape",
-    "label": "small_lightning_bolt",
+    "set": "small_lightning_bolt",
+    "label": "small_lightning_bolt_12",
     "scramble": "M' R' U' R U' R' U2 R U' R r'"
   },
   {
-    "set": "line",
-    "label": "knight_move_shape",
+    "set": "knight_move_shape",
+    "label": "knight_move_shape_13",
     "scramble": "F U R U' R2 F' R U R U' R'"
   },
   {
-    "set": "line",
-    "label": "knight_move_shape",
+    "set": "knight_move_shape",
+    "label": "knight_move_shape_14",
     "scramble": "R' F R U R' F' R F U' F'"
   },
   {
-    "set": "line",
-    "label": "knight_move_shape",
+    "set": "knight_move_shape",
+    "label": "knight_move_shape_15",
     "scramble": "l' U' l L' U' L U l' U l"
   },
   {
-    "set": "line",
-    "label": "knight_move_shape",
+    "set": "knight_move_shape",
+    "label": "knight_move_shape_16",
     "scramble": "r U r' R U R' U' r U' r'"
   },
   {
     "set": "dot",
-    "label": "dot",
+    "label": "dot_17",
     "scramble": "F R' F' R2 r' U R U' R' U' M'"
   },
   {
     "set": "dot",
-    "label": "dot",
+    "label": "dot_18",
     "scramble": "r U R' U R U2 r2 U' R U' R' U2 r"
   },
   {
     "set": "dot",
-    "label": "dot",
+    "label": "dot_19",
     "scramble": "r' R U R U R' U' M' R' F R F'"
   },
   {
     "set": "dot",
-    "label": "dot",
+    "label": "dot_20",
     "scramble": "r U R' U' M2 U R U' R' U' M'"
   },
   {
     "set": "cross",
-    "label": "cross",
+    "label": "cross_21",
     "scramble": "R U2 R' U' R U R' U' R U' R'"
   },
   {
     "set": "cross",
-    "label": "cross",
+    "label": "cross_22",
     "scramble": "R U2 R2 U' R2 U' R2 U2 R"
   },
   {
     "set": "cross",
-    "label": "cross",
+    "label": "cross_23",
     "scramble": "R2 D' R U2 R' D R U2 R"
   },
   {
     "set": "cross",
-    "label": "cross",
+    "label": "cross_24",
     "scramble": "r U R' U' r' F R F'"
   },
   {
     "set": "cross",
-    "label": "cross",
+    "label": "cross_25",
     "scramble": "F' r U R' U' r' F R"
   },
   {
     "set": "cross",
-    "label": "cross",
+    "label": "cross_26",
     "scramble": "R U2 R' U' R U' R'"
   },
   {
     "set": "cross",
-    "label": "cross",
+    "label": "cross_27",
     "scramble": "R U R' U R U2 R'"
   },
   {
-    "set": "l_shape",
-    "label": "corners_oriented",
+    "set": "corners_oriented",
+    "label": "corners_oriented_28",
     "scramble": "r U R' U' r' R U R U' R'"
   },
   {
-    "set": "l_shape",
-    "label": "awkward_shape",
+    "set": "awkward_shape",
+    "label": "awkward_shape_29",
     "scramble": "R U R' U' R U' R' F' U' F R U R'"
   },
   {
-    "set": "l_shape",
-    "label": "awkward_shape",
+    "set": "awkward_shape",
+    "label": "awkward_shape_30",
     "scramble": "F R' F R2 U' R' U' R U R' F2"
   },
   {
-    "set": "l_shape",
-    "label": "p_shape",
+    "set": "p_shape",
+    "label": "p_shape_31",
     "scramble": "R' U' F U R U' R' F' R"
   },
   {
-    "set": "l_shape",
-    "label": "p_shape",
+    "set": "p_shape",
+    "label": "p_shape_32",
     "scramble": "L U F' U' L' U L F L'"
   },
   {
-    "set": "line",
-    "label": "t_shape",
+    "set": "t_shape",
+    "label": "t_shape_33",
     "scramble": "R U R' U' R' F R F'"
   },
   {
-    "set": "line",
-    "label": "c_shape",
+    "set": "c_shape",
+    "label": "c_shape_34",
     "scramble": "R U R2 U' R' F R U R U' F'"
   },
   {
-    "set": "l_shape",
-    "label": "fish_shape",
+    "set": "fish_shape",
+    "label": "fish_shape_35",
     "scramble": "R U2 R2 F R F' R U2 R'"
   },
   {
-    "set": "l_shape",
-    "label": "w_shape",
+    "set": "w_shape",
+    "label": "w_shape_36",
     "scramble": "L' U' L U' L' U L U L F' L' F"
   },
   {
-    "set": "l_shape",
-    "label": "fish_shape",
+    "set": "fish_shape",
+    "label": "fish_shape_37",
     "scramble": "F R' F' R U R U' R'"
   },
   {
-    "set": "l_shape",
-    "label": "w_shape",
+    "set": "w_shape",
+    "label": "w_shape_38",
     "scramble": "R U R' U R U' R' U' R' F R F'"
   },
   {
-    "set": "line",
-    "label": "big_lightning_bolt",
+    "set": "big_lightning_bolt",
+    "label": "big_lightning_bolt_39",
     "scramble": "L F' L' U' L U F U' L'"
   },
   {
-    "set": "line",
-    "label": "big_lightning_bolt",
+    "set": "big_lightning_bolt",
+    "label": "big_lightning_bolt_40",
     "scramble": "R' F R U R' U' F' U R"
   },
   {
     "set": "awkward_shape",
-    "label": "awkward_shape",
+    "label": "awkward_shape_41",
     "scramble": "R U R' U R U2 R' F R U R' U' F'"
   },
   {
-    "set": "l_shape",
-    "label": "awkward_shape",
+    "set": "awkward_shape",
+    "label": "awkward_shape_42",
     "scramble": "R' U' R U' R' U2 R F R U R' U' F'"
   },
   {
-    "set": "l_shape",
-    "label": "p_shape",
+    "set": "p_shape",
+    "label": "p_shape_43",
     "scramble": "F' U' L' U L F"
   },
   {
-    "set": "l_shape",
-    "label": "p_shape",
+    "set": "p_shape",
+    "label": "p_shape_44",
     "scramble": "F U R U' R' F'"
   },
   {
-    "set": "line",
-    "label": "t_shape",
+    "set": "t_shape",
+    "label": "t_shape_45",
     "scramble": "F R U R' U' F'"
   },
   {
-    "set": "line",
-    "label": "c_shape",
+    "set": "c_shape",
+    "label": "c_shape_46",
     "scramble": "R' U' R' F R F' U R"
   },
   {
-    "set": "l_shape",
-    "label": "small_l_shape",
+    "set": "small_l_shape",
+    "label": "small_l_shape_47",
     "scramble": "R' U' R' F R F' R' F R F' U R"
   },
   {
-    "set": "l_shape",
-    "label": "small_l_shape",
+    "set": "small_l_shape",
+    "label": "small_l_shape_48",
     "scramble": "F R U R' U' R U R' U' F'"
   },
   {
-    "set": "l_shape",
-    "label": "small_l_shape",
+    "set": "small_l_shape",
+    "label": "small_l_shape_49",
     "scramble": "r U' r2 U r2 U r2 U' r"
   },
   {
-    "set": "l_shape",
-    "label": "small_l_shape",
+    "set": "small_l_shape",
+    "label": "small_l_shape_50",
     "scramble": "r' U r2 U' r2 U' r2 U r'"
   },
   {
-    "set": "line",
-    "label": "i_shape",
+    "set": "i_shape",
+    "label": "i_shape_51",
     "scramble": "F U R U' R' U R U' R' F'"
   },
   {
-    "set": "line",
-    "label": "i_shape",
+    "set": "i_shape",
+    "label": "i_shape_52",
     "scramble": "R U R' U R U' B U' B' R'"
   },
   {
-    "set": "l_shape",
-    "label": "small_l_shape",
+    "set": "small_l_shape",
+    "label": "small_l_shape_53",
     "scramble": "l' U2 L U L' U' L U L' U l"
   },
   {
-    "set": "l_shape",
-    "label": "small_l_shape",
+    "set": "small_l_shape",
+    "label": "small_l_shape_54",
     "scramble": "r U2 R' U' R U R' U' R U' r'"
   },
   {
-    "set": "line",
-    "label": "i_shape",
+    "set": "i_shape",
+    "label": "i_shape_55",
     "scramble": "R' F R U R U' R2 F' R2 U' R' U R U R'"
   },
   {
-    "set": "line",
-    "label": "i_shape",
+    "set": "i_shape",
+    "label": "i_shape_56",
     "scramble": "r' U' r U' R' U R U' R' U R r' U r"
   },
   {
-    "set": "line",
-    "label": "corners_oriented",
+    "set": "corners_oriented",
+    "label": "corners_oriented_57",
     "scramble": "R U R' U' M' U R U' r'"
   },
   {
-    "set": "cross",
+    "set": "skip",
     "label": "skip",
     "scramble": ""
   }
