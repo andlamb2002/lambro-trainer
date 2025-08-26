@@ -18,8 +18,15 @@ function Trainer({ algset, data }: Props) {
     const location = useLocation();
     const onTimerPage = location.pathname.endsWith('/timer');
 
-    const [cases, setCases] = useState<Case[]>(data);
-    const [presets, setPresets] = useState<Preset[]>([]);
+    const [cases, setCases] = useState<Case[]>(() => {
+        const stored = localStorage.getItem(`${algset}_cases`);
+        return stored ? JSON.parse(stored) : data;
+    });
+
+    const [presets, setPresets] = useState<Preset[]>(() => {
+        const stored = localStorage.getItem(`${algset}_presets`);
+        return stored ? JSON.parse(stored) : [];
+    });
 
     const enabledCases = cases.filter(c => c.enabled);
 
@@ -75,14 +82,6 @@ function Trainer({ algset, data }: Props) {
     useEffect(() => {
         localStorage.setItem(`${algset}_presets`, JSON.stringify(presets));
     }, [algset, presets]);
-
-    useEffect(() => {
-        const storedCases = localStorage.getItem(`${algset}_cases`);
-        setCases(storedCases ? JSON.parse(storedCases) : data);
-
-        const storedPresets = localStorage.getItem(`${algset}_presets`);
-        setPresets(storedPresets ? JSON.parse(storedPresets) : []);
-    }, [algset, data]);
 
     return (
         <>
