@@ -21,10 +21,10 @@ function SolvesList({ solves, setSelectedSolve, deleteAllSolves }: Props) {
             <h3>Mean: {mean}</h3>
             {solves.map((solve, index) => (
                 <SolveItem
-                key={solve.id ?? index}
-                solve={solve}
-                isLast={index === solves.length - 1}
-                onSelect={(s) => setSelectedSolve(s)}
+                    key={index}
+                    solve={solve}
+                    isLast={index === solves.length - 1}
+                    onSelect={(s) => setSelectedSolve(s)}
                 />
             ))}
             <div>
