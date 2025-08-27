@@ -6,6 +6,7 @@ import SolveInfo from '../Components/SolveInfo';
 import SolvesList from '../Components/SolvesList';
 
 import type { Case, Solve } from '../interfaces';
+import { addRandomAUF } from '../../scrambleUtils';
 
 interface Props {
     cases: Case[];
@@ -78,6 +79,7 @@ function TimerPage({ cases, algset }: Props) {
         if (recapMode) {
             setRecapMode(false);
             setRecapQueue([]);
+            setRecapIndex(0);
         } else {
             const shuffled = [...cases]
                 .sort(() => Math.random() - 0.5)
@@ -89,6 +91,14 @@ function TimerPage({ cases, algset }: Props) {
                 }));
             setRecapQueue(shuffled);
             setRecapMode(true);
+            setRecapIndex(0);
+
+            if (shuffled.length > 0) {
+                const firstCase = shuffled[0];
+                const scramble = firstCase.scrambles[0];
+                const scrambleWithAUF = addRandomAUF(scramble);
+                handleCaseChange(firstCase, scrambleWithAUF);
+            }
         }
     };
 
@@ -134,6 +144,7 @@ function TimerPage({ cases, algset }: Props) {
                 recapMode={recapMode}
                 recapQueue={recapQueue}
                 setRecapMode={setRecapMode}
+                recapIndex={recapIndex}
                 onRecapIndexChange={setRecapIndex}
             />
             <SolveInfo 
