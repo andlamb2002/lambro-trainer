@@ -63,18 +63,18 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
             const nextIndex = recapIndexRef.current + 1;
 
             if (nextIndex < recapQueueRef.current.length) {
-            recapIndexRef.current = nextIndex;
-            onRecapIndexChange(nextIndex);
+                recapIndexRef.current = nextIndex;
+                onRecapIndexChange(nextIndex);
 
-            const nextCase = recapQueueRef.current[nextIndex];
-            updateCurrentCase(nextCase);
+                const nextCase = recapQueueRef.current[nextIndex];
+                updateCurrentCase(nextCase);
             } else {
-            setRecapMode(false);
-            recapIndexRef.current = 0;
-            onRecapIndexChange(0);
+                setRecapMode(false);
+                recapIndexRef.current = 0;
+                onRecapIndexChange(0);
 
-            const newCase = getRandomCase(cases);
-            updateCurrentCase(newCase);
+                const newCase = getRandomCase(cases);
+                updateCurrentCase(newCase);
             }
         } else {
             const newCase = getRandomCase(cases);
@@ -124,11 +124,22 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []); 
 
-    useEffect(() => {
+    useEffect(() => { 
+        if (recapMode && recapQueue.length > 0 && recapIndex === 0) {
+            const firstCase = recapQueue[0];
+            const scramble = firstCase.scrambles[0];
+            const scrambleWithAUF = addRandomAUF(scramble);
+
+            currentCaseRef.current = firstCase;
+            currentScrambleRef.current = scrambleWithAUF;
+            setCurrentCase(firstCase);
+            onCaseChange(firstCase, scrambleWithAUF);
+        }
+
         recapModeRef.current = recapMode;
         recapQueueRef.current = recapQueue;
         recapIndexRef.current = recapIndex;
-    }, [recapMode, recapQueue, recapIndex]);
+    }, [recapMode, recapQueue, recapIndex, onCaseChange]);
 
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {

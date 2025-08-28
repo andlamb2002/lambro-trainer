@@ -6,7 +6,6 @@ import SolveInfo from '../Components/SolveInfo';
 import SolvesList from '../Components/SolvesList';
 
 import type { Case, Solve } from '../interfaces';
-import { addRandomAUF } from '../../scrambleUtils';
 
 interface Props {
     cases: Case[];
@@ -49,10 +48,10 @@ function TimerPage({ cases, algset }: Props) {
         return cases[randomIndex];
     }
 
-    function handleCaseChange(c: Case, s: string) {
+    const handleCaseChange = useCallback((c: Case, s: string) => {
         setCurrentCase(c);
         setCurrentScramble(s);
-    }
+    }, []);
 
     const deleteSolve = useCallback((solve: Solve) => {
         if (window.confirm(`Delete solve?`)) {
@@ -92,13 +91,6 @@ function TimerPage({ cases, algset }: Props) {
             setRecapQueue(shuffled);
             setRecapMode(true);
             setRecapIndex(0);
-
-            if (shuffled.length > 0) {
-                const firstCase = shuffled[0];
-                const scramble = firstCase.scrambles[0];
-                const scrambleWithAUF = addRandomAUF(scramble);
-                handleCaseChange(firstCase, scrambleWithAUF);
-            }
         }
     };
 
