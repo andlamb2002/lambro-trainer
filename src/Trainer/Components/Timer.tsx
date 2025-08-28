@@ -88,17 +88,22 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
         return c.scrambles[randomIndex];
     }
 
-    const updateCurrentCase = useCallback((newCase: Case) => {
-        const scramble = getRandomScrambleFromCase(newCase);
-        const scrambleWithAUF = addRandomAUF(scramble);
-        
-        setCurrentCase(newCase);
+    const setCaseAndScramble = useCallback((c: Case) => {
+        const chosenScramble = getRandomScrambleFromCase(c);
+        const scrambleWithAUF = addRandomAUF(chosenScramble);
 
-        currentCaseRef.current = newCase;
+        currentCaseRef.current = c;
         currentScrambleRef.current = scrambleWithAUF;
 
-        onCaseChange(newCase, scrambleWithAUF);
+        setCurrentCase(c);
+        onCaseChange(c, scrambleWithAUF);
+
+        return scrambleWithAUF;
     }, [onCaseChange]);
+
+    const updateCurrentCase = useCallback((newCase: Case) => {
+        setCaseAndScramble(newCase);
+    }, [setCaseAndScramble]);
 
     useEffect(() => {
         if(isRunning) {
@@ -127,19 +132,13 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
     useEffect(() => { 
         if (recapMode && recapQueue.length > 0 && recapIndex === 0) {
             const firstCase = recapQueue[0];
-            const scramble = firstCase.scrambles[0];
-            const scrambleWithAUF = addRandomAUF(scramble);
-
-            currentCaseRef.current = firstCase;
-            currentScrambleRef.current = scrambleWithAUF;
-            setCurrentCase(firstCase);
-            onCaseChange(firstCase, scrambleWithAUF);
+            setCaseAndScramble(firstCase); 
         }
 
         recapModeRef.current = recapMode;
         recapQueueRef.current = recapQueue;
         recapIndexRef.current = recapIndex;
-    }, [recapMode, recapQueue, recapIndex, onCaseChange]);
+    }, [recapMode, recapQueue, recapIndex, setCaseAndScramble]);
 
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
