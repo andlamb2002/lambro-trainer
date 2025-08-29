@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Routes, Route, Link, useLocation } from 'react-router-dom';
 
-import '@picocss/pico/css/pico.min.css';
-
 import CaseSelectionPage from './Pages/CaseSelectionPage';
 import TimerPage from './Pages/TimerPage';
 
