@@ -25,14 +25,18 @@
     }
 
     .btn-primary {
-        @apply bg-app-button-dark text-app-body-dark hover:bg-app-button-dark/80;
+        @apply bg-app-button-dark text-app-body-dark hover:bg-app-button-dark/60;
     }
 
     .btn-danger {
-        @apply bg-app-danger text-app-text-dark hover:bg-app-danger/80;
+        @apply bg-app-danger text-app-text-dark hover:bg-app-danger/60;
     }
 
     .btn-success {
-        @apply bg-app-success text-app-text-dark hover:bg-app-success/80;
+        @apply bg-app-success text-app-text-dark hover:bg-app-success/60;
+    }
+
+    .link {
+        @apply text-app-text-dark underline hover:text-app-text-dark/60 hover:cursor-pointer;
     }
 }
