@@ -7,18 +7,18 @@ interface Props {
 
 function CaseItem({ c, toggleCase }: Props) {
     return (
-        <>
+        <div 
+            onClick={() => toggleCase(c.id)}
+            className={`aspect-square flex items-center justify-center rounded cursor-pointer ${
+                c.enabled ? "bg-success" : ""
+            }`}
+        >
             <img
                 src={c.img}
                 alt={`Case ${c.id}`}
-                onClick={() => toggleCase(c.id)}
-                style={{
-                    width: '80px',
-                    cursor: 'pointer',
-                    opacity: c.enabled ? 1 : 0.4,
-                }}
+                className="object-contain"
             />
-        </>
+        </div>
     )
 }
 

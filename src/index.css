@@ -31,7 +31,7 @@
 
 @layer components {
     .btn {
-        @apply rounded p-2 hover:cursor-pointer;
+        @apply rounded px-2 py-1 hover:cursor-pointer;
     }
 
     .btn-primary {
