@@ -17,7 +17,7 @@ function Scramble({ currentScramble, recapMode, recapQueue, recapIndex, toggleRe
     return (
         <>
             <button
-                className="btn-primary"
+                className="btn btn-primary"
                 onClick={() => navigate("..")}
             >
                 Select

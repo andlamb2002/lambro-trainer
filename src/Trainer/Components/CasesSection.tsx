@@ -25,7 +25,7 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
     return (
         <div>
             <button
-                className="btn-primary"
+                className="btn btn-primary"
                 onClick={() => navigate("timer")}
             >
                 Start
