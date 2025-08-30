@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 
+import { MdOutlineLightMode, MdOutlineDarkMode } from "react-icons/md";
+
 interface Props {
     darkMode: boolean;
     setDarkMode: (darkMode: boolean) => void;
@@ -7,7 +9,7 @@ interface Props {
 
 function Header({ darkMode, setDarkMode }: Props) {
     return (
-        <header className="flex items-center justify-between bg-secondary px-4 py-8 shadow-lg">
+        <header className="flex items-center justify-between bg-secondary p-4 shadow-lg">
             <div className="text-2xl font-bold">
                 Lambro Trainer
             </div>
@@ -18,9 +20,9 @@ function Header({ darkMode, setDarkMode }: Props) {
                 </nav>
                 <button
                     onClick={() => setDarkMode(!darkMode)}
-                    className="btn btn-primary"
+                    className="btn btn-primary p-1"
                 >
-                    {darkMode ? "Light" : "Dark"}
+                    {darkMode ? <MdOutlineLightMode size={24} /> : <MdOutlineDarkMode size={24} />}
                 </button>
             </div>
         </header>
