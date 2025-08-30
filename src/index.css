@@ -1,7 +1,20 @@
 @import "tailwindcss";
 
+@theme {
+    --font-sans: "Open Sans", sans-serif;
+
+    --color-app-header-dark: #1B232F;
+    --color-app-body-dark: #213249;
+    --color-app-text-dark: #F6F7F9;
+    --color-app-button-dark: #6FD8C6;
+
+    --color-app-success: #16A34A;
+    --color-app-warning: #F59E0B;
+    --color-app-danger:  #DC2626;
+}
+
 @layer base {
-    body {
+    * {
         @apply font-sans;
     }
 }
