@@ -84,7 +84,7 @@ function Trainer({ algset, data }: Props) {
     }, [algset, presets]);
 
     return (
-        <div className="bg-app-body-dark text-app-text-dark">
+        <div>
             <Routes>
                 <Route 
                     path="timer" 

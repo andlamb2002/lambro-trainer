@@ -21,7 +21,7 @@ function PresetSection({ presets, savePreset, loadPreset, deletePreset }: Props)
     return (
         <div>
             <input
-                className="bg-app-header-dark placeholder:text-app-text-dark/60 rounded focus:outline-none"
+                className="bg-secondary placeholder:text-text/60 rounded focus:outline-none"
                 type="text"
                 value={presetName}
                 onChange={(e) => setPresetName(e.target.value)}

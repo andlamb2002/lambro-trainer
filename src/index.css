@@ -3,14 +3,21 @@
 @theme {
     --font-sans: "Open Sans", sans-serif;
 
-    --color-app-header-dark: #213249;
-    --color-app-body-dark: #1B232F;
-    --color-app-text-dark: #F6F7F9;
-    --color-app-button-dark: #6FD8C6;
+    --color-primary: #E9F0FD;
+    --color-secondary: #C5D5EB;
+    --color-text: #1B232F;
+    --color-accent: #17544B;
 
-    --color-app-success: #16A34A;
-    --color-app-warning: #F59E0B;
-    --color-app-danger:  #DC2626;
+    --color-success: #16A34A;
+    --color-warning: #F59E0B;
+    --color-danger:  #DC2626;
+}
+
+.dark {
+    --color-primary: #1B232F;
+    --color-secondary: #213249;
+    --color-text: #F6F7F9;
+    --color-accent: #6FD8C6;
 }
 
 @layer base {
@@ -25,18 +32,18 @@
     }
 
     .btn-primary {
-        @apply bg-app-button-dark text-app-body-dark hover:bg-app-button-dark/60;
+        @apply bg-accent text-primary hover:bg-accent/60;
     }
 
     .btn-danger {
-        @apply bg-app-danger text-app-text-dark hover:bg-app-danger/60;
+        @apply bg-danger text-text hover:bg-danger/60;
     }
 
     .btn-success {
-        @apply bg-app-success text-app-text-dark hover:bg-app-success/60;
+        @apply bg-success text-text hover:bg-success/60;
     }
 
     .link {
-        @apply text-app-text-dark hover:underline hover:text-app-text-dark/60 hover:cursor-pointer;
+        @apply text-text hover:underline hover:text-text/60 hover:cursor-pointer;
     }
 }
