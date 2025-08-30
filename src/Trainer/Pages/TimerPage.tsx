@@ -118,7 +118,7 @@ function TimerPage({ cases, algset }: Props) {
     }, [selectedSolve, deleteSolve, deleteAllSolves]);
 
     return (
-        <div>
+        <div className="px-2 py-4">
             {currentCase && 
                 <Scramble 
                     currentScramble={currentScramble}
