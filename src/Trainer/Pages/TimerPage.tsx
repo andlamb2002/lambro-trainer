@@ -118,7 +118,7 @@ function TimerPage({ cases, algset }: Props) {
     }, [selectedSolve, deleteSolve, deleteAllSolves]);
 
     return (
-        <>
+        <div>
             {currentCase && 
                 <Scramble 
                     currentScramble={currentScramble}
@@ -128,27 +128,35 @@ function TimerPage({ cases, algset }: Props) {
                     toggleRecap={toggleRecap}
                 />
             }
-            <Timer 
-                cases={cases} 
-                onStop={handleOnStop}
-                getRandomCase={getRandomCase}
-                onCaseChange={handleCaseChange} 
-                recapMode={recapMode}
-                recapQueue={recapQueue}
-                setRecapMode={setRecapMode}
-                recapIndex={recapIndex}
-                onRecapIndexChange={setRecapIndex}
-            />
-            <SolveInfo 
-                selectedSolve={selectedSolve} 
-                deleteSolve={deleteSolve} 
-            />
-            <SolvesList 
-                solves={solves}
-                setSelectedSolve={setSelectedSolve}
-                deleteAllSolves={deleteAllSolves}
-            />
-        </>
+            <div className="grid grid-cols-3">
+                <div className="col-span-1">
+                    <SolvesList 
+                        solves={solves}
+                        setSelectedSolve={setSelectedSolve}
+                        deleteAllSolves={deleteAllSolves}
+                    />
+                </div>
+                <div className="col-span-1">
+                    <Timer 
+                        cases={cases} 
+                        onStop={handleOnStop}
+                        getRandomCase={getRandomCase}
+                        onCaseChange={handleCaseChange} 
+                        recapMode={recapMode}
+                        recapQueue={recapQueue}
+                        setRecapMode={setRecapMode}
+                        recapIndex={recapIndex}
+                        onRecapIndexChange={setRecapIndex}
+                    />
+                </div>
+                <div className="col-span-1">
+                    <SolveInfo 
+                        selectedSolve={selectedSolve} 
+                        deleteSolve={deleteSolve} 
+                    />
+                </div>
+            </div>
+        </div>
     )
 }
 

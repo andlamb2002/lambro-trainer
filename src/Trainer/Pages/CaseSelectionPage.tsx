@@ -16,20 +16,24 @@ interface Props {
 function CaseSelectionPage({ cases, toggleCase, toggleAllCases, toggleCasesInSet, presets, savePreset, loadPreset, deletePreset }: Props) {
 
     return (
-        <>
-            <CasesSection 
-                cases={cases} 
-                toggleCase={toggleCase} 
-                toggleAllCases={toggleAllCases}
-                toggleCasesInSet={toggleCasesInSet}
-            />
-            <PresetSection
-                presets={presets}
-                savePreset={savePreset}
-                loadPreset={loadPreset}
-                deletePreset={deletePreset}
-            />
-        </>
+        <div className="grid grid-cols-3 px-2 py-4">
+            <div className="col-span-2">
+                <CasesSection 
+                    cases={cases} 
+                    toggleCase={toggleCase} 
+                    toggleAllCases={toggleAllCases}
+                    toggleCasesInSet={toggleCasesInSet}
+                />
+            </div>
+            <div className="col-span-1">
+                <PresetSection
+                    presets={presets}
+                    savePreset={savePreset}
+                    loadPreset={loadPreset}
+                    deletePreset={deletePreset}
+                />
+            </div>
+        </div>
     )
 }
 
