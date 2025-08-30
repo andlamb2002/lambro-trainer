@@ -9,8 +9,8 @@ interface Props {
 function SolveItem({ solve, isLast, onSelect }: Props) {
     return (
         <span
+            className="link"
             onClick={() => onSelect(solve)}
-            style={{ cursor: 'pointer' }}
         >
             {(solve.time / 1000).toFixed(2)}
             {!isLast ? ', ' : ''}
