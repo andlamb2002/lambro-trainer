@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 import CaseItem from "./CaseItem";
 import type { Case } from "../interfaces";
 
@@ -10,6 +12,8 @@ interface Props {
 
 function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: Props) {
 
+    const navigate = useNavigate();
+
     const groupedCases = cases.reduce<Record<string, Case[]>>((acc, c) => {
         if (!acc[c.set]) {
             acc[c.set] = [];
@@ -20,6 +24,12 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
 
     return (
         <div>
+            <button
+                className="btn-primary"
+                onClick={() => navigate("timer")}
+            >
+                Start
+            </button>
             <div>
                 <button className="btn btn-success" onClick={() => toggleAllCases(true)}>All</button>
                 <button className="btn btn-danger" onClick={() => toggleAllCases(false)}>None</button>

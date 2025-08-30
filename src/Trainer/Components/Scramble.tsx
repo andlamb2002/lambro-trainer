@@ -1,3 +1,5 @@
+import { useNavigate } from 'react-router-dom';
+
 import type { Case } from '../interfaces';
 
 interface Props {
@@ -10,8 +12,16 @@ interface Props {
 
 function Scramble({ currentScramble, recapMode, recapQueue, recapIndex, toggleRecap }: Props) {
 
+    const navigate = useNavigate();
+
     return (
         <>
+            <button
+                className="btn-primary"
+                onClick={() => navigate("..")}
+            >
+                Select
+            </button>
             <h3>
                 {currentScramble}
             </h3>

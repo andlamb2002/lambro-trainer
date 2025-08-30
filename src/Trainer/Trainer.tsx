@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Routes, Route, Link, useLocation } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import CaseSelectionPage from './Pages/CaseSelectionPage';
 import TimerPage from './Pages/TimerPage';
@@ -12,9 +12,6 @@ interface Props {
 }
 
 function Trainer({ algset, data }: Props) {
-
-    const location = useLocation();
-    const onTimerPage = location.pathname.endsWith('/timer');
 
     const [cases, setCases] = useState<Case[]>(() => {
         const stored = localStorage.getItem(`${algset}_cases`);
@@ -88,9 +85,6 @@ function Trainer({ algset, data }: Props) {
 
     return (
         <div className="bg-app-body-dark text-app-text-dark">
-            <Link to={onTimerPage ? '..' : 'timer'} relative="path">
-                {onTimerPage ? 'Select' : 'Start'}
-            </Link>
             <Routes>
                 <Route 
                     path="timer" 
