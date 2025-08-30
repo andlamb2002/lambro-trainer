@@ -16,7 +16,7 @@ function Scramble({ currentScramble, recapMode, recapQueue, recapIndex, toggleRe
                 {currentScramble}
             </h3>
             <div>
-                <button onClick={toggleRecap}>
+                <button className="btn btn-primary" onClick={toggleRecap}>
                 {recapMode ? 'End Recap' : 'Start Recap'}
                 </button>
                 

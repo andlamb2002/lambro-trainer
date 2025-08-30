@@ -29,6 +29,7 @@ function SolvesList({ solves, setSelectedSolve, deleteAllSolves }: Props) {
             ))}
             <div>
                 <button 
+                    className="btn btn-danger"
                     onClick={() => deleteAllSolves()} 
                 >
                     Delete All Solves

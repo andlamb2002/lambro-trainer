@@ -18,3 +18,21 @@
         @apply font-sans;
     }
 }
+
+@layer components {
+    .btn {
+        @apply rounded hover:cursor-pointer;
+    }
+
+    .btn-primary {
+        @apply bg-app-button-dark text-app-body-dark hover:bg-app-button-dark/80;
+    }
+
+    .btn-danger {
+        @apply bg-app-danger text-app-text-dark hover:bg-app-danger/80;
+    }
+
+    .btn-success {
+        @apply bg-app-success text-app-text-dark hover:bg-app-success/80;
+    }
+}

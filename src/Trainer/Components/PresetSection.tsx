@@ -26,7 +26,7 @@ function PresetSection({ presets, savePreset, loadPreset, deletePreset }: Props)
                 onChange={(e) => setPresetName(e.target.value)}
                 placeholder="Enter preset name"
             />
-            <button onClick={() => savePreset(presetName)}>Save Preset</button>
+            <button className="btn btn-primary" onClick={() => savePreset(presetName)}>Save Preset</button>
 
             <ul>
                 {presets.map((preset) => (

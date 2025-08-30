@@ -21,15 +21,15 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
     return (
         <div>
             <div>
-                <button onClick={() => toggleAllCases(true)}>All</button>
-                <button onClick={() => toggleAllCases(false)}>None</button>
+                <button className="btn btn-success" onClick={() => toggleAllCases(true)}>All</button>
+                <button className="btn btn-danger" onClick={() => toggleAllCases(false)}>None</button>
             </div>
             {Object.entries(groupedCases).map(([setName, setCases]) => (
                 <div key={setName}>
                     <h3>{setName}</h3>
                     <div>
-                        <button onClick={() => toggleCasesInSet(setName, true)}>All</button>
-                        <button onClick={() => toggleCasesInSet(setName, false)}>None</button>
+                        <button className="btn btn-success" onClick={() => toggleCasesInSet(setName, true)}>All</button>
+                        <button className="btn btn-danger" onClick={() => toggleCasesInSet(setName, false)}>None</button>
                     </div>
                     {setCases.map((c) => (
                         <CaseItem key={c.id} c={c} toggleCase={toggleCase} />

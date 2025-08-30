@@ -87,7 +87,7 @@ function Trainer({ algset, data }: Props) {
     }, [algset, presets]);
 
     return (
-        <>
+        <div className="bg-app-body-dark text-app-text-dark">
             <Link to={onTimerPage ? '..' : 'timer'} relative="path">
                 {onTimerPage ? 'Select' : 'Start'}
             </Link>
@@ -118,7 +118,7 @@ function Trainer({ algset, data }: Props) {
                 />
                 <Route path="*" element={"Page Not Found"} />
             </Routes>
-        </>
+        </div>
     )
 }
 
