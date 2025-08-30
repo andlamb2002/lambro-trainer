@@ -10,8 +10,8 @@ function PresetItem({ preset, onLoad, onDelete }: Props) {
     return (
         <li>
             <span
+                className="link"
                 onClick={() => onLoad(preset)}
-                style={{ cursor: 'pointer' }}
             >
                 {preset.name} ({preset.cases.length})
             </span>{' '}

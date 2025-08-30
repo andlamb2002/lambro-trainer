@@ -37,6 +37,6 @@
     }
 
     .link {
-        @apply text-app-text-dark underline hover:text-app-text-dark/60 hover:cursor-pointer;
+        @apply text-app-text-dark hover:underline hover:text-app-text-dark/60 hover:cursor-pointer;
     }
 }
