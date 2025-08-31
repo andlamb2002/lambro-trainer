@@ -30,21 +30,20 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
 
     return (
         <div className="px-4">
-            <div className="flex justify-between">
-                <div className="flex gap-2 items-end">
-                    <h2 className="text-xl font-bold underline">Case Selection</h2>
-                    <button className="btn btn-success" onClick={() => toggleAllCases(true)}>All</button>
-                    <button className="btn btn-danger" onClick={() => toggleAllCases(false)}>None</button>
-                </div>
+            <div className="flex flex-col gap-2 sm:flex-row sm:justify-between sm:gap-0">
                 <button
-                    className="btn btn-primary flex items-center gap-1 text-2xl font-bold px-4 py-2"
+                    className="order-1 sm:order-2 btn btn-primary flex items-center gap-1 text-2xl font-bold w-auto self-start sm:self-auto px-2 py-1 sm:px-4 sm:py-2"
                     onClick={() => navigate("timer")}
                 >
                     Train
                     <MdArrowForward size={24} />
                 </button>
+                <div className="order-2 sm:order-1 flex gap-2 items-end">
+                    <h2 className="text-xl font-bold underline">Case Selection</h2>
+                    <button className="btn btn-success" onClick={() => toggleAllCases(true)}>All</button>
+                    <button className="btn btn-danger" onClick={() => toggleAllCases(false)}>None</button>
+                </div>
             </div>
-            
             
             {Object.entries(groupedCases).map(([setName, setCases]) => (
                 <div key={setName}>
@@ -55,7 +54,7 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
                             <button className="btn btn-danger" onClick={() => toggleCasesInSet(setName, false)}>None</button>
                         </div>
                     </div>
-                    <div className="grid grid-cols-10 justify-start" >
+                    <div className="grid grid-cols-4 sm:grid-cols-8 lg:grid-cols-10 justify-start" >
                         {setCases.map((c) => (
                             <CaseItem key={c.id} c={c} toggleCase={toggleCase} />
                         ))}

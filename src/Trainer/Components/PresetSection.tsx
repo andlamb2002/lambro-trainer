@@ -23,7 +23,7 @@ function PresetSection({ presets, savePreset, loadPreset, deletePreset }: Props)
             <h2 className="text-xl font-bold underline">Presets</h2>
             <div className="flex gap-2 pt-2">
                 <input
-                    className="flex-grow bg-secondary placeholder:text-text/60 rounded shadow-md px-2 py-1 focus:outline-none"
+                    className="min-w-0 flex-grow bg-secondary placeholder:text-text/60 rounded shadow-md px-2 py-1 focus:outline-none"
                     type="text"
                     value={presetName}
                     onChange={(e) => setPresetName(e.target.value)}

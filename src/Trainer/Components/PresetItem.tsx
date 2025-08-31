@@ -11,7 +11,7 @@ interface Props {
 function PresetItem({ preset, onLoad, onDelete }: Props) {
     return (
         <li 
-            className="group flex justify-between items-center bg-secondary p-2 rounded shadow-md cursor-pointer hover:bg-secondary/60"
+            className="flex justify-between items-center bg-secondary p-2 rounded shadow-md cursor-pointer hover:bg-secondary/60"
             onClick={() => onLoad(preset)}
         >
             <div>
