@@ -21,6 +21,9 @@
 }
 
 @layer base {
+    html, body {
+        @apply bg-primary;
+    }
     * {
         @apply font-sans;
     }
@@ -50,8 +53,10 @@
     .scrollbar-hide::-webkit-scrollbar {
         display: none;
     }
-        .scrollbar-hide {
+
+    .scrollbar-hide {
         -ms-overflow-style: none;
         scrollbar-width: none;
     }
+    
 }

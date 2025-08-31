@@ -9,11 +9,11 @@ interface Props {
 
 function Header({ darkMode, setDarkMode }: Props) {
     return (
-        <header className="flex items-center justify-between bg-secondary p-4 shadow-lg">
+        <header className="flex items-center justify-between bg-secondary p-6 shadow-lg">
             <div className="text-2xl font-bold">
                 Lambro Trainer
             </div>
-            <div className="flex items-center gap-4 pr-4">
+            <div className="flex items-center gap-4">
                 <nav className="flex gap-4">
                     <Link to="/pll" className="link">PLL</Link>
                     <Link to="/oll" className="link">OLL</Link>

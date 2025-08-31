@@ -25,7 +25,7 @@ function App() {
     }, [darkMode]);
 
 return (
-        <div className="flex flex-col min-h-screen bg-primary text-text">
+        <div className="flex flex-col min-h-screen bg-primary text-text scrollbar-hide">
             <Header 
                 darkMode={darkMode}
                 setDarkMode={setDarkMode}

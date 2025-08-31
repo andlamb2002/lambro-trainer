@@ -29,7 +29,7 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
     }
 
     return (
-        <div>
+        <div className="px-4">
             <div className="flex justify-between">
                 <div className="flex gap-2 items-end">
                     <h2 className="text-xl font-bold underline">Case Selection</h2>

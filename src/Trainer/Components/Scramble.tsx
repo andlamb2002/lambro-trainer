@@ -18,7 +18,7 @@ function Scramble({ currentScramble, recapMode, recapQueue, recapIndex, toggleRe
 
 
     return (
-        <div className="flex justify-between items-center mb-4">
+        <div className="flex justify-between items-center mb-4 px-4">
             <div className="flex items-center gap-8">
                 <button
                     className="btn btn-primary flex items-center gap-1 text-2xl font-bold px-4 py-2"

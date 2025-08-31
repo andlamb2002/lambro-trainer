@@ -37,7 +37,7 @@ function SolvesList({ solves, setSelectedSolve, deleteSolve, deleteAllSolves }: 
                 className="btn btn-danger w-full"
                 onClick={() => deleteAllSolves()} 
             >
-                Delete All Solves
+                Delete All
             </button>
         </div>
     )
