@@ -56,12 +56,11 @@ function TimerPage({ cases, algset }: Props) {
     const deleteSolve = useCallback((solve: Solve) => {
         if (window.confirm(`Delete solve?`)) {
             setSolves(prev => {
-                const updated = prev.filter(s => s !== solve);
+                const updated = prev.filter(s => s.id !== solve.id);
 
-                if (selectedSolve === solve) {
+                if (selectedSolve?.id === solve.id) {
                     setSelectedSolve(updated.length > 0 ? updated[updated.length - 1] : null);
                 }
-
                 return updated;
             });
         }
