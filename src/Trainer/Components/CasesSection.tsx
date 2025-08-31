@@ -37,7 +37,7 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
                     <button className="btn btn-danger" onClick={() => toggleAllCases(false)}>None</button>
                 </div>
                 <button
-                    className="btn btn-primary flex items-center gap-2 text-2xl font-bold px-4 py-2"
+                    className="btn btn-primary flex items-center gap-1 text-2xl font-bold px-4 py-2"
                     onClick={() => navigate("timer")}
                 >
                     Train
