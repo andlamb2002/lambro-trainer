@@ -102,13 +102,15 @@ function TimerPage({ cases, algset }: Props) {
     useEffect(() => {
     const handleHotkeys = (e: KeyboardEvent) => {
         if (e.altKey && e.key.toLowerCase() === 'z') {
-        if (selectedSolve) {
-            deleteSolve(selectedSolve);
-        }
+            if (selectedSolve) {
+                e.preventDefault();
+                deleteSolve(selectedSolve);
+            }
         }
 
         if (e.altKey && e.key.toLowerCase() === 'd') {
-        deleteAllSolves();
+            e.preventDefault();
+            deleteAllSolves();
         }
     };
 
