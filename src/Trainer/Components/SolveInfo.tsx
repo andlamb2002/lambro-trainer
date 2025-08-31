@@ -11,7 +11,7 @@ function SolveInfo({ selectedSolve, deleteSolve }: Props) {
     if (!selectedSolve) return null;
 
     return (
-        <div className="bg-secondary rounded shadow-md p-4">
+        <div className="bg-secondary rounded shadow-md p-4 mx-4">
             <div className="flex justify-between items-center">
                 <div className="text-xl font-bold">
                     {(selectedSolve.time / 1000).toFixed(2)}
