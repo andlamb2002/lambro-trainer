@@ -133,6 +133,7 @@ function TimerPage({ cases, algset }: Props) {
                     <SolvesList 
                         solves={solves}
                         setSelectedSolve={setSelectedSolve}
+                        deleteSolve={deleteSolve}
                         deleteAllSolves={deleteAllSolves}
                     />
                 </div>
