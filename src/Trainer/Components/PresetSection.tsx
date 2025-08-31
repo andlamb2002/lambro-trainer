@@ -19,7 +19,7 @@ function PresetSection({ presets, savePreset, loadPreset, deletePreset }: Props)
     };
 
     return (
-        <div className="px-4">
+        <div className="sm:px-4 pt-2 sm:pt-0">
             <h2 className="text-xl font-bold underline">Presets</h2>
             <div className="flex gap-2 pt-2">
                 <input

@@ -29,7 +29,7 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
     }
 
     return (
-        <div className="px-4">
+        <div className="sm:px-4">
             <div className="flex flex-col gap-2 sm:flex-row sm:justify-between sm:gap-0">
                 <button
                     className="order-1 sm:order-2 btn btn-primary flex items-center gap-1 text-2xl font-bold w-auto self-start sm:self-auto px-2 py-1 sm:px-4 sm:py-2"
