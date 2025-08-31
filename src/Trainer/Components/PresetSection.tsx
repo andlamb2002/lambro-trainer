@@ -20,7 +20,8 @@ function PresetSection({ presets, savePreset, loadPreset, deletePreset }: Props)
 
     return (
         <div className="px-4">
-            <div className="flex gap-2">
+            <h2 className="text-xl font-bold underline">Presets</h2>
+            <div className="flex gap-2 pt-2">
                 <input
                     className="flex-grow bg-secondary placeholder:text-text/60 rounded shadow-md px-2 py-1 focus:outline-none"
                     type="text"
