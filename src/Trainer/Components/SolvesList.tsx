@@ -19,12 +19,12 @@ function SolvesList({ solves, setSelectedSolve, deleteSolve, deleteAllSolves }: 
     const sortedSolves = [...solves].map((s, i) => ({ ...s, index: i + 1 })).reverse();
 
     return (
-        <div className="flex flex-col h-full">
-            <div>
+        <div className="flex flex-col px-4">
+            <div className="text-xl">
                 <h3>Solves: {solves.length}</h3>
                 <h3>Mean: {mean}</h3>
             </div>
-            <ul className="flex-1 overflow-y-auto max-h-80 scrollbar-hide">
+            <ul className="flex-1 overflow-y-auto max-h-80 my-4 space-y-2 scrollbar-hide">
                 {sortedSolves.map((solve, index) => (
                     <SolveItem
                         key={index}
@@ -35,14 +35,12 @@ function SolvesList({ solves, setSelectedSolve, deleteSolve, deleteAllSolves }: 
                     />
                 ))}
             </ul>
-            <div>
-                <button 
-                    className="btn btn-danger w-full"
-                    onClick={() => deleteAllSolves()} 
-                >
-                    Delete All Solves
-                </button>
-            </div>
+            <button 
+                className="btn btn-danger w-full"
+                onClick={() => deleteAllSolves()} 
+            >
+                Delete All Solves
+            </button>
         </div>
     )
 }
