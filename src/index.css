@@ -21,9 +21,6 @@
 }
 
 @layer base {
-    /* html {
-        @apply text-xl;
-    } */
     * {
         @apply font-sans;
     }
@@ -31,7 +28,7 @@
 
 @layer components {
     .btn {
-        @apply rounded px-2 py-1 hover:cursor-pointer;
+        @apply rounded shadow-md px-2 py-1 hover:cursor-pointer;
     }
 
     .btn-primary {
