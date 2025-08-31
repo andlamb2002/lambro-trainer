@@ -3,18 +3,21 @@ import type { Solve } from '../interfaces';
 import { MdDelete } from 'react-icons/md';
 
 interface Props {
+    solves: Solve[];
     selectedSolve: Solve | null;
     deleteSolve: (solve: Solve) => void;
 }
 
-function SolveInfo({ selectedSolve, deleteSolve }: Props) {
+function SolveInfo({ solves, selectedSolve, deleteSolve }: Props) {
     if (!selectedSolve) return null;
+
+    const index = solves.findIndex(s => s.id === selectedSolve.id) + 1;
 
     return (
         <div className="bg-secondary rounded shadow-md p-4 mx-4">
             <div className="flex justify-between items-center">
                 <div className="text-xl font-bold">
-                    {(selectedSolve.time / 1000).toFixed(2)}
+                    {index}. {(selectedSolve.time / 1000).toFixed(2)}
                 </div>
                 <button
                     className="btn btn-danger p-1"

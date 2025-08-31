@@ -32,6 +32,8 @@ function TimerPage({ cases, algset }: Props) {
         return stored ? JSON.parse(stored) : [];
     });
 
+    const sortedSolves = [...solves].map((s, i) => ({ ...s, index: i + 1 }));
+
     const [selectedSolve, setSelectedSolve] = useState<Solve | null>(() => {
         const stored = localStorage.getItem(`${algset}_solves`);
         const parsed = stored ? JSON.parse(stored) : [];
@@ -130,7 +132,7 @@ function TimerPage({ cases, algset }: Props) {
             <div className="grid grid-cols-3">
                 <div className="col-span-1">
                     <SolvesList 
-                        solves={solves}
+                        solves={sortedSolves}
                         setSelectedSolve={setSelectedSolve}
                         deleteSolve={deleteSolve}
                         deleteAllSolves={deleteAllSolves}
@@ -151,6 +153,7 @@ function TimerPage({ cases, algset }: Props) {
                 </div>
                 <div className="col-span-1">
                     <SolveInfo 
+                        solves={sortedSolves}
                         selectedSolve={selectedSolve} 
                         deleteSolve={deleteSolve} 
                     />

@@ -16,8 +16,6 @@ function SolvesList({ solves, setSelectedSolve, deleteSolve, deleteAllSolves }: 
         ? (solves.reduce((sum, t) => sum + t.time, 0) / solves.length / 1000).toFixed(2)
         : '0.00';
 
-    const sortedSolves = [...solves].map((s, i) => ({ ...s, index: i + 1 })).reverse();
-
     return (
         <div className="flex flex-col px-4">
             <div className="text-xl">
@@ -25,10 +23,10 @@ function SolvesList({ solves, setSelectedSolve, deleteSolve, deleteAllSolves }: 
                 <h3>Mean: {mean}</h3>
             </div>
             <ul className="flex-1 overflow-y-auto max-h-80 my-4 space-y-2 scrollbar-hide">
-                {sortedSolves.map((solve, index) => (
+                {[...solves].reverse().map((solve, index) => (
                     <SolveItem
                         key={index}
-                        index={solve.index}
+                        index={solves.length - index}
                         solve={solve}
                         onSelect={(s) => setSelectedSolve(s)}
                         deleteSolve={deleteSolve}
