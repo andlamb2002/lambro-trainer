@@ -21,9 +21,9 @@
 }
 
 @layer base {
-    html {
+    /* html {
         @apply text-xl;
-    }
+    } */
     * {
         @apply font-sans;
     }

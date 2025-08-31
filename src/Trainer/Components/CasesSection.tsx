@@ -36,7 +36,7 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
             </button>
 
             <div className="flex gap-2">
-                <h2 className="text-3xl font-bold underline">Case Selection</h2>
+                <h2 className="text-xl font-bold underline">Case Selection</h2>
                 <button className="btn btn-success" onClick={() => toggleAllCases(true)}>All</button>
                 <button className="btn btn-danger" onClick={() => toggleAllCases(false)}>None</button>
             </div>
@@ -45,12 +45,12 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
                 <div key={setName}>
                     <div className="flex justify-between items-center py-4">
                         <div className="flex gap-2">
-                            <h3 className="text-2xl underline">{formatSetName(setName)}</h3>
+                            <h3 className="text-lg underline">{formatSetName(setName)}</h3>
                             <button className="btn btn-success" onClick={() => toggleCasesInSet(setName, true)}>All</button>
                             <button className="btn btn-danger" onClick={() => toggleCasesInSet(setName, false)}>None</button>
                         </div>
                     </div>
-                    <div className="grid grid-cols-8 justify-start" >
+                    <div className="grid grid-cols-10 justify-start" >
                         {setCases.map((c) => (
                             <CaseItem key={c.id} c={c} toggleCase={toggleCase} />
                         ))}
