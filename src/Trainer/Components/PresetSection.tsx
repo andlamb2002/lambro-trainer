@@ -19,17 +19,18 @@ function PresetSection({ presets, savePreset, loadPreset, deletePreset }: Props)
     };
 
     return (
-        <div>
-            <input
-                className="bg-secondary placeholder:text-text/60 rounded focus:outline-none"
-                type="text"
-                value={presetName}
-                onChange={(e) => setPresetName(e.target.value)}
-                placeholder="Enter preset name"
-            />
-            <button className="btn btn-primary" onClick={() => savePreset(presetName)}>Save Preset</button>
-
-            <ul>
+        <div className="px-4">
+            <div className="flex gap-2">
+                <input
+                    className="flex-grow bg-secondary placeholder:text-text/60 rounded shadow-md px-2 py-1 focus:outline-none"
+                    type="text"
+                    value={presetName}
+                    onChange={(e) => setPresetName(e.target.value)}
+                    placeholder="Enter preset name"
+                />
+                <button className="btn btn-primary" onClick={() => savePreset(presetName)}>Save Preset</button>
+            </div>
+            <ul className="flex flex-col gap-2 py-2">
                 {presets.map((preset) => (
                 <PresetItem
                     key={preset.name}

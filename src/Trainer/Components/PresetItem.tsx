@@ -1,5 +1,7 @@
 import type { Preset } from '../interfaces';
 
+import { MdDelete } from "react-icons/md";
+
 interface Props {
     preset: Preset;
     onLoad: (preset: Preset) => void;
@@ -8,14 +10,22 @@ interface Props {
 
 function PresetItem({ preset, onLoad, onDelete }: Props) {
     return (
-        <li>
-            <span
-                className="link"
-                onClick={() => onLoad(preset)}
-            >
+        <li 
+            className="group flex justify-between items-center bg-secondary p-2 rounded shadow-md cursor-pointer hover:bg-secondary/60"
+            onClick={() => onLoad(preset)}
+        >
+            <div>
                 {preset.name} ({preset.cases.length})
-            </span>{' '}
-            <button className="btn btn-danger" onClick={() => onDelete(preset.name)}>Delete</button>
+            </div>
+            <button 
+                className="btn btn-danger p-1" 
+                onClick={(e) => {
+                    e.stopPropagation();
+                    onDelete(preset.name);
+                }}
+            >
+                <MdDelete size={24} />
+            </button>
         </li>
     )
 }
