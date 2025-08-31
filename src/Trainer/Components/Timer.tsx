@@ -183,7 +183,9 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
 
     return (
         <>
-            <h1>{(time / 1000).toFixed(2)}</h1>
+            <h1 className="text-6xl text-center mt-8">
+                {(time / 1000).toFixed(2)}
+            </h1>
         </>
     );
 }
