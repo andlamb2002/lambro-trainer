@@ -24,7 +24,7 @@ function SolvesList({ solves, setSelectedSolve, deleteSolve, deleteAllSolves }: 
                 <h3>Solves: {solves.length}</h3>
                 <h3>Mean: {mean}</h3>
             </div>
-            <ul className="flex-1 overflow-y-auto">
+            <ul className="flex-1 overflow-y-auto max-h-80 scrollbar-hide">
                 {sortedSolves.map((solve, index) => (
                     <SolveItem
                         key={index}

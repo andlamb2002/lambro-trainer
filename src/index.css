@@ -46,4 +46,12 @@
     .link {
         @apply text-text hover:underline hover:text-text/60 hover:cursor-pointer;
     }
+
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+    }
+        .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
 }
