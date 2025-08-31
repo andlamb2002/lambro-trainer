@@ -17,12 +17,12 @@ function SolvesList({ solves, setSelectedSolve, deleteSolve, deleteAllSolves }: 
         : '0.00';
 
     return (
-        <div className="flex flex-col px-4">
-            <div className="text-xl">
+        <div className="flex flex-col sm:px-4 pr-1">
+            <div className="sm:text-xl">
                 <h3>Solves: {solves.length}</h3>
                 <h3>Mean: {mean}</h3>
             </div>
-            <ul className="flex-1 overflow-y-auto max-h-80 my-4 space-y-2 scrollbar-hide">
+            <ul className="flex-1 overflow-y-auto max-h-50 sm:max-h-80 my-4 space-y-2 scrollbar-hide">
                 {[...solves].reverse().map((solve, index) => (
                     <SolveItem
                         key={index}

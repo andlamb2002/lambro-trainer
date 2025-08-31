@@ -130,7 +130,7 @@ function TimerPage({ cases, algset }: Props) {
                 />
             }
             <div className="grid grid-cols-3">
-                <div className="col-span-1">
+                <div className="order-2 sm:order-1 col-span-1">
                     <SolvesList 
                         solves={sortedSolves}
                         setSelectedSolve={setSelectedSolve}
@@ -138,7 +138,7 @@ function TimerPage({ cases, algset }: Props) {
                         deleteAllSolves={deleteAllSolves}
                     />
                 </div>
-                <div className="col-span-1">
+                <div className="order-1 sm:order-2 col-span-3 sm:col-span-1">
                     <Timer 
                         cases={cases} 
                         onStop={handleOnStop}
@@ -151,7 +151,7 @@ function TimerPage({ cases, algset }: Props) {
                         onRecapIndexChange={setRecapIndex}
                     />
                 </div>
-                <div className="col-span-1">
+                <div className="order-3 col-span-2 sm:col-span-1">
                     <SolveInfo 
                         solves={sortedSolves}
                         selectedSolve={selectedSolve} 

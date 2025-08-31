@@ -19,7 +19,7 @@ function SolveItem({ index, solve, onSelect, deleteSolve }: Props) {
                 {index}. {(solve.time / 1000).toFixed(2)}
             </div>
             <button
-                className="btn btn-danger p-1"
+                className="hidden sm:block btn btn-danger p-1"
                 onClick={(e) => {
                     deleteSolve(solve);
                     e.stopPropagation(); 

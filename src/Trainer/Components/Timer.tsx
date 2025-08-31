@@ -49,7 +49,6 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
         const scrambleUsed = currentScrambleRef.current;
 
         const solve: Solve = {
-            // id: caseUsed.id,
             id: `${caseUsed.id}-${Date.now()}`,
             label: caseUsed.label,
             originalAlg: caseUsed.originalAlg,
@@ -184,7 +183,7 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
 
     return (
         <>
-            <h1 className="text-6xl text-center mt-8">
+            <h1 className="text-6xl text-center my-16 sm:my-8">
                 {(time / 1000).toFixed(2)}
             </h1>
         </>
