@@ -33,7 +33,7 @@ function SolveInfo({ solves, selectedSolve, deleteSolve }: Props) {
                 <img
                     src={selectedSolve.img}
                     alt={`Case ${selectedSolve.id}`}
-                    className="w-36 h-36 object-contain"
+                    className="w-24 h-24 sm:w-36 sm:h-36 object-contain"
                 />
             </div>
             <div className="select-text">

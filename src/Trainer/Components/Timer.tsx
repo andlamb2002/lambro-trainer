@@ -198,7 +198,7 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
     return (
         <>
             <h1 
-                className="text-6xl text-center py-16 sm:py-8"
+                className="bg-secondary sm:bg-primary text-6xl text-center rounded-xl shadow-lg sm:shadow-none m-2 py-8"
                 onTouchStart={handleTouchStart}
                 onTouchEnd={handleTouchEnd}
                 style={{ touchAction: "manipulation" }}

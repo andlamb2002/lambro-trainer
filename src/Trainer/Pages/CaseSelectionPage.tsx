@@ -16,7 +16,7 @@ interface Props {
 function CaseSelectionPage({ cases, toggleCase, toggleAllCases, toggleCasesInSet, presets, savePreset, loadPreset, deletePreset }: Props) {
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-3 px-2 py-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 px-2 py-2 sm:py-4">
             <div className="col-span-2">
                 <CasesSection 
                     cases={cases} 
