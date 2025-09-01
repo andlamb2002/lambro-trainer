@@ -1,18 +1,16 @@
 import { useNavigate } from 'react-router-dom';
 
-import type { Case } from '../interfaces';
-
 import { MdArrowBack } from "react-icons/md";
 
 interface Props {
     currentScramble: string;
     recapMode: boolean;
-    recapQueue: Case[];
-    recapIndex: number;
+    recapProgress: number;
+    recapTotal: number;
     toggleRecap: () => void;
 }
 
-function Scramble({ currentScramble, recapMode, recapQueue, recapIndex, toggleRecap }: Props) {
+function Scramble({ currentScramble, recapMode, recapProgress, recapTotal, toggleRecap }: Props) {
 
     const navigate = useNavigate();
 
@@ -32,7 +30,7 @@ function Scramble({ currentScramble, recapMode, recapQueue, recapIndex, toggleRe
                 <div className="sm:hidden flex items-center whitespace-nowrap gap-2">
                     {recapMode && (
                         <div>
-                            {recapIndex + 1} / {recapQueue.length}
+                            {recapProgress} / {recapTotal}
                         </div>
                     )}
                     <button className="btn btn-primary text-2xl font-bold px-2 py-1 sm:px-4 sm:py-2" onClick={toggleRecap}>
@@ -43,7 +41,7 @@ function Scramble({ currentScramble, recapMode, recapQueue, recapIndex, toggleRe
             <div className="hidden sm:flex items-center whitespace-nowrap gap-2">
                 {recapMode && (
                     <div>
-                        {recapIndex + 1} / {recapQueue.length}
+                        {recapProgress} / {recapTotal}
                     </div>
                 )}
                 <button className="btn btn-primary text-2xl font-bold px-2 py-1 sm:px-4 sm:py-2" onClick={toggleRecap}>

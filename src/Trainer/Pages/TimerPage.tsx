@@ -16,6 +16,8 @@ function TimerPage({ cases, algset }: Props) {
     const [recapQueue, setRecapQueue] = useState<Case[]>([]);
     const [recapMode, setRecapMode] = useState(false);
     const [recapIndex, setRecapIndex] = useState(0);
+    const [recapProgress, setRecapProgress] = useState(0);
+    const [recapTotal, setRecapTotal] = useState(0);
 
     const [currentCase, setCurrentCase] = useState<Case | null>(null);
     const [currentScramble, setCurrentScramble] = useState<string>('');
@@ -101,11 +103,14 @@ function TimerPage({ cases, algset }: Props) {
 
             if (next < recapQueue.length) {
                 setRecapIndex(next);
+                setRecapProgress(p => p + 1);
                 return recapQueue[next];
             }
 
             setRecapMode(false);
             setRecapIndex(0);
+            setRecapProgress(0);
+            setRecapTotal(0);
             setRecapQueue([]);
         }
         return getRandomCase(cases);
@@ -173,8 +178,33 @@ function TimerPage({ cases, algset }: Props) {
                 }
                 return updated;
             });
+
+            if (recapMode) {
+                const caseToReinsert = cases.find(c => c.label === solve.label);
+                if (!caseToReinsert) return;
+
+                const newScramble = getRandomScrambleFromCase(caseToReinsert);
+
+                const reinsertCase: Case = {
+                    ...caseToReinsert,
+                    scrambles: [newScramble],
+                };
+
+                setRecapQueue(prev => {
+                    if (prev.length === 0) return prev;
+
+                    const insertIndex = Math.floor(
+                    Math.random() * (prev.length - (recapIndex + 1) + 1)
+                    ) + (recapIndex + 1);
+
+                    const newQueue = [...prev];
+                    newQueue.splice(insertIndex, 0, reinsertCase);
+                    return newQueue;
+                });
+                setRecapProgress(p => Math.max(1, p - 1));
+            }
         }
-    }, [selectedSolve]);
+    }, [selectedSolve, recapMode, recapIndex, cases]);
 
     const deleteAllSolves = useCallback(() => {
         if (window.confirm('Delete all solves?')) {
@@ -268,6 +298,8 @@ function TimerPage({ cases, algset }: Props) {
             setRecapMode(false);
             setRecapQueue([]);
             setRecapIndex(0);
+            setRecapProgress(0);
+            setRecapTotal(0);
         } else {
             const shuffled = [...cases]
                 .sort(() => Math.random() - 0.5)
@@ -279,6 +311,8 @@ function TimerPage({ cases, algset }: Props) {
             setRecapQueue(shuffled);
             setRecapMode(true);
             setRecapIndex(0);
+            setRecapProgress(1);
+            setRecapTotal(shuffled.length);
         }
     };
 
@@ -288,8 +322,8 @@ function TimerPage({ cases, algset }: Props) {
                 <Scramble
                 currentScramble={currentScramble}
                 recapMode={recapMode}
-                recapQueue={recapQueue}
-                recapIndex={recapIndex}
+                recapProgress={recapProgress}
+                recapTotal={recapTotal}
                 toggleRecap={toggleRecap}
                 />
             )}
