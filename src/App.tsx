@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import Trainer from './Trainer/Trainer';
 import Header from './Trainer/Header';
+import Homepage from "./Homepage";
 
 import pllCases from './Trainer/Data/pll_cases.json';
 import ollCases from './Trainer/Data/oll_cases.json';
@@ -32,6 +33,7 @@ return (
             />
             <main className="flex-grow">
                 <Routes>
+                    <Route path="/" element={<Homepage />} />
                     <Route path="/pll/*" element={<Trainer key="pll" algset="pll" data={pllCases} />} />
                     <Route path="/oll/*" element={<Trainer key="oll" algset="oll" data={ollCases} />} />
                     <Route path="*" element={<div>Page not found</div>} />

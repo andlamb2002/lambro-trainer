@@ -11,7 +11,7 @@ function Header({ darkMode, setDarkMode }: Props) {
     return (
         <header className="flex items-center justify-between bg-secondary px-2 py-4 sm:p-6 shadow-lg">
             <div className="text-xl sm:text-2xl font-bold">
-                Lambro Trainer
+                  <Link to="/" className="link">Lambro Trainer</Link>
             </div>
             <div className="flex items-center gap-4">
                 <nav className="flex gap-4">
