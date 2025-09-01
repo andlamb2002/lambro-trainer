@@ -36,10 +36,10 @@ function SolveInfo({ solves, selectedSolve, deleteSolve }: Props) {
                     className="w-36 h-36 object-contain"
                 />
             </div>
-            <div>
+            <div className="select-text">
                 {selectedSolve.scramble}
             </div>
-            <div>
+            <div className="select-text">
                 Solution: {selectedSolve.originalAlg}
             </div>
         </div>

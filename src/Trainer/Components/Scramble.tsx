@@ -50,7 +50,7 @@ function Scramble({ currentScramble, recapMode, recapQueue, recapIndex, toggleRe
                     {recapMode ? 'End' : 'Recap'}
                 </button>
             </div>
-            <h3 className="sm:hidden font-bold text-2xl">
+            <h3 className="sm:hidden font-bold text-2xl select-text">
                 {currentScramble}
             </h3>
         </div>

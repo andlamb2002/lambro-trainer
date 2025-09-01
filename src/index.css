@@ -26,6 +26,7 @@
     }
     * {
         @apply font-sans;
+        @apply select-none sm:select-text;
     }
 }
 
