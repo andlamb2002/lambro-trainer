@@ -20,6 +20,9 @@ function TimerPage({ cases, algset }: Props) {
     const [currentCase, setCurrentCase] = useState<Case | null>(null);
     const [currentScramble, setCurrentScramble] = useState<string>('');
 
+    const [preStartHold, setPreStartHold] = useState(false);
+    const [postStopHold, setPostStopHold] = useState(false);
+
     const initial = useMemo(() => {
         const raw = localStorage.getItem(`${algset}_solves`);
         const solves = raw ? (JSON.parse(raw) as Solve[]) : [];
@@ -44,6 +47,9 @@ function TimerPage({ cases, algset }: Props) {
     const intervalIdRef = useRef<number | undefined>(undefined);
     const startTimeRef = useRef<number>(0);
     const hasStoppedRef = useRef<boolean>(false);
+
+    const hudHidden = preStartHold || postStopHold || isRunning;
+    const timerColorClass = preStartHold ? 'text-success' : postStopHold ? 'text-danger' : 'text-text';
 
     const getRandomCase = useCallback((src: Case[]): Case => {
         const i = Math.floor(Math.random() * src.length);
@@ -100,6 +106,7 @@ function TimerPage({ cases, algset }: Props) {
 
             setRecapMode(false);
             setRecapIndex(0);
+            setRecapQueue([]);
         }
         return getRandomCase(cases);
     }, [recapMode, recapIndex, recapQueue, cases, getRandomCase]);
@@ -194,36 +201,36 @@ function TimerPage({ cases, algset }: Props) {
         return () => window.removeEventListener('keydown', handleHotkeys);
     }, [selectedSolve, deleteSolve, deleteAllSolves]);
 
-    function isButtonOrLink(el: Element | null) {
+    function isInteractive(el: Element | null) {
         if (!(el instanceof HTMLElement)) return false;
 
-        const tag = el.tagName;
-        return tag === 'BUTTON' || tag === 'A';
+        const t = el.tagName;
+        return t === 'INPUT' || t === 'TEXTAREA' || t === 'SELECT' || t === 'BUTTON' || t === 'A' || el.isContentEditable;
     }
 
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
-            if (
-                document.activeElement instanceof HTMLElement &&
-                isButtonOrLink(document.activeElement)
-            ) {
+            if (isInteractive(document.activeElement)) return;
+
+            if (!isRunning && event.code === 'Space') {
+                setPreStartHold(true);
                 event.preventDefault();
             }
             if (isRunning) {
+                setPostStopHold(true);
                 stop();
             }
         };
 
         const handleKeyUp = (event: KeyboardEvent) => {
-            if (
-                document.activeElement instanceof HTMLElement &&
-                isButtonOrLink(document.activeElement)
-            ) {
-                event.preventDefault();
-            }
+            if (isInteractive(document.activeElement)) return;
+            
             if (event.code === 'Space' && !isRunning && !hasStoppedRef.current) {
                 start();
             }
+            setPreStartHold(false);
+            if (postStopHold) setPostStopHold(false);
+
             if (hasStoppedRef.current) {
                 hasStoppedRef.current = false;
             }
@@ -235,19 +242,25 @@ function TimerPage({ cases, algset }: Props) {
             document.removeEventListener('keydown', handleKeyDown);
             document.removeEventListener('keyup', handleKeyUp);
         };
-    }, [isRunning, start, stop]);
+    }, [isRunning, postStopHold, start, stop]);
 
     const handleTouchStart = () => {
-        if (isRunning) stop();
+        if (isRunning) {
+            setPostStopHold(true);
+            stop();
+        } else if (!hasStoppedRef.current) {
+            setPreStartHold(true);
+        }
     };
 
     const handleTouchEnd = () => {
         if (!isRunning && !hasStoppedRef.current) {
             start();
         }
-        if (hasStoppedRef.current) {
-            hasStoppedRef.current = false;
-        }
+        setPreStartHold(false);
+
+        if (postStopHold) setPostStopHold(false);
+        if (hasStoppedRef.current) hasStoppedRef.current = false;
     };
 
     const toggleRecap = () => {
@@ -282,7 +295,7 @@ function TimerPage({ cases, algset }: Props) {
             )}
 
             <div className="grid grid-cols-3">
-                <div className="order-2 sm:order-1 col-span-1">
+                <div className={`order-2 ${hudHidden ? 'invisible' : ''} sm:order-1 col-span-1`}>
                     <SolvesList
                         solves={sortedSolves}
                         setSelectedSolve={setSelectedSolve}
@@ -293,7 +306,7 @@ function TimerPage({ cases, algset }: Props) {
 
                 <div className="order-1 sm:order-2 col-span-3 sm:col-span-1">
                     <h1
-                        className="bg-secondary sm:bg-primary text-6xl text-center rounded-xl shadow-lg sm:shadow-none m-2 py-8 select-none"
+                        className={`bg-secondary sm:bg-primary ${timerColorClass} text-6xl text-center rounded-xl shadow-lg sm:shadow-none m-2 py-8 select-none`}
                         onTouchStart={handleTouchStart}
                         onTouchEnd={handleTouchEnd}
                         style={{ touchAction: 'manipulation' }}
@@ -302,7 +315,7 @@ function TimerPage({ cases, algset }: Props) {
                     </h1>
                 </div>
 
-                <div className="order-3 col-span-2 sm:col-span-1">
+                <div className={`order-3 ${hudHidden ? 'invisible' : ''} col-span-2 sm:col-span-1`}>
                     <SolveInfo
                         solves={sortedSolves}
                         selectedSolve={selectedSolve}
