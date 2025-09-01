@@ -16,6 +16,8 @@ function SolvesList({ solves, setSelectedSolve, deleteSolve, deleteAllSolves }: 
         ? (solves.reduce((sum, t) => sum + t.time, 0) / solves.length / 1000).toFixed(2)
         : '0.00';
 
+    const deleteHidden = solves.length === 0 ? 'invisible' : '';
+
     return (
         <div className="flex flex-col sm:px-4 pr-1">
             <div className="sm:text-xl">
@@ -34,7 +36,7 @@ function SolvesList({ solves, setSelectedSolve, deleteSolve, deleteAllSolves }: 
                 ))}
             </ul>
             <button 
-                className="btn btn-danger w-full"
+                className={`${deleteHidden} btn btn-danger w-full`}
                 onClick={() => deleteAllSolves()} 
             >
                 Delete All
