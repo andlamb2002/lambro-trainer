@@ -43,15 +43,7 @@ function TimerPage({ cases, algset }: Props) {
 
     const intervalIdRef = useRef<number | undefined>(undefined);
     const startTimeRef = useRef<number>(0);
-    const isRunningRef = useRef<boolean>(false);
     const hasStoppedRef = useRef<boolean>(false);
-
-    const currentCaseRef = useRef<Case | null>(null);
-    const currentScrambleRef = useRef<string>('');
-
-    const recapModeRef = useRef<boolean>(false);
-    const recapQueueRef = useRef<Case[]>([]);
-    const recapIndexRef = useRef<number>(0);
 
     const getRandomCase = useCallback((src: Case[]): Case => {
         const i = Math.floor(Math.random() * src.length);
@@ -74,9 +66,6 @@ function TimerPage({ cases, algset }: Props) {
         const chosen = getRandomScrambleFromCase(c);
         const withAUF = addRandomAUF(chosen);
 
-        currentCaseRef.current = c;
-        currentScrambleRef.current = withAUF;
-
         handleCaseChange(c, withAUF);
         return withAUF;
     }, [handleCaseChange]);
@@ -85,47 +74,51 @@ function TimerPage({ cases, algset }: Props) {
         setCaseAndScramble(c);
     }, [setCaseAndScramble]);
 
-    function start() {
-        if (cases.length === 0) return;
+    const start = useCallback(() => {
+        if (!cases.length) return;
+
+        if (!currentCase) {
+            const init = getRandomCase(cases);
+            setCaseAndScramble(init);
+        }
 
         setTime(0);
         setIsRunning(true);
         startTimeRef.current = Date.now();
-    }
+        
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [cases.length, currentCase, getRandomCase, setCaseAndScramble]);
 
-    function nextCaseAfterSolve(): Case {
-        if (recapModeRef.current) {
-            const next = recapIndexRef.current + 1;
+    const nextCaseAfterSolve = useCallback((): Case => {
+        if (recapMode) {
+            const next = recapIndex + 1;
 
-            if (next < recapQueueRef.current.length) {
-                recapIndexRef.current = next;
+            if (next < recapQueue.length) {
                 setRecapIndex(next);
-                return recapQueueRef.current[next];
+                return recapQueue[next];
             }
 
             setRecapMode(false);
-            recapIndexRef.current = 0;
             setRecapIndex(0);
         }
         return getRandomCase(cases);
-    }
+    }, [recapMode, recapIndex, recapQueue, cases, getRandomCase]);
 
-    function stop() {
+    const stop = useCallback(() => {
         setIsRunning(false);
         hasStoppedRef.current = true;
 
         const finalTime = Date.now() - startTimeRef.current;
         setTime(finalTime);
 
-        const caseUsed = currentCaseRef.current!;
-        const scrambleUsed = currentScrambleRef.current;
+        if (!currentCase) return; 
 
         const solve: Solve = {
-            id: `${caseUsed.id}-${Date.now()}`,
-            label: caseUsed.label,
-            originalAlg: caseUsed.originalAlg,
-            scramble: scrambleUsed,
-            img: caseUsed.img,
+            id: `${currentCase.id}-${Date.now()}`,
+            label: currentCase.label,
+            originalAlg: currentCase.originalAlg,
+            scramble: currentScramble,
+            img: currentCase.img,
             time: finalTime,
         };
 
@@ -133,8 +126,8 @@ function TimerPage({ cases, algset }: Props) {
         setSelectedSolve(solve);
 
         const next = nextCaseAfterSolve();
-        updateCurrentCase(next);
-    }
+        setCaseAndScramble(next);
+    }, [currentCase, currentScramble, nextCaseAfterSolve, setCaseAndScramble]);
 
     useEffect(() => {
         if (isRunning) {
@@ -151,10 +144,6 @@ function TimerPage({ cases, algset }: Props) {
     }, [isRunning]);
 
     useEffect(() => {
-        isRunningRef.current = isRunning;
-    }, [isRunning]);
-
-    useEffect(() => {
         if (cases.length > 0) {
             updateCurrentCase(getRandomCase(cases));
         }
@@ -166,10 +155,6 @@ function TimerPage({ cases, algset }: Props) {
             const first = recapQueue[0];
             setCaseAndScramble(first);
         }
-
-        recapModeRef.current = recapMode;
-        recapQueueRef.current = recapQueue;
-        recapIndexRef.current = recapIndex;
     }, [recapMode, recapQueue, recapIndex, setCaseAndScramble]);
 
     const deleteSolve = useCallback((solve: Solve) => {
@@ -224,7 +209,7 @@ function TimerPage({ cases, algset }: Props) {
             ) {
                 event.preventDefault();
             }
-            if (isRunningRef.current) {
+            if (isRunning) {
                 stop();
             }
         };
@@ -236,7 +221,7 @@ function TimerPage({ cases, algset }: Props) {
             ) {
                 event.preventDefault();
             }
-            if (event.code === 'Space' && !isRunningRef.current && !hasStoppedRef.current) {
+            if (event.code === 'Space' && !isRunning && !hasStoppedRef.current) {
                 start();
             }
             if (hasStoppedRef.current) {
@@ -250,15 +235,14 @@ function TimerPage({ cases, algset }: Props) {
             document.removeEventListener('keydown', handleKeyDown);
             document.removeEventListener('keyup', handleKeyUp);
         };
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, []);
+    }, [isRunning, start, stop]);
 
     const handleTouchStart = () => {
-        if (isRunningRef.current) stop();
+        if (isRunning) stop();
     };
 
     const handleTouchEnd = () => {
-        if (!isRunningRef.current && !hasStoppedRef.current) {
+        if (!isRunning && !hasStoppedRef.current) {
             start();
         }
         if (hasStoppedRef.current) {
