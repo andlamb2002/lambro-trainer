@@ -240,8 +240,10 @@ function TimerPage({ cases, algset }: Props) {
 
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
-            if (isInteractive(document.activeElement)) return;
-
+            const active = document.activeElement;
+            if (isInteractive(active) && event.code === 'Space') {
+                event.preventDefault();
+            }        
             if (!isRunning && event.code === 'Space') {
                 setPreStartHold(true);
                 event.preventDefault();
@@ -253,8 +255,10 @@ function TimerPage({ cases, algset }: Props) {
         };
 
         const handleKeyUp = (event: KeyboardEvent) => {
-            if (isInteractive(document.activeElement)) return;
-            
+            const active = document.activeElement;
+            if (isInteractive(active) && event.code === 'Space') {
+                event.preventDefault();
+            }        
             if (event.code === 'Space' && !isRunning && !hasStoppedRef.current) {
                 start();
             }
