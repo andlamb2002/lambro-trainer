@@ -14,16 +14,16 @@ interface Props {
 
 function TimerPage({ cases, algset }: Props) {
     const [recapQueue, setRecapQueue] = useState<Case[]>([]);
-    const [recapMode, setRecapMode] = useState(false);
-    const [recapIndex, setRecapIndex] = useState(0);
-    const [recapProgress, setRecapProgress] = useState(0);
-    const [recapTotal, setRecapTotal] = useState(0);
+    const [recapMode, setRecapMode] = useState<boolean>(false);
+    const [recapIndex, setRecapIndex] = useState<number>(0);
+    const [recapProgress, setRecapProgress] = useState<number>(0);
+    const [recapTotal, setRecapTotal] = useState<number>(0);
 
     const [currentCase, setCurrentCase] = useState<Case | null>(null);
     const [currentScramble, setCurrentScramble] = useState<string>('');
 
     const [preStartHold, setPreStartHold] = useState(false);
-    const [postStopHold, setPostStopHold] = useState(false);
+    const [postStopHold, setPostStopHold] = useState<boolean>(false);
 
     const initial = useMemo(() => {
         const raw = localStorage.getItem(`${algset}_solves`);
@@ -51,7 +51,7 @@ function TimerPage({ cases, algset }: Props) {
     const hasStoppedRef = useRef<boolean>(false);
 
     const hudHidden = preStartHold || postStopHold || isRunning;
-    const timerColorClass = preStartHold ? 'text-success' : postStopHold ? 'text-danger' : 'text-text';
+    const timerColorClass = preStartHold ? 'text-success' : postStopHold ? 'text-danger' : '';
 
     const getRandomCase = useCallback((src: Case[]): Case => {
         const i = Math.floor(Math.random() * src.length);
