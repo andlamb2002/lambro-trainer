@@ -140,6 +140,19 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
         recapIndexRef.current = recapIndex;
     }, [recapMode, recapQueue, recapIndex, setCaseAndScramble]);
 
+    const handleTouchStart = () => {
+        if (isRunningRef.current) stop();
+    };
+
+    const handleTouchEnd = () => {
+        if (!isRunningRef.current && !hasStoppedRef.current) {
+            start();
+        }
+        if (hasStoppedRef.current) {
+            hasStoppedRef.current = false;
+        }
+    };
+
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
             if (
@@ -183,7 +196,12 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
 
     return (
         <>
-            <h1 className="text-6xl text-center my-16 sm:my-8">
+            <h1 
+                className="text-6xl text-center py-16 sm:py-8"
+                onTouchStart={handleTouchStart}
+                onTouchEnd={handleTouchEnd}
+                style={{ touchAction: "manipulation" }}
+            >
                 {(time / 1000).toFixed(2)}
             </h1>
         </>
