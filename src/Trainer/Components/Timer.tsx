@@ -149,7 +149,7 @@ function Timer({ cases, onStop, getRandomCase, onCaseChange, recapMode, recapQue
             start();
         }
         if (hasStoppedRef.current) {
-            stop();
+            hasStoppedRef.current = false;
         }
     };
 
