@@ -52,6 +52,13 @@ function TimerPage({ cases, algset }: Props) {
 
     const hudHidden = preStartHold || postStopHold || isRunning;
     const timerColorClass = preStartHold ? 'text-success' : postStopHold ? 'text-danger' : '';
+    const hudClass = hudHidden
+        ? 'hidden sm:block sm:invisible'
+        : 'block';
+    const timerPanelClass = hudHidden
+        ? 'h-96' 
+        : '';
+    
 
     const getRandomCase = useCallback((src: Case[]): Case => {
         const i = Math.floor(Math.random() * src.length);
@@ -333,7 +340,7 @@ function TimerPage({ cases, algset }: Props) {
             )}
 
             <div className="grid grid-cols-3">
-                <div className={`order-2 ${hudHidden ? 'invisible' : ''} sm:order-1 col-span-1`}>
+                <div className={`order-2 ${hudClass} sm:order-1 col-span-1`}>
                     <SolvesList
                         solves={sortedSolves}
                         setSelectedSolve={setSelectedSolve}
@@ -344,7 +351,7 @@ function TimerPage({ cases, algset }: Props) {
 
                 <div className="order-1 sm:order-2 col-span-3 sm:col-span-1">
                     <h1
-                        className={`bg-secondary sm:bg-primary ${timerColorClass} text-6xl text-center rounded-xl shadow-lg sm:shadow-none m-2 py-8 select-none`}
+                        className={`bg-secondary sm:bg-primary ${timerColorClass} ${timerPanelClass} text-6xl text-center rounded-xl shadow-lg sm:shadow-none m-2 py-8 select-none`}
                         onTouchStart={handleTouchStart}
                         onTouchEnd={handleTouchEnd}
                         style={{ touchAction: 'manipulation' }}
@@ -353,7 +360,7 @@ function TimerPage({ cases, algset }: Props) {
                     </h1>
                 </div>
 
-                <div className={`order-3 ${hudHidden ? 'invisible' : ''} col-span-2 sm:col-span-1`}>
+                <div className={`order-3 ${hudClass} col-span-2 sm:col-span-1`}>
                     <SolveInfo
                         solves={sortedSolves}
                         selectedSolve={selectedSolve}
