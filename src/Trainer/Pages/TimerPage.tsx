@@ -56,7 +56,7 @@ function TimerPage({ cases, algset }: Props) {
         ? 'hidden sm:block sm:invisible'
         : 'block';
     const timerPanelClass = hudHidden
-        ? 'h-96' 
+        ? 'h-128' 
         : '';
     
 
@@ -351,7 +351,7 @@ function TimerPage({ cases, algset }: Props) {
 
                 <div className="order-1 sm:order-2 col-span-3 sm:col-span-1">
                     <h1
-                        className={`bg-secondary sm:bg-primary ${timerColorClass} ${timerPanelClass} text-6xl text-center rounded-xl shadow-lg sm:shadow-none m-2 py-8 select-none`}
+                        className={`bg-secondary sm:bg-primary ${timerColorClass} ${timerPanelClass} text-6xl text-center rounded-xl shadow-lg sm:shadow-none m-2 py-12 sm:py-8 select-none`}
                         onTouchStart={handleTouchStart}
                         onTouchEnd={handleTouchEnd}
                         style={{ touchAction: 'manipulation' }}
