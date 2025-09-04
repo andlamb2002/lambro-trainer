@@ -54,7 +54,7 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
                             <button className="btn btn-danger" onClick={() => toggleCasesInSet(setName, false)}>None</button>
                         </div>
                     </div>
-                    <div className="grid grid-cols-4 sm:grid-cols-8 lg:grid-cols-10 justify-start" >
+                    <div className="grid grid-cols-4 sm:grid-cols-8 lg:grid-cols-10 gap-1 justify-start" >
                         {setCases.map((c) => (
                             <CaseItem key={c.id} c={c} toggleCase={toggleCase} />
                         ))}
