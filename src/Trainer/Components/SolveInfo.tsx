@@ -9,7 +9,13 @@ interface Props {
 }
 
 function SolveInfo({ solves, selectedSolve, deleteSolve }: Props) {
-    if (!selectedSolve) return null;
+    if (!selectedSolve) {
+        return (
+            <div className="bg-secondary text-xl font-bold rounded shadow-md p-4 ml-1 sm:ml-0 sm:mr-4">
+                No solves
+            </div>
+        );
+    }
 
     const index = solves.findIndex(s => s.id === selectedSolve.id) + 1;
 
