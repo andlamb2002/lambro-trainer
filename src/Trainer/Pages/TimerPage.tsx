@@ -52,12 +52,16 @@ function TimerPage({ cases, algset }: Props) {
 
     const hudHidden = preStartHold || postStopHold || isRunning;
     const timerColorClass = preStartHold ? 'text-success' : postStopHold ? 'text-danger' : '';
-    const hudClass = hudHidden
-        ? 'hidden sm:block sm:invisible'
-        : 'block';
-    const timerPanelClass = hudHidden
-        ? 'h-128' 
-        : '';
+    // const hudClass = hudHidden
+    //     ? 'hidden sm:block sm:invisible'
+    //     : 'block';
+    const hudClass = hudHidden ? 'hidden' : 'block';
+    const gridClass = hudHidden
+        ? 'grid grid-cols-1'
+        : 'grid grid-cols-3';
+    const timerWrapperClass = hudHidden
+        ? "col-span-1"
+        : "col-span-3 sm:col-span-1";
     
 
     const getRandomCase = useCallback((src: Case[]): Case => {
@@ -339,7 +343,7 @@ function TimerPage({ cases, algset }: Props) {
                 />
             )}
 
-            <div className="grid grid-cols-3">
+            <div className={`grid ${gridClass} h-full`}>
                 <div className={`order-2 ${hudClass} sm:order-1 col-span-1`}>
                     <SolvesList
                         solves={sortedSolves}
@@ -349,9 +353,9 @@ function TimerPage({ cases, algset }: Props) {
                     />
                 </div>
 
-                <div className="order-1 sm:order-2 col-span-3 sm:col-span-1">
+                <div className={`${timerWrapperClass} order-1 sm:order-2 h-full`}>
                     <h1
-                        className={`bg-secondary sm:bg-primary ${timerColorClass} ${timerPanelClass} text-6xl text-center rounded-xl shadow-lg sm:shadow-none m-2 py-12 sm:py-8 select-none`}
+                        className={`bg-red-500 ${timerColorClass} sm:h-full text-6xl text-center py-12 sm:py-8 select-none`}
                         onTouchStart={handleTouchStart}
                         onTouchEnd={handleTouchEnd}
                         style={{ touchAction: 'manipulation' }}

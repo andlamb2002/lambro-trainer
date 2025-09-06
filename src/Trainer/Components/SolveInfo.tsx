@@ -14,7 +14,7 @@ function SolveInfo({ solves, selectedSolve, deleteSolve }: Props) {
     const index = solves.findIndex(s => s.id === selectedSolve.id) + 1;
 
     return (
-        <div className="bg-secondary rounded shadow-md p-4 ml-1 sm:mx-4">
+        <div className="bg-secondary rounded shadow-md p-4 ml-1 sm:ml-0 sm:mr-4">
             <div className="flex justify-between items-center">
                 <div className="text-xl font-bold">
                     {index}. {(selectedSolve.time / 1000).toFixed(2)}
