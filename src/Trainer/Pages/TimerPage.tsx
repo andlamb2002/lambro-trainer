@@ -353,7 +353,7 @@ function TimerPage({ cases, algset }: Props) {
 
                 <div className={`${timerWrapperClass} order-1 sm:order-2 h-full`}>
                     <h1
-                        className={`bg-red-500 ${timerColorClass} ${timerHeightClass} sm:h-112 text-6xl text-center py-12 sm:py-8 select-none`}
+                        className={`${timerColorClass} ${timerHeightClass} sm:h-112 text-6xl text-center py-12 sm:py-8 select-none`}
                         onTouchStart={handleTouchStart}
                         onTouchEnd={handleTouchEnd}
                         style={{ touchAction: 'manipulation' }}
