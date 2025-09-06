@@ -52,9 +52,7 @@ function TimerPage({ cases, algset }: Props) {
 
     const hudHidden = preStartHold || postStopHold || isRunning;
     const timerColorClass = preStartHold ? 'text-success' : postStopHold ? 'text-danger' : '';
-    // const hudClass = hudHidden
-    //     ? 'hidden sm:block sm:invisible'
-    //     : 'block';
+    const timerHeightClass = hudHidden ? 'h-112' : '';
     const hudClass = hudHidden ? 'hidden' : 'block';
     const gridClass = hudHidden
         ? 'grid grid-cols-1'
@@ -355,7 +353,7 @@ function TimerPage({ cases, algset }: Props) {
 
                 <div className={`${timerWrapperClass} order-1 sm:order-2 h-full`}>
                     <h1
-                        className={`bg-red-500 ${timerColorClass} sm:h-full text-6xl text-center py-12 sm:py-8 select-none`}
+                        className={`bg-red-500 ${timerColorClass} ${timerHeightClass} sm:h-112 text-6xl text-center py-12 sm:py-8 select-none`}
                         onTouchStart={handleTouchStart}
                         onTouchEnd={handleTouchEnd}
                         style={{ touchAction: 'manipulation' }}
