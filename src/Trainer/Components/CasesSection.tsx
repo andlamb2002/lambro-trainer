@@ -49,7 +49,7 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
                 <div key={setName}>
                     <div className="flex justify-between items-center py-4">
                         <div className="flex gap-2 items-end">
-                            <h3 className="text-lg underline">{formatSetName(setName)}</h3>
+                            <h3 className="text-lg">{formatSetName(setName)}</h3>
                             <button className="btn btn-success" onClick={() => toggleCasesInSet(setName, true)}>All</button>
                             <button className="btn btn-danger" onClick={() => toggleCasesInSet(setName, false)}>None</button>
                         </div>

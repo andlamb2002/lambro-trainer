@@ -6,12 +6,13 @@ interface Props {
 }
 
 function CaseItem({ c, toggleCase }: Props) {
+
+    const bgClass = c.enabled ? "bg-success" : "";
+
     return (
         <div 
             onClick={() => toggleCase(c.id)}
-            className={`aspect-square flex items-center justify-center rounded cursor-pointer ${
-                c.enabled ? "bg-success" : ""
-            }`}
+            className={`aspect-square flex items-center justify-center rounded cursor-pointer hover:opacity-60 ${bgClass}`}
         >
             <img
                 src={c.img}
