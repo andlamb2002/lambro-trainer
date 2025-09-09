@@ -72,7 +72,7 @@ def generate_case(case_id: str, label: str, scrambles: list[str],
     if img_stage == "oll":
         case["img"] = f"https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage={img_stage}&bg=t&case={original_alg.replace(' ','')}"
     elif img_stage:
-        case["img"] = f"https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage={img_stage}&bg=t&case={scrambles[0].replace(' ','')}"
+        case["img"] = f"https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage={img_stage}&bg=t&alg={scrambles[0].replace(' ','')}"
     return case
 
 def generate_scramble(pll, auf, inv_oll):
