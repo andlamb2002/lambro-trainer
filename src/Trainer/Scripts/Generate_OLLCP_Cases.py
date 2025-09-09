@@ -1,12 +1,6 @@
 from utils import load_json, save_json,invert_alg, get_auf_moves, generate_case, generate_scramble
 
 def subset_from_pll_and_auf(pll_item: dict, auf: str) -> int:
-    """
-    Map (PLL set, AUF) -> OLLCP subset 1..6
-      1: edges-only PLLs (skip/H/Ua/Ub/Z)
-      2: diagonal-swap PLLs (E/Na/Nb/V/Y)
-      3..6: adjacent-swap PLLs bucketed by AUF: "" -> 3, U2 -> 4, U -> 5, U' -> 6
-    """
     pll_set = pll_item.get("set", "")
     if pll_set == "edges_only":
         return 1
@@ -25,12 +19,10 @@ def process_ollcp(oll_data: list[dict], pll_data: list[dict]):
     counter = 1
 
     for oll in oll_data:
-        # Skip the terminal "skip" OLL record if present
         if oll["label"].lower() == "skip":
             continue
 
         inv_oll = invert_alg(oll["scramble"])
-        # Collect scrambles by subset
         buckets = {i: [] for i in range(1, 7)}
 
         for pll in pll_data:
@@ -40,11 +32,9 @@ def process_ollcp(oll_data: list[dict], pll_data: list[dict]):
                 scramble = invert_alg(generate_scramble(pll, auf, inv_oll))
                 buckets[subset].append(scramble)
 
-        # Optional sanity check / log
         counts = {k: len(v) for k, v in buckets.items()}
         print(f"OLL {counter:02d} '{oll['label']}': subset counts {counts}")
 
-        # Emit 6 OLLCP cases
         for subset in range(1, 7):
             case_id = f"OLL{counter:02d}_{subset:02d}"
             label = f"{counter:02d}_{subset:02d}_{oll['label']}"
@@ -53,10 +43,9 @@ def process_ollcp(oll_data: list[dict], pll_data: list[dict]):
                 label=label,
                 scrambles=buckets[subset],
                 original_alg=oll["scramble"],
-                img_stage="coll",            # <— per your requirement
-                set_name=oll["set"]          # keep OLL's shape set (dot, l_shape, line, cross)
+                img_stage="coll",
+                set_name=oll["set"]
             )
-            # Add the new OLLCP field
             case["subset"] = subset
             cases.append(case)
 

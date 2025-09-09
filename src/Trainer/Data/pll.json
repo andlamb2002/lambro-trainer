@@ -7,12 +7,12 @@
     {
         "set": "adj_swap",
         "label": "Aa",
-        "scramble": "U x R' U R' D2 R U' R' D2 R2 x'"
+        "scramble": "U x R' U R' D2 R U' R' D2 R2 x' U2"
     },
     {
         "set": "adj_swap",
         "label": "Ab",
-        "scramble": "U2 x R2 D2 R U R' D2 R U' R x'"
+        "scramble": "U2 x R2 D2 R U R' D2 R U' R x' U'"
     },
     {
         "set": "diag_swap",
@@ -57,7 +57,7 @@
     {
         "set": "adj_swap",
         "label": "Jb",
-        "scramble": "R U R' F' R U R' U' R' F R2 U' R'"
+        "scramble": "R U R' F' R U R' U' R' F R2 U' R' U'"
     },
     {
         "set": "diag_swap",
