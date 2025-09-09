@@ -49,6 +49,7 @@ function TimerPage({ cases, algset }: Props) {
     const intervalIdRef = useRef<number | undefined>(undefined);
     const startTimeRef = useRef<number>(0);
     const hasStoppedRef = useRef<boolean>(false);
+    const recapUndoRef = useRef<string | null>(null);
 
     const hudHidden = preStartHold || postStopHold || isRunning;
     const timerColorClass = preStartHold ? 'text-success' : postStopHold ? 'text-danger' : '';
@@ -120,6 +121,7 @@ function TimerPage({ cases, algset }: Props) {
             setRecapProgress(0);
             setRecapTotal(0);
             setRecapQueue([]);
+            recapUndoRef.current = null;
         }
         return getRandomCase(cases);
     }, [recapMode, recapIndex, recapQueue, cases, getRandomCase]);
@@ -145,9 +147,15 @@ function TimerPage({ cases, algset }: Props) {
         setSolves(prev => [...prev, solve]);
         setSelectedSolve(solve);
 
+        if (recapMode) {
+            recapUndoRef.current = solve.id;
+        } else {
+            recapUndoRef.current = null;
+        }
+
         const next = nextCaseAfterSolve();
         setCaseAndScramble(next);
-    }, [currentCase, currentScramble, nextCaseAfterSolve, setCaseAndScramble]);
+    }, [currentCase, currentScramble, recapMode, nextCaseAfterSolve, setCaseAndScramble]);
 
     useEffect(() => {
         if (isRunning) {
@@ -187,7 +195,7 @@ function TimerPage({ cases, algset }: Props) {
                 return updated;
             });
 
-            if (recapMode) {
+            if (recapMode && recapUndoRef.current === solve.id) {
                 const caseToReinsert = cases.find(c => c.label === solve.label);
                 if (!caseToReinsert) return;
 
@@ -325,6 +333,7 @@ function TimerPage({ cases, algset }: Props) {
             setRecapIndex(0);
             setRecapProgress(1);
             setRecapTotal(shuffled.length);
+            recapUndoRef.current = null;
         }
     };
 
