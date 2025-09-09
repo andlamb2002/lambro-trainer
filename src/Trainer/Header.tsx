@@ -19,6 +19,7 @@ function Header({ darkMode, setDarkMode }: Props) {
                 <nav className="flex gap-4">
                     <Link to="/pll" className="link">PLL</Link>
                     <Link to="/oll" className="link">OLL</Link>
+                    <Link to="/ollcp" className="link">OLLCP</Link>
                 </nav>
                 <button
                     onClick={() => setDarkMode(!darkMode)}
