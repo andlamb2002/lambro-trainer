@@ -18,7 +18,7 @@
       "F2 U R2 U F2 U' R2 U' F2 U R' B' R2 B U2 R U2 F R F'",
       "U2 F2 U F2 U' F2 L2 D L2 U2 F' R U R' L' U2 L2 F' D' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RU2R2FRF'U2R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2DF2DF2D2B2U'L2ULBL2B'FR'FRF2L'",
     "enabled": true,
     "subset": 1
   },
@@ -41,7 +41,7 @@
       "U' F2 D F2 R2 U R2 F2 D' B L' F L' B' L' U2 L F",
       "B2 U' R2 D B2 L2 D' L2 F2 L2 B' R F' R B R U2 R' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RU2R2FRF'U2R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=DL2U'F2UF2L2U'FRUR'L'U2L2F'D'L'",
     "enabled": true,
     "subset": 2
   },
@@ -64,7 +64,7 @@
       "F2 D' L2 B2 F2 D' R2 U F2 U' F' R' B R' F' R' U2 R B D",
       "L2 D L2 U2 F2 D R2 U2 R2 D' F' R U R' L' U2 L2 F' D' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RU2R2FRF'U2R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2UL2UB2R2DB2FUB'R'U'R2U2BUF'",
     "enabled": true,
     "subset": 3
   },
@@ -87,7 +87,7 @@
       "U' D F2 D' L2 F2 U' B2 R2 D' F R' B R' F' R' U2 R B",
       "D2 R2 U2 F2 L2 B2 D2 F2 D2 R' U2 L2 F L' F2 R2 U2 F' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RU2R2FRF'U2R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D2R2DR2D2FRUR'L'U2L2F'D'L'",
     "enabled": true,
     "subset": 4
   },
@@ -110,7 +110,7 @@
       "B2 L2 U' B2 U L2 B2 L B L2 B' F R' F R F2 L'",
       "B2 U2 R2 B2 U F2 L2 D' B2 D2 L B' L F L' U2 L B' U2 F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RU2R2FRF'U2R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2UR2F2L2B2D'B2D2LB'D2LF'R2B2RB2F'",
     "enabled": true,
     "subset": 5
   },
@@ -133,7 +133,7 @@
       "F2 U' F2 R2 U2 F2 U' R2 U R2 F' R F' U2 R L F R F' L'",
       "B2 D2 F2 D F2 D B2 U R2 B' R' B U2 R' L' B' R' B L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RU2R2FRF'U2R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2DR2UL2B2U'R2DLF2D2B'U2L'BLB2R'",
     "enabled": true,
     "subset": 6
   },
@@ -156,7 +156,7 @@
       "R2 U' R2 F2 D' L2 F2 D2 B2 U L F R U2 F' R U2 L' D'",
       "U' B2 L2 B2 L2 U' L2 B2 F2 D2 R' F D2 L B2 L2 F U2 L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUr'U2rU2R'U2RU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2L2UF2U'B2UF2U'RB2LB'R2U2RBL",
     "enabled": true,
     "subset": 1
   },
@@ -179,7 +179,7 @@
       "R2 D' F2 L2 U' F2 D2 B2 U' B2 R B R' U2 R' B' R' B2 D'",
       "U' F2 U' F2 R2 U2 R2 D R2 D' F R F' U2 R F R F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUr'U2rU2R'U2RU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2U2F2R2D'R2F2L2B2U'LB'LU2LBLB2",
     "enabled": true,
     "subset": 2
   },
@@ -202,7 +202,7 @@
       "L2 B2 L2 B2 D' B2 U' B2 D R2 L' F R U2 F' R U2 L'",
       "B2 D F2 D' B2 U' L2 F2 U2 F2 L' F L' U2 F L F L' U'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUr'U2rU2R'U2RU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2U'R2DL2DL2D2F2DFL'FR2U2L'F'L'F",
     "enabled": true,
     "subset": 3
   },
@@ -225,7 +225,7 @@
       "U R2 L2 D' R2 F2 R2 D R2 L' F R U2 R2 F' R U2 L'",
       "L2 U' L2 U' F2 L2 U' F2 U L2 F L' F U2 L' F' L' F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUr'U2rU2R'U2RU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'B2R2U2L2F2R2D2F2L'FRU2R2F'RU2L'",
     "enabled": true,
     "subset": 4
   },
@@ -248,7 +248,7 @@
       "U2 F2 U2 F2 L2 U' F2 U' F2 U' F' L' F U2 L' F' L' F",
       "F2 D' B2 D' B2 D2 F2 U' L2 F' L' F U2 L' F' L' F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUr'U2rU2R'U2RU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2UB2L2U'L2UL2B2UL'B'LU2LBLB2",
     "enabled": true,
     "subset": 5
   },
@@ -271,7 +271,7 @@
       "R2 B2 U2 F2 D' B2 D' B2 D B2 F' R F' U2 R F R F'",
       "U2 F2 D' F2 L2 U' F2 D' R2 F2 L' B' L U2 L2 B' L' B' L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUr'U2rU2R'U2RU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2F2DF2D'B2DF2D'F2RB2LB'R2U2RBL",
     "enabled": true,
     "subset": 6
   },
@@ -294,7 +294,7 @@
       "U L2 D R2 D' L2 D R2 U2 D' L' B2 R B R' U2 B U2 L",
       "B2 D B2 D' B2 U2 B2 D B2 D' B' L' B' L U2 L F U2 F' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=r'R2UR'UrU2r'UM'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=DL2B2UF2D'R2DF2D2FRF'DB2LFU'F'L'",
     "enabled": true,
     "subset": 1
   },
@@ -317,7 +317,7 @@
       "B2 F2 R2 D R2 B2 F2 U L2 U' B' R' F U2 R' F' R2 B",
       "L2 U L2 D2 R2 U' R2 D2 L2 B' R' F U2 R' F' R2 B"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=r'R2UR'UrU2r'UM'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2UR2F2L2B2D'B2D2L2FU2L'U2RB'R'LF",
     "enabled": true,
     "subset": 2
   },
@@ -340,7 +340,7 @@
       "F2 D' F2 D' L2 B2 L2 D2 R2 U F' R F' R' B' R B U2 R2",
       "U' L2 D F2 D R2 F2 U R2 U' F' R F' R' B' R B R2 D2 L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=r'R2UR'UrU2r'UM'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2F2UB2U'F2UB2R2D2BLB'L'F'LFD2R2",
     "enabled": true,
     "subset": 3
   },
@@ -363,7 +363,7 @@
       "L2 B2 U F2 D R2 U2 D' B2 D' F U2 L' U2 R B' R' L F D'",
       "L2 D F2 D' L2 D2 F2 D' L2 D F U2 F' L F L2 U2 L F D2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=r'R2UR'UrU2r'UM'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2U'B2UF2U'B2L2U2L2B'D2FU2RF'D2BL2",
     "enabled": true,
     "subset": 4
   },
@@ -386,7 +386,7 @@
       "U2 B2 D' B2 U' B2 D B2 L2 B' R' F U2 R' F' R2 B",
       "B2 U' F2 U2 R2 F2 R2 D' R2 D' B R' F U2 R' F' R2 B D2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=r'R2UR'UrU2r'UM'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2B2R2D'R2B2L2F2UR2LFL'F'RFRU2F2",
     "enabled": true,
     "subset": 5
   },
@@ -409,7 +409,7 @@
       "F2 L2 D B2 L2 U L2 D F2 U' F' R F' R B' L B' U2 L D'",
       "D R2 D' L2 D R2 D' L2 U' L' B2 R B R' U2 B U2 L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=r'R2UR'UrU2r'UM'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2L2DF2D'B2DF2D'B2RB'LB'R'U2RB'R'L",
     "enabled": true,
     "subset": 6
   },
@@ -432,7 +432,7 @@
       "R2 B2 R2 L2 F2 L2 U R2 L2 D L B R' B L U2 L' B R' L",
       "D R2 D' L2 D R2 D' L2 U2 F U R2 B' R' B U' R' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=MU'rU2r'U'RU'R'M'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D'B2R2F2L2DL2F2U'D'FR'FR'FR'F'D2B2L2",
     "enabled": true,
     "subset": 1
   },
@@ -455,7 +455,7 @@
       "U R2 U' R2 D2 L2 U L2 D2 R2 B L F' U2 L F L2 B'",
       "F2 D2 B2 U' B2 D2 F2 D R2 U B L F' U2 L F L2 B' D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=MU'rU2r'U'RU'R'M'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2D'L2B2R2F2UF2U2L2F'U2RU2L'BR'LF'",
     "enabled": true,
     "subset": 2
   },
@@ -478,7 +478,7 @@
       "D2 F2 U' D2 L2 D' R2 B2 D' R2 B' R' B R F R' F' D2 L2",
       "L2 U' L2 U' F2 D2 R2 D' R2 D' F' U R2 B' R' B U' R' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=MU'rU2r'U'RU'R'M'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2B2F2L2D'R2B2F2DR'F'RD'L'UFUF'L'",
     "enabled": true,
     "subset": 3
   },
@@ -501,7 +501,7 @@
       "U2 F2 D L2 B2 U R2 B2 F2 U' F L' F L B L' B' U2 L2",
       "R2 D' F2 R2 F2 L2 U' R2 L2 D B' R2 F' U2 B R U2 B R' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=MU'rU2r'U'RU'R'M'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2DL2U'R2D'B2R2B2U2BR'BRFR'F'D2L2D2",
     "enabled": true,
     "subset": 4
   },
@@ -524,7 +524,7 @@
       "U2 L2 U2 L2 D F2 U F2 D' F U R2 B' R' B U' R' F'",
       "F2 U B2 D2 L2 F2 L2 D L2 D B' L F' U2 L F L2 B'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=MU'rU2r'U'RU'R'M'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UL2F2L2F2U'F2L2F2D2B'R'BRFR'F'D2L2",
     "enabled": true,
     "subset": 5
   },
@@ -547,7 +547,7 @@
       "U' R2 L2 D F2 L2 U' B2 L2 D' F' R L2 U2 B R' L F' L'",
       "U' D' B2 D F2 D' B2 D F' U R2 B' R' B U' R' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=MU'rU2r'U'RU'R'M'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2UL2U'L2F2D'L2D2R'F'RD'L'UFUF'L'",
     "enabled": true,
     "subset": 6
   },
@@ -570,7 +570,7 @@
       "R2 B2 R2 L2 F2 L2 U R2 L2 D R L2 F' L F' L' F2 R",
       "F2 U R2 D2 R2 F2 D' F2 R2 U' L B2 L' D2 R F' R F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=l'U2LUL'Ul",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2B2R2D2L2F2L2D2R'B'LB'R'U2L",
     "enabled": true,
     "subset": 1
   },
@@ -593,7 +593,7 @@
       "U' F2 U' R2 B2 D L2 D' B2 D' F D R F' L U' R U L'",
       "U2 R2 B2 U B2 R2 U F R' D' R F2 U' F2 D F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=l'U2LUL'Ul",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2B2D'F2DB2D'F2DF2LFL'FR2BU2B'",
     "enabled": true,
     "subset": 2
   },
@@ -616,7 +616,7 @@
       "R2 F2 U R2 U' F2 R2 D' F2 D L F' D' F' D F2 L' U'",
       "U F2 D' L2 D F2 R2 D B2 D' R F' L F' L' F2 R"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=l'U2LUL'Ul",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'R2B2D'F2DB2D'F2DRF'LF'L'F2R",
     "enabled": true,
     "subset": 3
   },
@@ -639,7 +639,7 @@
       "U' R2 D L2 D B2 R2 U2 L2 F' R' D' R' D R2 F'",
       "R2 D' F2 D R2 B2 D L2 D' B2 F' L' B L' B' L2 F U'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=l'U2LUL'Ul",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UB2UR2U'R2B2D'R2DRF'LF'L'F2R",
     "enabled": true,
     "subset": 4
   },
@@ -662,7 +662,7 @@
       "R2 D B2 U' L2 U L2 D' B2 R2 B U B2 R B R2 U R",
       "R2 D B2 D' R2 F2 D' L2 D F2 R' F' L F' L' F2 R"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=l'U2LUL'Ul",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2DB2D'F2DB2D'F2RF'LF'L'F2R",
     "enabled": true,
     "subset": 5
   },
@@ -685,7 +685,7 @@
       "R2 D R2 F2 U R2 U' L2 U B2 L' D2 R D2 L' F' R F'",
       "R2 D' F2 D R2 B2 D L2 D' B2 R' F' L F' L' F2 R"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=l'U2LUL'Ul",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2F2D2L2D'L2D'F2R2U2FR'D'R'DR2F'",
     "enabled": true,
     "subset": 6
   },
@@ -708,7 +708,7 @@
       "R2 U' F2 D2 F2 R2 D R2 F2 U B' L2 B D2 F' R F' R",
       "L2 U2 D L2 B2 D R2 F2 R2 B' L2 B' U2 D' R' F' R L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UrU2R'U'RU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'FRB'RBR2F'",
     "enabled": true,
     "subset": 1
   },
@@ -731,7 +731,7 @@
       "U L2 U F2 U' L2 F2 D' L2 D2 R F R' F' U D' F' U' F'",
       "D' L2 D R2 D' B2 D B2 L2 D R' B' D' R2 U R2 D B' R'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UrU2R'U'RU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2B2DF2D'B2DF2D'F2R'F'RF'L2B'U2BU'",
     "enabled": true,
     "subset": 2
   },
@@ -754,7 +754,7 @@
       "U' L2 F2 U' L2 B2 D R2 D' B2 R' F D F D' F2 R",
       "R2 D' F2 D R2 B2 D L2 D' B2 F R B' R B R2 F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UrU2R'U'RU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2R2UF2U'F2R2D'F2DF'RB'RBR2F'",
     "enabled": true,
     "subset": 3
   },
@@ -777,7 +777,7 @@
       "F2 D B2 D B2 D2 L2 B2 U' L2 F' D2 F D2 F' R F' R D'",
       "R2 D B2 D' R2 F2 D' L2 D F' R B' R B R2 F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UrU2R'U'RU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2R2D'L2DR2D'L2DF'RB'RBR2F'",
     "enabled": true,
     "subset": 4
   },
@@ -800,7 +800,7 @@
       "U' F2 U L2 U' L2 F2 D' L2 D L U' L2 F' L' F2 U' F'",
       "R2 U R2 U' R2 F2 U' F2 D R2 F R B' R B R2 F' D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UrU2R'U'RU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D'L2DR2D'B2DR2U'L2F'RB'RBR2F'",
     "enabled": true,
     "subset": 5
   },
@@ -823,7 +823,7 @@
       "U' B2 D' R2 D B2 L2 D F2 D' L U' L2 F' L' F2 U' F'",
       "B2 L2 F2 D' B2 F2 U' B2 F2 D' B R' B R' F2 L' U2 L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UrU2R'U'RU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF2DR2D'L2DR2D'L2F'RB'RBR2F'",
     "enabled": true,
     "subset": 6
   },
@@ -846,7 +846,7 @@
       "R2 L2 D' R2 L2 U' R2 L' B2 R L2 F' R F' L'",
       "U R2 L2 D R2 L2 U R2 L' B2 R L2 F' R F' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'URU2r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D2L2F2L2D2L2F2R'D2L'F'RF'L'",
     "enabled": true,
     "subset": 1
   },
@@ -869,7 +869,7 @@
       "F2 U R2 U' L2 U B2 L2 D L2 B' L B R' B2 R' U2 L",
       "D2 L2 U2 L2 D' B2 U' B2 D' F2 L F2 R' F2 L' F' R F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'URU2r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2U'L2UL2B2DL2D'L2F'LFL'U2L'U2L",
     "enabled": true,
     "subset": 2
   },
@@ -892,7 +892,7 @@
       "D B2 D' B2 L2 D' R2 D F2 D' B' F2 L B R' B2 R' U2 L",
       "R2 U R2 U' R2 F2 U' F2 D R2 L F2 R' F' R F' L' D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'URU2r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'F2UL2U'L2F2D'L2DL'F2R'F'RF'L'",
     "enabled": true,
     "subset": 3
   },
@@ -915,7 +915,7 @@
       "U F2 U R2 B2 L2 D B2 F2 L2 F' R F' L U2 R U2 L'",
       "U' B2 D' R2 D B2 L2 D F2 D' L' F2 R' F' R F' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'URU2r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UL2F2D'B2DF2D'B2DL'F2R'F'RF'L'",
     "enabled": true,
     "subset": 4
   },
@@ -938,7 +938,7 @@
       "L2 B2 L2 U' L2 B2 L2 U R2 L2 B' L B R' B2 R' U2 L",
       "R2 D B2 D' R2 F2 D' L2 D F2 L F2 R' F' R F' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'URU2r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2UF2U'B2UF2U'B2L'F2R'F'RF'L'",
     "enabled": true,
     "subset": 5
   },
@@ -961,7 +961,7 @@
       "R2 D R2 F2 U R2 U' L2 U B2 F' R F' L' U2 R U2 L'",
       "R2 D' F2 D R2 B2 D L2 D' B2 L F2 R' F' R F' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'URU2r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2L2DF2D'B2DF2D'B2L'F2R'F'RF'L'",
     "enabled": true,
     "subset": 6
   },
@@ -984,7 +984,7 @@
       "B2 F2 D' B2 F2 U' B2 F2 D' B' L2 B2 F' R F' R B",
       "F2 D R2 D' F2 L2 D' B2 D L2 F' U2 F U2 F R' F' R"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=Ul'U'LU'L'U2l",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'B'R2FRF'RB",
     "enabled": true,
     "subset": 1
   },
@@ -1007,7 +1007,7 @@
       "D2 B2 U2 B2 D L2 U L2 D R2 F' U2 F U2 F R F' R",
       "U' B2 D B2 U' B2 D' B2 F2 L2 B D2 B' L2 F' R' F' R"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=Ul'U'LU'L'U2l",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'R2DB2D'F2DB2D'F2R'B'R'FR2BR2F'",
     "enabled": true,
     "subset": 2
   },
@@ -1030,7 +1030,7 @@
       "F2 R2 F2 U F2 R2 F2 U' B' R2 B U2 F R' F' R",
       "R2 D' F2 D R2 B2 D L2 D' B R2 F R F' R B"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=Ul'U'LU'L'U2l",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2B2L2D'R2DL2D'R2DBR2FRF'RB",
     "enabled": true,
     "subset": 3
   },
@@ -1053,7 +1053,7 @@
       "F2 D R2 U' B2 U B2 D' R2 F2 R B' R' F R2 B R2 F'",
       "R2 D' F2 D R2 B2 D L2 D' B2 F' L2 B L B' L F U2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=Ul'U'LU'L'U2l",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2UF2U'B2UF2U'B2L2B'R2FRF'RB",
     "enabled": true,
     "subset": 4
   },
@@ -1076,7 +1076,7 @@
       "R2 B2 R2 B2 D B2 D' R2 U R2 F' L2 F' L2 F' R' F' R",
       "R2 U R2 U' R2 F2 U' F2 D R2 B' R2 F R F' R B D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=Ul'U'LU'L'U2l",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'B2DL2D'R2DL2D'R2BR2FRF'RB",
     "enabled": true,
     "subset": 5
   },
@@ -1099,7 +1099,7 @@
       "R2 D R2 F2 U R2 U' L2 U B2 F L' F R U2 L' U2 R U'",
       "R2 D' F2 D R2 B2 D L2 D' B2 R' F2 L F L' F R U'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=Ul'U'LU'L'U2l",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UB2UL2U'R2UL2U'R2BR2FRF'RB",
     "enabled": true,
     "subset": 6
   },
@@ -1122,7 +1122,7 @@
       "U2 F2 U' F2 U' F2 U2 F2 R2 B' R2 F R' F' R' B R2",
       "F2 U' R2 B2 L2 D2 L2 D' L2 D B R2 F R' F' R' B R2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'R'FR2UR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF2L2F2R2D'R2U'R2DRFDFD'F2R'B2R2",
     "enabled": true,
     "subset": 1
   },
@@ -1145,7 +1145,7 @@
       "F2 D B2 D' F2 D B2 D' R2 B' R2 F R' F' R' B R2",
       "L2 U L2 U' R2 D R2 D R2 D' R F R2 F' L2 D L2 D' R'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'R'FR2UR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2L2F2U'R2DB2D'R2U2F'UL2U2LU'LU'F",
     "enabled": true,
     "subset": 2
   },
@@ -1168,7 +1168,7 @@
       "F2 D' F2 D F2 U2 F2 U' R2 D B' R2 F R' F' R' B R2 D'",
       "U' R2 B2 D B2 D L2 D' L2 D' B' R2 F R' F' R' B R2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'R'FR2UR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2DF2D'L2U'F2L2F2UF'UL2U2LU'LU'F",
     "enabled": true,
     "subset": 3
   },
@@ -1191,7 +1191,7 @@
       "U' L2 D' R2 D L2 U F2 L2 B2 F L2 U2 F2 R' F' R2 B R'",
       "U' R2 U' F2 L2 D' B2 D' F L2 U2 F2 R' F' R2 B R'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'R'FR2UR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2L2UL2B2R2F2U'F2DFUF'RU'F2UFR",
     "enabled": true,
     "subset": 4
   },
@@ -1214,7 +1214,7 @@
       "B2 L2 U2 B2 U B2 U L2 B2 F D2 R B' R B R2 D2 F'",
       "F2 R2 U' F2 U' F2 U2 R2 F2 R2 B' R2 F R' F' R' B R2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'R'FR2UR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2UB2F2L2DL2D2F'D2BR'F'R'BR2",
     "enabled": true,
     "subset": 5
   },
@@ -1237,7 +1237,7 @@
       "L2 F2 L2 U B2 R2 F2 R2 B F' U' F' U' B R' F' R",
       "B2 D' B2 D R2 D2 L2 F2 R2 U' B' L2 U2 B2 R' F' R2 B R'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'R'FR2UR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D2B2UL2F2DR2DL2D2F'L2U2F2R'F'R2BR'",
     "enabled": true,
     "subset": 6
   },
@@ -1260,7 +1260,7 @@
       "F2 U2 L2 F2 L2 U L2 F2 L2 U F U R' F2 R U' F2 U F'",
       "F2 U' R2 F2 U' B2 L2 D R2 F2 L B2 U2 L2 F' R F2 L' F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'RUR'UR'FRF'RU2R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2B2R2D'R2B2L2UF2U2FUR'F2RU'F2UF'",
     "enabled": true,
     "subset": 1
   },
@@ -1283,7 +1283,7 @@
       "F2 D' B2 F2 U2 B2 F2 D' F2 U' F R' L' D' R' D R2 L F'",
       "U2 F2 L2 D' L2 D' B2 D B2 D L F2 R' F R F L' F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'RUR'UR'FRF'RU2R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2L2B2UB2U'B2D2R2U'R'D2L'FRFL'F2",
     "enabled": true,
     "subset": 2
   },
@@ -1306,7 +1306,7 @@
       "U2 F2 D B2 D' F2 D B2 D' F2 L F2 R' F R F L' F2",
       "F2 L2 B2 D2 B2 L2 F2 U' R' L U' R U L' F R F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'RUR'UR'FRF'RU2R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2DL2UL2D2B2L2F2RU'RF'UR2U'R'F'",
     "enabled": true,
     "subset": 3
   },
@@ -1329,7 +1329,7 @@
       "F2 L2 B2 R2 U F2 U' R2 D B2 F U L' U2 L' U L2 U' F",
       "F2 U2 F2 U F2 U F2 U2 F2 L F2 R' F R F L' F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'RUR'UR'FRF'RU2R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2D2B2D'R2U2R2DB2D2RU2R2LFRFL'F2",
     "enabled": true,
     "subset": 4
   },
@@ -1352,7 +1352,7 @@
       "F2 L2 U' R2 U' L2 U R2 L2 D' L' D L U L' F L' U' F",
       "R2 U F2 D' F2 D R2 F2 U F2 L F2 R2 F' R' F R2 F2 L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'RUR'UR'FRF'RU2R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'R2D'L2B2DR2U2D'L'DLUL'FL'U'F",
     "enabled": true,
     "subset": 5
   },
@@ -1375,7 +1375,7 @@
       "U' F2 R2 U' F2 U' F2 U2 R2 L F2 R' F R F L' F2",
       "U' F2 D2 L2 D F2 U' F2 D L2 F U L' U2 L' U L2 U' F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'RUR'UR'FRF'RU2R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=DB2U2B2D'R2U'R2U2F2LF2R'FRFL'F2",
     "enabled": true,
     "subset": 6
   },
@@ -1398,7 +1398,7 @@
       "L2 F2 U' L2 U' B2 R2 D2 B2 F L' B L B2 R2 F' U2 B",
       "D L2 U' F2 U F2 D' L2 F2 L2 B R' B2 L B L2 D2 F2 L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'UR'FRF'RU2r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'R2B2D'R2UR2DF2R'B2RB2F2RFRF'",
     "enabled": true,
     "subset": 1
   },
@@ -1421,7 +1421,7 @@
       "U2 F2 U F2 L2 F2 U F2 L2 U' R' F' L2 F L2 F' R L2",
       "U2 B2 L2 B2 R2 F2 R F' L2 F L2 F' R L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'UR'FRF'RU2r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2UR2B2L2D'L2F2L2D2FR'BR'BF2L2F",
     "enabled": true,
     "subset": 2
   },
@@ -1444,7 +1444,7 @@
       "R2 U' F2 D R2 D' B2 L2 D' B2 R' F' L2 F L2 F' R L2",
       "F2 L2 D R2 U' B2 U B2 D' B2 R' B' L B' R2 L F2 R U"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'UR'FRF'RU2r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=DL2UR2L2DF2U'B2ULF2D2BR2BR2U2R'",
     "enabled": true,
     "subset": 3
   },
@@ -1467,7 +1467,7 @@
       "D R2 B2 R2 D2 F2 L2 D R2 U' R' F R2 U2 R F U2 R F",
       "U' R2 D B2 U' B2 D' F2 L2 D' B' D' R' B' D L' D F2 L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'UR'FRF'RU2r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=DB2U'B2D'R2U2R2LBF2R'F'RB'F'L'",
     "enabled": true,
     "subset": 4
   },
@@ -1490,7 +1490,7 @@
       "R2 U' F2 U B2 U' F2 U F2 L2 F' R' B R' B F2 L2 F",
       "L2 U' R2 U R2 D' F2 D B2 F2 R' D2 L' F' R F' L B2 L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'UR'FRF'RU2r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'B2L2F2DL2DL2D'B2R'FR2U2RFU2RF",
     "enabled": true,
     "subset": 5
   },
@@ -1513,7 +1513,7 @@
       "D' F2 U R2 D2 L2 B2 U L2 U' B' U' D' R' B U B R'",
       "L2 F2 L2 U2 R2 U' R2 U' L2 D2 B R2 F' R F R B' F2 L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'UR'FRF'RU2r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2R2B2U'R2U'R2U2B2R2LBF2R'F'RB'F'L'",
     "enabled": true,
     "subset": 6
   },
@@ -1536,7 +1536,7 @@
       "U2 R2 B2 R2 L2 F2 R' F L' F R2 L' B2 R'",
       "F2 D' F2 U' B2 F2 D B2 D F' R B2 R' B2 R B2 F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UM'R'U'RU'R'U2RU'Rr'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2F2R2U'L2UR2B2L2DF'RB2R'B2RB2F'",
     "enabled": true,
     "subset": 1
   },
@@ -1559,7 +1559,7 @@
       "F2 R2 D' F2 D B2 D' F2 L2 D' L D' L D' B2 R F' R F'",
       "U2 B2 U' L2 F2 D R2 D' F2 L2 B' R B' R' U B2 U2 L U' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UM'R'U'RU'R'U2RU'Rr'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2DL2U2L2D'L2B2F2D'LDB2FL'U'B2LF",
     "enabled": true,
     "subset": 2
   },
@@ -1582,7 +1582,7 @@
       "R2 D' F2 U L2 D' B2 D R2 B2 R F L' F R2 L' B2 R' D",
       "L2 D' R2 D F2 D' R2 U R2 F2 R F L' F R2 L' B2 R' D"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UM'R'U'RU'R'U2RU'Rr'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=DR2F2U'F2R2D2L2D'R2BR2D2L'F2L'F2U2F",
     "enabled": true,
     "subset": 3
   },
@@ -1605,7 +1605,7 @@
       "F2 D' F2 U' F2 D R2 F2 R2 F2 R B L' B' L2 F2 R U2 L'",
       "F2 R2 B2 D2 R2 F2 U B2 L2 U' B' L' B L' B' L' B' U2 L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UM'R'U'RU'R'U2RU'Rr'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'R2U'F2D2B2L2U'B2ULUDFL'U'L'FD",
     "enabled": true,
     "subset": 4
   },
@@ -1628,7 +1628,7 @@
       "R2 D L2 F2 U L2 U' L2 D F2 R F L' F R' L2 D2 R2 L",
       "B2 R2 D' R2 D L2 D' R2 D F2 R F L' F R2 L' B2 R'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UM'R'U'RU'R'U2RU'Rr'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2L2B2D2L2UD2R2F2DF'L2U2L'F2L'F2U2F",
     "enabled": true,
     "subset": 5
   },
@@ -1651,7 +1651,7 @@
       "B2 R2 D L2 U' F2 U F2 D' F2 R F L' F R2 L' B2 R'",
       "B2 R2 D' R2 D L2 D' R2 D F2 L B R' B R' L2 F2 L' U2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UM'R'U'RU'R'U2RU'Rr'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2U'F2L2D'L2U'L2D'R2BR2D2L'F2L'F2U2F",
     "enabled": true,
     "subset": 6
   },
@@ -1674,7 +1674,7 @@
       "U L2 D F2 U F2 D' F' U' D' L' U L D F L2",
       "F2 U' B2 U B2 D' R2 D R2 F' R D' F2 U' F2 D R F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FURU'R2F'RURU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2UF2UF2U2R2DR2F'U2FR'D'RF'U2F'",
     "enabled": true,
     "subset": 1
   },
@@ -1697,7 +1697,7 @@
       "D' R2 B2 D' B2 D R2 F U2 R' D' R F' U2 D F'",
       "U' F2 L2 D' L2 D' B2 D B2 D2 L' B2 R' B R B L D' F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FURU'R2F'RURU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2L2U'B2R2F2D'L2F'D'FRFL'FRUL'",
     "enabled": true,
     "subset": 2
   },
@@ -1720,7 +1720,7 @@
       "U B2 D F2 D F2 D2 B2 L2 F' U' D' L' U L D F L2",
       "L2 F2 D F2 U F2 D' F U' D' L' U L D F L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FURU'R2F'RURU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UB2DF2DR2F2D2B2F'U'D'L'ULDFL2",
     "enabled": true,
     "subset": 3
   },
@@ -1743,7 +1743,7 @@
       "U2 R2 U' R2 B2 U B2 D B2 D' B' L2 B L' U' L B' L2 B'",
       "R2 L2 D R2 U B2 R2 D2 F2 R2 B' U R' U2 R B' U' L B' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FURU'R2F'RURU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2UR2F2UB2DL2F2DFU2FR'D'RF'U2F'",
     "enabled": true,
     "subset": 4
   },
@@ -1766,7 +1766,7 @@
       "U' L2 U F2 R2 D' B2 D2 R2 F' U2 F R' D' R F' U2 F'",
       "U2 F2 R2 D R2 B2 D' R2 D R2 B R2 B R' D' R F' U2 F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FURU'R2F'RURU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2R2D'F2R2UR2F2DR2BL2BL'U'LB'L2B'",
     "enabled": true,
     "subset": 5
   },
@@ -1789,7 +1789,7 @@
       "F2 D2 B2 D' R2 U2 R2 D B2 D' B' R' U' R' U R2 B D' F2",
       "D' R2 D' F2 D' L2 D2 R2 B2 D F' U' D' L' U L D F L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FURU'R2F'RURU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'B2U'B2DL2F2U2F2D'F'U'D'L'ULDFL2",
     "enabled": true,
     "subset": 6
   },
@@ -1812,7 +1812,7 @@
       "D F2 U R2 U R2 F2 U2 F2 D2 R B2 L B' L' B' R' D F2",
       "F2 D B2 U F2 U L2 D' L2 D2 F D2 B R' F' R' B' D B2 D2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R'FRUR'F'RFU'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2D2B2UR2U'R2DB2RB2LB'L'B'R'DF2",
     "enabled": true,
     "subset": 1
   },
@@ -1835,7 +1835,7 @@
       "L2 U2 L2 U' L2 B2 D' L2 F2 D2 F' R' F' L2 D B2 L U2 L",
       "F2 R2 U' R2 U R2 B2 U B2 D' R' B2 L B' L' B' R' D F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R'FRUR'F'RFU'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2R2D'F2UF2U2R2DBR2B'RUR'BR2B",
     "enabled": true,
     "subset": 2
   },
@@ -1858,7 +1858,7 @@
       "R2 D R2 U2 R2 D' R2 U' F2 U F' R' F U' F U R U' F",
       "B2 U' R2 B2 U' R2 U' B2 R2 U' F' U2 F' L D L' F U2 F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R'FRUR'F'RFU'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2L2F2D'R2D'R2D2F2L2B'R2B'RUR'BR2B",
     "enabled": true,
     "subset": 3
   },
@@ -1881,7 +1881,7 @@
       "U2 B2 F2 D' F2 R2 F2 D B2 L2 F L' D F2 U F2 D' L' F",
       "L2 U F2 D2 B2 R2 B2 D2 F2 U' L' U' B U L U' L B' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R'FRUR'F'RFU'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF2L2UF2UF2U2L2D'RB2LB'L'B'R'DF2",
     "enabled": true,
     "subset": 4
   },
@@ -1904,7 +1904,7 @@
       "U2 L2 D2 B2 U' B2 L2 D' F2 D2 F' D R' F2 R' U2 R2 U' F",
       "U L2 U' L2 F2 D R2 D R2 D R B2 L B' L' B' R' D F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R'FRUR'F'RFU'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2D2B2DL2U2L2D'B2DBLULU'L2B'DF2",
     "enabled": true,
     "subset": 5
   },
@@ -1927,7 +1927,7 @@
       "U2 L2 D F2 L2 U' L2 F2 D' L2 B' R2 B' R U R' B R2 B",
       "U2 B2 U L2 U L2 U L2 U2 L2 B R2 B' R U R' B R2 B"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R'FRUR'F'RFU'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2F2L2U'L2D'F2R2D'R2F'U2F'LDL'FU2F",
     "enabled": true,
     "subset": 6
   },
@@ -1950,7 +1950,7 @@
       "F2 U F2 L2 D2 B2 R2 U D B2 L' B' R B' R' B2 L' D F2",
       "D' B2 D F2 D R2 D B2 D2 F2 L F2 D B' R B D' F2 L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=l'U'lL'U'LUl'Ul",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'F2D'B2D'B2D2F2L'F2DB'RBD'F2L",
     "enabled": true,
     "subset": 1
   },
@@ -1973,7 +1973,7 @@
       "D2 B2 D' B2 D2 L2 U L2 U F2 L B' R B' R' B2 L' D F2",
       "U' R2 B2 U B2 U' B2 D B2 D2 L F L' D R F' U' F R"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=l'U'lL'U'LUl'Ul",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'R2B2U'B2R2B2UFRU'B2UR'B2RF'",
     "enabled": true,
     "subset": 2
   },
@@ -1996,7 +1996,7 @@
       "B2 U B2 R2 U R2 D' R2 D R2 B' U L F2 R' F2 L' U B",
       "B2 D2 F2 D R2 D B2 D2 F2 D' L F2 D B' R B D' F2 L D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=l'U'lL'U'LUl'Ul",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2F2R2D'B2D'B2D2R2F2L'F2DB'RBD'F2L",
     "enabled": true,
     "subset": 3
   },
@@ -2019,7 +2019,7 @@
       "U F2 D R2 D' F2 R2 U' F2 U R F' U' F2 U R F U' F'",
       "B2 R2 L2 F2 D F2 R2 F' L' F L' B2 U R' U R"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=l'U'lL'U'LUl'Ul",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=DR2D'L2B2R2U2L2F2D'FD'F2L2U2LULF",
     "enabled": true,
     "subset": 4
   },
@@ -2042,7 +2042,7 @@
       "U2 R2 D2 B2 R2 F2 U' R2 B2 L' F L' D R F' U' F R",
       "L2 D2 B2 D' B2 D' L2 U2 D' F2 L B' R B' R' B2 L' D F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=l'U'lL'U'LUl'Ul",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2L2F2L2U2F2UL2F2D2R'U'D'F'URUF'D'",
     "enabled": true,
     "subset": 5
   },
@@ -2065,7 +2065,7 @@
       "U2 F2 U F2 U F2 U2 F2 L2 U' L F2 D B' R B D' F2 L",
       "L2 U2 B2 U' B2 D L2 F2 R2 D R U' D' F' U R U F' D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=l'U'lL'U'LUl'Ul",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2L2B2D'R2UR2U2B2DLF2DB'RBD'F2L",
     "enabled": true,
     "subset": 6
   },
@@ -2088,7 +2088,7 @@
       "U2 L2 B2 R2 F2 U' R2 B' L B' L U D' L' U' L'",
       "D R2 U' R2 F2 U2 R2 F2 U2 F2 R B L' B L B2 R D' F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUr'RUR'U'rU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'DF2L2UR2D'B2DRF'RD'L'FUF'L'",
     "enabled": true,
     "subset": 1
   },
@@ -2111,7 +2111,7 @@
       "U2 L2 B2 U' B2 U B2 D' B2 D2 R' F' R D' L' F U F' L'",
       "D' L2 D L2 D2 B2 U' B2 D' F2 R' B L' B L B2 R D' F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUr'RUR'U'rU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2F2D'B2DF2D'B2D2R'F'RD'L'FUF'L'",
     "enabled": true,
     "subset": 2
   },
@@ -2134,7 +2134,7 @@
       "D2 F2 U' F2 D R2 D' R2 D2 B L B' L U2 L2 U' L U' L'",
       "B2 R2 L2 F2 D F2 L2 F R F' R B2 U' L U' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUr'RUR'U'rU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D'R2L2DR2L2DF2L2B2F'RF'RB2U'LU'L'",
     "enabled": true,
     "subset": 3
   },
@@ -2157,7 +2157,7 @@
       "U L2 F2 U' R2 U R2 D' F2 D L' F U F2 U' L' F' U F",
       "F2 U2 F2 D' L2 U' L2 D2 R2 U R' F2 D' B L' B' D F2 R' D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUr'RUR'U'rU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UR2UB2R2U'B2UR2B2RF2D'BL'B'DF2R'",
     "enabled": true,
     "subset": 4
   },
@@ -2180,7 +2180,7 @@
       "U' L2 F2 D R2 F2 U' F2 R2 D' F' U' F' L' U L' F' L2 F",
       "L2 U2 B2 U' B2 D' B2 R2 B2 D L' U D F U' L' U' F D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUr'RUR'U'rU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2DR'F'RD'L'FUF'L'",
     "enabled": true,
     "subset": 5
   },
@@ -2203,7 +2203,7 @@
       "U2 F2 R2 F2 L2 D' B2 D L2 U' F R' U R2 U R' U2 R F'",
       "B2 D' F2 R2 U' R2 U F2 R2 D F R F' R B2 U' L U' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUr'RUR'U'rU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2D'B2U'B2DR2U'R2DB'LB'LUD'L'U'L'",
     "enabled": true,
     "subset": 6
   },
@@ -2226,7 +2226,7 @@
       "D2 L2 B2 L2 D2 R2 U' F2 R2 U' F' L F2 L' B' R' B F'",
       "D R2 U2 R2 F2 L2 D L2 F2 D' F' L F2 L' B' R' B F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FR'F'R2r'URU'R'U'M'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF2L2B2R2DR2B2LD2RBR'D2LF2",
     "enabled": true,
     "subset": 1
   },
@@ -2249,7 +2249,7 @@
       "F2 D2 R2 U R2 D2 F2 U' F2 D L' D2 R B R' D2 L F2 D'",
       "R2 D2 R2 U L2 U R2 D2 L2 D' F D R F' U' L F R L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FR'F'R2r'URU'R'U'M'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2D'L2F2D'B2D'B2R2U2L'B'LU'B2R'BR'D'",
     "enabled": true,
     "subset": 2
   },
@@ -2272,7 +2272,7 @@
       "B2 F2 R2 D B2 D' B2 L2 D' F2 R' F2 L B R' D2 L F2",
       "L2 D' L2 D L2 U2 L2 D' L2 D L' U2 F R U2 R' F' U2 L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FR'F'R2r'URU'R'U'M'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2U'B2R2DF2D'R2B2U2LF2U2LF'L'U2F2L'",
     "enabled": true,
     "subset": 3
   },
@@ -2295,7 +2295,7 @@
       "F2 R2 U' F2 U' R2 F2 R2 L2 D2 R B R2 L' D2 R F' L' F2",
       "B2 F2 D' B2 D R2 F2 U F2 U' L U2 R' L2 B R' D2 L F2 D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FR'F'R2r'URU'R'U'M'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2R2B2U'R2DL2D'R2DB'D2F'L'FD2B'R2D'",
     "enabled": true,
     "subset": 4
   },
@@ -2318,7 +2318,7 @@
       "U B2 D F2 D' B2 D F2 U2 D' L F U' R U2 R' F' U' L'",
       "U2 B2 U' R2 B2 U L2 D' R2 D L B' L U' B2 R' B R'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FR'F'R2r'URU'R'U'M'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2U'B2DR2UD2R2D'R'B2D2LF'L'U2F2L'",
     "enabled": true,
     "subset": 5
   },
@@ -2341,7 +2341,7 @@
       "U R2 U2 L2 U B2 F2 D' R2 D' F R2 B' L' F D2 B' R2",
       "L2 D' R2 D R2 D R2 L2 U' R' B' R2 B L F R L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FR'F'R2r'URU'R'U'M'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UR2B2R2B2U'B2R2B'D2F'L'FD2B'R2",
     "enabled": true,
     "subset": 6
   },
@@ -2364,7 +2364,7 @@
       "F2 D2 B2 D B2 D F2 U' L2 F R F2 D2 B' D2 F2 U2 R' F'",
       "B2 L2 U' R2 F2 R2 L2 U R2 D' R F' R U' R' F L F R L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'URU2r2U'RU'R'U2r",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D'R2D'L2DR2D'B2R2U2L'D2FL'FR'B'R'B",
     "enabled": true,
     "subset": 1
   },
@@ -2387,7 +2387,7 @@
       "L2 D F2 D F2 D2 L2 B2 U2 B R' F' U' F U' R U2 B",
       "L2 U' B2 R2 D F2 D' R2 B2 U2 B' R' F' U' F U' R U2 B"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'URU2r2U'RU'R'U2r",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2U2R2UR2UR2BLFUF'UL'U2B'",
     "enabled": true,
     "subset": 2
   },
@@ -2410,7 +2410,7 @@
       "R2 D R2 D2 F2 U' F2 D' B2 D' B R' F' U' F U' R U2 B D'",
       "U' B2 U2 B2 U' B2 U' B' L F U F' U L' U2 B'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'URU2r2U'RU'R'U2r",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'R2B2U2R2UR2UB2R2BLFUF'UL'U2B'",
     "enabled": true,
     "subset": 3
   },
@@ -2433,7 +2433,7 @@
       "U R2 F2 U2 R2 U F2 U' R B F U2 B' R U2 F2 R",
       "U R2 D2 L2 F2 U2 L2 D R2 D B R' F' U' F U' R U2 B"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'URU2r2U'RU'R'U2r",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'L2B2U2L2U'L2U'B2L2B'R'F'U'FU'RU2B",
     "enabled": true,
     "subset": 4
   },
@@ -2456,7 +2456,7 @@
       "L2 U F2 U F2 D' L2 D' F2 U2 R' B F U2 B' R U2 F2 R D2",
       "D R2 U F2 L2 D' B2 U2 L2 U L' B' F' L2 U2 B L' U2 F2 L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'URU2r2U'RU'R'U2r",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2B2D'L2U'B2UL2D'R'B'F'D2B'L'U2F2L'",
     "enabled": true,
     "subset": 5
   },
@@ -2479,7 +2479,7 @@
       "F2 D2 F2 U' F2 D2 R2 B2 D2 R2 F D' B2 D B' L B' F U2 L2",
       "U2 L2 D L2 U R2 U' R2 L2 D' R' L' F R D' L2 U' L2 D L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'URU2r2U'RU'R'U2r",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2D2F2L2B2L2F2D'R2D'R'L'F'RD'L2U'L2DL'",
     "enabled": true,
     "subset": 6
   },
@@ -2502,7 +2502,7 @@
       "R2 L2 D2 L2 U' R2 U' L2 D2 F2 R D' L B' L' D R' F2 L2",
       "F2 D F2 D' F2 U2 F2 D F2 D L B2 L2 B' L D2 F' R' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=r'RURUR'U'M'R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2DB2D'F2DB2D'L2D2R'BRD2L2F'RF'R",
     "enabled": true,
     "subset": 1
   },
@@ -2525,7 +2525,7 @@
       "D R2 D' L2 D' B2 D L2 U D2 R B2 R2 B' R' D2 F L F",
       "R2 D' F2 L2 D L2 F2 D R2 L2 F R B' U B U B R' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=r'RURUR'U'M'R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2UL2UL2U2R2L2B2R'UL'BLU'RB2R2",
     "enabled": true,
     "subset": 2
   },
@@ -2548,7 +2548,7 @@
       "B2 U R2 L2 D' F2 D R2 F2 R2 L B' L' D2 R2 F L' F L'",
       "R2 L2 B2 D B2 D B2 R2 L2 U' F' R U L2 B R' L2 U' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=r'RURUR'U'M'R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2R2L2F2D'L2B2L2D2LB'L'D2R2FL'FL'",
     "enabled": true,
     "subset": 3
   },
@@ -2571,7 +2571,7 @@
       "D F2 R2 U F2 U' B2 U F2 D' R' D' L B' L' D R' F2 L2",
       "U R2 U' F2 D2 L2 B2 D L2 D' L B2 L2 B L D2 F' R' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=r'RURUR'U'M'R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2U2F2D'L2UL2D'B2U'B'U2LU'FU'F'L'B'D2",
     "enabled": true,
     "subset": 4
   },
@@ -2594,7 +2594,7 @@
       "U F2 L2 D' B2 D' B2 D2 L2 D2 L B2 L2 B' L D2 F' R' F'",
       "U2 L2 U B2 U L2 F2 D' R2 U L B2 L2 B L D2 F' R' F' D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=r'RURUR'U'M'R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'F2R2UF2UF2U2F2D2BLU'B'D2FR'U'F'",
     "enabled": true,
     "subset": 5
   },
@@ -2617,7 +2617,7 @@
       "F2 R2 D' B2 D' B2 D R2 U F' R U L2 B R' L2 U' F'",
       "F2 U L2 U' L2 D R2 F2 U D2 B L U' B' D2 F R' U' F' D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=r'RURUR'U'M'R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2UR2D2L2F2D'L2D'R2BU2LU'FU'F'L'B'",
     "enabled": true,
     "subset": 6
   },
@@ -2640,7 +2640,7 @@
       "U F2 U' R2 L2 D B2 F2 D' R L' F U2 F2 R L'",
       "U2 F2 U R2 L2 D' B2 F2 D R L' F' U2 F2 R L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'U'M2URU'R'U'M'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'B2R2F2L2DR2B2L2U2R'LF'U2F2RL'",
     "enabled": true,
     "subset": 1
   },
@@ -2663,7 +2663,7 @@
       "R2 U2 B2 D' F2 D2 L2 D' B2 D' R' L F' D2 B2 R L' D'",
       "F2 U2 L2 U' L2 D2 B2 D' F2 D R L' B D2 F2 R' L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'U'M2URU'R'U'M'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2U'L2D2B2DL2U'F2D'R'LB'R'L'DF2L2D",
     "enabled": true,
     "subset": 2
   },
@@ -2686,7 +2686,7 @@
       "L2 U D2 F2 U2 D' F2 L2 D F2 R' L F' D2 B2 R L'",
       "L2 D R2 U' R2 D' F2 U2 L2 D' R L' B' R' L' D F2 L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'U'M2URU'R'U'M'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2D'B2L2D'B2U'D2L2D2RL'BD2F2R'L",
     "enabled": true,
     "subset": 3
   },
@@ -2709,7 +2709,7 @@
       "B2 F2 R2 D B2 D' B2 L2 D' F2 R' L B U2 B2 R' L",
       "U' B2 D' R2 D' F2 R2 U' F2 U R L F' D2 B2 U2 R L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'U'M2URU'R'U'M'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D2L2U'L2F2D'L2DL2U2R'LFD2B2RL'",
     "enabled": true,
     "subset": 4
   },
@@ -2732,7 +2732,7 @@
       "D' L2 U' B2 U2 D' B2 R2 U R2 B' F R B F' D2 L2",
       "D' R2 U' R2 D B2 R2 D B2 D' R' L F R2 U2 F' R' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'U'M2URU'R'U'M'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'F2U'F2R2D'F2DF2D2BF'L'B'FD2R2",
     "enabled": true,
     "subset": 5
   },
@@ -2755,7 +2755,7 @@
       "L2 D' R2 D L2 B2 U B2 U D' B' F R' D2 L2 B F' D'",
       "D R2 D' F2 U F2 L2 D F2 D' R L' F U2 R2 F' R' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'U'M2URU'R'U'M'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF2U'B2UF2U'B2L2D2B'FR'BF'D2L2",
     "enabled": true,
     "subset": 6
   },
@@ -2778,7 +2778,7 @@
       "U R2 U R2 U R2 B2 R2 B2 U R' U R2 B2 R B2 U' R'",
       "R2 D B2 D2 L2 D R2 U L2 F U2 L2 F' U2 F2 L2 F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=URU2R'U'RUR'U'RU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=DF2UF2D2R2UB2DR2BU2R2B'U2B2R2B",
     "enabled": true,
     "subset": 1
   },
@@ -2801,7 +2801,7 @@
       "D' L2 D L2 F2 U2 L2 U2 L2 D' L U D F2 R L U' R' L'",
       "U2 R2 D2 F2 L2 D2 F2 L2 U D' L' U' D' F2 R' L' D R' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=URU2R'U'RUR'U'RU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=DL2U'B2D2F2U2R2F2URUDB2RLU'R'L'",
     "enabled": true,
     "subset": 2
   },
@@ -2824,7 +2824,7 @@
       "U' L2 F2 D' L2 U' L2 D L2 U' F U2 L2 F L2 F2 U2 F'",
       "B2 D' R2 F2 D F2 R2 D B2 F2 L U L2 F2 L F2 U' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=URU2R'U'RUR'U'RU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2DB2R2B2L2UL2D'F'D2L2F'L2U2F2D2F'",
     "enabled": true,
     "subset": 3
   },
@@ -2847,7 +2847,7 @@
       "R2 B2 U' B2 R2 U F2 D' B2 F2 L' U' L2 B2 L' B2 U L",
       "L2 F2 U L2 D' B2 D B2 R2 L2 F' D2 L2 B R2 B2 U2 B'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=URU2R'U'RUR'U'RU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D2L2F2D'R2DR2DL2D2FR2D2B'R2F2U2F",
     "enabled": true,
     "subset": 4
   },
@@ -2870,7 +2870,7 @@
       "R2 U R2 U F2 R2 U F2 U F' U2 R2 F U2 F2 R2 F'",
       "U R2 F2 R2 F2 D' L2 U L2 D F U2 R2 F' R2 F2 U2 F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=URU2R'U'RUR'U'RU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'R2U'F2L2D'B2D'B'D2L2FU2F2R2F'",
     "enabled": true,
     "subset": 5
   },
@@ -2893,7 +2893,7 @@
       "F2 D2 B2 R2 F2 L2 U' F2 R2 D F U2 D F2 R2 U R2 D' F'",
       "F2 R2 B2 D2 R2 U' R2 U F2 U F R2 U2 F' L2 B2 U2 B D"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=URU2R'U'RUR'U'RU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'F2R2D'R2B2D'F2L2UBU2L2FR2B2U2F'",
     "enabled": true,
     "subset": 6
   },
@@ -2916,7 +2916,7 @@
       "D F2 L2 U' L2 U' F2 U2 L2 D' B' U B L2 U' F U2 F'",
       "F2 U2 F2 U' F2 D F2 D2 L2 D B' U B L2 U' F U2 F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RU2R2U'R2U'R2U2R",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=DL2D'B2D'B2R2U2R2DFU'F'L2UF'L2F",
     "enabled": true,
     "subset": 1
   },
@@ -2939,7 +2939,7 @@
       "B2 U2 L2 F2 D R2 F2 U B2 F U B' R2 B' U' F' L2",
       "D' L2 U L2 B2 F2 D2 B2 L2 D' R' U L' B2 L' U' R F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RU2R2U'R2U'R2U2R",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2D'L2DF2U'F2DR2D'F'DFR2U'FU2F'D'",
     "enabled": true,
     "subset": 2
   },
@@ -2962,7 +2962,7 @@
       "U' R2 U' B2 L2 F2 L2 U' L2 D' L' U R' F2 U R U L'",
       "F2 U' F2 D R2 D' F2 L2 U' L2 F D F R2 U' F U2 F' D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RU2R2U'R2U'R2U2R",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2U2L2B2D'R2UL2DR2L'UR'F2URUL'D",
     "enabled": true,
     "subset": 3
   },
@@ -2985,7 +2985,7 @@
       "U2 L2 D' B2 U' B2 D B' U B L2 U' F U2 F'",
       "U' R2 D B2 R2 U' R2 B2 D2 F' D F R2 U' F U2 F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RU2R2U'R2U'R2U2R",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2U2L2UL2DF2U2F2D'B'UBL2U'FU2F'",
     "enabled": true,
     "subset": 4
   },
@@ -3008,7 +3008,7 @@
       "U F2 R2 B2 R2 D B2 D B2 D' F' U' F' L2 U F' L2 F",
       "D2 R2 B2 D' B2 U2 R2 D' R2 U' R U F2 U F2 L2 U' R L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RU2R2U'R2U'R2U2R",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D2L2B2D'B2D2L2D'L2D'R'D'F2D'F2L2DR",
     "enabled": true,
     "subset": 5
   },
@@ -3031,7 +3031,7 @@
       "U' L2 B2 D' L2 F2 D F2 L2 D B U B L2 U' F U2 F'",
       "L2 U L2 U' R2 B2 U L2 B2 D L D' R F2 R D L' F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RU2R2U'R2U'R2U2R",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2F2D'B2UL2UB2R2DBUBL2U'FU2F'",
     "enabled": true,
     "subset": 6
   },
@@ -3054,7 +3054,7 @@
       "F2 R2 D' L2 D R2 F2 R2 F2 D B' D' F2 D B' D' R2 U2",
       "L2 U' F2 R2 D B2 D' R2 F2 L2 B' U B L2 U2 F U' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2D'RU2R'DRU2R",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2DF2D'B2DF'D'B2DF'D'L2",
     "enabled": true,
     "subset": 1
   },
@@ -3077,7 +3077,7 @@
       "F2 U F2 U F2 U2 F2 L2 U' B D' B' U B D B' L2",
       "U' R2 B2 F2 U B2 D' R2 D R2 B U' F2 U B' U' R2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2D'RU2R'DRU2R",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2DR2D'B2UF2L2U'DF'D'B2DF'D'L2",
     "enabled": true,
     "subset": 2
   },
@@ -3100,7 +3100,7 @@
       "U' F2 D' B2 D' B2 D2 F2 L2 B' U B L2 U2 F U' F'",
       "F2 D R2 F2 U' F2 R2 D' F2 L2 B' U B L2 U2 F U' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2D'RU2R'DRU2R",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2U'L2UF2L2DL2U'R2FUFD'F'U'FL2",
     "enabled": true,
     "subset": 3
   },
@@ -3123,7 +3123,7 @@
       "U R2 F2 U' F2 U B2 F2 D' F D B2 D' F D R2",
       "U' B2 D' R2 D B2 L2 B2 D F' D' B2 D F' D' L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2D'RU2R'DRU2R",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2B2F2L2D'R2F2DFD'B2DF'D'L2",
     "enabled": true,
     "subset": 4
   },
@@ -3146,7 +3146,7 @@
       "D R2 D B2 D L2 D2 R2 F2 D' B' U B L2 U2 F U' F'",
       "L2 F2 U' L2 U F2 L2 U' B2 D2 R U F2 U' D2 B2 U' L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2D'RU2R'DRU2R",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2U'L2B2DR2D'B2U'B'UBL2U2FU'F'",
     "enabled": true,
     "subset": 5
   },
@@ -3169,7 +3169,7 @@
       "B2 D L2 U' L2 D' B2 U2 R D' R2 U' R2 D R'",
       "L2 F2 U F2 D' L2 B2 D B2 U2 L' D L2 U L2 D' L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2D'RU2R'DRU2R",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2DR2DL2U2R2DL2D2FRB'L2BR'F'L2D'",
     "enabled": true,
     "subset": 6
   },
@@ -3192,7 +3192,7 @@
       "B2 D L2 D' B2 R2 D' F2 D F2 R' B2 R F2 R' B2 R'",
       "L2 U' L2 D F2 U2 F2 U' F2 U R' B2 R F2 R' B2 R D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'U'r'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UB2UL2D'R2D'R2D2L'D2R'U2RD2L'",
     "enabled": true,
     "subset": 1
   },
@@ -3215,7 +3215,7 @@
       "U' B2 D' R2 U R2 D L D2 R' U2 R D2 L'",
       "L2 F2 U F2 D' L2 B2 D L D2 R' U2 R D2 L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'U'r'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2UR2F2U'R2UF2R2UF'DF'U2FD'F",
     "enabled": true,
     "subset": 2
   },
@@ -3238,7 +3238,7 @@
       "B2 L2 D' R2 D L2 U D' R2 D L D2 R' U2 R D2 L'",
       "B2 F2 U' L2 U' F2 D B2 D R2 B' L F' R2 F L' B D"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'U'r'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2DR2B2DB2U'B2L2D'RF2R'B2RF2RD'",
     "enabled": true,
     "subset": 3
   },
@@ -3261,7 +3261,7 @@
       "L2 D' L2 U2 R2 U F2 R2 U' F2 R B2 R F2 L' D2 L",
       "U' R2 U B2 F2 L2 D L2 D' L2 F' D B2 D' F D F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'U'r'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2L2D'R2D'L2U2R2UB2LD2L'B2LD2L'",
     "enabled": true,
     "subset": 4
   },
@@ -3284,7 +3284,7 @@
       "U2 R2 L2 D R2 F2 R2 D R2 L U2 R' D2 R U2 L",
       "R2 L2 D' R2 L2 U' R2 F2 R2 U2 L U2 L B2 L' U2 L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'U'r'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D2R2F2R2D2LU2LB2L'U2L'",
     "enabled": true,
     "subset": 5
   },
@@ -3307,7 +3307,7 @@
       "U2 F2 L2 U' L2 U L2 D' L2 F U' F' D F U F",
       "L2 D' B2 D L2 F2 D R2 D2 F U' F' D F U F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'U'r'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2F2R2D'L2DR2D'L2FU'F'DFUF",
     "enabled": true,
     "subset": 6
   },
@@ -3330,7 +3330,7 @@
       "B2 D L2 D' B2 D2 F2 D R2 D2 B D F2 D' B' D'",
       "U' R2 D' B2 R2 U L2 F2 R2 D2 R D' L2 D R"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F'rUR'U'r'FR",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2D'L2DRD'L2DR",
     "enabled": true,
     "subset": 1
   },
@@ -3353,7 +3353,7 @@
       "F2 D B2 L2 F2 U' R2 F2 L2 D' F' U2 F D' F' U2 F'",
       "F2 U F2 D' L2 D' R2 U2 R2 D' R' D' L2 D R D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F'rUR'U'r'FR",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2D'F2UR2U'F2L2DB2RD'L2DR",
     "enabled": true,
     "subset": 2
   },
@@ -3376,7 +3376,7 @@
       "U L2 D' F2 L2 U R2 B2 L2 D R' B2 R' D L U2 L",
       "R2 U R2 U' R2 F2 U' F2 L2 D R D' L2 D R D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F'rUR'U'r'FR",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2R2U'F2UR2U'F2L2DRD'L2DRD'",
     "enabled": true,
     "subset": 3
   },
@@ -3399,7 +3399,7 @@
       "R2 U' B2 L2 U B2 U R2 B2 U2 B' D F2 D' B'",
       "U B2 D R2 B2 U' F2 L2 B2 D2 B' D F2 D' B'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F'rUR'U'r'FR",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2D'F2R2U'L2DB2RD'L2DR",
     "enabled": true,
     "subset": 4
   },
@@ -3422,7 +3422,7 @@
       "B2 D F2 D2 R2 U R2 U' B2 D B D F2 D' B'",
       "B2 D' R2 B2 U B2 R2 D B2 L' D L' U' L D' L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F'rUR'U'r'FR",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2D'F2DR2D2F2DR2D2BDF2D'B'D'",
     "enabled": true,
     "subset": 5
   },
@@ -3445,7 +3445,7 @@
       "D' R2 U' R2 D B2 D' B2 D L' D L' U' L D' L",
       "L2 F2 U F2 U' F2 D F2 D2 R B2 R' D L U2 L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F'rUR'U'r'FR",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2L2F2D'B2DF2D'B2LU2L'DLU2L",
     "enabled": true,
     "subset": 6
   },
@@ -3468,7 +3468,7 @@
       "L2 U' F2 L2 F2 U F2 L2 F2 U2 L' U L2 U' L2 U L",
       "B2 L2 U' R2 F2 L2 D' R F2 R U L' U L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'RU2R'U'RU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2DR2U'B2UB2D'R2F2RU'L'UR'U'L",
     "enabled": true,
     "subset": 1
   },
@@ -3491,7 +3491,7 @@
       "R2 B2 D' F2 D B2 D' F2 D R' U' L' U R' U' L",
       "U R2 F2 U' F2 U F2 D' F2 D R' U' L' U R' U' L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'RU2R'U'RU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'L2U'B2D'F2DF2DR'F2RB2U'L'U'L'",
     "enabled": true,
     "subset": 2
   },
@@ -3514,7 +3514,7 @@
       "U R2 D' F2 D B2 D' F2 D B2 R' U' L' U R' U' L",
       "R2 D L2 F2 U L2 U' R2 U B2 R' F2 R U L' U L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'RU2R'U'RU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=DB2D'R2UF2D'L2DF2R'U'L'UR'U'L",
     "enabled": true,
     "subset": 3
   },
@@ -3537,7 +3537,7 @@
       "L2 B2 D F2 L2 U' L2 F2 L2 U' L U2 L D' B2 L' U2 L'",
       "R2 D' F2 U L2 U' L2 D F2 R2 L' U2 L U L' U L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'RU2R'U'RU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2R2UF2U'F2R2D'F2DF'UF'UFU2F'",
     "enabled": true,
     "subset": 4
   },
@@ -3560,7 +3560,7 @@
       "U' L2 B2 D F2 D' B2 D F2 D' L U2 L U L' U L",
       "L2 D B2 R2 D' R2 B2 L2 D' B2 F' D' B' D F D' B' D"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'RU2R'U'RU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF2DR2D'L2DR2D'L2F'UF'UFU2F'",
     "enabled": true,
     "subset": 5
   },
@@ -3583,7 +3583,7 @@
       "B2 L2 D L2 B2 U' L2 D F' R2 F D' B' D' B L2",
       "D L2 D' R2 D F2 D' F2 L2 D' R F2 R U L' U L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'RU2R'U'RU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2L2U'L2UB2D'B2DB2LUL2U'L2UL",
     "enabled": true,
     "subset": 6
   },
@@ -3606,7 +3606,7 @@
       "L2 U L2 D F2 U F2 D R2 U R U' R2 U R2 U' R' D2",
       "B2 U' B2 U' B2 U' B2 D' R2 U' R U' R2 U R2 U' R' D"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'URU2R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2D2R2F2L2UB2L2F2D'FU'FU'F'U2F",
     "enabled": true,
     "subset": 1
   },
@@ -3629,7 +3629,7 @@
       "F2 U2 L2 D' B2 D2 R2 D B2 D2 R' D2 R' D' R D' R L2",
       "U2 L2 F2 D' B2 D F2 D' B2 D L U R U' L U R'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'URU2R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2B2R2F2UR2B2D'L2D2B'D'BR2U'F'U2F",
     "enabled": true,
     "subset": 2
   },
@@ -3652,7 +3652,7 @@
       "U F2 D' L2 D R2 D' L2 D R2 F U' F U' F' U2 F",
       "U F2 D' L2 D F2 R2 D B2 D' R' U2 R' U' R U' R'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'URU2R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'R2B2D'F2DB2D'F2DR'U2R'U'RU'R'",
     "enabled": true,
     "subset": 3
   },
@@ -3675,7 +3675,7 @@
       "U B2 U' B2 L2 U L2 D L2 D' F U2 F' U F U F' L2",
       "R2 D' F2 D R2 B2 D L2 D' B2 F U2 F' U' F U' F' U'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'URU2R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF2DR2U'B2UB2D'R2FU'FU'F'U2F",
     "enabled": true,
     "subset": 4
   },
@@ -3698,7 +3698,7 @@
       "R2 D L2 F2 U L2 U' R2 U B2 L F2 L' U' R U' R'",
       "F2 L2 U' L2 U L2 D' L2 D F U' F U' F' U2 F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'URU2R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2DB2D'F2DB2D'F2R'U2R'U'RU'R'",
     "enabled": true,
     "subset": 5
   },
@@ -3721,7 +3721,7 @@
       "B2 L2 U L2 U' L2 D L2 D' B2 F' U' F U' F' U2 F",
       "R2 D' F2 D R2 B2 D L2 D' B2 R U2 R' U' R U' R'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'URU2R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2D'F2UL2U'L2DF2R2F'U'FU'F'U2F",
     "enabled": true,
     "subset": 6
   },
@@ -3744,7 +3744,7 @@
       "U R2 L2 D B2 R2 D' L2 F2 U R' L F' R2 F' R' L'",
       "D' F2 U F2 D B2 R2 B2 L2 F2 R' L' F' R2 F' R' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'U'r'RURU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2L2DF2L2B2U2R2UR'LF'R2F'R'L'",
     "enabled": true,
     "subset": 1
   },
@@ -3767,7 +3767,7 @@
       "R2 U2 L2 U R2 D F2 D' R2 U' R' L' B U2 B' R' L'",
       "D R2 D B2 U' B2 R2 D2 F2 R' F' R F2 L' F L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'U'r'RURU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2F2D'B2UR2U'R2DB2R'F'RF2L'FL'",
     "enabled": true,
     "subset": 2
   },
@@ -3790,7 +3790,7 @@
       "U' L2 D' B2 D F2 D' B2 D R' F' R F2 L' F L'",
       "R2 U2 L2 U' L2 D F2 D' F2 R L F' R2 F' R' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'U'r'RURU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2L2B2D'L2U'L2DB2D2R'L'F'R2F'R'L'",
     "enabled": true,
     "subset": 3
   },
@@ -3813,7 +3813,7 @@
       "B2 F2 U' L2 D' F2 R2 D' F2 U R L B' U2 B' R' L D",
       "F2 D' R2 B2 D B2 R2 D F2 R2 F' L' B U2 B' L F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'U'r'RURU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UB2UB2U2R2F2L2DL2F'RF'R2BR'B'",
     "enabled": true,
     "subset": 4
   },
@@ -3836,7 +3836,7 @@
       "L2 B2 U L2 U' B2 F2 D R2 D' R' F' R F2 L' F L'",
       "F2 R2 D' L2 D R2 B' F L' U2 L B F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'U'r'RURU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2U'L2UB2F2D'R2DB2R'F'RF2L'FL'",
     "enabled": true,
     "subset": 5
   },
@@ -3859,7 +3859,7 @@
       "B2 L2 B2 R2 F2 D' B2 D R2 B' F L' U2 L B F L2",
       "F2 R2 D B2 D' R2 F2 L2 U2 F2 R' F' R F2 L' F L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rUR'U'r'RURU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2R2UF2U'R2DR2B2DR'LB'U2B'D2R'L'",
     "enabled": true,
     "subset": 6
   },
@@ -3882,7 +3882,7 @@
       "U2 R2 U F2 R2 F2 U2 R2 D' F D F R2 U R F' R",
       "U2 R2 D' L2 D R2 D' L2 D F' U2 L F' L' F U2 F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'RU'R'F'U'FRUR'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2L2D2R2F2L2UL2B2U'BUBL2URF'R",
     "enabled": true,
     "subset": 1
   },
@@ -3905,7 +3905,7 @@
       "U' F2 R2 U' F2 U' F2 U2 R2 F U2 L F' L' F U2 F",
       "D' F2 U' F2 U2 R2 U R2 F2 D F' R' F2 R F D B2 D' B2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'RU'R'F'U'FRUR'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2DL2D'B2UR2D'F2DR'F'U'FUR'B2R2",
     "enabled": true,
     "subset": 2
   },
@@ -3928,7 +3928,7 @@
       "R2 B2 R F' U' F U R' B2 R2",
       "R2 F2 U' F2 U B2 F2 D' F2 D R F' U' F U R' B2 R2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'RU'R'F'U'FRUR'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2D'F2U2R2B2R2U'L2U'F'LF2L'F'R2U'B2",
     "enabled": true,
     "subset": 3
   },
@@ -3951,7 +3951,7 @@
       "R2 U B2 U B2 R2 U2 R2 D' R2 F' U2 L F' L' F U2 F D",
       "U' F2 U F2 R2 F2 U' R2 U F2 R' U' R' F L F L2 U' L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'RU'R'F'U'FRUR'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=DR2D'R2U2F2R2U2R'U'R'FLFL2U'L",
     "enabled": true,
     "subset": 4
   },
@@ -3974,7 +3974,7 @@
       "U F2 U F2 U F2 U2 F2 R2 D' F' D F R2 U R' F' R",
       "U F2 D B2 D' F2 D B2 D' F' U2 L F' L' F U2 F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'RU'R'F'U'FRUR'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2R2U'R2U'B2UR2UR2FD'R'URU'RDF'",
     "enabled": true,
     "subset": 5
   },
@@ -3997,7 +3997,7 @@
       "D R2 U2 R2 D B2 U B2 D2 F' U2 L F' L' F U2 F",
       "D' L2 U B2 U' B2 L2 U L2 D L' D R' F R2 F' R' D' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'RU'R'F'U'FRUR'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UR2DB2U'L2UL2D'RF'U'FUR'B2R2",
     "enabled": true,
     "subset": 6
   },
@@ -4020,7 +4020,7 @@
       "U2 R2 U' R2 F2 L2 F2 D' R2 F2 L' U' L' B2 U' F' R F'",
       "U' B2 U B2 U' B2 U L2 U' F2 R' B' R2 B R F2 U L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FR'FR2U'R'U'RUR'F2",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2F2DB2DL2B2D2F2U'R'U2B'RBR'U2R'",
     "enabled": true,
     "subset": 1
   },
@@ -4043,7 +4043,7 @@
       "F2 U R2 F2 D2 R2 D F2 R2 D2 R' F R2 F' R' L2 D L2",
       "F2 D F2 D R2 D' F2 R2 F2 D R' D' R' F2 U' F R F' D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FR'FR2U'R'U'RUR'F2",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2L2U'F2D'F2D'L2DFR'F2RFL2DL2",
     "enabled": true,
     "subset": 2
   },
@@ -4066,7 +4066,7 @@
       "L2 D L2 U2 L2 D F2 D' F' R' D2 R' D2 R2 F' D' L2",
       "F2 L2 D R2 D' L2 D R2 D' L2 F' R U R' U' F L2 F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FR'FR2U'R'U'RUR'F2",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UB2F2D2L2F2D'F2UL'U'L'B2U'F'RF'",
     "enabled": true,
     "subset": 3
   },
@@ -4089,7 +4089,7 @@
       "D2 B2 U2 B2 U B2 U B2 D2 R U2 B' R B R' U2 R'",
       "U L2 B2 D' L2 U' L2 D B2 R' D2 F' R F L' F2 L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FR'FR2U'R'U'RUR'F2",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2R2L2D2F2DF2DF2LB2RF'RFL2F2L'",
     "enabled": true,
     "subset": 4
   },
@@ -4112,7 +4112,7 @@
       "D F2 D' B2 F2 D' B2 D' R2 D2 B' D' R' B U R' L2 D L2",
       "U F2 R2 U' F2 U' F2 U2 R2 F2 R U2 B' R B R' U2 R'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FR'FR2U'R'U'RUR'F2",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2U'F2R2DB2DB2D2R'U2B'RBR'U2R'",
     "enabled": true,
     "subset": 5
   },
@@ -4135,7 +4135,7 @@
       "B2 U' B2 L2 F2 D' F2 R' L' U' R U F R F' L'",
       "L2 D' L2 D R2 F2 D' F2 R2 D' R' F R2 F' R' L2 D L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FR'FR2U'R'U'RUR'F2",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D'B2L2U'R2F2L2D'R2DR'LU'RUFRF'L'",
     "enabled": true,
     "subset": 6
   },
@@ -4158,7 +4158,7 @@
       "U' L2 F2 D R2 D R2 F2 L2 B2 L' B2 L U2 F R B2 F'",
       "L2 F2 D2 F2 L2 F2 D B2 D' F2 L' B2 L U2 F R B2 F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UR'U'FURU'R'F'R",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2D'L2B2U'B2UB2R2L2F'RF2R'FR2DL2",
     "enabled": true,
     "subset": 1
   },
@@ -4181,7 +4181,7 @@
       "U2 R2 D R2 L2 D L2 D' R2 D' F R' D' R D F' R2",
       "U2 F2 R2 F2 U F2 R2 F2 U R' U2 R U2 F R F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UR'U'FURU'R'F'R",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'R2U'B2R2B2U'R2B2L'B2LU2FRF'",
     "enabled": true,
     "subset": 2
   },
@@ -4204,7 +4204,7 @@
       "U' F2 U' R2 U R2 D' F2 D R' F' U' R' F R U R",
       "B2 L2 U2 R2 D' R2 B2 U' R2 U L D2 L' F2 R2 F R F' D"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UR'U'FURU'R'F'R",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2D2L2B2U'L2F2U'L2DRB2R'B2L2FRF'D",
     "enabled": true,
     "subset": 3
   },
@@ -4227,7 +4227,7 @@
       "R2 U' F2 L2 U' L2 D L2 D L2 F' R' D' R D F' R2 D'",
       "F2 L2 F2 U2 B2 F2 U F2 D' L2 F' R F2 R' F R2 D L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UR'U'FURU'R'F'R",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D'B2D'L2U'R2B2DF2D'B'R2D2LULUF",
     "enabled": true,
     "subset": 4
   },
@@ -4250,7 +4250,7 @@
       "R2 B2 D' F2 D' L2 D2 B2 D' F2 R' F' U' R' F R U R D",
       "R2 D L2 D L2 D' B2 D' B2 R' U B L U' L' B' R'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UR'U'FURU'R'F'R",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2U'F2U'F2U'F2U2F2U'R'UBLU'L'B'R'",
     "enabled": true,
     "subset": 5
   },
@@ -4273,7 +4273,7 @@
       "F2 D' F2 U F2 D F2 U2 R2 F2 R F2 L' U2 R L F R F'",
       "R2 U' B2 U2 B2 R2 U' R2 U2 F R' D' R D F' R2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UR'U'FURU'R'F'R",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2F2R2U2R2F2D'F2DR'U2LB'D2BR'F2L'",
     "enabled": true,
     "subset": 6
   },
@@ -4296,7 +4296,7 @@
       "F2 L2 U2 L2 F2 R2 D' L2 D R2 B L2 B' U2 R' F' R L2",
       "U B2 R2 D' F2 D' F2 R2 B2 L2 B L2 B' U2 R' F' R L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=LUF'U'L'ULFL'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=DB2D'B2D'B2L2UB2L2B'L2B'U2R'F'RL2",
     "enabled": true,
     "subset": 1
   },
@@ -4319,7 +4319,7 @@
       "D' L2 B2 U2 B2 D L2 F2 U R' F D F' D' R F2",
       "U2 F2 D' B2 F2 D' B2 D F2 D R' F D F' D' R F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=LUF'U'L'ULFL'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D2R2U'F2L2B2D'L2F2D2FU2F'U2R'F'R",
     "enabled": true,
     "subset": 2
   },
@@ -4342,7 +4342,7 @@
       "F2 U' F2 R2 U R2 D R2 D' R2 F R U F R' F' U' F'",
       "U R2 U B2 R2 U' B2 U R2 B2 F R U F R' F' U' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=LUF'U'L'ULFL'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2UB2L2UL2U'B2DL2BL2B'U2R'F'RD'",
     "enabled": true,
     "subset": 3
   },
@@ -4365,7 +4365,7 @@
       "F2 D' F2 D R2 U' F2 R2 U2 F R2 F R2 F2 R' F' R",
       "F2 L2 D' L2 B2 U' B2 D L2 U R' L2 F D F' D' R F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=LUF'U'L'ULFL'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2U'L2UL2B2DL2D'F2R'FDF'D'RF2L2",
     "enabled": true,
     "subset": 4
   },
@@ -4388,7 +4388,7 @@
       "F2 R2 U' B2 D2 B2 R2 U R2 D2 R F D F' D' R F2 D'",
       "R2 B2 L2 D R2 L2 U R2 L2 D R F D F' D' R F2 L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=LUF'U'L'ULFL'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2B2F2L2DR2B2R'FDF'D'RF2L2",
     "enabled": true,
     "subset": 5
   },
@@ -4411,7 +4411,7 @@
       "U R2 F2 D' F2 L2 D F2 D' F2 L' D2 R D2 L' D F' R F'",
       "U F2 U L2 U2 L2 F2 U F2 U2 R' F D F' D' R F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=LUF'U'L'ULFL'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2DF2U'F2R2D'L2DR2F'U'R'D'FDFRD'",
     "enabled": true,
     "subset": 6
   },
@@ -4434,7 +4434,7 @@
       "B2 L2 U' B2 U L2 B2 U' L2 D F R' F2 R F' U' F2 D'",
       "D' B2 L2 U' B2 U L2 B2 L2 D F R F U' F' R' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2UF'RFU'F'R'F'",
     "enabled": true,
     "subset": 1
   },
@@ -4457,7 +4457,7 @@
       "F2 D' L2 B2 D L2 D' B2 L2 B' L B2 L' B D F2",
       "U2 F2 U' F2 D' L2 U2 L2 D F' U L' U2 L U' F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2R2B2UB2F2DB2L2D'BL'B'DBLB'F2",
     "enabled": true,
     "subset": 2
   },
@@ -4480,7 +4480,7 @@
       "F2 L2 D B2 D B2 D2 L2 F2 U' F R' U R2 U' R F'",
       "U2 F2 L2 U' L2 D F2 R2 D' R2 F R' U R2 U' R F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2UF2U'B2DR2D'B2DF'RFU'F'R'F'D'",
     "enabled": true,
     "subset": 3
   },
@@ -4503,7 +4503,7 @@
       "U' F2 U' L2 U' L2 U' L2 U2 L2 F' R' F2 R F' U' F2",
       "F2 U2 F2 R2 U R2 D' F2 D F U L' U2 L U' F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D2L2DL2D'B2UB2D2FR'UR2U'RF'",
     "enabled": true,
     "subset": 4
   },
@@ -4526,7 +4526,7 @@
       "U' L2 U F2 R2 D' B2 D R2 D R' B' R2 B R' D' F2",
       "U2 L2 D' B2 U B2 L2 D F R F U' F' R' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2R2D'L2DR2D'L2UDF'RFU'F'R'F'",
     "enabled": true,
     "subset": 5
   },
@@ -4549,7 +4549,7 @@
       "R2 B2 F2 U' F2 U B2 U' R2 B2 F' L F D' F' L' B2 F",
       "R2 D' F2 D R2 B2 D L2 D' B2 F R' F' R U R U' R'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2F2R2U'L2UR2U'L2U2F'RFU'F'R'F'",
     "enabled": true,
     "subset": 6
   },
@@ -4572,7 +4572,7 @@
       "U' R2 U R2 U' R2 D2 L2 U' B' U2 L2 U D2 R' U' R' F'",
       "D' L2 B2 U' D2 R2 B2 D' L2 F' U2 R2 U' R' U' R' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR2U'R'FRURU'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2L2DB2D'L2F2U2L2D2B'D2L2U'R'U'R'F'",
     "enabled": true,
     "subset": 1
   },
@@ -4595,7 +4595,7 @@
       "U2 F2 R2 B2 U B2 D' R2 F2 D F U' F L F' L' F' U F'",
       "U' F2 R2 U' L2 U R2 U2 R2 D2 B' D2 R2 U L U L F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR2U'R'FRURU'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2DL2D'R2DL2D'FD'R'DRF'R2B2",
     "enabled": true,
     "subset": 2
   },
@@ -4618,7 +4618,7 @@
       "B2 L2 D L2 D2 R2 B2 D2 F2 U2 F' U' F L' F' L' F' U F' D'",
       "B2 U R2 U' B2 U R2 D' R2 D B U L U' L' B R2 B2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR2U'R'FRURU'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'F2UR2UL2D2BD2L2U'R'U'R'F'",
     "enabled": true,
     "subset": 3
   },
@@ -4641,7 +4641,7 @@
       "R2 B2 D' F2 U L2 U' L2 D B2 R' U B U' B' R F2 R2 U'",
       "U F2 D R2 D' L2 U R2 U' L2 F' U2 R2 U' R' U' R' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR2U'R'FRURU'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2F2UF2D'R2DF2D'L2FD'R'DRF'R2B2D",
     "enabled": true,
     "subset": 4
   },
@@ -4664,7 +4664,7 @@
       "L2 D' B2 D L2 F2 D R2 D' B F L F L' B' U' L' U L",
       "D' B2 R2 D L2 D F2 D2 R2 D' F' U' D2 L' U L D2 F D2 L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR2U'R'FRURU'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'B2U'R2B2UB2R2U2B2FURU'D'RDR'F'",
     "enabled": true,
     "subset": 5
   },
@@ -4687,7 +4687,7 @@
       "U' F2 L2 F2 U F' U' L' U L F' L2 F2",
       "U' F2 R2 B2 D B' D' L' D L B' R2 F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR2U'R'FRURU'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'F2L2B2DB2R2L2F'URU'R'FR2F2",
     "enabled": true,
     "subset": 6
   },
@@ -4710,7 +4710,7 @@
       "F2 U R2 D2 B2 D' R2 U' R2 D L B L2 B' L B2 D2 R2 F2",
       "B2 D' B2 D F2 D' F2 D F2 U2 F' R L2 B R B' R2 L2 F' D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2RU2R2FRF'RU2R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2LU2L'BL'B'L2U2L'",
     "enabled": true,
     "subset": 1
   },
@@ -4733,7 +4733,7 @@
       "R2 D R2 D' F2 D' F2 D F2 D' L' U F U' F' L D F2",
       "F2 D' F2 U2 F2 D' L2 U' L2 D L' U F U' F' L D F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2RU2R2FRF'RU2R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2F2L2F2L2UB2DF2D2R'DB2U2F'L'U'F",
     "enabled": true,
     "subset": 2
   },
@@ -4756,7 +4756,7 @@
       "B2 U' L2 B2 D2 R2 L2 U' B2 D2 L' D L2 F L' U' L2 F D",
       "B2 R2 F2 D2 B2 L2 D' R2 D' R' D' B' D B R' D F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2RU2R2FRF'RU2R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2R2B2UB2D'R2F2L2U2LUFU'F'LDF2",
     "enabled": true,
     "subset": 3
   },
@@ -4779,7 +4779,7 @@
       "U L2 D F2 U' F2 D' R2 D L2 B' D' B2 R' B U B2 R'",
       "R2 D L2 D F2 L2 F2 L2 F2 D' B' D' B2 R' B U B2 R'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2RU2R2FRF'RU2R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2L2U'L2F2R2L2DL2D'B'D'B2R'BUB2R'",
     "enabled": true,
     "subset": 4
   },
@@ -4802,7 +4802,7 @@
       "U' R2 U R2 D' F2 L2 U2 L U F U' F' L D F2",
       "B2 F2 L2 U' R2 U' R2 U2 L2 F2 R' D B2 U2 F' L' U' F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2RU2R2FRF'RU2R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D'L2B2D'R2DB2U2LUFU'F'LDF2",
     "enabled": true,
     "subset": 5
   },
@@ -4825,7 +4825,7 @@
       "U D R2 D' F2 U F2 L2 B2 L2 F' R' F2 R F L2 B2 L2",
       "U L2 B2 L2 U2 R2 F2 D F2 D F D L D' L' F D' R2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2RU2R2FRF'RU2R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2B2R2UR2DL2DL2D'BD'B2R'BUB2R'",
     "enabled": true,
     "subset": 6
   },
@@ -4848,7 +4848,7 @@
       "U F2 L2 U F2 U' B2 F2 R2 F2 R' F' R2 F R' B2 F2 L2",
       "U2 L2 U' B2 F2 R2 D R F' R B2 F2 L F L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UL'U'LU'L'ULULF'L'F",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2L2UL2B2R2L2D'L2D2RFU'F'UF'R",
     "enabled": true,
     "subset": 1
   },
@@ -4871,7 +4871,7 @@
       "D L2 D' B2 D' R2 U2 R2 B2 D F U' R U' R' U F' L2",
       "U D F2 R2 B2 R2 U F2 D' F2 R' F' R2 F R' F2 L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UL'U'LU'L'ULULF'L'F",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2R2B2DR2B2U'B2R2D'F'RF2R'B2F'R2F2",
     "enabled": true,
     "subset": 2
   },
@@ -4894,7 +4894,7 @@
       "R2 D R2 D2 L2 F2 L2 U L2 U' R' F' R F2 L F L D",
       "R2 D B2 D' R2 U F2 D2 L2 D' R' D' F' R' U2 R2 U F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UL'U'LU'L'ULULF'L'F",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF2UF2L2U2DF2D'R'F'RF2LFL",
     "enabled": true,
     "subset": 3
   },
@@ -4917,7 +4917,7 @@
       "L2 B2 D R2 D R2 D2 B2 L2 U' F' L D2 B R B' D2 F L'",
       "R2 D L2 D B2 R2 U2 L2 F2 D L U2 L' B L B' U2 L' D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UL'U'LU'L'ULULF'L'F",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2L2F2U'L2UF2L2U'FLD2BRB'D2FL'",
     "enabled": true,
     "subset": 4
   },
@@ -4940,7 +4940,7 @@
       "B2 D L2 D L2 F2 D2 B2 D' F2 R' F U' F' U F' R D",
       "L2 F2 U B2 U' B2 D L2 D' L2 F' U' R U' R' U F' L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UL'U'LU'L'ULULF'L'F",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2B2L2D'B2U'B2DB2F2RF'R2FR'F2L2",
     "enabled": true,
     "subset": 5
   },
@@ -4963,7 +4963,7 @@
       "F2 D' B2 D' B2 D2 F2 L2 U' F2 R' F' R F2 L F L",
       "U' L2 U' F2 D' B2 D' B2 D2 F' U' R U' R' U F' L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UL'U'LU'L'ULULF'L'F",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'L2F2DL2B2D'B2L2D'F'U'RU'R'UF'L2",
     "enabled": true,
     "subset": 6
   },
@@ -4986,7 +4986,7 @@
       "D2 B2 U D' B2 U' R2 U2 D' R2 F R' F2 R F",
       "U B2 U L2 F2 R2 D F2 L2 U R' U' R U F R F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FR'F'RURU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2UR2D'F2U'DF'R'F2RF",
     "enabled": true,
     "subset": 1
   },
@@ -5009,7 +5009,7 @@
       "R2 D2 L2 U B2 U L2 D' R2 D' F' R' F2 R F",
       "F2 U' L2 D' F2 R2 D' R2 F2 L' D F L' U' F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FR'F'RURU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2UB2U'F2DL2B2D'F2R'FR2F'R'",
     "enabled": true,
     "subset": 2
   },
@@ -5032,7 +5032,7 @@
       "F2 R2 D' B2 D' B2 D2 R2 D' L D F L' U' F",
       "U F2 U' F2 U F R' F2 R F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FR'F'RURU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF2D'L2D'B2R2U2B2R2BR2D2LU2LF",
     "enabled": true,
     "subset": 3
   },
@@ -5055,7 +5055,7 @@
       "L2 D B2 L2 U' R2 F2 R2 L2 D' F' D' L' F U L' U2",
       "L2 U' B2 D R2 U' L2 F2 U R2 F R' F2 R F D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FR'F'RURU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2U2F2DF2DR2D'R2D'L'F'L2FLU'",
     "enabled": true,
     "subset": 4
   },
@@ -5078,7 +5078,7 @@
       "L2 U' B2 D' R2 D B2 U L2 D2 F' R' F2 R F D2",
       "U' F2 L2 D' F2 U' B2 U B2 F2 L' D F L' U' F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FR'F'RURU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UR2B2DR2UL2U'R2L2BD'R'BUR'",
     "enabled": true,
     "subset": 5
   },
@@ -5101,7 +5101,7 @@
       "R2 B2 D B2 R2 L2 F2 L2 U F R' F L2 F R F",
       "R2 D' F2 D R2 B2 D L2 D' B2 R U R' U' R' F R F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FR'F'RURU'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2U'F2U'L2D2R2B2R2D2F'R'FL2FRF",
     "enabled": true,
     "subset": 6
   },
@@ -5124,7 +5124,7 @@
       "F2 U R2 U' R2 U F2 R2 U' F2 R' B' R2 B L' U2 R L",
       "F2 U' L2 B2 U' B2 D L2 F2 D' R' F' R F2 U' F' U F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'URU'R'U'R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2D'F2R2U'R2F2DR2D'FR'URU'RF'D",
     "enabled": true,
     "subset": 1
   },
@@ -5147,7 +5147,7 @@
       "R2 D2 L2 D F2 U D2 L2 U' D' F R F' R2 B' R' B'",
       "U' R2 D R2 U' R2 D2 F D R F U2 F2 U' R"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'URU'R'U'R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2F2L2D'L2B2DB2U'L2F'RF2R'FR2B2D'",
     "enabled": true,
     "subset": 2
   },
@@ -5170,7 +5170,7 @@
       "L2 U2 D' L2 D' R2 D' R2 D' R' F' R F2 U' F' U F'",
       "B2 U' L2 D' R2 D2 F2 D' R2 D2 R' F' R2 F' R' L D2 L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'URU'R'U'R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2U2F2L2B2R2D'B2L2URF'RF2U'F'UF'",
     "enabled": true,
     "subset": 3
   },
@@ -5193,7 +5193,7 @@
       "L2 U L2 B2 F2 U' B2 U F2 U2 F' L2 F L' B' L U2 B",
       "U2 L2 U2 L2 F2 U L2 U L2 F2 R' F' R F2 U' F' U F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'URU'R'U'R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'R2F2D2L2D'L2D2L2DF'RF'R2B'R'B'",
     "enabled": true,
     "subset": 4
   },
@@ -5216,7 +5216,7 @@
       "L2 U' F2 D B2 D' B2 D' F2 L' F' L2 F R B2 R' L",
       "U B2 R2 B2 D R2 U R2 D' B2 F R F2 R' F R2 B2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'URU'R'U'R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2U'L2UL2B2R2F'RF2R'FR2B2",
     "enabled": true,
     "subset": 5
   },
@@ -5239,7 +5239,7 @@
       "U L2 B2 L2 U' L2 B2 U' L2 U L F' L2 F R B2 R' L",
       "R2 U' R2 U R2 B2 R2 L2 F2 R' F' R2 F' R2 L2 B2 R"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'URU'R'U'R'FRF'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2DF2DR2F2D2B2UB2RBR'B2L'B'L'U",
     "enabled": true,
     "subset": 6
   },
@@ -5262,7 +5262,7 @@
       "R2 D' R2 D L2 D R2 F2 R2 D' L B D B' D' L U' B2",
       "F2 D F2 L2 B2 U2 F2 D' R2 D2 F L D L' D' F D' B2 D"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=LF'L'U'LUFU'L'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF2D2B2D'F2DB2D'F2R'BUB'U'RD'F2",
     "enabled": true,
     "subset": 1
   },
@@ -5285,7 +5285,7 @@
       "R2 D B2 D' R2 U F2 D' L2 D2 R' B U B' U' R D' F2",
       "B2 D F2 D2 R2 D' R2 D2 B2 D F R2 U' L' U R2 L F D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=LF'L'U'LUFU'L'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2L2F2U'L2U'L2U2F2U'BUD'LU'L'DB'L2",
     "enabled": true,
     "subset": 2
   },
@@ -5308,7 +5308,7 @@
       "U R2 U R2 F2 D' L2 D' L2 D' R' B U B' U' R D' F2",
       "U2 F2 R2 B2 D L2 U' L2 B2 U R B U B' U' R D' F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=LF'L'U'LUFU'L'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2U'R2L2B2D'B2R2DF2R'BUB'U'RD'F2",
     "enabled": true,
     "subset": 3
   },
@@ -5331,7 +5331,7 @@
       "D B2 L2 D2 F2 R2 F2 D2 L2 D' F R F' R U R' U' R'",
       "F2 D B2 L2 F2 R2 F2 L2 D' F' R F' R U R' U' R'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=LF'L'U'LUFU'L'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'F2R2F2UF2R2F2U2FRF'RUR'U'R'",
     "enabled": true,
     "subset": 4
   },
@@ -5354,7 +5354,7 @@
       "D2 F2 D' F2 U F2 U L2 D' L2 F' L F U2 D F2 D' L U2 L'",
       "R2 D B2 D' R2 F2 D' L2 D F2 L U F' U' L' U L F L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=LF'L'U'LUFU'L'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UR2D'L2DR2D'L2DF'RU'L'UR'LF",
     "enabled": true,
     "subset": 5
   },
@@ -5377,7 +5377,7 @@
       "L2 F2 U2 L2 U L2 U F2 L2 U F' R2 U' L' U R2 L F",
       "U' R2 D' F2 D R2 F2 U R2 U' F' R F' R U R' U' R'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=LF'L'U'LUFU'L'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2U'F2L2DB2D'L2DR'BUB'U'RD'F2",
     "enabled": true,
     "subset": 6
   },
@@ -5400,7 +5400,7 @@
       "R2 D' R2 B2 U2 R2 D F2 D2 F2 R' B' D' B D R' U B2",
       "U R2 F2 D2 B2 L2 B2 D2 F' U R' U' R U R U' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R'FRUR'U'F'UR",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2D'L2DF2DF2D'F2U'F'L'URU'R'LF'",
     "enabled": true,
     "subset": 1
   },
@@ -5423,7 +5423,7 @@
       "L2 D F2 U2 L2 U F2 U2 L2 D F' L2 U R U' R' L2 F' D2",
       "F2 U' F2 U F2 U' R2 U R2 D' F' L' U R U' R' L F' D"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R'FRUR'U'F'UR",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UL2D'R2D'F2R2D2L2B'RBR'UB2LUL'",
     "enabled": true,
     "subset": 2
   },
@@ -5446,7 +5446,7 @@
       "U' F2 L2 F2 U F2 L2 F L' F L' U' L U L",
       "U R2 B2 U' F2 L2 B2 D' F2 U F' L' F L' U' L U L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R'FRUR'U'F'UR",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2B2UB2R2F2DF2U2F'L'FL'U'LUL",
     "enabled": true,
     "subset": 3
   },
@@ -5469,7 +5469,7 @@
       "L2 F2 U2 L2 U L2 U F2 L2 U2 F L' U R U' R' L F'",
       "F2 L2 B2 D' R2 U R2 B2 U' L' B' U' B U L' D F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R'FRUR'U'F'UR",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2U'F2L2UR2D'B2L2DFL2URU'R'L2F'",
     "enabled": true,
     "subset": 4
   },
@@ -5492,7 +5492,7 @@
       "U' B2 D F2 R2 U' B2 U' F2 D2 L' F U B2 R B2 U' F' L'",
       "R2 D B2 D' R2 F2 D' L2 D F2 R' U' F U R U' R' F' R"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R'FRUR'U'F'UR",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2DB2D'F2DB2D'F2RU'FURU'R'F'R",
     "enabled": true,
     "subset": 5
   },
@@ -5515,7 +5515,7 @@
       "U L2 F2 D' R2 D' R2 D2 F2 L2 B R B R' U B2 L U L'",
       "D' B2 D L2 U' L2 F2 D' B2 D F L' F L' U' L U L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R'FRUR'U'F'UR",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UL2UL2B2U'B2D'B2DB'RBR'UB2LUL'",
     "enabled": true,
     "subset": 6
   },
@@ -5538,7 +5538,7 @@
       "R2 D L2 U' L2 D F2 D R2 F2 R F U2 F U2 F' R F2 D",
       "D L2 B2 R2 D R2 B2 L2 D' R' B F' L' F' L B' F2 R"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'URU2R'FRUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2B2L2UL2B2L2U'FU2RU2L'B2R'LF'",
     "enabled": true,
     "subset": 1
   },
@@ -5561,7 +5561,7 @@
       "U' R2 D L2 D' R2 D L2 D' R' B L2 D F' D' L2 B' R",
       "F2 D R2 D2 L2 U' L2 D2 R2 D' R B L' U2 L U B' U' R'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'URU2R'FRUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'R2L2U'L2F2D'R2F2D'RFU2FU2F'RF2D",
     "enabled": true,
     "subset": 2
   },
@@ -5584,7 +5584,7 @@
       "L2 D' L2 U' L2 D R2 D B2 D' R F D F' D' R L2 F2",
       "U' F2 D F2 U' R2 U R2 F2 D' F' U2 L F2 L2 F2 L U2 F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'URU2R'FRUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2U'D'L2B2R2F2D'R2DRF'RF2U'L2F'UF'",
     "enabled": true,
     "subset": 3
   },
@@ -5607,7 +5607,7 @@
       "U2 L2 B2 F2 L2 U R2 F2 L2 D' F' D2 F D2 R F R F2 L2",
       "R2 L2 D R2 F2 L2 U2 R2 L2 D' F' D2 F D2 R F R F2 L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'URU2R'FRUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2L2D'B2L2D'L2U'L2DFR'F2RFL2B2DL2",
     "enabled": true,
     "subset": 4
   },
@@ -5630,7 +5630,7 @@
       "U2 F2 R2 U' B2 F2 R2 U R2 B2 L F L D2 B R2 B D' L2",
       "L2 D' F2 R2 D R2 F2 D F2 L' U R B U B' U R' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'URU2R'FRUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF2L2D'B2D'R2B2D2F2L'URBUB'UR'L'",
     "enabled": true,
     "subset": 5
   },
@@ -5653,7 +5653,7 @@
       "U L2 U R2 B2 L2 B2 D' B2 D R' B L' U2 L U B' U' R'",
       "L2 B2 D2 B2 D L2 D' B2 U F2 L B R2 B' D2 B2 U2 F R"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'URU2R'FRUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2F2D'B2DL2D2B2L2U'FL'BR2U2B'LFD'",
     "enabled": true,
     "subset": 6
   },
@@ -5676,7 +5676,7 @@
       "U' R2 U2 R2 F2 L2 D2 L2 F' R L' B R B' R2 L F'",
       "F2 D' B2 F2 U2 B2 F2 D' F' R L' B R B' R2 L F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'R'U'RU'R'U2RFRUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2U2F2U'F2U'F2U2FL'B2D'RDB2LF'",
     "enabled": true,
     "subset": 1
   },
@@ -5699,7 +5699,7 @@
       "L2 U' L2 U L2 U' L2 B2 U' F2 R' B' R2 B R F2 U B2 L2",
       "R2 D2 L2 D' B2 U2 B2 D L2 D2 F' L' B U2 B' U' L U F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'R'U'RU'R'U2RFRUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2L2DR2F2D'B2UF2D'FL2FL2DRF'RB2D",
     "enabled": true,
     "subset": 2
   },
@@ -5722,7 +5722,7 @@
       "F2 R2 F2 U' L2 D' B2 D R2 L2 F L' B2 R' B2 L F' R2",
       "U2 R2 F2 D2 B2 D' B2 D' B2 F' R' D' R D B2 F' R2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'R'U'RU'R'U2RFRUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2L2D'B2UR2U'R2DF2RD'BR'BF2LUL",
     "enabled": true,
     "subset": 3
   },
@@ -5745,7 +5745,7 @@
       "B2 U B2 L2 D2 R2 U' R2 U R2 B' L' F2 L D2 L2 U2 R' F'",
       "B2 F2 R2 U R2 L2 U' D2 L2 U R U' R U F' R B2 F' L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'R'U'RU'R'U2RFRUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2R2F2U2F2UF2UB2F'R'D'RDB2F'R2",
     "enabled": true,
     "subset": 4
   },
@@ -5768,7 +5768,7 @@
       "U' L2 F2 U F2 U' B2 U F2 U' R D' B R' B F2 L U L",
       "B2 U' F2 L2 B2 L2 D L2 D' F L' B U2 B' U' L U F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'R'U'RU'R'U2RFRUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2D'F2U'F2DF2R2F'L'BU2B'U'LUF",
     "enabled": true,
     "subset": 5
   },
@@ -5791,7 +5791,7 @@
       "U2 F2 L2 U F2 U F2 U2 L2 F' L' B2 D' R D B2 L F'",
       "L2 U2 L2 U L2 U L2 U2 F L' B2 D' R D B2 L F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'R'U'RU'R'U2RFRUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2B2D'R2D'F2R2D'F2D'FLD2RD2L'B2L2F",
     "enabled": true,
     "subset": 6
   },
@@ -5814,7 +5814,7 @@
       "B2 F2 D B2 F2 D B2 R2 L2 F2 R L2 F' U' F U R D'",
       "R2 B2 R2 L2 F2 L2 U R2 L2 D R L2 F' U' F U R"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF'U'L'ULF",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'R'F'U'FUR",
     "enabled": true,
     "subset": 1
   },
@@ -5837,7 +5837,7 @@
       "U' R2 B2 U B2 U' B2 D B2 D2 L F L' D R2 B U' B'",
       "U2 L2 F2 U' L2 B2 D R2 D' B2 F' L' F U' F' L F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF'U'L'ULF",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF2D2B2R2DF2U'B2U'LU'FU'F2LDF",
     "enabled": true,
     "subset": 2
   },
@@ -5860,7 +5860,7 @@
       "L2 U' B2 U F2 U' B2 U F2 L2 B' R' U R B L U' L'",
       "R2 D' F2 D R2 B2 D L2 D' B2 R' F' U' F U R"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF'U'L'ULF",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2R2UB2U'F2UB2U'F2RF'U'FUR",
     "enabled": true,
     "subset": 3
   },
@@ -5883,7 +5883,7 @@
       "L2 F2 U' L2 U' L2 U2 F2 U' L2 F' L' F U' F' L F",
       "R2 D B2 D' R2 F2 D' L2 D F2 R' F' U' F U R"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF'U'L'ULF",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2DB2D'F2DB2D'F2RF'U'FUR",
     "enabled": true,
     "subset": 4
   },
@@ -5906,7 +5906,7 @@
       "F2 D' L2 D' B2 D2 F2 U' R2 D B' U' B' R B R' U B' D'",
       "U F2 D' L2 D F2 R2 D B2 D' R F' U' F U R"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF'U'L'ULF",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'R2B2D'F2DB2D'F2DRF'U'FUR",
     "enabled": true,
     "subset": 5
   },
@@ -5929,7 +5929,7 @@
       "U2 L2 U' F2 U F2 D' L2 D F' L' F U' F' L F",
       "R2 D' F2 D R2 B2 D L2 D' B2 F' L' U' L U F U'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF'U'L'ULF",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UB2UR2U'R2B2D'R2DRF'U'FUR",
     "enabled": true,
     "subset": 6
   },
@@ -5952,7 +5952,7 @@
       "U2 L F U' R U R' F' L'",
       "R2 B2 F2 L2 D' R2 B2 F2 L' F U' R U R' F' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FURU'R'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FRUR'U'F'",
     "enabled": true,
     "subset": 1
   },
@@ -5975,7 +5975,7 @@
       "F2 U' F2 U L2 D2 B2 D B2 D L F R' F' L F' R F",
       "U F2 L2 U' L2 U L2 D' L2 D2 B' R' B D' F2 L' U L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FURU'R'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2L2DR2D'L2DR2B'R'BD'F2L'UL",
     "enabled": true,
     "subset": 2
   },
@@ -5998,7 +5998,7 @@
       "U' F2 U R2 B2 D' L2 D2 B2 D' R' B R' U R B' R'",
       "R2 U R2 U' R2 F2 U' F2 D R2 F R U R' U' F' D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FURU'R'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D'L2DR2D'B2DR2U'L2F'RUR'U'F'",
     "enabled": true,
     "subset": 3
   },
@@ -6021,7 +6021,7 @@
       "U L2 B2 U' B2 U B2 D' B2 D L' F U' R U R' F' L'",
       "R2 D' F2 D R2 B2 D L2 D' B2 L F U F' U' L' U'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FURU'R'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF2DR2D'L2DR2D'L2F'RUR'U'F'",
     "enabled": true,
     "subset": 4
   },
@@ -6044,7 +6044,7 @@
       "U2 B2 D L2 U L2 D' B2 R B R' U R B' R'",
       "R2 D B2 D' R2 F2 D' L2 D F' R U R' U' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FURU'R'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2R2D'L2DR2D'L2DF'RUR'U'F'",
     "enabled": true,
     "subset": 5
   },
@@ -6067,7 +6067,7 @@
       "F2 D F2 U' F2 D' F2 L2 U L F U' R U R' F' L",
       "R2 D' F2 D R2 B2 D L2 D' B2 F R U R' U' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FURU'R'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2R2UF2U'F2R2D'F2DF'RUR'U'F'",
     "enabled": true,
     "subset": 6
   },
@@ -6090,7 +6090,7 @@
       "U' F2 R2 B2 D B2 R2 B D' L' D L B' F2",
       "U2 F2 L2 F2 U' F2 L2 B D' L' D L B' F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FRUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FURU'R'F'",
     "enabled": true,
     "subset": 1
   },
@@ -6113,7 +6113,7 @@
       "B2 R2 L2 D' F2 D' F2 D2 R2 L2 F U R U' R' U' B2 U F'",
       "U F2 D R2 F2 U2 F2 D R2 D2 F' U R U' R' F' L2 U2 L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FRUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2D2B2DB2D2R2DR2D2F'URU'R'F'L2U2L2",
     "enabled": true,
     "subset": 2
   },
@@ -6136,7 +6136,7 @@
       "R2 D B2 U B2 U' B2 U B2 D' B' U' R' U R B R2",
       "R2 U R2 U' R2 F2 U' F2 D R2 F U R U' R' F' D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FRUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D'L2DR2D'B2DR2U'L2F'URU'R'F'",
     "enabled": true,
     "subset": 3
   },
@@ -6159,7 +6159,7 @@
       "R2 L2 B2 D B2 L2 D B2 U' B2 R' U' F' U F R U' R2 D'",
       "R2 D' F2 D R2 B2 D L2 D' B2 L U F U' F' L' U'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FRUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF2DR2D'L2DR2D'L2F'URU'R'F'",
     "enabled": true,
     "subset": 4
   },
@@ -6182,7 +6182,7 @@
       "L2 U F2 U' B2 U F2 U' B2 L2 B' U' R' U R B",
       "R2 D B2 D' R2 F2 D' L2 D F' U R U' R' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FRUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2R2D'L2DR2D'L2DF'URU'R'F'",
     "enabled": true,
     "subset": 5
   },
@@ -6205,7 +6205,7 @@
       "R2 D' F2 D R2 B2 D L2 D' B U' R' U R B",
       "R2 D' F2 D R2 B2 D L2 D' B2 F U R U' R' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FRUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2R2UF2U'F2R2D'F2DF'URU'R'F'",
     "enabled": true,
     "subset": 6
   },
@@ -6228,7 +6228,7 @@
       "B2 U2 L2 F2 R2 D2 F2 L2 U R' U' R F U R U' F'",
       "D L2 F2 R2 D2 R2 F2 L2 D' R' U' R F U R U' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UR'U'R'FRF'UR",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'F2D'F2R2UF2L2DB2LBL2B'LDL2F2",
     "enabled": true,
     "subset": 1
   },
@@ -6251,7 +6251,7 @@
       "B2 D' R2 D B2 U' F2 L2 D' L' B L2 B' L D L2 F2",
       "D F2 D' L2 F2 U' F2 U2 L' F' L U' L2 F' U F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UR'U'R'FRF'UR",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2U'R2B2U'R2U'B2R2UFU2F2LDL'F2U2F'",
     "enabled": true,
     "subset": 2
   },
@@ -6274,7 +6274,7 @@
       "R2 D' R2 U' R2 D' L2 B2 R2 U L' U L' F U' L' U F",
       "U F2 U' R2 U' F2 R2 F2 R2 F2 R' F R' U R2 F U' F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UR'U'R'FRF'UR",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2B2L2D'R2DL2D'R2DBU'RB'R'BUB",
     "enabled": true,
     "subset": 3
   },
@@ -6297,7 +6297,7 @@
       "B2 R2 D' R2 D L2 D2 F2 D F2 R F R2 F' R D L2 B2",
       "B2 U B2 U B2 U2 R2 D L' F' L2 F L' D' R2 B2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UR'U'R'FRF'UR",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2DB2U'L2UL2D'B2R2BLFU'F'UL'B'",
     "enabled": true,
     "subset": 4
   },
@@ -6320,7 +6320,7 @@
       "R2 U B2 D' F2 D' F2 D2 L2 D F L' F L2 D' B' L B'",
       "F2 L2 D' B2 D L2 U' F2 D R2 B L F U' F' U L' B' D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UR'U'R'FRF'UR",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2U2B2DB2UB2D'L2DFL'FL2D'B'LB'",
     "enabled": true,
     "subset": 5
   },
@@ -6343,7 +6343,7 @@
       "U B2 U B2 R2 U R2 D' R2 D R U' R F U R U' F'",
       "U2 R2 D' F2 U F2 D F2 L2 D B R' B2 R B' D' L2 F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UR'U'R'FRF'UR",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2DB2UB2D'R2F2R2DR'B'R2BR'D'R2F2",
     "enabled": true,
     "subset": 6
   },
@@ -6366,7 +6366,7 @@
       "D' L2 U B2 U' B2 D B2 R2 B' D2 L B' L B' R2 B U2 F'",
       "L2 U2 R2 B2 L2 U B2 U' R2 U2 F' R B' L U2 R L B R2 F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF'L'U'LUL'U'LUF",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2D'L2UB2D'R2DR2D2RFL'FR2D2L'B2R'D",
     "enabled": true,
     "subset": 1
   },
@@ -6389,7 +6389,7 @@
       "U2 B2 R2 U' B2 U B2 U' L F R' F R2 F2 U2 R U2 L'",
       "R2 D B2 U' B2 R2 D' F2 L D R2 D F R' F' R2 D2 L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF'L'U'LUL'U'LUF",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2D2F2D'L2B2U'R2UBU2BL2D'B2R'F'R",
     "enabled": true,
     "subset": 2
   },
@@ -6412,7 +6412,7 @@
       "U B2 U D F2 R2 B2 R2 U R F2 D L D L' F R F' L2",
       "F2 R2 D2 B2 F2 U F2 U' R2 U2 F' U' F2 L2 U' R B U R' D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF'L'U'LUL'U'LUF",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2DF2U'B2D2B2L2F2L2BD2B'R'L2FRL2F2D'",
     "enabled": true,
     "subset": 3
   },
@@ -6435,7 +6435,7 @@
       "B2 U L2 D L2 U L2 D' F2 D2 F D2 F R L2 B' R' B2 U",
       "U B2 D L2 D F2 L2 D2 L2 D2 L D2 L B2 F R' F' R2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF'L'U'LUL'U'LUF",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2U2DB2L2UL2D'L2D2LD2LB2FR'F'R2",
     "enabled": true,
     "subset": 4
   },
@@ -6458,7 +6458,7 @@
       "B2 F2 D B2 F2 D R2 F2 L2 D2 R F L' F R2 D2 L' B2 R' D'",
       "D2 L2 U' L2 U' F2 U' F2 D' B2 F' L' F D' B2 U' L' B2 L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF'L'U'LUL'U'LUF",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'F2UB2D'F2R2F2D'F2RB'D2B'U'L'F2L2U'L'",
     "enabled": true,
     "subset": 5
   },
@@ -6481,7 +6481,7 @@
       "B2 D' F2 U' L2 B2 R2 D' B2 D' R' U B2 U F' R' F' R2 D2 L'",
       "L2 D' B2 D' F2 U' B2 U' R2 F2 R' U B2 U F' R' F' R2 D2 L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UF'L'U'LUL'U'LUF",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2F2U'L2U'F2U2F2L2DL'F2LBF2L'B'L2U2D'",
     "enabled": true,
     "subset": 6
   },
@@ -6504,7 +6504,7 @@
       "F2 R2 U F2 U2 L2 U2 L2 B2 D R B' L F' D2 B' F R' U2 L",
       "F2 D2 B2 D' B2 F2 L2 U B2 D' L U2 L' B2 D L' F R F' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FRUR'U'RUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2DR2U'B2UB2D'B2U2F'R'BR'F2D2BL2FD2",
     "enabled": true,
     "subset": 1
   },
@@ -6527,7 +6527,7 @@
       "R2 D F2 R2 B2 R2 F2 L2 D' R' U B U' B R' U' L U' L'",
       "U' R2 U' F2 U B2 U' F2 U2 R' B2 R U' R F R' B2 R2 F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FRUR'U'RUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'L2D2R2DB2L2UF2U'L'U2L'B2DL2FRF'",
     "enabled": true,
     "subset": 2
   },
@@ -6550,7 +6550,7 @@
       "B2 D2 B2 F2 L2 F2 U F2 L2 U' B L2 B D2 B2 R' F R F2",
       "L2 D' B2 D' B2 D2 F2 L2 U2 F' L2 F' R' L2 F R F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FRUR'U'RUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2DR2F2UB2D'L2DL2FR'BR'F2D2BL2FD'",
     "enabled": true,
     "subset": 3
   },
@@ -6573,7 +6573,7 @@
       "B2 D' L2 F2 D' R2 D F2 L2 D' B' R2 B U2 F2 R' F R F2 D2",
       "B2 F2 D2 F2 R2 U F2 D F2 U2 R U R2 B2 U F' L' U' F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FRUR'U'RUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2DF2UR2U2F2D'R2B2RB'LF'D2B'F'R'U2L",
     "enabled": true,
     "subset": 4
   },
@@ -6596,7 +6596,7 @@
       "U' R2 U' B2 F2 D L2 D' F2 L2 F R' B R' F2 D2 B L2 F",
       "U F2 L2 D' L2 U2 L2 D L2 F U2 F U2 F2 R' F R F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FRUR'U'RUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D2L2DL2UL2D'L2D2F'U2FU2F2R'FRF2",
     "enabled": true,
     "subset": 5
   },
@@ -6619,7 +6619,7 @@
       "L2 U' L2 U L2 B2 F2 D2 B2 D2 B R B2 F L2 F' R' B F2 L2",
       "L2 D F2 D2 R2 D L2 U L2 D2 L D2 B' L B' R U2 L' B2 L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FRUR'U'RUR'U'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2D'B2DB2U2L2B2F2UFD2F'R2L'BLB2U2D2",
     "enabled": true,
     "subset": 6
   },
@@ -6642,7 +6642,7 @@
       "R2 D' F2 D B2 U' R2 U B2 D2 B' U2 L D2 R' D2 L D2 F'",
       "B2 F2 D B2 F2 U' F2 U2 B2 D2 F' R2 B2 R' F2 R F2 L2 F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UrU'r2Ur2Ur2U'r",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'R2U2F2L2B2D2F2R'F2L2F'R'B2R2F'",
     "enabled": true,
     "subset": 1
   },
@@ -6665,7 +6665,7 @@
       "U2 L2 U F2 R2 D B2 D R F2 L F2 D2 F' R F' L'",
       "L2 B2 D2 R2 U F2 D' L2 F2 D2 F L2 F R L2 F' R B2 D"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UrU'r2Ur2Ur2U'r",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2D'L2F2U'F2L2D2B2D'LB2LB2FL'FR2U'",
     "enabled": true,
     "subset": 2
   },
@@ -6688,7 +6688,7 @@
       "F2 R2 D R2 D' L2 D F2 L2 U R' L2 F2 L2 F' R' B2 R2 F'",
       "U' B2 R2 D' R2 U L2 D' L2 D R B2 R' F D' B2 R D F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UrU'r2Ur2Ur2U'r",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2R2UF2U'F2R2D'F2DFLF2L'U2L'U2LF'",
     "enabled": true,
     "subset": 3
   },
@@ -6711,7 +6711,7 @@
       "U B2 R2 U R2 B2 R2 B2 L2 D' R' D2 B' D2 B R' F2 D L2",
       "U' F2 D2 B2 D2 F2 R2 D2 L2 B' U2 L D2 R' D2 L D2 F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UrU'r2Ur2Ur2U'r",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2U'B2UF2U'B2U'L2U2R'F2L2FRL2F2L2F'",
     "enabled": true,
     "subset": 4
   },
@@ -6734,7 +6734,7 @@
       "R2 D R2 F2 D B2 D' L2 D F2 R F2 L2 F' R' B2 R2 F' D'",
       "U2 R2 F2 D B2 U' R2 U B2 D B' U2 L D2 R' D2 L D2 F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UrU'r2Ur2Ur2U'r",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2DL2UD2R2F2U'F2D'B'U2LD2R'D2LD2F'",
     "enabled": true,
     "subset": 5
   },
@@ -6757,7 +6757,7 @@
       "R2 D L2 F2 U L2 U' R2 U L2 B R2 F2 R' B' L2 B2 R' U",
       "R2 F2 L2 D R2 L2 U R2 L2 D' L B2 R U2 L2 F' R F' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UrU'r2Ur2Ur2U'r",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2L2D2R2L2UL2B2R'D2LU2L2F'RF'L'",
     "enabled": true,
     "subset": 6
   },
@@ -6780,7 +6780,7 @@
       "U2 R2 L2 D' R2 L2 U' L2 B2 L2 B' R2 F2 R' B R' L' U2 L",
       "D' B2 F2 D B2 F2 D L2 B2 L2 B' R2 F2 R' B R' L' U2 L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2r'Ur2U'r2U'r2Ur'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2F2U2R2B2L2D2R2F'L2F2R'F'R2B2R'",
     "enabled": true,
     "subset": 1
   },
@@ -6803,7 +6803,7 @@
       "B2 D2 F2 U' B2 R2 D' R2 B2 U' R' B2 R' B2 F' R F' L2 D2",
       "R2 B2 D2 F2 L2 D F2 D' F2 U2 R' B2 R' B2 F' R F' L2 D2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2r'Ur2U'r2U'r2Ur'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2D'F2U2L2B2DB2L2D'R'B2R'B2F'RF'L2D2",
     "enabled": true,
     "subset": 2
   },
@@ -6826,7 +6826,7 @@
       "L2 F2 R2 D' F2 U B2 U' F2 D2 R F L2 D L2 F' D' R F2",
       "U2 L2 F2 D F2 U' B2 D B2 D' F' L2 F R' D L2 F' D' R"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2r'Ur2U'r2U'r2Ur'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2UR2B2R2U'R2U'R2U'LF2LD2R2F'RF'L2",
     "enabled": true,
     "subset": 3
   },
@@ -6849,7 +6849,7 @@
       "F2 R2 D' B2 U' L2 D2 B2 U D' F D R F' U B U2 B' R D'",
       "F2 R2 L2 D2 L2 B2 R2 F2 R' D2 F' L2 F L2 F' D2 R"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2r'Ur2U'r2U'r2Ur'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UR2U'B2F2D'F2DB2U2RDR'U'D'RFRF'",
     "enabled": true,
     "subset": 4
   },
@@ -6872,7 +6872,7 @@
       "B2 D B2 U L2 B2 D R2 B2 F' U2 F L' F' L' F' U2 F'",
       "R2 D' F2 D R2 B2 D L2 D' L2 B' L2 B2 R B R' L' U2 L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2r'Ur2U'r2U'r2Ur'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2R2UB2U'F2UB2U'R2B'R2F2R'BR'L'U2L",
     "enabled": true,
     "subset": 5
   },
@@ -6895,7 +6895,7 @@
       "R2 D R2 F2 U R2 U' L2 U R2 F L2 F2 R' F' R2 B2 R'",
       "R2 D B2 D' R2 F2 D' L2 D R2 B' R2 F2 R B R' L' U2 L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2r'Ur2U'r2U'r2Ur'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2DB2D'F2DB2D'R2B'R2F2R'BR'L'U2L",
     "enabled": true,
     "subset": 6
   },
@@ -6918,7 +6918,7 @@
       "U F2 D F2 U B2 U' B2 F2 D' F' D' F2 U2 L' U L F2 D F'",
       "F2 D' L2 F2 U2 F2 L2 D F2 U R' F U F' R F R U' R F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FURU'R'URU'R'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UL2U'F2U'B2U'B2U2B2F'L'FU2B2F2ULB2L",
     "enabled": true,
     "subset": 1
   },
@@ -6941,7 +6941,7 @@
       "U R2 U2 R2 U R2 F2 U L2 F' R F L2 U' F' R' F' R2",
       "L2 F2 U L2 U B2 R2 D2 B2 R2 F U F2 R2 F R' U' R' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FURU'R'URU'R'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2D'B2R2UL2B2D'F2U2BU'B2R2B'RURBD2",
     "enabled": true,
     "subset": 2
   },
@@ -6964,7 +6964,7 @@
       "D2 L2 D' R2 D R2 L2 U' D' F' U2 F2 R2 U R' U' R' D' F'",
       "D' F2 D R2 F2 U D2 B2 L2 D F D2 B2 R2 U R' U' R' D' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FURU'R'URU'R'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2DR2U'R2D'R2DF2U2FU2F2R2UR'U'R'D'F'",
     "enabled": true,
     "subset": 3
   },
@@ -6987,7 +6987,7 @@
       "D2 L2 U L2 D R2 D R2 F R' D' F' R F' U2 F2 D F'",
       "F2 L2 U' F2 U' R2 U2 L2 B2 U' B' R' B' L2 U B R B R2 D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FURU'R'URU'R'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D2F2L2B2UL2F2D'R2D'FR'D'F'RF'U2F2DF'",
     "enabled": true,
     "subset": 4
   },
@@ -7010,7 +7010,7 @@
       "F2 L2 B2 L2 D' F2 U' F2 D L2 B R2 B R' D' R L2 F' U2 F'",
       "R2 U' F2 D B2 D L2 D' B2 D' F' D' F2 U2 L' U L F2 D F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FURU'R'URU'R'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D2F2U'L2B2UF2D2R2D'FD2B2R2UR'U'R'D'F'",
     "enabled": true,
     "subset": 5
   },
@@ -7033,7 +7033,7 @@
       "U F2 D B2 D' F2 D R2 F2 U B R2 B R' D' R L2 F' U2 F'",
       "R2 D' F2 D R2 B2 D L2 D' B2 F R U R' U' R U R' U' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=FURU'R'URU'R'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2R2UF2U'F2R2D'F2DF'RUR'U'RUR'U'F'",
     "enabled": true,
     "subset": 6
   },
@@ -7056,7 +7056,7 @@
       "F2 D' B2 R2 D2 R2 D' R2 D' R2 F L D L' D2 B2 D F U2",
       "L2 D R2 B2 D2 B2 D B2 D B2 L' F' D' F D2 R2 D' L' U"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'RUR'URU'BU'B'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UFRUR'UF'U'FU'F'",
     "enabled": true,
     "subset": 1
   },
@@ -7079,7 +7079,7 @@
       "L2 F2 D2 R2 U' B2 R2 D2 B L' D' L D2 F2 D' B'",
       "R2 U' B2 R2 U B2 R2 B2 U' R2 L' B D B' D2 R2 D L U"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'RUR'URU'BU'B'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2UL2F2L2UL2UF2U2BF2L'D'LD2F2D'B'",
     "enabled": true,
     "subset": 2
   },
@@ -7102,7 +7102,7 @@
       "U2 B2 D2 R2 D R2 D R2 F2 R F2 R B2 F U' F' L' U' L'",
       "L2 U L2 B2 L2 D' B2 D L2 U' L' U2 L B2 F U' F' L' U' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'RUR'URU'BU'B'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2R2D'L2DR2D'L2DF'RUR'UF'U'FU'F'",
     "enabled": true,
     "subset": 3
   },
@@ -7125,7 +7125,7 @@
       "L2 F2 L2 F2 U2 B2 D F2 D' B' L' B' U L F2 L F2 U' L",
       "R2 D' F2 D R2 B2 D L2 D' B2 F R U R' U F' U' F U' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'RUR'URU'BU'B'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2D'R2F2L2DF2U'R2DR'F2RB2FU'F'L'U'L'",
     "enabled": true,
     "subset": 4
   },
@@ -7148,7 +7148,7 @@
       "U2 L2 U L2 F2 U' L2 U2 L2 U' B L' D' L D2 F2 D' B'",
       "R2 L2 D' F2 R2 L2 U' R2 L' F L2 F D L' D' R2 B2 L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'RUR'URU'BU'B'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D2L2U'L2DL2D'L2D2B'RDR'B2U2B2D'B",
     "enabled": true,
     "subset": 5
   },
@@ -7171,7 +7171,7 @@
       "U2 R2 B2 U R2 B2 R2 U' F R U' B2 U F R' B2 R F2",
       "B2 D' L2 F2 D F2 L2 D2 L2 D' L' F2 D B2 F' U R U R F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'RUR'URU'BU'B'R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=L2UL2U'F2U'B2R2D2R2B'L'D'LD2F2D'B'",
     "enabled": true,
     "subset": 6
   },
@@ -7194,7 +7194,7 @@
       "R2 U F2 U' F2 D' F2 L2 U B2 L' U' D L' U F L' U' F",
       "B2 D2 L2 D' L2 D L2 F2 L2 D' B D' B U' R' B U B' R'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=Ul'U2LUL'U'LUL'Ul",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'L2F2U2L2UF2L2U'FU2FU2L'FL'U'L2",
     "enabled": true,
     "subset": 1
   },
@@ -7217,7 +7217,7 @@
       "U D' B2 U L2 U' B2 U F2 D' L B2 L' U' D2 R F' R F'",
       "U R2 U2 R2 D' F2 U' F2 D F' U' F U' F' L' U2 L F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=Ul'U2LUL'U'LUL'Ul",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2R2U'F2U'F2U2R2F2U'F'U'FU'F'L'U2LF",
     "enabled": true,
     "subset": 2
   },
@@ -7240,7 +7240,7 @@
       "R2 F2 D R2 U R2 D' F2 R2 U' B R' L2 F L' F R L' B'",
       "D2 B2 D R2 U2 R2 D F2 U B2 R F R2 F R B' F2 R' B"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=Ul'U2LUL'U'LUL'Ul",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2R2U'L2DB2R2D'L2U'F'U2FU2L'FR'F'RL",
     "enabled": true,
     "subset": 3
   },
@@ -7263,7 +7263,7 @@
       "U R2 U' D' R2 F2 R2 U' R2 F2 R' U2 R' D R2 U2 F R F'",
       "D' B2 L2 F2 D2 R2 U' D' B2 R2 F L' D2 L' B2 F2 U2 R' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=Ul'U2LUL'U'LUL'Ul",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'R2U'R2B2D2F2DF2DL'B'LU2B'UBU'B'",
     "enabled": true,
     "subset": 4
   },
@@ -7286,7 +7286,7 @@
       "R2 D' R2 U R2 D R2 B2 D B2 R B R' B U2 D' B' U2 B'",
       "B2 L2 F2 D2 F2 L2 U R2 U L U' R2 U' L' B2 F R F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=Ul'U2LUL'U'LUL'Ul",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2U'F2R2D2L2DL2DR2F'U'FU'F'L'U2LF",
     "enabled": true,
     "subset": 5
   },
@@ -7309,7 +7309,7 @@
       "L2 D' R2 D' F2 D R2 D2 R F2 R' F2 R2 F' R F' D' L2",
       "U R2 U' F2 D2 F2 R2 D R2 D' R' B R' B U2 D' B' U2 B'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=Ul'U2LUL'U'LUL'Ul",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2U'R2B2L2D2F2DF2DLB'LU2B'UBU'B'",
     "enabled": true,
     "subset": 6
   },
@@ -7332,7 +7332,7 @@
       "R2 U2 R2 F2 U' R2 U' R2 L2 D' L' D L' U F L' U' L F",
       "U F2 U' F2 R2 D' F2 D F2 U R' B U B' R U2 R' U R'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rU2R'U'RUR'U'RU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2R2UDL2U2DL2F2DF'U2F'U2RF'RDB2",
     "enabled": true,
     "subset": 1
   },
@@ -7355,7 +7355,7 @@
       "U' F2 U2 F2 D R2 U R2 D' R U R' U R B U2 B' R'",
       "L2 D2 B2 D B2 R2 D R2 D L B2 F R' B R' B F' L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rU2R'U'RUR'U'RU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'L2U'L2D'B2U2B2DL2BLB'U2LU'L'UL",
     "enabled": true,
     "subset": 2
   },
@@ -7378,7 +7378,7 @@
       "U L2 U' F2 D2 F2 L2 F2 D2 F2 L' B2 F R B2 U F' U' L",
       "U L2 U B2 F2 D2 B2 F2 L B2 F R B2 U F' U' L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rU2R'U'RUR'U'RU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2L2D2B2DB2DR2B2DRFDFR2L2B2UR'",
     "enabled": true,
     "subset": 3
   },
@@ -7401,7 +7401,7 @@
       "B2 D F2 D F2 D2 R2 U' R2 D B R B' R' B2 L2 D' L' U2 L'",
       "F2 U2 D L2 D2 R2 D' B2 D' L2 F' R' F2 R' F' R2 L F L' D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rU2R'U'RUR'U'RU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2B2L2UL2UB2U2L2DB'L'BL'UD2RF2RD",
     "enabled": true,
     "subset": 4
   },
@@ -7424,7 +7424,7 @@
       "L2 D F2 U' F2 D' B2 U' B2 D B L B' U2 L U' L' U L D'",
       "U' F2 L2 B2 D B2 L2 F2 R2 U2 R' B U B' R U2 R' U R'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rU2R'U'RUR'U'RU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2UF2L2D2B2L2U'L2DL'DL'UFL'U'LF",
     "enabled": true,
     "subset": 5
   },
@@ -7447,7 +7447,7 @@
       "U R2 U' L2 U L2 D' B2 D B2 R' U2 F' L2 B L2 F U2 R'",
       "F2 U R2 D2 R2 F2 D' F2 D F L' F L' U2 D L U2 L"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=rU2R'U'RUR'U'RU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2F2DF2L2DL2D'L'B2FRB2UF'U'L",
     "enabled": true,
     "subset": 6
   },
@@ -7470,7 +7470,7 @@
       "D R2 D' L2 D R2 D' L2 F2 U2 L F L' U2 F2 U F U' F'",
       "U' F2 D' F2 L2 D2 R2 D B2 L' B L' U' D2 R2 F' U' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R'FRURU'R2F'R2U'R'URUR'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'B2D2L2UR2U'R2L2D'L'U'LD'B'ULU'B'",
     "enabled": true,
     "subset": 1
   },
@@ -7493,7 +7493,7 @@
       "U' L2 F2 U R2 F2 D2 R2 B2 D R B' R U' D' L2 F' D B2 F'",
       "D2 B2 D L2 U' L2 D' B2 D2 F2 L F L' U2 F2 U F U' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R'FRURU'R2F'R2U'R'URUR'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2U'F2U'R2B2D'L2DB2RF'RU2F2U'F'UF",
     "enabled": true,
     "subset": 2
   },
@@ -7516,7 +7516,7 @@
       "R2 U2 R2 U' R2 U' R2 U' F2 U2 R' F' R U2 F2 U' F' U F",
       "R2 D B2 R2 U B2 L2 D' F2 D L B' L U' D' R2 F' U F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R'FRURU'R2F'R2U'R'URUR'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=DF2DB2L2DL2U2B2D'B'D'RD'R'F'DBD'F'",
     "enabled": true,
     "subset": 3
   },
@@ -7539,7 +7539,7 @@
       "L2 D' L2 U L2 D' B2 R2 B2 D2 L' F L' U2 F2 U F U' F'",
       "L2 D2 R2 D' R2 D' L2 U' F2 L F L' U2 F2 U F U' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R'FRURU'R2F'R2U'R'URUR'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2B2U2B2UR2U2D'R2D2L'B'LU'D'R2F'UF",
     "enabled": true,
     "subset": 4
   },
@@ -7562,7 +7562,7 @@
       "D F2 D' L2 F2 U' L2 U F2 D' R B R' U D L2 F U' F'",
       "L2 U L2 B2 U2 B2 U' F2 D' R2 L B L' U' D2 R2 F' U' F' D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R'FRURU'R2F'R2U'R'URUR'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D'B2DL2B2UL2U'B2DR'F'RU'D'L2B'UB",
     "enabled": true,
     "subset": 5
   },
@@ -7585,7 +7585,7 @@
       "D' L2 U L2 F2 D2 B2 U B2 U' R' U' R D' F' U R U' F'",
       "U2 F2 D R2 F2 U R2 U' F2 D L' B' L U' D' R2 F' U F D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R'FRURU'R2F'R2U'R'URUR'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2UB2D2F2U'F2D'L2DR'F'RU'D'L2B'UBD'",
     "enabled": true,
     "subset": 6
   },
@@ -7608,7 +7608,7 @@
       "D' B2 D' B2 D L2 D L2 F2 D R F R' F' U2 D' F' U2 F'",
       "F2 U' F2 D R2 U2 B2 D' F2 D2 L' D L2 F' D2 B2 R' D' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=r'U'rU'R'URU'R'URr'Ur",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D'F2DR2F2UR2U'F2R2FRB'RBUR2U'F'",
     "enabled": true,
     "subset": 1
   },
@@ -7631,7 +7631,7 @@
       "L2 U' L2 U' L2 B2 F2 D R2 D F' D' R' D' B2 F2 U2 L' F",
       "R2 U R2 B2 F2 D2 L2 D' L2 D F D L D B2 F2 U2 R F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=r'U'rU'R'URU'R'URr'Ur",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=DB2DL2U2L2D'B2D'FRB'RBUR2U'F'",
     "enabled": true,
     "subset": 2
   },
@@ -7654,7 +7654,7 @@
       "R2 U F2 L2 D' B2 D L2 D2 B2 L D L2 F' D2 B2 R' D' F'",
       "L2 U F2 U2 L2 D F2 D2 L2 D2 R F R' F' U2 D' F' U2 F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=r'U'rU'R'URU'R'URr'Ur",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2DB2UB2D'F2D2B2L'DL2F'D2B2R'D'F'",
     "enabled": true,
     "subset": 3
   },
@@ -7677,7 +7677,7 @@
       "B2 F2 U' B2 U R2 D' R2 B2 D2 R' D' R2 F D2 B2 L D F",
       "U2 L2 D' B2 U2 D L2 U' F2 D2 R D' R2 F' R' U2 F2 D' F"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=r'U'rU'R'URU'R'URr'Ur",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2L2UL2B2U2B2D'B2R'B'RBU2DBU2B",
     "enabled": true,
     "subset": 4
   },
@@ -7700,7 +7700,7 @@
       "U2 B2 D R2 B2 U B2 R2 F2 D2 R D R2 B' D2 F2 L' D' B'",
       "B2 D2 R2 F2 D R2 D' R2 F2 R' D R2 B R U2 B2 D B'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=r'U'rU'R'URU'R'URr'Ur",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U2B2DF2DRDR2B'D2F2L'D'B'",
     "enabled": true,
     "subset": 5
   },
@@ -7723,7 +7723,7 @@
       "F2 D F2 U R2 U' B2 F2 D L' D L2 F' D2 B2 R' D' F'",
       "D' L2 U B2 U' B2 D L2 F2 D R F R' F' U2 D' F' U2 F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=r'U'rU'R'URU'R'URr'Ur",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=F2DL2F2U'B2R2F2LDL2F'D2B2R'D'F'",
     "enabled": true,
     "subset": 6
   },
@@ -7746,7 +7746,7 @@
       "U2 F2 U' L2 F2 L2 U F2 L2 F U' D L F2 L' U D' F'",
       "L2 F2 L2 U L2 U F2 L2 F2 U' F' U' D L F2 L' U D' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'M'URU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2D'F2R2F2DB2L2FU'DLF2L'UD'F'",
     "enabled": true,
     "subset": 1
   },
@@ -7769,7 +7769,7 @@
       "F2 D B2 R2 B2 R2 U R2 U' R L F' U2 F R' L' D' F2",
       "B2 D' R2 D' F2 D R2 U' R' U B' D2 L' F2 D' B' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'M'URU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D'R2DB2UB2U'B2DLU'BD2RF2DBR",
     "enabled": true,
     "subset": 2
   },
@@ -7792,7 +7792,7 @@
       "U' F2 U' L2 U R2 U' B2 R2 D' L U' B U B2 L B U' B'",
       "U' R2 F2 U F2 U' R2 D R2 D' R U' F U F2 R F U' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'M'URU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=U'F2DR2UR2U'B2R2B'L'FD2F'LB'D'F2",
     "enabled": true,
     "subset": 3
   },
@@ -7815,7 +7815,7 @@
       "U B2 U L2 F2 D' R2 D2 F D' F L' F R U R' F' L'",
       "L2 U' B2 U L2 B2 D L2 U' R' L' F' L2 F R L' D' B2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'M'URU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=UR2D'F2U2F2R2DB2DLU'BD2RF2DBR'",
     "enabled": true,
     "subset": 4
   },
@@ -7838,7 +7838,7 @@
       "U F2 R2 F2 U' F2 D B2 R' L F' U2 F R' L' D' F2",
       "D2 L2 D' B2 L2 U' B2 F2 D' R' L F U2 F R' L' D' F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'M'URU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=R2DL2B2DL2B2U'B2R'U'FD2LB2DFL'",
     "enabled": true,
     "subset": 5
   },
@@ -7861,7 +7861,7 @@
       "L2 U B2 U B2 F2 D' F2 U2 L2 B' F' R' B2 R B' F' D' F2",
       "U' F2 R2 F2 U' F2 D R2 U2 B' F R B2 R B' F' D' F2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=RUR'U'M'URU'r'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=B2R2B2U'B2F2D'B2D'L2BF'LB2L'BFDF2",
     "enabled": true,
     "subset": 6
   }
