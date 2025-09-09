@@ -1,25 +1,4 @@
-import pycuber as pc
-import kociemba
-
-from utils import load_json, save_json, invert_alg, apply_z2_to_moves, cube_to_kociemba_string, generate_case
-
-def generate_scramble(pll, auf, inv_oll):
-    cube = pc.Cube()
-    combo = ' '.join(x for x in [pll["scramble"], auf, inv_oll] if x)
-    if combo.strip():
-        cube(combo)
-    cube("z2") 
-    state_str = cube_to_kociemba_string(cube)
-    solution = kociemba.solve(state_str)
-    return apply_z2_to_moves(solution)
-
-def get_auf_moves(pll_label):
-    if pll_label in {"skip", "H", "Na", "Nb"}:
-        return [""]
-    elif pll_label in {"E", "Z"}:
-        return ["", "U"]
-    else:
-        return ["", "U", "U'", "U2"]
+from utils import load_json, save_json, invert_alg, get_auf_moves, generate_case, generate_scramble
 
 def process_oll(oll_data: list[dict], pll_data: list[dict]):
     cases = []

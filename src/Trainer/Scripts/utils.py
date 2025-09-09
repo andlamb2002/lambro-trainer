@@ -1,6 +1,7 @@
 import json
 import pycuber as pc
 from pathlib import Path
+import kociemba
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 
@@ -39,6 +40,14 @@ def rotate_move_z2(move: str) -> str:
 def apply_z2_to_moves(moves_str: str) -> str:
     return ' '.join(rotate_move_z2(m) for m in moves_str.split())
 
+def get_auf_moves(pll_label):
+    if pll_label in {"skip", "H", "Na", "Nb"}:
+        return [""]
+    elif pll_label in {"E", "Z"}:
+        return ["", "U"]
+    else:
+        return ["", "U", "U'", "U2"]
+
 def cube_to_kociemba_string(cube: pc.Cube) -> str:
     face_order = ['U', 'R', 'F', 'D', 'L', 'B']
     s = ''
@@ -63,3 +72,13 @@ def generate_case(case_id: str, label: str, scrambles: list[str],
     if img_stage:
         case["img"] = f"https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage={img_stage}&bg=t&case={original_alg.replace(' ','')}"
     return case
+
+def generate_scramble(pll, auf, inv_oll):
+    cube = pc.Cube()
+    combo = ' '.join(x for x in [pll["scramble"], auf, inv_oll] if x)
+    if combo.strip():
+        cube(combo)
+    cube("z2") 
+    state_str = cube_to_kociemba_string(cube)
+    solution = kociemba.solve(state_str)
+    return apply_z2_to_moves(solution)
