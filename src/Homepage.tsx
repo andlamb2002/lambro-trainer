@@ -22,6 +22,15 @@ function Homepage() {
                 <span className="mt-2 text-2xl font-bold">OLL Trainer</span>
             </Link>
 
+            <Link to="/ollcp" className="link flex flex-col items-center rounded hover:bg-secondary">
+                <img
+                    src="https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&case=D2U2B2L'B'LR2FD2F'U'F2B2L2U2B2D'B2DF2"
+                    alt="OLLCP Trainer"
+                    className="w-36 h-36"
+                />
+                <span className="mt-2 text-2xl font-bold">OLLCP Trainer</span>
+            </Link>
+
         </div>
     )
 }
