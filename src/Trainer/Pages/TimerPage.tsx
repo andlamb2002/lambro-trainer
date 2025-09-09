@@ -46,13 +46,16 @@ function TimerPage({ cases, algset }: Props) {
     const [isRunning, setIsRunning] = useState<boolean>(false);
     const [time, setTime] = useState<number>(0);
 
+    const START_COOLDOWN_MS = 500;
+
     const intervalIdRef = useRef<number | undefined>(undefined);
     const startTimeRef = useRef<number>(0);
     const hasStoppedRef = useRef<boolean>(false);
+    const startCooldownRef = useRef(0);
     const recapUndoRef = useRef<string | null>(null);
 
     const hudHidden = preStartHold || postStopHold || isRunning;
-    const timerColorClass = preStartHold ? 'text-success' : postStopHold ? 'text-danger' : '';
+    const timerColorClass = postStopHold ? 'text-danger' : preStartHold ? 'text-success' : '';
     const timerHeightClass = hudHidden ? 'h-96 bg-secondary sm:bg-primary' : '';
     const hudClass = hudHidden ? 'hidden' : 'block';
     const gridClass = hudHidden
@@ -92,6 +95,8 @@ function TimerPage({ cases, algset }: Props) {
     }, [setCaseAndScramble]);
 
     const start = useCallback(() => {
+        if (Date.now() < startCooldownRef.current) return;
+
         if (!cases.length) return;
 
         if (!currentCase) {
@@ -129,6 +134,7 @@ function TimerPage({ cases, algset }: Props) {
     const stop = useCallback(() => {
         setIsRunning(false);
         hasStoppedRef.current = true;
+        startCooldownRef.current = Date.now() + START_COOLDOWN_MS;
 
         const finalTime = Date.now() - startTimeRef.current;
         setTime(finalTime);
@@ -261,7 +267,9 @@ function TimerPage({ cases, algset }: Props) {
                 event.preventDefault();
             }        
             if (!isRunning && event.code === 'Space') {
-                setPreStartHold(true);
+                if (Date.now() >= startCooldownRef.current) {
+                    setPreStartHold(true);
+                }
                 event.preventDefault();
             }
             if (isRunning) {
@@ -299,7 +307,9 @@ function TimerPage({ cases, algset }: Props) {
             setPostStopHold(true);
             stop();
         } else if (!hasStoppedRef.current) {
-            setPreStartHold(true);
+            if (Date.now() >= startCooldownRef.current) {
+                setPreStartHold(true);
+            }
         }
     };
 
