@@ -1,4 +1,4 @@
-import type { Case, SubsetGroup } from "../interfaces";
+import type { SubsetGroup } from "../interfaces";
 import { aggregateEnabled } from "../../subsetUtils";
 import { stripSpaces } from "../../scrambleUtils";
 

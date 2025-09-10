@@ -29,6 +29,8 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
     //     return acc;
     // }, {});
 
+    const subsetMode = useMemo(() => hasSubsets(cases), [cases]);
+
     const groupedBySet = useMemo(() => {
         return cases.reduce<Record<string, Case[]>>((acc, c) => {
             (acc[c.set] ||= []).push(c);
@@ -37,18 +39,18 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
     }, [cases]);
 
     const groupsBySet = useMemo(() => {
-        if (!hasSubsets) return {};
-            return groupSubsetsByBase(cases, {
+        if (!subsetMode) return {};
+        return groupSubsetsByBase(cases, {
             getBaseId: (c) => c.id.split("_")[0],
         });
-    }, [cases, hasSubsets]);
+    }, [cases, subsetMode]);
 
     function formatSetName(name: string): string {
         return name.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
     }
 
-    const selectedCount = useMemo(() => cases.filter(c => c.enabled).length, [cases]);
-    const totalCount = cases.length;
+    // const selectedCount = useMemo(() => cases.filter(c => c.enabled).length, [cases]);
+    // const totalCount = cases.length;
 
     const [active, setActive] = useState<{ setName: string; group: SubsetGroup } | null>(null);
     const openModal = (setName: string, group: SubsetGroup) => setActive({ setName, group });
@@ -97,7 +99,7 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
                     </div>
                 </div>
 
-                {!hasSubsets && (
+                {!subsetMode && (
                     <div className="grid grid-cols-4 sm:grid-cols-8 lg:grid-cols-10 gap-1 justify-start">
                     {groupedBySet[setName].map((c) => (
                         <CaseItem key={c.id} c={c} toggleCase={toggleCase} />
@@ -105,7 +107,7 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
                     </div>
                 )}
 
-                {hasSubsets && (
+                {subsetMode && (
                     <div className="grid grid-cols-4 sm:grid-cols-8 lg:grid-cols-10 gap-1 justify-start">
                     {groupsBySet[setName].map((group) => {
                         const enableAll = () => group.children.forEach(ch => !ch.enabled && toggleCase(ch.id));
