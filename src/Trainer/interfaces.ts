@@ -6,6 +6,14 @@ export interface Case {
     originalAlg: string; 
     img: string;
     enabled: boolean;
+    subset?: number;
+}
+
+export interface SubsetGroup {
+    baseId: string;
+    set: string;
+    originalAlg: string;
+    children: Case[];
 }
 
 export interface Solve {
@@ -15,6 +23,7 @@ export interface Solve {
     scramble: string;
     img: string;
     time: number;
+    subset?: number;
 }
 
 export interface Preset {

@@ -1,7 +1,12 @@
+import { useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import CaseItem from "./CaseItem";
-import type { Case } from "../interfaces";
+import ParentCaseItem from "./ParentCaseItem";
+import SubsetModal from "./SubsetModal";
+
+import type { Case, SubsetGroup } from "../interfaces";
+import { hasSubsets, groupSubsetsByBase } from "../../subsetUtils";
 
 import { MdArrowForward } from "react-icons/md";
 
@@ -16,17 +21,38 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
 
     const navigate = useNavigate();
 
-    const groupedCases = cases.reduce<Record<string, Case[]>>((acc, c) => {
-        if (!acc[c.set]) {
-            acc[c.set] = [];
-        }
-        acc[c.set].push(c);
-        return acc;
-    }, {});
+    // const groupedCases = cases.reduce<Record<string, Case[]>>((acc, c) => {
+    //     if (!acc[c.set]) {
+    //         acc[c.set] = [];
+    //     }
+    //     acc[c.set].push(c);
+    //     return acc;
+    // }, {});
+
+    const groupedBySet = useMemo(() => {
+        return cases.reduce<Record<string, Case[]>>((acc, c) => {
+            (acc[c.set] ||= []).push(c);
+            return acc;
+        }, {});
+    }, [cases]);
+
+    const groupsBySet = useMemo(() => {
+        if (!hasSubsets) return {};
+            return groupSubsetsByBase(cases, {
+            getBaseId: (c) => c.id.split("_")[0],
+        });
+    }, [cases, hasSubsets]);
 
     function formatSetName(name: string): string {
         return name.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
     }
+
+    const selectedCount = useMemo(() => cases.filter(c => c.enabled).length, [cases]);
+    const totalCount = cases.length;
+
+    const [active, setActive] = useState<{ setName: string; group: SubsetGroup } | null>(null);
+    const openModal = (setName: string, group: SubsetGroup) => setActive({ setName, group });
+    const closeModal = () => setActive(null);
 
     return (
         <div className="sm:px-4">
@@ -45,7 +71,7 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
                 </div>
             </div>
             
-            {Object.entries(groupedCases).map(([setName, setCases]) => (
+            {/* {Object.entries(groupedCases).map(([setName, setCases]) => (
                 <div key={setName}>
                     <div className="flex justify-between items-center py-4">
                         <div className="flex gap-2 items-end">
@@ -60,7 +86,76 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
                         ))}
                     </div>
                 </div>
+            ))} */}
+            {Object.keys(groupedBySet).map((setName) => (
+                <div key={setName}>
+                <div className="flex justify-between items-center py-4">
+                    <div className="flex gap-2 items-end">
+                    <h3 className="text-lg">{formatSetName(setName)}</h3>
+                    <button className="btn btn-success" onClick={() => toggleCasesInSet(setName, true)}>All</button>
+                    <button className="btn btn-danger" onClick={() => toggleCasesInSet(setName, false)}>None</button>
+                    </div>
+                </div>
+
+                {!hasSubsets && (
+                    <div className="grid grid-cols-4 sm:grid-cols-8 lg:grid-cols-10 gap-1 justify-start">
+                    {groupedBySet[setName].map((c) => (
+                        <CaseItem key={c.id} c={c} toggleCase={toggleCase} />
+                    ))}
+                    </div>
+                )}
+
+                {hasSubsets && (
+                    <div className="grid grid-cols-4 sm:grid-cols-8 lg:grid-cols-10 gap-1 justify-start">
+                    {groupsBySet[setName].map((group) => {
+                        const enableAll = () => group.children.forEach(ch => !ch.enabled && toggleCase(ch.id));
+                        const disableAll = () => group.children.forEach(ch => ch.enabled && toggleCase(ch.id));
+                        return (
+                        <ParentCaseItem
+                            key={group.baseId}
+                            group={group}
+                            onOpen={() => openModal(setName, group)}
+                            onAll={enableAll}
+                            onNone={disableAll}
+                        />
+                        );
+                    })}
+                    </div>
+                )}
+                </div>
             ))}
+
+            {/* OLLCP subsets modal */}
+            <SubsetModal
+                open={!!active}
+                onClose={closeModal}
+                title={active ? `${active.group.baseId} – Subsets` : ""}
+                wide
+            >
+                {active && (
+                <>
+                    <div className="flex justify-end gap-2 mb-2">
+                    <button
+                        className="btn btn-success"
+                        onClick={() => active.group.children.forEach(c => !c.enabled && toggleCase(c.id))}
+                    >
+                        All
+                    </button>
+                    <button
+                        className="btn btn-danger"
+                        onClick={() => active.group.children.forEach(c => c.enabled && toggleCase(c.id))}
+                    >
+                        None
+                    </button>
+                    </div>
+                    <div className="grid grid-cols-3 sm:grid-cols-6 gap-2">
+                    {active.group.children.map((c) => (
+                        <CaseItem key={c.id} c={c} toggleCase={toggleCase} />
+                    ))}
+                    </div>
+                </>
+                )}
+            </SubsetModal>
         </div>
     )
 }
