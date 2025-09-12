@@ -52,9 +52,19 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
     // const selectedCount = useMemo(() => cases.filter(c => c.enabled).length, [cases]);
     // const totalCount = cases.length;
 
-    const [active, setActive] = useState<{ setName: string; group: SubsetGroup } | null>(null);
-    const openModal = (setName: string, group: SubsetGroup) => setActive({ setName, group });
+    // const [active, setActive] = useState<{ setName: string; group: SubsetGroup } | null>(null);
+    // const openModal = (setName: string, group: SubsetGroup) => setActive({ setName, group });
+    // const closeModal = () => setActive(null);
+
+    const [active, setActive] = useState<{ setName: string; baseId: string } | null>(null);
+    const openModal = (setName: string, group: SubsetGroup) =>
+        setActive({ setName, baseId: group.baseId });
     const closeModal = () => setActive(null);
+
+    const activeGroup = useMemo<SubsetGroup | undefined>(() => {
+        if (!active) return undefined;
+        return groupsBySet[active.setName]?.find(g => g.baseId === active.baseId);
+    }, [active, groupsBySet]);
 
     return (
         <div className="sm:px-4">
@@ -127,37 +137,37 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
                 </div>
             ))}
 
-            {/* OLLCP subsets modal */}
-            <SubsetModal
-                open={!!active}
-                onClose={closeModal}
-                title={active ? `${active.group.baseId} – Subsets` : ""}
-                wide
-            >
-                {active && (
-                <>
-                    <div className="flex justify-end gap-2 mb-2">
-                    <button
-                        className="btn btn-success"
-                        onClick={() => active.group.children.forEach(c => !c.enabled && toggleCase(c.id))}
-                    >
-                        All
-                    </button>
-                    <button
-                        className="btn btn-danger"
-                        onClick={() => active.group.children.forEach(c => c.enabled && toggleCase(c.id))}
-                    >
-                        None
-                    </button>
-                    </div>
-                    <div className="grid grid-cols-3 sm:grid-cols-6 gap-2">
-                    {active.group.children.map((c) => (
-                        <CaseItem key={c.id} c={c} toggleCase={toggleCase} />
-                    ))}
-                    </div>
-                </>
-                )}
-            </SubsetModal>
+            {activeGroup && (
+                <SubsetModal
+                    open={!!activeGroup}
+                    onClose={closeModal}
+                    baseId={activeGroup?.baseId ?? ""}
+                >
+                    {active && (
+                    <>
+                        <div className="flex justify-end gap-2 mb-2">
+                        <button
+                            className="btn btn-success"
+                            onClick={() => activeGroup?.children.forEach(c => !c.enabled && toggleCase(c.id))}
+                        >
+                            All
+                        </button>
+                        <button
+                            className="btn btn-danger"
+                            onClick={() => activeGroup?.children.forEach(c => c.enabled && toggleCase(c.id))}
+                        >
+                            None
+                        </button>
+                        </div>
+                        <div className="grid grid-cols-3 sm:grid-cols-6 gap-2">
+                        {activeGroup?.children.map((c) => (
+                            <CaseItem key={c.id} c={c} toggleCase={toggleCase} />
+                        ))}
+                        </div>
+                    </>
+                    )}
+                </SubsetModal>
+            )}
         </div>
     )
 }
