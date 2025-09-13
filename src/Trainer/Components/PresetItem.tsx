@@ -13,6 +13,9 @@ function PresetItem({ preset, onLoad, onDelete }: Props) {
         <li 
             className="flex justify-between items-center bg-secondary p-2 rounded shadow-md cursor-pointer hover:bg-secondary/60"
             onClick={() => onLoad(preset)}
+            title={`Load Preset: ${preset.name}`}
+            role="button"
+            aria-pressed="false"
         >
             <div>
                 {preset.name} ({preset.cases.length})

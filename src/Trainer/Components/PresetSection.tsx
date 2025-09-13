@@ -29,7 +29,14 @@ function PresetSection({ presets, savePreset, loadPreset, deletePreset }: Props)
                     onChange={(e) => setPresetName(e.target.value)}
                     placeholder="Enter preset name"
                 />
-                <button className="btn btn-primary" onClick={() => savePreset(presetName)}>Save</button>
+                <button 
+                    className="btn btn-primary" 
+                    onClick={() => savePreset(presetName)}
+                    title="Save Preset"
+                    aria-label="Save Preset"
+                >
+                    Save
+                </button>
             </div>
             <ul className="flex flex-col gap-2 py-2">
                 {presets.map((preset) => (

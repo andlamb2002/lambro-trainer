@@ -13,6 +13,9 @@ function CaseItem({ c, toggleCase }: Props) {
         <div 
             onClick={() => toggleCase(c.id)}
             className={`aspect-square flex items-center justify-center rounded cursor-pointer hover:opacity-60 ${bgClass}`}
+            title={`${c.label} (${c.id})`}
+            role="button"
+            aria-pressed={c.enabled}
         >
             <img
                 src={c.img}

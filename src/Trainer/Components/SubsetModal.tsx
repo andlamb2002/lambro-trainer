@@ -21,8 +21,22 @@ function SubsetModal({ open, onClose, baseId, children, onAll, onNone }: Props) 
             >
                 <div className="flex gap-2 items-end pb-4">
                     <h3 className="text-lg">{baseId}</h3>
-                    <button className="btn btn-success" onClick={onAll}>All</button>
-                    <button className="btn btn-danger" onClick={onNone}>None</button>
+                    <button 
+                        className="btn btn-success" 
+                        onClick={onAll}
+                        title={`Toggle All - ${baseId}`} 
+                        aria-label={`Toggle All - ${baseId}`}
+                    >
+                        All
+                    </button>
+                    <button 
+                        className="btn btn-danger" 
+                        onClick={onNone}
+                        title={`Toggle None - ${baseId}`} 
+                        aria-label={`Toggle None - ${baseId}`}
+                    >
+                        None
+                    </button>
                 </div>
 
                 <div>{children}</div>

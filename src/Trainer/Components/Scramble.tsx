@@ -20,6 +20,8 @@ function Scramble({ currentScramble, recapMode, recapProgress, recapTotal, toggl
                 <button
                     className="btn btn-primary flex items-center gap-1 text-2xl font-bold w-auto self-start sm:self-auto px-2 py-1 sm:px-4 sm:py-2"
                     onClick={() => navigate("..")}
+                    title="Case Selection"
+                    aria-label="Case Selection"
                 >
                     <MdArrowBack size={24} />
                     Select
@@ -33,7 +35,12 @@ function Scramble({ currentScramble, recapMode, recapProgress, recapTotal, toggl
                             {recapProgress} / {recapTotal}
                         </div>
                     )}
-                    <button className="btn btn-primary text-2xl font-bold px-2 py-1 sm:px-4 sm:py-2" onClick={toggleRecap}>
+                    <button 
+                        className="btn btn-primary text-2xl font-bold px-2 py-1 sm:px-4 sm:py-2" 
+                        onClick={toggleRecap}
+                        title={recapMode ? "End Recap" : "Recap Each Selected Case"}
+                        aria-label={recapMode ? "End Recap" : "Recap Each Selected Case"}
+                    >
                         {recapMode ? 'End' : 'Recap'}
                     </button>
                 </div>
@@ -44,7 +51,12 @@ function Scramble({ currentScramble, recapMode, recapProgress, recapTotal, toggl
                         {recapProgress} / {recapTotal}
                     </div>
                 )}
-                <button className="btn btn-primary text-2xl font-bold px-2 py-1 sm:px-4 sm:py-2" onClick={toggleRecap}>
+                <button 
+                    className="btn btn-primary text-2xl font-bold px-2 py-1 sm:px-4 sm:py-2" 
+                    onClick={toggleRecap}
+                    title={recapMode ? "End Recap" : "Recap Each Selected Case"}
+                    aria-label={recapMode ? "End Recap" : "Recap Each Selected Case"}
+                >
                     {recapMode ? 'End' : 'Recap'}
                 </button>
             </div>

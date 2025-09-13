@@ -38,6 +38,8 @@ function SolvesList({ solves, setSelectedSolve, deleteSolve, deleteAllSolves }: 
             <button 
                 className={`${deleteHidden} btn btn-danger w-full`}
                 onClick={() => deleteAllSolves()} 
+                title="Delete All Solves"
+                aria-label="Delete All Solves"
             >
                 Delete All
             </button>

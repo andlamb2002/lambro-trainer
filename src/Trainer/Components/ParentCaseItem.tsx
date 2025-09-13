@@ -32,6 +32,7 @@ function ParentCaseItem({ group, onOpen, onAll, onNone }: Props) {
                 className={`aspect-square ${panelBg} flex items-center justify-center cursor-pointer hover:opacity-60`}
                 title={`${group.baseId} (${agg.on}/${agg.total})`}
                 role="button"
+                aria-pressed={agg.state === "all"}
                 onClick={toggleAll}
             >
                 <img
@@ -44,6 +45,8 @@ function ParentCaseItem({ group, onOpen, onAll, onNone }: Props) {
             <button
                 className="w-full text-base px-2 py-1 bg-secondary hover:bg-secondary/60 cursor-pointer text-center"
                 onClick={onOpen}
+                title={`Open Subset: ${group.baseId}`}
+                aria-label={`Open Subset: ${group.baseId}`}
             >
                 {agg.on} / {agg.total}
             </button>

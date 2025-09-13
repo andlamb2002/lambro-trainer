@@ -29,6 +29,8 @@ function SolveInfo({ solves, selectedSolve, deleteSolve }: Props) {
                 <button
                     className="btn btn-danger p-1"
                     onClick={() => deleteSolve(selectedSolve)}
+                    title={`Delete Solve ${index}`}
+                    aria-label={`Delete Solve ${index}`}
                 >
                     <MdDelete size={24} />
                 </button>

@@ -14,6 +14,9 @@ function SolveItem({ index, solve, onSelect, deleteSolve }: Props) {
         <li
             className="flex justify-between items-center bg-secondary p-2 rounded shadow-md cursor-pointer hover:bg-secondary/60"
             onClick={() => onSelect(solve)}
+            title={`Select Solve ${index}`}
+            role="button"
+            aria-pressed="false"
         >
             <div>
                 {index}. {(solve.time / 1000).toFixed(2)}
@@ -24,6 +27,8 @@ function SolveItem({ index, solve, onSelect, deleteSolve }: Props) {
                     deleteSolve(solve);
                     e.stopPropagation(); 
                 }}
+                title={`Delete Solve ${index}`}
+                aria-label={`Delete Solve ${index}`}
             >
                 <MdDelete size={24} />
             </button>

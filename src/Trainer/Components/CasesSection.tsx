@@ -58,14 +58,30 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
                 <button
                     className="order-1 sm:order-2 btn btn-primary flex items-center gap-1 text-2xl font-bold w-auto self-start sm:self-auto px-2 py-1 sm:px-4 sm:py-2"
                     onClick={() => navigate("timer")}
+                    title="Start Training"
+                    aria-label="Start Training"
                 >
                     Train
                     <MdArrowForward size={24} />
                 </button>
                 <div className="order-2 sm:order-1 flex gap-2 items-end">
                     <h2 className="text-xl font-bold underline">Case Selection</h2>
-                    <button className="btn btn-success" onClick={() => toggleAllCases(true)}>All</button>
-                    <button className="btn btn-danger" onClick={() => toggleAllCases(false)}>None</button>
+                    <button 
+                        className="btn btn-success" 
+                        onClick={() => toggleAllCases(true)} 
+                        title="Toggle All" 
+                        aria-label="Toggle All"
+                    >
+                        All
+                    </button>
+                    <button 
+                        className="btn btn-danger" 
+                        onClick={() => toggleAllCases(false)} 
+                        title="Toggle None" 
+                        aria-label="Toggle None"
+                    >
+                        None
+                    </button>
                 </div>
             </div>
             
@@ -74,8 +90,22 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
                 <div className="flex justify-between items-center py-4">
                     <div className="flex gap-2 items-end">
                     <h3 className="text-lg">{formatSetName(setName)}</h3>
-                    <button className="btn btn-success" onClick={() => toggleCasesInSet(setName, true)}>All</button>
-                    <button className="btn btn-danger" onClick={() => toggleCasesInSet(setName, false)}>None</button>
+                    <button 
+                        className="btn btn-success" 
+                        onClick={() => toggleCasesInSet(setName, true)} 
+                        title={`Toggle All - ${formatSetName(setName)}`} 
+                        aria-label={`Toggle All - ${formatSetName(setName)}`}
+                    >
+                        All
+                    </button>
+                    <button 
+                        className="btn btn-danger" 
+                        onClick={() => toggleCasesInSet(setName, false)} 
+                        title={`Toggle None - ${formatSetName(setName)}`} 
+                        aria-label={`Toggle None - ${formatSetName(setName)}`}
+                    >
+                        None
+                    </button>
                     </div>
                 </div>
 
