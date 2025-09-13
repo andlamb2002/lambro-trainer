@@ -18,6 +18,7 @@ function SolveInfo({ solves, selectedSolve, deleteSolve }: Props) {
     }
 
     const index = solves.findIndex(s => s.id === selectedSolve.id) + 1;
+    const hasSubset = selectedSolve.subset != null;
 
     return (
         <div className="bg-secondary rounded shadow-md p-4 ml-1 sm:ml-0 sm:mr-4">
@@ -45,9 +46,11 @@ function SolveInfo({ solves, selectedSolve, deleteSolve }: Props) {
             <div className="select-text">
                 {selectedSolve.scramble}
             </div>
-            <div className="select-text">
+            {!hasSubset && (
+                <div className="select-text mt-2">
                 Solution: {selectedSolve.originalAlg}
-            </div>
+                </div>
+            )}
         </div>
     )
 }

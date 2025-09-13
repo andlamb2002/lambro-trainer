@@ -148,6 +148,7 @@ function TimerPage({ cases, algset }: Props) {
             scramble: currentScramble,
             img: currentCase.img,
             time: finalTime,
+            subset: currentCase.subset ?? undefined,
         };
 
         setSolves(prev => [...prev, solve]);
