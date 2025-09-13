@@ -1,7 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 
 import { MdArrowBack } from "react-icons/md";
-import { Tooltip } from 'react-tooltip';
 
 interface Props {
     currentScramble: string;
@@ -34,10 +33,9 @@ function Scramble({ currentScramble, recapMode, recapProgress, recapTotal, toggl
                             {recapProgress} / {recapTotal}
                         </div>
                     )}
-                    <button data-tooltip-id="recap" className="btn btn-primary text-2xl font-bold px-2 py-1 sm:px-4 sm:py-2" onClick={toggleRecap}>
+                    <button className="btn btn-primary text-2xl font-bold px-2 py-1 sm:px-4 sm:py-2" onClick={toggleRecap}>
                         {recapMode ? 'End' : 'Recap'}
                     </button>
-                    <Tooltip id="recap">Recap</Tooltip>
                 </div>
             </div>
             <div className="hidden sm:flex items-center whitespace-nowrap gap-2">
@@ -46,10 +44,9 @@ function Scramble({ currentScramble, recapMode, recapProgress, recapTotal, toggl
                         {recapProgress} / {recapTotal}
                     </div>
                 )}
-                <button data-tooltip-id="recap" className="btn btn-primary text-2xl font-bold px-2 py-1 sm:px-4 sm:py-2" onClick={toggleRecap}>
+                <button className="btn btn-primary text-2xl font-bold px-2 py-1 sm:px-4 sm:py-2" onClick={toggleRecap}>
                     {recapMode ? 'End' : 'Recap'}
                 </button>
-                <Tooltip id="recap">Recap all selected cases</Tooltip>
             </div>
             <h3 className="sm:hidden font-bold text-2xl select-text">
                 {currentScramble}
