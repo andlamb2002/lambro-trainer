@@ -111,31 +111,15 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
                 <SubsetModal
                     open
                     onClose={closeModal}
-                    baseId={activeGroup.baseId ?? ""}
+                    baseId={activeGroup.baseId}
+                    onAll={() => activeGroup.children.forEach(c => !c.enabled && toggleCase(c.id))}   // NEW
+                    onNone={() => activeGroup.children.forEach(c => c.enabled && toggleCase(c.id))}   // NEW
                 >
-                    {active && (
-                    <>
-                        <div className="flex justify-end gap-2 mb-2">
-                            <button
-                                className="btn btn-success"
-                                onClick={() => activeGroup.children.forEach(c => !c.enabled && toggleCase(c.id))}
-                            >
-                                All
-                            </button>
-                            <button
-                                className="btn btn-danger"
-                                onClick={() => activeGroup.children.forEach(c => c.enabled && toggleCase(c.id))}
-                            >
-                                None
-                            </button>
-                        </div>
-                        <div className="grid grid-cols-3 sm:grid-cols-6 gap-2">
-                            {activeGroup.children.map((c) => (
-                                <CaseItem key={c.id} c={c} toggleCase={toggleCase} />
-                            ))}
-                        </div>
-                    </>
-                    )}
+                    <div className="grid grid-cols-3 sm:grid-cols-6 gap-2">
+                    {activeGroup.children.map((c) => (
+                        <CaseItem key={c.id} c={c} toggleCase={toggleCase} />
+                    ))}
+                    </div>
                 </SubsetModal>
             )}
         </div>
