@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Homepage() {
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-3 w-3/5 mt-4 gap-2 sm:gap-8 mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-4 w-3/5 mt-4 gap-2 sm:gap-8 mx-auto">
             
             <Link to="/pll" className="link flex flex-col items-center rounded hover:bg-secondary p-2" title="PLL Trainer" aria-label="PLL Trainer">
                 <img
@@ -29,6 +29,15 @@ function Homepage() {
                     className="w-36 h-36"
                 />
                 <span className="mt-2 text-2xl font-bold">OLLCP Trainer</span>
+            </Link>
+
+            <Link to="/zbll" className="link flex flex-col items-center rounded hover:bg-secondary p-2" title="ZBLL Trainer" aria-label="ZBLL Trainer">
+                <img
+                    src="https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=RU2R'U'RU'R'"
+                    alt="ZBLL Trainer"
+                    className="w-36 h-36"
+                />
+                <span className="mt-2 text-2xl font-bold">ZBLL Trainer</span>
             </Link>
 
         </div>
