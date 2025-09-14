@@ -6,6 +6,11 @@ from utils import (
     cube_to_kociemba_string, generate_case
 )
 
+SKIP_SUBSETS = {
+    ("H", 1): {3, 4, 9, 11},
+    ("H", 2): {3, 4, 10, 12},
+}
+
 def move_to_int(move):
     if move == 'U':
         return 1
@@ -212,11 +217,16 @@ def process_zbll(oll_data: list[dict], pll_data: list[dict]):
                         scramble = solve_then_invert_to_scramble(var)
                         buckets[subset].append(scramble)
 
-            for subset in range(1, 13):
-                scrambles = choose_unique_solutions(buckets[subset], max_solutions=4)
+            skip_set = SKIP_SUBSETS.get((set_name, raw_idx), set())
+            kept_subsets = [s for s in range(1, 13) if s not in skip_set]
+            subset_map = {old: new for new, old in enumerate(kept_subsets, start=1)}
 
-                case_id = f"ZBLL{base_code}_{subset:02d}"
-                label   = f"{base_code}_{subset:02d}_{set_name}"
+            for old_subset in kept_subsets:
+                scrambles = choose_unique_solutions(buckets[old_subset], max_solutions=4)
+
+                new_subset = subset_map[old_subset]
+                case_id = f"ZBLL{base_code}_{new_subset:02d}"
+                label   = f"{base_code}_{new_subset:02d}_{set_name}"
 
                 case = generate_case(
                     case_id=case_id,
@@ -226,10 +236,10 @@ def process_zbll(oll_data: list[dict], pll_data: list[dict]):
                     img_stage="ll",
                     set_name=set_name
                 )
-                case["subset"] = subset
+                case["subset"] = new_subset
                 cases.append(case)
 
-            print(f"{set_name} {base_code}: 12 subsets × ≤4 scrambles")
+            print(f"{set_name} {base_code}: {len(kept_subsets)} subsets × 4 scrambles")
 
     return cases
 
