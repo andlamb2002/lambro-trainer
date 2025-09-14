@@ -110,7 +110,7 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
                 </div>
 
                 {!subsetMode && (
-                    <div className="grid grid-cols-4 sm:grid-cols-8 lg:grid-cols-10 gap-1 justify-start">
+                    <div className="grid grid-cols-4 sm:grid-cols-8 gap-1 justify-start">
                     {groupedBySet[setName].map((c) => (
                         <CaseItem key={c.id} c={c} toggleCase={toggleCase} />
                     ))}
@@ -118,7 +118,7 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
                 )}
 
                 {subsetMode && (
-                    <div className="grid grid-cols-4 sm:grid-cols-8 lg:grid-cols-10 gap-1 justify-start">
+                    <div className="grid grid-cols-4 sm:grid-cols-8 gap-1 justify-start">
                     {groupsBySet[setName].map((group) => {
                         const enableAll = () => group.children.forEach(ch => !ch.enabled && toggleCase(ch.id));
                         const disableAll = () => group.children.forEach(ch => ch.enabled && toggleCase(ch.id));
