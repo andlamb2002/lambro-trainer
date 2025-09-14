@@ -33,7 +33,7 @@ function Homepage() {
 
             <Link to="/zbll" className="link flex flex-col items-center rounded hover:bg-secondary p-2" title="ZBLL Trainer" aria-label="ZBLL Trainer">
                 <img
-                    src="https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=RU2R'U'RU'R'"
+                    src="https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=R2 D' F2 D R2 D2 F2 D R2 D2 B D F2 D' B' D'"
                     alt="ZBLL Trainer"
                     className="w-36 h-36"
                 />

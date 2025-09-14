@@ -25,6 +25,7 @@ function Header({ darkMode, setDarkMode }: Props) {
                     <Link to="/pll" className="link" title="PLL Trainer" aria-label="PLL Trainer">PLL</Link>
                     <Link to="/oll" className="link" title="OLL Trainer" aria-label="OLL Trainer">OLL</Link>
                     <Link to="/ollcp" className="link" title="OLLCP Trainer" aria-label="OLLCP Trainer">OLLCP</Link>
+                    <Link to="/zbll" className="link" title="ZBLL Trainer" aria-label="ZBLL Trainer">ZBLL</Link>
                 </nav>
                 <button
                     onClick={() => setDarkMode(!darkMode)}
