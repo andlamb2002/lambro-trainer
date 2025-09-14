@@ -44,5 +44,3 @@ export function addRandomAUF(scramble: string): string {
 
   return merged.join(" ");
 }
-
-export const stripSpaces = (s: string) => s.replace(/\s+/g, "");

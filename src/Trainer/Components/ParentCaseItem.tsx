@@ -1,6 +1,5 @@
 import type { SubsetGroup } from "../interfaces";
 import { aggregateEnabled } from "../../subsetUtils";
-import { stripSpaces } from "../../scrambleUtils";
 
 interface Props {
     group: SubsetGroup;
@@ -10,8 +9,8 @@ interface Props {
 }
 
 const ollPreviewUrl = (isZBLL: boolean, alg: string) => {
-    if (isZBLL) return `https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&alg=${stripSpaces(alg)}`;
-    else return `https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=oll&bg=t&case=${stripSpaces(alg)}`;
+    if (isZBLL) return `https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&alg=${alg}`;
+    else return `https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=oll&bg=t&case=${alg}`;
 
 }
 
