@@ -2,14 +2,15 @@
 
 import pycuber as pc
 import kociemba
-from collections import defaultdict
 
 from utils import (
-    load_json, save_json, invert_alg, apply_z2_to_moves,
-    cube_to_kociemba_string, generate_case
+    load_json, save_json, invert_alg, apply_z2_to_moves,  # apply_z2_to_moves is needed to unmap z2
+    cube_to_kociemba_string, generate_case, get_auf_moves
 )
 
-# --- AUF helpers (same style as your PLL script) -----------------------------
+# -------------------------
+# AUF helpers (same as before)
+# -------------------------
 
 def move_to_int(move):
     if move == 'U':
@@ -53,7 +54,7 @@ def merge_adjacent_u_moves(moves_list):
 
 def generate_auf_variations(sequence_str: str) -> list[str]:
     """
-    4x4 = 16 variations with prefix/suffix U-moves; merges adjacent U's.
+    16 variations with prefix/suffix U-moves; merges adjacent U's.
     """
     auf_moves = ['', 'U', "U'", 'U2']
     variations = []
@@ -72,6 +73,9 @@ def generate_auf_variations(sequence_str: str) -> list[str]:
     return variations
 
 def choose_unique_solutions(solutions, max_solutions=4):
+    """
+    Keep up to max_solutions by distinct first move.
+    """
     chosen = []
     used_first_moves = set()
     for sol in solutions:
@@ -92,162 +96,220 @@ def choose_unique_solutions(solutions, max_solutions=4):
                 break
     return chosen
 
-# --- ZBLL-specific helpers ---------------------------------------------------
+# -------------------------
+# Kociemba helper (solve after z2-normalization)
+# -------------------------
 
-def solve_to_scramble(var_seq: str) -> str:
+def solve_then_invert_to_scramble(seq: str) -> str:
     """
-    Apply var_seq to a fresh cube, normalize with z2, solve with kociemba,
-    then map back from z2 (mirrors your other generators).
+    Apply seq to a fresh cube, z2-normalize, solve with kociemba,
+    map solution back from z2, THEN invert to get a valid scramble
+    (so: scramble + originalAlg = solved).  # CHANGE: explicit inversion.
     """
     cube = pc.Cube()
-    if var_seq.strip():
-        cube(var_seq)
+    if seq.strip():
+        cube(seq)
     cube("z2")
     state = cube_to_kociemba_string(cube)
     solution = kociemba.solve(state)
-    return apply_z2_to_moves(solution)
+    solution_unz2 = apply_z2_to_moves(solution)  # back to original orientation
+    return invert_alg(solution_unz2)             # store as scramble
 
-def generate_scrambles_for_subset(base_combo: str, keep=4) -> list[str]:
-    """
-    Around the base (EPLL + AUF + inv(OCLL)), produce 16 AUF variations,
-    solve each, and keep the 4 most unique (by first move).
-    """
-    sols = []
-    for var in generate_auf_variations(base_combo):
-        sols.append(solve_to_scramble(var))
-    return choose_unique_solutions(sols, max_solutions=keep)
-
-def make_epll_catalog(pll_data: list[dict]) -> dict:
-    """
-    Build a dict with scrambles for the needed EPLL bases.
-    We expect labels 'Ua', 'Ub', 'H', 'Z', and optionally 'skip'.
-    """
-    by_label = {p['label']: p for p in pll_data}
-    cat = {}
-    required = ['Ua', 'Ub', 'H', 'Z']
-    for lab in required:
-        if lab not in by_label:
-            raise ValueError(f"PLL data missing required label '{lab}' for EPLL.")
-        cat[lab] = by_label[lab]['scramble']
-    cat['skip'] = by_label.get('skip', {'scramble': ''}).get('scramble', '')
-    return cat
-
-def epll_subclasses(epll_cat: dict) -> list[tuple[int, str, str, str]]:
-    """
-    Define the 12 edge subclasses as (subset_index, human_tag, base_scramble, fixed_auf).
-    - Ua/Ub each with 4 AUF offsets to enumerate distinct relative positions
-    - Z with 2 distinct orientations (Z-a/Z-b)
-    - H single orientation
-    - skip (solved edges)
-    """
-    ua = epll_cat['Ua']
-    ub = epll_cat['Ub']
-    h  = epll_cat['H']
-    z  = epll_cat['Z']
-    sk = epll_cat['skip']
-
-    # 1..12 ordered mapping (stable indices)
-    mapping = [
-        (1,  "skip",  sk, ''   ),
-        (2,  "H",     h,  ''   ),
-        (3,  "Z-a",   z,  ''   ),
-        (4,  "Z-b",   z,  'U'  ),
-        (5,  "Ua-0",  ua, ''   ),
-        (6,  "Ua-1",  ua, 'U'  ),
-        (7,  "Ua-2",  ua, 'U2' ),
-        (8,  "Ua-3",  ua, "U'" ),
-        (9,  "Ub-0",  ub, ''   ),
-        (10, "Ub-1",  ub, 'U'  ),
-        (11, "Ub-2",  ub, 'U2' ),
-        (12, "Ub-3",  ub, "U'" ),
-    ]
-    return mapping
+# -------------------------
+# Pull 7 OLL-cross bases (one per ZBLL set)
+# -------------------------
 
 def build_bases_from_oll_cross(oll_data: list[dict]) -> list[dict]:
     """
-    Take only OLL cross cases (edges oriented) and map the first 7 to ZBLL sets.
-    We only need their scramble strings; they serve as the OCLL/CLL starting algs.
+    We only need 7 OLL 'cross' entries (skip 'skip'), one per ZBLL set:
+    H, Pi, U, T, L, Antisune, Sune. Each will be cloned into 6 parents.
     """
-    cross_olls = [o for o in oll_data if o.get('set') == 'cross' and o.get('label') != 'skip']
+    cross_olls = [o for o in oll_data if o.get('set') == 'cross' and o.get('label', '').lower() != 'skip']
     if len(cross_olls) < 7:
-        raise ValueError(f"Expected at least 7 OLL 'cross' entries, found {len(cross_olls)}.")
+        raise ValueError(f"Expected 7 OLL 'cross' entries, found {len(cross_olls)}.")
 
-    # Assign sets in canonical ZBLL order. Reorder cross_olls if you want a different mapping.
     set_order = ["H", "Pi", "U", "T", "L", "Antisune", "Sune"]
+    # stable pick: sort by label so order is deterministic
+    cross_sorted = sorted(cross_olls, key=lambda x: x.get('label', ''))
+
     bases = []
     for i, set_name in enumerate(set_order):
-        item = cross_olls[i]
+        item = cross_sorted[i]
         bases.append({
             "set": set_name,
-            "label": f"{set_name} base",
-            "alg": item["scramble"],   # treat as base OCLL/CLL alg
+            "alg": item["scramble"],  # base (edges oriented)
         })
     return bases
 
-# --- Main processor ----------------------------------------------------------
+# -------------------------
+# Subset indexing (exactly per your description)
+# -------------------------
+
+# Fixed order of 12 "adj" PLLs used in cases 3..6 (must match labels in pll.json)
+ADJ_PLL_ORDER = ["Aa", "Ab", "F", "Ga", "Gb", "Gc", "Gd", "Ja", "Jb", "Ra", "Rb", "T"]
+
+# Mapping AUF order we will use whenever 4 AUFs are needed
+AUF_ORDER_FOUR = ["", "U", "U2", "U'"]  # CHANGE: explicit, no y/y2 ever.
+
+def subset_index_case1(label: str, auf: str) -> int:
+    """
+    Case 1 (edges): 12 subsets in this order:
+      1: skip
+      2: H
+      3..4: Z with AUFs: "", "U"
+      5..8: Ua with AUFs: "", "U", "U2", "U'"
+      9..12: Ub with AUFs: "", "U", "U2", "U'"
+    """
+    if label == "skip": return 1
+    if label == "H":    return 2
+    if label == "Z":    return 3 if auf == "" else 4
+    if label == "Ua":   return 5 + AUF_ORDER_FOUR.index(auf)
+    if label == "Ub":   return 9 + AUF_ORDER_FOUR.index(auf)
+    raise ValueError(f"Case1 unexpected PLL '{label}'/AUF '{auf}'")
+
+def subset_index_case2(label: str, auf: str) -> int:
+    """
+    Case 2 (diag): 12 subsets in this order:
+      1: Na
+      2: Nb
+      3..4: E with AUFs: "", "U"
+      5..8: V with AUFs: "", "U", "U2", "U'"
+      9..12: Y with AUFs: "", "U", "U2", "U'"
+    """
+    if label == "Na": return 1
+    if label == "Nb": return 2
+    if label == "E":  return 3 if auf == "" else 4
+    if label == "V":  return 5 + AUF_ORDER_FOUR.index(auf)
+    if label == "Y":  return 9 + AUF_ORDER_FOUR.index(auf)
+    raise ValueError(f"Case2 unexpected PLL '{label}'/AUF '{auf}'")
+
+def fixed_auf_for_parent_idx(parent_idx: int) -> str:
+    """
+    Cases 3..6 use 12 adj PLLs with a single fixed AUF per case:
+      case 3: ""
+      case 4: "U2"
+      case 5: "U"
+      case 6: "U'"
+    """
+    if parent_idx == 3: return ""
+    if parent_idx == 4: return "U2"
+    if parent_idx == 5: return "U"
+    if parent_idx == 6: return "U'"
+    raise ValueError(f"Unexpected parent_idx '{parent_idx}' for fixed AUF")
+
+# -------------------------
+# Main processor
+# -------------------------
 
 def process_zbll(oll_data: list[dict], pll_data: list[dict]):
     """
-    oll_data: full OLL catalog; we will filter to OLL 'cross' items (skip 'skip').
-    pll_data: your existing PLL catalog (we only need Ua, Ub, H, Z, skip).
-    Output: 504 ZBLL cases (7 sets × 6 cases per set × 12 subsets), each with 4 scrambles.
+    7 sets × 6 parents × 12 subsets × 4 scrambles = 2016 total scrambles.
+    For each parent, we build combos "PLL + AUF + inv(base)" and then:
+      - generate 16 U-prefix/suffix variations
+      - Kociemba solve each
+      - invert the solution to store a real scramble (sets up the state)
+      - keep up to 4 by unique first move
     """
+    # Index PLLs by label for quick access
+    by_label = {p['label']: p for p in pll_data}
+
+    # Validate presence of required PLL labels (skip may be missing; treat as no-move)
+    required = {"H", "Z", "Ua", "Ub", "Na", "Nb", "E", "V", "Y"} | set(ADJ_PLL_ORDER)
+    missing = [lab for lab in required if lab not in by_label]
+    if missing:
+        raise ValueError(f"Missing PLL(s) in pll.json: {missing}")
+
+    bases = build_bases_from_oll_cross(oll_data)  # 7 items (H, Pi, U, T, L, Antisune, Sune)
+
     cases = []
-
-    # Build 7 bases from OLL (cross) and prepare EPLL subclasses
-    bases = build_bases_from_oll_cross(oll_data)  # 7 items
-    ecat = make_epll_catalog(pll_data)
-    subclasses = epll_subclasses(ecat)
-
     for base in bases:
-        set_name = base['set']            # e.g., 'T'
-        base_alg = base['alg']            # OCLL/CLL-like algorithm (edges oriented)
+        set_name = base['set']
+        base_alg = base['alg']
         base_inv = invert_alg(base_alg)
 
-        # 6 "cases" per set (01..06). These are groupings per your UI; generation uses EPLL subclasses.
-        for case_idx in range(1, 7):
-            base_code = f"{set_name}{str(case_idx).zfill(2)}"  # e.g., T01 .. T06
+        # 6 parents per set
+        for parent_idx in range(1, 7):
+            base_code = f"{set_name}{parent_idx:02d}"
 
-            for subset_idx, subset_tag, epll_scramble, fixed_auf in subclasses:
-                # Compose the combo that sets up this exact ZBLL state
-                parts = []
-                if epll_scramble:
-                    parts.append(epll_scramble)
-                if fixed_auf:
-                    parts.append(fixed_auf)
-                parts.append(base_inv)  # inverse of the OLL-cross base
-                base_combo = ' '.join(parts)
+            # Buckets for 12 subsets
+            buckets = {i: [] for i in range(1, 13)}
 
-                # Generate 16 AUF variants and keep 4 unique scrambles
-                scrambles = generate_scrambles_for_subset(base_combo, keep=4)
+            if parent_idx == 1:
+                # Case 1: edges-only families
+                plan = [
+                    ("skip", [""]),     # may be absent in pll.json; treat as no-move
+                    ("H",    [""]),
+                    ("Z",    ["", "U"]),
+                    ("Ua",   AUF_ORDER_FOUR),
+                    ("Ub",   AUF_ORDER_FOUR),
+                ]
+                for lab, aufs in plan:
+                    pll = by_label.get(lab, {"label": "skip", "scramble": ""}) if lab == "skip" else by_label[lab]
+                    for auf in aufs:
+                        subset = subset_index_case1(lab, auf)
+                        core = ' '.join(x for x in [pll["scramble"], auf, base_inv] if x)
+                        for var in generate_auf_variations(core):
+                            scramble = solve_then_invert_to_scramble(var)  # CHANGE: store inverse(solution)
+                            buckets[subset].append(scramble)
 
-                # Build id/label consistent with your subset modal code (ZBLL_<Base>_<Subset>)
-                case_id = f"ZBLL{base_code}_{str(subset_idx).zfill(2)}"
-                label = f"{base_code}_{str(subset_idx).zfill(2)}_{set_name}"
+            elif parent_idx == 2:
+                # Case 2: diagonal families
+                plan = [
+                    ("Na", [""]),
+                    ("Nb", [""]),
+                    ("E",  ["", "U"]),
+                    ("V",  AUF_ORDER_FOUR),
+                    ("Y",  AUF_ORDER_FOUR),
+                ]
+                for lab, aufs in plan:
+                    pll = by_label[lab]
+                    for auf in aufs:
+                        subset = subset_index_case2(lab, auf)
+                        core = ' '.join(x for x in [pll["scramble"], auf, base_inv] if x)
+                        for var in generate_auf_variations(core):
+                            scramble = solve_then_invert_to_scramble(var)  # CHANGE: store inverse(solution)
+                            buckets[subset].append(scramble)
+
+            else:
+                # Cases 3..6: 12 adj PLLs with a single fixed AUF per parent
+                fixed_auf = fixed_auf_for_parent_idx(parent_idx)
+                for i, lab in enumerate(ADJ_PLL_ORDER):
+                    subset = i + 1  # 1..12 in the given order
+                    pll = by_label[lab]
+                    core = ' '.join(x for x in [pll["scramble"], fixed_auf, base_inv] if x)
+                    for var in generate_auf_variations(core):
+                        scramble = solve_then_invert_to_scramble(var)      # CHANGE: store inverse(solution)
+                        buckets[subset].append(scramble)
+
+            # Emit 12 children (pick up to 4 unique each)
+            for subset in range(1, 13):
+                scrambles = choose_unique_solutions(buckets[subset], max_solutions=4)
+
+                case_id = f"ZBLL{base_code}_{subset:02d}"
+                label   = f"{base_code}_{subset:02d}_{set_name}"
 
                 case = generate_case(
                     case_id=case_id,
                     label=label,
                     scrambles=scrambles,
-                    original_alg=base_alg,   # provenance
-                    img_stage="ll",          # show exact LL state via alg=<first scramble>
+                    original_alg=base_alg,  # used by parent tile preview
+                    img_stage="ll",         # children show exact LL state (alg=<first scramble>)
                     set_name=set_name
                 )
-                case["subset"] = subset_idx
+                case["subset"] = subset
                 cases.append(case)
 
-            print(f"{set_name} case {case_idx:02d}: generated 12 subsets × 4 = 48 scrambles")
+            print(f"{set_name} {base_code}: 12 subsets × ≤4 scrambles")
 
     return cases
 
 def main():
-    # Inputs you provide
     pll_data = load_json("pll.json")
     oll_data = load_json("oll.json")  # we will use only 'cross' items
 
     all_cases = process_zbll(oll_data, pll_data)
     save_json(all_cases, "zbll_cases.json")
-    print(f"Total cases: {len(all_cases)}")  # should be 504
+    print(f"Total cases: {len(all_cases)}")  # should be 7*6*12 = 504
 
 if __name__ == "__main__":
     main()
