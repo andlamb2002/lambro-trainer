@@ -9,11 +9,16 @@ interface Props {
     onNone: () => void;
 }
 
-const ollPreviewUrl = (originalAlg: string) =>
-    `https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=oll&bg=t&case=${stripSpaces(originalAlg)}`;
+const ollPreviewUrl = (isZBLL: boolean, alg: string) => {
+    if (isZBLL) return `https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=coll&bg=t&alg=${stripSpaces(alg)}`;
+    else return `https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=oll&bg=t&case=${stripSpaces(alg)}`;
 
+}
 
 function ParentCaseItem({ group, onOpen, onAll, onNone }: Props) {
+    const isZBLL = group.baseId?.startsWith("ZBLL");
+    const alg = isZBLL ? group.children[0].scrambles[0] : group.originalAlg;
+
     const agg = aggregateEnabled(group.children);
 
     const panelBg =
@@ -36,7 +41,7 @@ function ParentCaseItem({ group, onOpen, onAll, onNone }: Props) {
                 onClick={toggleAll}
             >
                 <img
-                    src={ollPreviewUrl(group.originalAlg)}
+                    src={ollPreviewUrl(isZBLL, alg)}
                     alt={`${group.baseId} (OLL)`}
                     className="object-contain"
                 />
