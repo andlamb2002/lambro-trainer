@@ -47,7 +47,7 @@
     {
         "set": "edges_only",
         "label": "H",
-        "scramble": "R2 U2 R U2 R2 U2 R2 U2 R U2 R2"
+        "scramble": "M2 U M2 U2 M2 U M2"
     },
     {
         "set": "adj_swap",
@@ -97,7 +97,7 @@
     {
         "set": "diag_swap",
         "label": "V",
-        "scramble": "R' U R U' R' f' U' R U2 R' U' R U' R' f R"
+        "scramble": "R' U R' U' R D' R' D R' U D' R2 U' R2 D R2"
     },
     {
         "set": "diag_swap",
@@ -107,6 +107,6 @@
     {
         "set": "edges_only",
         "label": "Z",
-        "scramble": "R' U' R U' R U R U' R' U R U R2 U' R'"
+        "scramble": "M' U' M2 U' M2 U' M' U2 M2"
     }
 ]

@@ -2,7 +2,7 @@
   {
     "id": "ZBLLH01_01",
     "set": "H",
-    "label": "H01_01_H",
+    "label": "H01_01",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "D F2 U F2 D2 R2 U B2 D R2 B U2 R2 B' U2 B2 R2 B",
@@ -17,7 +17,7 @@
   {
     "id": "ZBLLH01_02",
     "set": "H",
-    "label": "H01_02_H",
+    "label": "H01_02",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "D' B2 U B2 D L2 F2 L2 F2 U L' U L2 F2 L F2 U' L'",
@@ -32,7 +32,7 @@
   {
     "id": "ZBLLH01_03",
     "set": "H",
-    "label": "H01_03_H",
+    "label": "H01_03",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "B2 D L2 D2 B2 D L2 D R2 B2 F' U2 L2 B' R2 F2 U2 B D",
@@ -47,7 +47,7 @@
   {
     "id": "ZBLLH01_04",
     "set": "H",
-    "label": "H01_04_H",
+    "label": "H01_04",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "B2 L2 U' R2 F2 D L2 D' R2 F2 L U L2 F2 L F2 U' L'",
@@ -62,7 +62,7 @@
   {
     "id": "ZBLLH01_05",
     "set": "H",
-    "label": "H01_05_H",
+    "label": "H01_05",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "B2 R2 D R2 B2 U' L2 U2 L2 F2 L U L2 F2 L F2 U' L'",
@@ -77,7 +77,7 @@
   {
     "id": "ZBLLH01_06",
     "set": "H",
-    "label": "H01_06_H",
+    "label": "H01_06",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "U2 L2 U' L2 U' L2 B2 L2 B2 U' L U' L2 B2 L' B2 U L",
@@ -92,7 +92,7 @@
   {
     "id": "ZBLLH01_07",
     "set": "H",
-    "label": "H01_07_H",
+    "label": "H01_07",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "D' F2 D R2 B2 D L2 D' B2 R2 B U B' U F U R2 U' F'",
@@ -107,7 +107,7 @@
   {
     "id": "ZBLLH01_08",
     "set": "H",
-    "label": "H01_08_H",
+    "label": "H01_08",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "B2 R2 D F2 D F2 D2 R2 B2 U2 L' U' L2 U2 L U' L2 U' L'",
@@ -122,7 +122,7 @@
   {
     "id": "ZBLLH02_01",
     "set": "H",
-    "label": "H02_01_H",
+    "label": "H02_01",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "B2 U' R2 F2 D2 L2 D' F2 R2 U' B U' F' U' L2 U2 B' U' F",
@@ -137,7 +137,7 @@
   {
     "id": "ZBLLH02_02",
     "set": "H",
-    "label": "H02_02_H",
+    "label": "H02_02",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "D R2 U' F2 D2 B2 U2 L2 B2 U L' U D F2 R L U R' L'",
@@ -152,7 +152,7 @@
   {
     "id": "ZBLLH02_03",
     "set": "H",
-    "label": "H02_03_H",
+    "label": "H02_03",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "B2 D2 F2 D F2 R2 U' D R2 D' R U D B2 R L U' R' L'",
@@ -167,7 +167,7 @@
   {
     "id": "ZBLLH02_04",
     "set": "H",
-    "label": "H02_04_H",
+    "label": "H02_04",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "U R2 D2 F2 L2 D2 F2 L2 U D' L U' D' F2 R' L' D' R' L'",
@@ -182,7 +182,7 @@
   {
     "id": "ZBLLH02_05",
     "set": "H",
-    "label": "H02_05_H",
+    "label": "H02_05",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "D2 R2 U F2 U' F2 D R2 D L' U' L2 U2 L U' L2 U' L'",
@@ -197,7 +197,7 @@
   {
     "id": "ZBLLH02_06",
     "set": "H",
-    "label": "H02_06_H",
+    "label": "H02_06",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "B2 U L2 F2 R2 D F2 L2 U L2 B' D2 B L' U' F' R2 F U L'",
@@ -212,7 +212,7 @@
   {
     "id": "ZBLLH02_07",
     "set": "H",
-    "label": "H02_07_H",
+    "label": "H02_07",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "L2 U' L2 U' L2 D R2 U R2 D R' B2 R U2 D L U' L2 D L'",
@@ -227,7 +227,7 @@
   {
     "id": "ZBLLH02_08",
     "set": "H",
-    "label": "H02_08_H",
+    "label": "H02_08",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "U2 R2 D2 F2 L2 D2 F2 L2 U D' L' U' D' F2 R' L' D R' L'",
@@ -242,7 +242,7 @@
   {
     "id": "ZBLLH03_01",
     "set": "H",
-    "label": "H03_01_H",
+    "label": "H03_01",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "F2 D B2 R2 B2 L2 U L2 D' F' D2 L2 F' L2 U2 F2 D2 F'",
@@ -257,7 +257,7 @@
   {
     "id": "ZBLLH03_02",
     "set": "H",
-    "label": "H03_02_H",
+    "label": "H03_02",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "L2 F2 D' R2 U F2 U' F2 R2 L2 F R2 D2 B D2 B2 R2 F'",
@@ -272,7 +272,7 @@
   {
     "id": "ZBLLH03_03",
     "set": "H",
-    "label": "H03_03_H",
+    "label": "H03_03",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "F2 U' F2 R2 U2 F2 U' R2 U' F' U2 R2 F U2 F2 R2 F'",
@@ -287,7 +287,7 @@
   {
     "id": "ZBLLH03_04",
     "set": "H",
-    "label": "H03_04_H",
+    "label": "H03_04",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "D2 F2 U' L2 B2 D' R2 D' L2 D2 F' U2 R2 B' D2 F2 R2 B",
@@ -302,7 +302,7 @@
   {
     "id": "ZBLLH03_05",
     "set": "H",
-    "label": "H03_05_H",
+    "label": "H03_05",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "D2 L2 B2 D R2 D' R2 D' L2 D2 B' R2 D2 F R2 B2 U2 B'",
@@ -317,7 +317,7 @@
   {
     "id": "ZBLLH03_06",
     "set": "H",
-    "label": "H03_06_H",
+    "label": "H03_06",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "B2 U' L2 U' R2 D F2 R2 L2 F2 L U R' L' D2 R F2 U' L'",
@@ -332,7 +332,7 @@
   {
     "id": "ZBLLH03_07",
     "set": "H",
-    "label": "H03_07_H",
+    "label": "H03_07",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "B2 U F2 U R2 B2 L2 D2 B2 D' F' L2 U2 B U2 F2 R2 F'",
@@ -347,7 +347,7 @@
   {
     "id": "ZBLLH03_08",
     "set": "H",
-    "label": "H03_08_H",
+    "label": "H03_08",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "L2 B2 U' L2 D F2 D' F2 R2 L2 F L2 U2 B U2 F2 R2 F'",
@@ -362,7 +362,7 @@
   {
     "id": "ZBLLH03_09",
     "set": "H",
-    "label": "H03_09_H",
+    "label": "H03_09",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "B2 D' R2 U' F2 D' L2 D R2 F2 R U' R2 F2 R' F2 U R D",
@@ -377,7 +377,7 @@
   {
     "id": "ZBLLH03_10",
     "set": "H",
-    "label": "H03_10_H",
+    "label": "H03_10",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "L2 F2 D' R2 U L2 B2 D F2 L2 B D2 L2 F U2 F2 R2 F'",
@@ -392,7 +392,7 @@
   {
     "id": "ZBLLH03_11",
     "set": "H",
-    "label": "H03_11_H",
+    "label": "H03_11",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "U' L2 F2 D' L2 U' L2 D L2 U' F U2 L2 F L2 F2 U2 F'",
@@ -407,7 +407,7 @@
   {
     "id": "ZBLLH03_12",
     "set": "H",
-    "label": "H03_12_H",
+    "label": "H03_12",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "B2 D' R2 F2 D F2 R2 D B2 F2 L U L2 F2 L F2 U' L'",
@@ -422,7 +422,7 @@
   {
     "id": "ZBLLH04_01",
     "set": "H",
-    "label": "H04_01_H",
+    "label": "H04_01",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "U' R2 U' F2 L2 D' B2 D' B' D2 L2 F U2 F2 R2 F'",
@@ -437,7 +437,7 @@
   {
     "id": "ZBLLH04_02",
     "set": "H",
-    "label": "H04_02_H",
+    "label": "H04_02",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "F2 R2 B2 U2 L2 U' L2 U B2 U B L2 U2 B' R2 F2 U2 F D'",
@@ -452,7 +452,7 @@
   {
     "id": "ZBLLH04_03",
     "set": "H",
-    "label": "H04_03_H",
+    "label": "H04_03",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "U R2 U B2 L2 B2 F2 U F2 U F U2 R2 B L2 F2 U2 B'",
@@ -467,7 +467,7 @@
   {
     "id": "ZBLLH04_04",
     "set": "H",
-    "label": "H04_04_H",
+    "label": "H04_04",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "R2 D' R2 B2 U' L2 D L2 D' B2 F' U2 F U2 F U2 F U2 F'",
@@ -482,7 +482,7 @@
   {
     "id": "ZBLLH04_05",
     "set": "H",
-    "label": "H04_05_H",
+    "label": "H04_05",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "U' L2 D' R2 D L2 U F2 L2 B D2 L2 F U2 F2 R2 F'",
@@ -497,7 +497,7 @@
   {
     "id": "ZBLLH04_06",
     "set": "H",
-    "label": "H04_06_H",
+    "label": "H04_06",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "U' B2 R2 U L2 F2 D B2 R2 D' B' D2 L2 F' R2 F2 U2 F",
@@ -512,7 +512,7 @@
   {
     "id": "ZBLLH04_07",
     "set": "H",
-    "label": "H04_07_H",
+    "label": "H04_07",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "D F2 D B2 D' L2 B2 U' R2 D2 F' L2 D2 B L2 F2 U2 F'",
@@ -527,7 +527,7 @@
   {
     "id": "ZBLLH04_08",
     "set": "H",
-    "label": "H04_08_H",
+    "label": "H04_08",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "R2 U2 D' F2 U' F2 L2 D' B2 U' B' U2 D2 F' U2 D2 B' D2 F2",
@@ -542,7 +542,7 @@
   {
     "id": "ZBLLH04_09",
     "set": "H",
-    "label": "H04_09_H",
+    "label": "H04_09",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "B2 D' B2 D R2 U2 L2 B2 R2 D B' D2 L2 F U2 F2 R2 F' D'",
@@ -557,7 +557,7 @@
   {
     "id": "ZBLLH04_10",
     "set": "H",
-    "label": "H04_10_H",
+    "label": "H04_10",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "D' F2 D2 L2 D' F2 D' L2 D R2 F' R2 U2 B R2 B2 U2 F'",
@@ -572,7 +572,7 @@
   {
     "id": "ZBLLH04_11",
     "set": "H",
-    "label": "H04_11_H",
+    "label": "H04_11",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "R2 U R2 U F2 R2 U F2 U F' U2 R2 F U2 F2 R2 F'",
@@ -587,7 +587,7 @@
   {
     "id": "ZBLLH04_12",
     "set": "H",
-    "label": "H04_12_H",
+    "label": "H04_12",
     "originalAlg": "U R U2 R' U' R U R' U' R U' R'",
     "scrambles": [
       "U R2 F2 R2 F2 D' L2 U L2 D F U2 R2 F' R2 F2 U2 F",
@@ -602,7 +602,7 @@
   {
     "id": "ZBLLPi01_01",
     "set": "Pi",
-    "label": "Pi01_01_Pi",
+    "label": "Pi01_01",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "D L2 D' B2 D' B2 R2 U2 R2 D F U' F' L2 U F' L2 F",
@@ -617,7 +617,7 @@
   {
     "id": "ZBLLPi01_02",
     "set": "Pi",
-    "label": "Pi01_02_Pi",
+    "label": "Pi01_02",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "D' F2 D R2 U' B2 D2 L2 D' B' D' B' R2 U B' U2 B",
@@ -632,37 +632,37 @@
   {
     "id": "ZBLLPi01_03",
     "set": "Pi",
-    "label": "Pi01_03_Pi",
+    "label": "Pi01_03",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
-      "D F2 L2 U' L2 U' F2 U2 L2 D' B' U B L2 U' F U2 F'",
-      "U2 B2 R2 D' F2 U F2 U2 R2 D R' U R B2 U' L U2 L'",
-      "F2 L2 D' B2 U B2 U2 L2 D L' U L F2 U' R U2 R'",
-      "D' F2 L2 U' L2 U' F2 D2 R2 D' F' U F R2 U' B U2 B'"
+      "U2 L2 B2 D' R2 U R2 U2 B2 D B' U B L2 U' F U2 F'",
+      "D' R2 F2 U' F2 U' R2 D2 B2 D' R' U R B2 U' L U2 L'",
+      "D R2 F2 U' F2 U' R2 U2 F2 D' L' U L F2 U' R U2 R'",
+      "R2 F2 D' L2 U L2 U2 F2 D F' U F R2 U' B U2 B'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=DF2L2U'L2U'F2U2L2D'B'UBL2U'FU2F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=U2L2B2D'R2UR2U2B2DB'UBL2U'FU2F'",
     "enabled": true,
     "subset": 3
   },
   {
     "id": "ZBLLPi01_04",
     "set": "Pi",
-    "label": "Pi01_04_Pi",
+    "label": "Pi01_04",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
-      "F2 U2 F2 U' F2 D F2 D2 L2 D B' U B L2 U' F U2 F'",
-      "U2 L2 U' F2 R2 D B2 D' R2 D' L' D L F2 U' L U2 L'",
-      "R2 U' R2 U' B2 L2 D' L2 D' R' D R B2 U' L F2 L'",
-      "U' B2 U' B2 U' L2 F2 D' F2 D' B' D B L2 U' F R2 F'"
+      "U2 F2 U' R2 B2 D L2 D' B2 D' F' D F R2 U' F U2 F'",
+      "U' L2 U' F2 R2 D B2 D' R2 D' L' D L F2 U' L U2 L'",
+      "D B2 U' B2 D' B2 L2 D' L2 D' R' D R B2 U' L F2 L'",
+      "B2 U' B2 U' L2 F2 D' F2 D' B' D B L2 U' F R2 F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=F2U2F2U'F2DF2D2L2DB'UBL2U'FU2F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=U2F2U'R2B2DL2D'B2D'F'DFR2U'FU2F'",
     "enabled": true,
     "subset": 4
   },
   {
     "id": "ZBLLPi01_05",
     "set": "Pi",
-    "label": "Pi01_05_Pi",
+    "label": "Pi01_05",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "D F2 R2 D B2 D' R2 U2 F2 D' F U' F' L2 U B' U2 B",
@@ -677,7 +677,7 @@
   {
     "id": "ZBLLPi01_06",
     "set": "Pi",
-    "label": "Pi01_06_Pi",
+    "label": "Pi01_06",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "L2 F2 U' L2 U' L2 U2 F2 U' B' U B L2 U' F U2 F'",
@@ -692,7 +692,7 @@
   {
     "id": "ZBLLPi01_07",
     "set": "Pi",
-    "label": "Pi01_07_Pi",
+    "label": "Pi01_07",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "F2 D' L2 U' L2 D F2 R2 D' F' D F R2 U' F U2 F'",
@@ -707,7 +707,7 @@
   {
     "id": "ZBLLPi01_08",
     "set": "Pi",
-    "label": "Pi01_08_Pi",
+    "label": "Pi01_08",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "B2 U' B2 D L2 F2 U2 F2 D' F U' F' L2 U B' U2 B",
@@ -722,7 +722,7 @@
   {
     "id": "ZBLLPi01_09",
     "set": "Pi",
-    "label": "Pi01_09_Pi",
+    "label": "Pi01_09",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "D' L2 D F2 D R2 U2 R2 F2 D' B' U B L2 U' F U2 F'",
@@ -737,7 +737,7 @@
   {
     "id": "ZBLLPi01_10",
     "set": "Pi",
-    "label": "Pi01_10_Pi",
+    "label": "Pi01_10",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "F2 U F2 U L2 F2 U2 F2 U' B' U B L2 U' B L2 B'",
@@ -752,7 +752,7 @@
   {
     "id": "ZBLLPi01_11",
     "set": "Pi",
-    "label": "Pi01_11_Pi",
+    "label": "Pi01_11",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "U F2 U F2 D' L2 B2 U2 B2 D B' U B L2 U' F U2 F'",
@@ -767,7 +767,7 @@
   {
     "id": "ZBLLPi01_12",
     "set": "Pi",
-    "label": "Pi01_12_Pi",
+    "label": "Pi01_12",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "U F2 U' L2 B2 D R2 D' B2 U' B' U B L2 U' F U2 F'",
@@ -782,7 +782,7 @@
   {
     "id": "ZBLLPi02_01",
     "set": "Pi",
-    "label": "Pi02_01_Pi",
+    "label": "Pi02_01",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "D' L2 U L2 B2 R2 B2 U2 F2 D' R' U L' B2 L' U' R F2",
@@ -797,7 +797,7 @@
   {
     "id": "ZBLLPi02_02",
     "set": "Pi",
-    "label": "Pi02_02_Pi",
+    "label": "Pi02_02",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "R2 D L2 D' R2 U B2 U' B2 D F U' F' L2 U B' U2 B D'",
@@ -812,7 +812,7 @@
   {
     "id": "ZBLLPi02_03",
     "set": "Pi",
-    "label": "Pi02_03_Pi",
+    "label": "Pi02_03",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "L2 D' L2 D F2 U' F2 D R2 D' F' D F R2 U' F U2 F' D'",
@@ -827,7 +827,7 @@
   {
     "id": "ZBLLPi02_04",
     "set": "Pi",
-    "label": "Pi02_04_Pi",
+    "label": "Pi02_04",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "D' R2 U' R2 B2 F2 U2 F2 L2 D R U' L F2 L U R' B2",
@@ -842,7 +842,7 @@
   {
     "id": "ZBLLPi02_05",
     "set": "Pi",
-    "label": "Pi02_05_Pi",
+    "label": "Pi02_05",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "R2 D' L2 D R2 U' R2 D R2 U2 R D L2 B2 D' B2 D' R'",
@@ -857,7 +857,7 @@
   {
     "id": "ZBLLPi02_06",
     "set": "Pi",
-    "label": "Pi02_06_Pi",
+    "label": "Pi02_06",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "R2 D' B2 D R2 U' L2 U F2 D' F U' F' L2 U F' L2 F D",
@@ -872,7 +872,7 @@
   {
     "id": "ZBLLPi02_07",
     "set": "Pi",
-    "label": "Pi02_07_Pi",
+    "label": "Pi02_07",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "U2 L2 U B2 U2 F2 U R2 U' R2 F' U B' R2 B' U' F' L2",
@@ -887,7 +887,7 @@
   {
     "id": "ZBLLPi02_08",
     "set": "Pi",
-    "label": "Pi02_08_Pi",
+    "label": "Pi02_08",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "R2 D' R2 U L2 D' B2 U B2 D R D B2 D B2 L2 D' R'",
@@ -902,7 +902,7 @@
   {
     "id": "ZBLLPi02_09",
     "set": "Pi",
-    "label": "Pi02_09_Pi",
+    "label": "Pi02_09",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "F2 U' L2 U F2 U' L2 D F2 D' B' U B L2 U' F U2 F'",
@@ -917,7 +917,7 @@
   {
     "id": "ZBLLPi02_10",
     "set": "Pi",
-    "label": "Pi02_10_Pi",
+    "label": "Pi02_10",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "L2 D' R2 D' B2 U R2 D2 R2 U R U L' B2 L' U' R F2",
@@ -932,7 +932,7 @@
   {
     "id": "ZBLLPi02_11",
     "set": "Pi",
-    "label": "Pi02_11_Pi",
+    "label": "Pi02_11",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "D' L2 U L2 B2 F2 D2 B2 L2 D' R' U L' B2 L' U' R F2",
@@ -947,7 +947,7 @@
   {
     "id": "ZBLLPi02_12",
     "set": "Pi",
-    "label": "Pi02_12_Pi",
+    "label": "Pi02_12",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "B2 U2 L2 F2 D R2 F2 U B2 F U B' R2 B' U' F' L2",
@@ -962,7 +962,7 @@
   {
     "id": "ZBLLPi03_01",
     "set": "Pi",
-    "label": "Pi03_01_Pi",
+    "label": "Pi03_01",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "L2 U2 L2 B2 D' R2 U L2 D R2 L' U R' F2 U R U L' D",
@@ -977,7 +977,7 @@
   {
     "id": "ZBLLPi03_02",
     "set": "Pi",
-    "label": "Pi03_02_Pi",
+    "label": "Pi03_02",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "U' B2 D F2 R2 U F2 U' B2 U2 B R2 B' U' L B R2 B' L",
@@ -992,7 +992,7 @@
   {
     "id": "ZBLLPi03_03",
     "set": "Pi",
-    "label": "Pi03_03_Pi",
+    "label": "Pi03_03",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "R2 U' R2 U L2 D' F2 U F2 D F U' F' L2 U B' U2 B",
@@ -1007,7 +1007,7 @@
   {
     "id": "ZBLLPi03_04",
     "set": "Pi",
-    "label": "Pi03_04_Pi",
+    "label": "Pi03_04",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "L2 D' B2 U B2 U R2 D' R2 U R' D' L2 F2 D F2 D R D",
@@ -1022,7 +1022,7 @@
   {
     "id": "ZBLLPi03_05",
     "set": "Pi",
-    "label": "Pi03_05_Pi",
+    "label": "Pi03_05",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "U' B2 D F2 R2 U F2 U' B2 F' R2 F U L' F' R2 F L'",
@@ -1037,7 +1037,7 @@
   {
     "id": "ZBLLPi03_06",
     "set": "Pi",
-    "label": "Pi03_06_Pi",
+    "label": "Pi03_06",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "L2 D F2 U B2 R2 U R2 B2 D B' U' F R2 F U B L2 D'",
@@ -1052,7 +1052,7 @@
   {
     "id": "ZBLLPi03_07",
     "set": "Pi",
-    "label": "Pi03_07_Pi",
+    "label": "Pi03_07",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "B2 U B2 D' R2 D B2 L2 U L2 B' D' B' R2 U B' U2 B D",
@@ -1067,7 +1067,7 @@
   {
     "id": "ZBLLPi03_08",
     "set": "Pi",
-    "label": "Pi03_08_Pi",
+    "label": "Pi03_08",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "L2 D F2 U' F2 U' R2 D R2 U' R D L2 B2 D' B2 D' R' D'",
@@ -1082,7 +1082,7 @@
   {
     "id": "ZBLLPi03_09",
     "set": "Pi",
-    "label": "Pi03_09_Pi",
+    "label": "Pi03_09",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "U F2 D' B2 R2 U' B2 U F2 U2 F' R2 F U L' F' R2 F L'",
@@ -1097,7 +1097,7 @@
   {
     "id": "ZBLLPi03_10",
     "set": "Pi",
-    "label": "Pi03_10_Pi",
+    "label": "Pi03_10",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "R2 U R2 U' L2 D B2 U' B2 D' B' U B L2 U' F U2 F'",
@@ -1112,7 +1112,7 @@
   {
     "id": "ZBLLPi03_11",
     "set": "Pi",
-    "label": "Pi03_11_Pi",
+    "label": "Pi03_11",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "U' R2 U' B2 L2 F2 L2 U' L2 D' L' U R' F2 U R U L'",
@@ -1127,7 +1127,7 @@
   {
     "id": "ZBLLPi03_12",
     "set": "Pi",
-    "label": "Pi03_12_Pi",
+    "label": "Pi03_12",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "F2 U' F2 D R2 D' F2 L2 U' L2 F D F R2 U' F U2 F' D'",
@@ -1142,7 +1142,7 @@
   {
     "id": "ZBLLPi04_01",
     "set": "Pi",
-    "label": "Pi04_01_Pi",
+    "label": "Pi04_01",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "L2 U2 L2 U L2 D F2 U2 F2 D' B' U B L2 U' F U2 F'",
@@ -1157,7 +1157,7 @@
   {
     "id": "ZBLLPi04_02",
     "set": "Pi",
-    "label": "Pi04_02_Pi",
+    "label": "Pi04_02",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "F2 U B2 U2 L2 B2 L2 B2 D' B' U' R2 B L2 U2 D F'",
@@ -1172,7 +1172,7 @@
   {
     "id": "ZBLLPi04_03",
     "set": "Pi",
-    "label": "Pi04_03_Pi",
+    "label": "Pi04_03",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "D' L2 D R2 D B2 D B2 L2 D F' D F R2 U' F U2 F'",
@@ -1187,7 +1187,7 @@
   {
     "id": "ZBLLPi04_04",
     "set": "Pi",
-    "label": "Pi04_04_Pi",
+    "label": "Pi04_04",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "U' F2 U F2 L2 U' L2 D' L2 D B' U B L2 U' F U2 F'",
@@ -1202,7 +1202,7 @@
   {
     "id": "ZBLLPi04_05",
     "set": "Pi",
-    "label": "Pi04_05_Pi",
+    "label": "Pi04_05",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "U2 L2 D F2 U F2 D' F U' F' L2 U B' U2 B",
@@ -1217,7 +1217,7 @@
   {
     "id": "ZBLLPi04_06",
     "set": "Pi",
-    "label": "Pi04_06_Pi",
+    "label": "Pi04_06",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "F2 U B2 R2 F2 R2 U2 B2 D' B' U' R2 B L2 U2 D F'",
@@ -1232,7 +1232,7 @@
   {
     "id": "ZBLLPi04_07",
     "set": "Pi",
-    "label": "Pi04_07_Pi",
+    "label": "Pi04_07",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "L2 U2 L2 U' L2 D' B2 U2 B2 D F U' F' L2 U B' U2 B",
@@ -1247,7 +1247,7 @@
   {
     "id": "ZBLLPi04_08",
     "set": "Pi",
-    "label": "Pi04_08_Pi",
+    "label": "Pi04_08",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "F2 U R2 U' L2 U R2 U' B2 D' B R2 B' D B2 L2 F' U' F'",
@@ -1262,7 +1262,7 @@
   {
     "id": "ZBLLPi04_09",
     "set": "Pi",
-    "label": "Pi04_09_Pi",
+    "label": "Pi04_09",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "U2 F2 D R2 U D L2 U2 D' B2 R' D L2 B2 D' B2 D' R'",
@@ -1277,7 +1277,7 @@
   {
     "id": "ZBLLPi04_10",
     "set": "Pi",
-    "label": "Pi04_10_Pi",
+    "label": "Pi04_10",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "U' F2 U L2 U L2 F2 D' L2 D B' U B L2 U' B L2 B'",
@@ -1292,7 +1292,7 @@
   {
     "id": "ZBLLPi04_11",
     "set": "Pi",
-    "label": "Pi04_11_Pi",
+    "label": "Pi04_11",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "U2 L2 D' B2 U' B2 D B' U B L2 U' F U2 F'",
@@ -1307,7 +1307,7 @@
   {
     "id": "ZBLLPi04_12",
     "set": "Pi",
-    "label": "Pi04_12_Pi",
+    "label": "Pi04_12",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "U' R2 D B2 R2 U' R2 B2 D2 F' D F R2 U' F U2 F'",
@@ -1322,7 +1322,7 @@
   {
     "id": "ZBLLPi05_01",
     "set": "Pi",
-    "label": "Pi05_01_Pi",
+    "label": "Pi05_01",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "D2 L2 B2 D' B2 D2 L2 D' L2 D' R' D' F2 D' F2 L2 D R",
@@ -1337,7 +1337,7 @@
   {
     "id": "ZBLLPi05_02",
     "set": "Pi",
-    "label": "Pi05_02_Pi",
+    "label": "Pi05_02",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "U L2 F2 D L2 B2 D' B2 L2 D' F' U' F' L2 U B' U2 B",
@@ -1352,7 +1352,7 @@
   {
     "id": "ZBLLPi05_03",
     "set": "Pi",
-    "label": "Pi05_03_Pi",
+    "label": "Pi05_03",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "B2 D F2 U B2 R2 F2 D2 B2 D' L' U R' F2 U R U L'",
@@ -1367,7 +1367,7 @@
   {
     "id": "ZBLLPi05_04",
     "set": "Pi",
-    "label": "Pi05_04_Pi",
+    "label": "Pi05_04",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "B2 F2 D F2 U' L2 U' F2 R2 D' F' U' F' L2 U B' U2 B",
@@ -1382,7 +1382,7 @@
   {
     "id": "ZBLLPi05_05",
     "set": "Pi",
-    "label": "Pi05_05_Pi",
+    "label": "Pi05_05",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "B2 D2 F2 D' F2 D' B2 U2 L2 F U' F' L2 U B' U2 B",
@@ -1397,7 +1397,7 @@
   {
     "id": "ZBLLPi05_06",
     "set": "Pi",
-    "label": "Pi05_06_Pi",
+    "label": "Pi05_06",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "U2 F2 U F2 U' F2 D F2 D' L2 B' U B L2 U' F U2 F'",
@@ -1412,7 +1412,7 @@
   {
     "id": "ZBLLPi05_07",
     "set": "Pi",
-    "label": "Pi05_07_Pi",
+    "label": "Pi05_07",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "D' R2 U F2 U' F2 D' L2 D R D' L2 F2 D F2 D R",
@@ -1427,7 +1427,7 @@
   {
     "id": "ZBLLPi05_08",
     "set": "Pi",
-    "label": "Pi05_08_Pi",
+    "label": "Pi05_08",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "D F2 D' B2 D' R2 D' F2 D2 B2 F U' F' L2 U B' U2 B",
@@ -1442,7 +1442,7 @@
   {
     "id": "ZBLLPi05_09",
     "set": "Pi",
-    "label": "Pi05_09_Pi",
+    "label": "Pi05_09",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "U L2 U L2 D F2 D B2 U2 R2 F' U B2 F D2 F' U' F' L2",
@@ -1457,7 +1457,7 @@
   {
     "id": "ZBLLPi05_10",
     "set": "Pi",
-    "label": "Pi05_10_Pi",
+    "label": "Pi05_10",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "F2 U2 L2 D' L2 D B2 U' R2 U B U' F R2 F U B L2",
@@ -1472,7 +1472,7 @@
   {
     "id": "ZBLLPi05_11",
     "set": "Pi",
-    "label": "Pi05_11_Pi",
+    "label": "Pi05_11",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "U F2 R2 B2 R2 D B2 D B2 D' F' U' F' L2 U F' L2 F",
@@ -1487,7 +1487,7 @@
   {
     "id": "ZBLLPi05_12",
     "set": "Pi",
-    "label": "Pi05_12_Pi",
+    "label": "Pi05_12",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "D2 R2 B2 D' B2 U2 R2 D' R2 U' R U F2 U F2 L2 U' R L2",
@@ -1502,7 +1502,7 @@
   {
     "id": "ZBLLPi06_01",
     "set": "Pi",
-    "label": "Pi06_01_Pi",
+    "label": "Pi06_01",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "B2 F2 D' B2 U L2 U B2 R2 D B U B L2 U' F U2 F'",
@@ -1517,7 +1517,7 @@
   {
     "id": "ZBLLPi06_02",
     "set": "Pi",
-    "label": "Pi06_02_Pi",
+    "label": "Pi06_02",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "B2 D L2 U' L2 D' R2 F2 D' L2 F D F R2 U' F U2 F'",
@@ -1532,7 +1532,7 @@
   {
     "id": "ZBLLPi06_03",
     "set": "Pi",
-    "label": "Pi06_03_Pi",
+    "label": "Pi06_03",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "U2 F2 D' B2 D' B2 D2 F2 L2 B' U B L2 U' F U2 F'",
@@ -1547,7 +1547,7 @@
   {
     "id": "ZBLLPi06_04",
     "set": "Pi",
-    "label": "Pi06_04_Pi",
+    "label": "Pi06_04",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "F2 D' B2 U' F2 R2 B2 D2 F2 D L U' R B2 U' R' U' L",
@@ -1562,7 +1562,7 @@
   {
     "id": "ZBLLPi06_05",
     "set": "Pi",
-    "label": "Pi06_05_Pi",
+    "label": "Pi06_05",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "U2 L2 B2 U F2 R2 D' R2 F2 U2 B U B L2 U' F U2 F'",
@@ -1577,7 +1577,7 @@
   {
     "id": "ZBLLPi06_06",
     "set": "Pi",
-    "label": "Pi06_06_Pi",
+    "label": "Pi06_06",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "B2 U2 L2 D L2 D' F2 U R2 U' F' U B' R2 B' U' F' L2",
@@ -1592,7 +1592,7 @@
   {
     "id": "ZBLLPi06_07",
     "set": "Pi",
-    "label": "Pi06_07_Pi",
+    "label": "Pi06_07",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "U2 B2 U' B2 U B2 D' B2 D L2 F U' F' L2 U B' U2 B",
@@ -1607,7 +1607,7 @@
   {
     "id": "ZBLLPi06_08",
     "set": "Pi",
-    "label": "Pi06_08_Pi",
+    "label": "Pi06_08",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "L2 D' R2 D L2 U' R2 U' B2 D' R D R' U B2 U L U2 L'",
@@ -1622,7 +1622,7 @@
   {
     "id": "ZBLLPi06_09",
     "set": "Pi",
-    "label": "Pi06_09_Pi",
+    "label": "Pi06_09",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "U' L2 B2 D' B2 U' B2 D B U B L2 U' F U2 F'",
@@ -1637,7 +1637,7 @@
   {
     "id": "ZBLLPi06_10",
     "set": "Pi",
-    "label": "Pi06_10_Pi",
+    "label": "Pi06_10",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "F2 R2 L2 U' B2 U B2 L2 U L D' R F2 D' R' D' R2 L'",
@@ -1652,7 +1652,7 @@
   {
     "id": "ZBLLPi06_11",
     "set": "Pi",
-    "label": "Pi06_11_Pi",
+    "label": "Pi06_11",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "U' L2 B2 D' L2 F2 D F2 L2 D B U B L2 U' F U2 F'",
@@ -1667,7 +1667,7 @@
   {
     "id": "ZBLLPi06_12",
     "set": "Pi",
-    "label": "Pi06_12_Pi",
+    "label": "Pi06_12",
     "originalAlg": "R U2 R2 U' R2 U' R2 U2 R",
     "scrambles": [
       "L2 U L2 U' R2 B2 U L2 B2 D L D' R F2 R D L' F2",
@@ -1682,7 +1682,7 @@
   {
     "id": "ZBLLU01_01",
     "set": "U",
-    "label": "U01_01_U",
+    "label": "U01_01",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "L2 D F2 D' B2 D F' D' B2 D F' D' L2",
@@ -1697,7 +1697,7 @@
   {
     "id": "ZBLLU01_02",
     "set": "U",
-    "label": "U01_02_U",
+    "label": "U01_02",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "F2 L2 U F2 U' B2 R2 D' R2 B2 R' D' L2 D R F2 U L2",
@@ -1712,37 +1712,37 @@
   {
     "id": "ZBLLU01_03",
     "set": "U",
-    "label": "U01_03_U",
+    "label": "U01_03",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
-      "F2 R2 D' L2 D R2 F2 R2 F2 D B' D' F2 D B' D' R2 U2",
-      "L2 F2 D L2 B2 D' B2 L2 D2 B2 F' U B2 U' F D F2 L2",
       "R2 B2 U' R2 U B2 R2 B2 R2 D L' D' R2 D L' U' L2 D'",
-      "U2 F2 U L2 B2 D' R2 D R2 L' D R2 D' L D B2 L2"
+      "U2 F2 U L2 B2 D' R2 D R2 L' D R2 D' L D B2 L2",
+      "U R2 U F2 L2 D' B2 D B2 F' D B2 D' F D L2 F2",
+      "B2 L2 D' R2 D L2 B2 L2 B2 D F' D' B2 D F' D' L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=F2R2D'L2DR2F2R2F2DB'D'F2DB'D'R2U2",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=R2B2U'R2UB2R2B2R2DL'D'R2DL'U'L2D'",
     "enabled": true,
     "subset": 3
   },
   {
     "id": "ZBLLU01_04",
     "set": "U",
-    "label": "U01_04_U",
+    "label": "U01_04",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
-      "L2 U' F2 R2 D B2 D' R2 F2 L2 B' U B L2 U2 F U' F'",
-      "U F2 D' F2 R2 U R2 D' F2 D F' U' F2 L2 U L2 D F'",
-      "U2 L2 D' L2 F2 U F2 D' L2 D L' U' L2 B2 U B2 D L'",
-      "F2 L2 U F2 U' F2 L2 U' L2 F2 R' D' L2 D R F2 U L2"
+      "F2 L2 U F2 U' F2 L2 U' L2 F2 R' D' L2 D R F2 U L2",
+      "U2 F2 D' F2 R2 U R2 D' F2 D F' U' F2 L2 U L2 D F'",
+      "U' L2 D' L2 F2 U F2 D' L2 D L' U' L2 B2 U B2 D L'",
+      "R2 D' R2 U' R2 D B2 R2 L2 D F U F D' F' U' F L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=L2U'F2R2DB2D'R2F2L2B'UBL2U2FU'F'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=F2L2UF2U'F2L2U'L2F2R'D'L2DRF2UL2",
     "enabled": true,
     "subset": 4
   },
   {
     "id": "ZBLLU01_05",
     "set": "U",
-    "label": "U01_05_U",
+    "label": "U01_05",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "L2 B2 F2 U F2 U' F2 D F' D' B2 D F' D' L2",
@@ -1757,7 +1757,7 @@
   {
     "id": "ZBLLU01_06",
     "set": "U",
-    "label": "U01_06_U",
+    "label": "U01_06",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "U' B2 L2 D' F2 D L2 U2 B2 D' R' U' R2 F2 U F2 D R'",
@@ -1772,7 +1772,7 @@
   {
     "id": "ZBLLU01_07",
     "set": "U",
-    "label": "U01_07_U",
+    "label": "U01_07",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "F2 U' F2 U' F2 U2 F2 L2 D F' U F D' F' U' F L2",
@@ -1787,7 +1787,7 @@
   {
     "id": "ZBLLU01_08",
     "set": "U",
-    "label": "U01_08_U",
+    "label": "U01_08",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "U R2 U' B2 U2 R2 D' R2 D B2 R' D' R2 U' R2 D R'",
@@ -1802,7 +1802,7 @@
   {
     "id": "ZBLLU01_09",
     "set": "U",
-    "label": "U01_09_U",
+    "label": "U01_09",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "L2 D2 B2 L2 F2 U L2 U' F2 U B' U' F2 U B' R2 D' L2",
@@ -1817,7 +1817,7 @@
   {
     "id": "ZBLLU01_10",
     "set": "U",
-    "label": "U01_10_U",
+    "label": "U01_10",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "F2 L2 U F2 D' B2 U2 L2 D2 B U' F2 U B' R2 D' L2",
@@ -1832,7 +1832,7 @@
   {
     "id": "ZBLLU01_11",
     "set": "U",
-    "label": "U01_11_U",
+    "label": "U01_11",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "U2 L2 B2 F2 U' B2 D L2 D' L2 B' U F2 U' B U L2",
@@ -1847,7 +1847,7 @@
   {
     "id": "ZBLLU01_12",
     "set": "U",
-    "label": "U01_12_U",
+    "label": "U01_12",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "U R2 U' R2 D R2 U' R2 U2 L U' R2 U L' D' R2",
@@ -1862,7 +1862,7 @@
   {
     "id": "ZBLLU02_01",
     "set": "U",
-    "label": "U02_01_U",
+    "label": "U02_01",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "R2 F2 D B2 D' F2 R2 F2 R2 D' L D R2 D' L D F2 U'",
@@ -1877,7 +1877,7 @@
   {
     "id": "ZBLLU02_02",
     "set": "U",
-    "label": "U02_02_U",
+    "label": "U02_02",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "U2 L2 D B2 F2 L2 U' R2 F2 D' R' D L2 D' R' F2 D' L2",
@@ -1892,7 +1892,7 @@
   {
     "id": "ZBLLU02_03",
     "set": "U",
-    "label": "U02_03_U",
+    "label": "U02_03",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "L2 D R2 D' B2 U F2 L2 U' D F' D' B2 D F' D' L2",
@@ -1907,7 +1907,7 @@
   {
     "id": "ZBLLU02_04",
     "set": "U",
-    "label": "U02_04_U",
+    "label": "U02_04",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "F2 U R2 F2 U F2 U' R2 F2 D2 R' U L2 U' R D L2 D",
@@ -1922,7 +1922,7 @@
   {
     "id": "ZBLLU02_05",
     "set": "U",
-    "label": "U02_05_U",
+    "label": "U02_05",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "U' L2 U L2 D' L2 U L2 U2 R' U L2 U' R D L2",
@@ -1937,7 +1937,7 @@
   {
     "id": "ZBLLU02_06",
     "set": "U",
-    "label": "U02_06_U",
+    "label": "U02_06",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "U2 L2 D' B2 U R2 U' R2 D2 F D' B2 D F' D' L2",
@@ -1952,7 +1952,7 @@
   {
     "id": "ZBLLU02_07",
     "set": "U",
-    "label": "U02_07_U",
+    "label": "U02_07",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "D F2 R2 D' L2 D' B2 D2 R2 D' B D' B' U B D B' L2",
@@ -1967,7 +1967,7 @@
   {
     "id": "ZBLLU02_08",
     "set": "U",
-    "label": "U02_08_U",
+    "label": "U02_08",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "B2 R2 D F2 D' R2 U2 B2 D L U L2 F2 U' F2 D' L",
@@ -1982,7 +1982,7 @@
   {
     "id": "ZBLLU02_09",
     "set": "U",
-    "label": "U02_09_U",
+    "label": "U02_09",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "D F2 U R2 U' B2 L2 B2 F2 D' L' U R2 U' L' B2 D' L2",
@@ -1997,7 +1997,7 @@
   {
     "id": "ZBLLU02_10",
     "set": "U",
-    "label": "U02_10_U",
+    "label": "U02_10",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "R2 B2 F2 U' F2 U F2 D' F D B2 D' F D R2",
@@ -2012,7 +2012,7 @@
   {
     "id": "ZBLLU02_11",
     "set": "U",
-    "label": "U02_11_U",
+    "label": "U02_11",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "U' R2 B2 F2 U B2 D' R2 D R2 B U' F2 U B' U' R2",
@@ -2027,7 +2027,7 @@
   {
     "id": "ZBLLU02_12",
     "set": "U",
-    "label": "U02_12_U",
+    "label": "U02_12",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "F2 U F2 U F2 U2 F2 L2 U' B D' B' U B D B' L2",
@@ -2042,7 +2042,7 @@
   {
     "id": "ZBLLU03_01",
     "set": "U",
-    "label": "U03_01_U",
+    "label": "U03_01",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "B2 U' L2 U F2 L2 D L2 U' R2 F U F D' F' U' F L2",
@@ -2057,7 +2057,7 @@
   {
     "id": "ZBLLU03_02",
     "set": "U",
-    "label": "U03_02_U",
+    "label": "U03_02",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "L2 B2 U' F2 U F2 D' L2 D L2 B' D' B' U B D B' L2",
@@ -2072,7 +2072,7 @@
   {
     "id": "ZBLLU03_03",
     "set": "U",
-    "label": "U03_03_U",
+    "label": "U03_03",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "B2 D2 L2 U' F2 U' F2 L2 D' B2 L' D L2 U L2 D' L D'",
@@ -2087,7 +2087,7 @@
   {
     "id": "ZBLLU03_04",
     "set": "U",
-    "label": "U03_04_U",
+    "label": "U03_04",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "F2 U R2 B2 L2 F2 U' F2 D F U B D2 R2 B U' F'",
@@ -2102,7 +2102,7 @@
   {
     "id": "ZBLLU03_05",
     "set": "U",
-    "label": "U03_05_U",
+    "label": "U03_05",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "L2 F2 U' L2 U F2 L2 D F2 D2 L' D L2 U L2 D' L D",
@@ -2117,7 +2117,7 @@
   {
     "id": "ZBLLU03_06",
     "set": "U",
-    "label": "U03_06_U",
+    "label": "U03_06",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "R2 F2 U R2 U' F2 R2 D' F2 D2 R D' R2 U' R2 D R' D'",
@@ -2132,7 +2132,7 @@
   {
     "id": "ZBLLU03_07",
     "set": "U",
-    "label": "U03_07_U",
+    "label": "U03_07",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "L2 B2 D' B2 U' B2 D B U B L2 U2 F U' F'",
@@ -2147,7 +2147,7 @@
   {
     "id": "ZBLLU03_08",
     "set": "U",
-    "label": "U03_08_U",
+    "label": "U03_08",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "D F2 U F2 U' F2 D F2 D2 L' D L2 U L2 D' L",
@@ -2162,7 +2162,7 @@
   {
     "id": "ZBLLU03_09",
     "set": "U",
-    "label": "U03_09_U",
+    "label": "U03_09",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "U' B2 F2 L2 F2 U R2 U R2 U2 F U B D2 R2 B U' F'",
@@ -2177,7 +2177,7 @@
   {
     "id": "ZBLLU03_10",
     "set": "U",
-    "label": "U03_10_U",
+    "label": "U03_10",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "R2 D' F2 U' F2 U F2 D' F2 D2 R' D' R2 U' R2 D R'",
@@ -2192,7 +2192,7 @@
   {
     "id": "ZBLLU03_11",
     "set": "U",
-    "label": "U03_11_U",
+    "label": "U03_11",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "U' F2 D' B2 D' B2 D2 F2 L2 B' U B L2 U2 F U' F'",
@@ -2207,7 +2207,7 @@
   {
     "id": "ZBLLU03_12",
     "set": "U",
-    "label": "U03_12_U",
+    "label": "U03_12",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "F2 D R2 F2 U' F2 R2 D' F2 L2 B' U B L2 U2 F U' F'",
@@ -2222,7 +2222,7 @@
   {
     "id": "ZBLLU04_01",
     "set": "U",
-    "label": "U04_01_U",
+    "label": "U04_01",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "R2 B2 F2 L2 D' R2 F2 D F D' B2 D F' D' L2",
@@ -2237,7 +2237,7 @@
   {
     "id": "ZBLLU04_02",
     "set": "U",
-    "label": "U04_02_U",
+    "label": "U04_02",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "U' L2 B2 D F D' B2 D F' D' L2",
@@ -2252,7 +2252,7 @@
   {
     "id": "ZBLLU04_03",
     "set": "U",
-    "label": "U04_03_U",
+    "label": "U04_03",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "F2 D' R2 B2 U2 F2 L2 D B2 D' R D' R2 U' R2 D R' D'",
@@ -2267,7 +2267,7 @@
   {
     "id": "ZBLLU04_04",
     "set": "U",
-    "label": "U04_04_U",
+    "label": "U04_04",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "D B2 D2 F2 D' F2 D' B2 D' R D' R2 U' R2 D R'",
@@ -2282,7 +2282,7 @@
   {
     "id": "ZBLLU04_05",
     "set": "U",
-    "label": "U04_05_U",
+    "label": "U04_05",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "B2 D' B2 L2 U L2 U2 D' R2 D R U L2 U' R D L2",
@@ -2297,7 +2297,7 @@
   {
     "id": "ZBLLU04_06",
     "set": "U",
-    "label": "U04_06_U",
+    "label": "U04_06",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "B2 D B2 R2 U' R2 U2 D L2 D' L' U' R2 U L' D' R2",
@@ -2312,7 +2312,7 @@
   {
     "id": "ZBLLU04_07",
     "set": "U",
-    "label": "U04_07_U",
+    "label": "U04_07",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "F2 U L2 B2 D' R2 D' R2 D' R2 F D' B2 D F' D' L2",
@@ -2327,7 +2327,7 @@
   {
     "id": "ZBLLU04_08",
     "set": "U",
-    "label": "U04_08_U",
+    "label": "U04_08",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "U L2 B2 D' R2 D B2 F2 U' L2 B' U F2 U' B U L2",
@@ -2342,7 +2342,7 @@
   {
     "id": "ZBLLU04_09",
     "set": "U",
-    "label": "U04_09_U",
+    "label": "U04_09",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "U' L2 F2 U F2 U' B2 F2 D F' D' B2 D F' D' L2",
@@ -2357,7 +2357,7 @@
   {
     "id": "ZBLLU04_10",
     "set": "U",
-    "label": "U04_10_U",
+    "label": "U04_10",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "U R2 B2 D2 L2 F2 L2 D' F2 R2 B U F2 U' B U L2",
@@ -2372,7 +2372,7 @@
   {
     "id": "ZBLLU04_11",
     "set": "U",
-    "label": "U04_11_U",
+    "label": "U04_11",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "U R2 F2 U' F2 U B2 F2 D' F D B2 D' F D R2",
@@ -2387,7 +2387,7 @@
   {
     "id": "ZBLLU04_12",
     "set": "U",
-    "label": "U04_12_U",
+    "label": "U04_12",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "U' B2 D' R2 D B2 L2 B2 D F' D' B2 D F' D' L2",
@@ -2402,7 +2402,7 @@
   {
     "id": "ZBLLU05_01",
     "set": "U",
-    "label": "U05_01_U",
+    "label": "U05_01",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "F2 U' L2 B2 D R2 D' B2 U' B' U B L2 U2 F U' F'",
@@ -2417,7 +2417,7 @@
   {
     "id": "ZBLLU05_02",
     "set": "U",
-    "label": "U05_02_U",
+    "label": "U05_02",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "U2 B2 D' B2 D L2 U' L D L2 U L2 D' L",
@@ -2432,7 +2432,7 @@
   {
     "id": "ZBLLU05_03",
     "set": "U",
-    "label": "U05_03_U",
+    "label": "U05_03",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "F2 D' L2 U' L2 D F2 R2 D' F' D F R2 U2 F U' F'",
@@ -2447,7 +2447,7 @@
   {
     "id": "ZBLLU05_04",
     "set": "U",
-    "label": "U05_04_U",
+    "label": "U05_04",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "L2 U2 L2 D' R2 U L2 U' R2 U L D L2 U L2 D' L D",
@@ -2462,7 +2462,7 @@
   {
     "id": "ZBLLU05_05",
     "set": "U",
-    "label": "U05_05_U",
+    "label": "U05_05",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "U L2 D' F2 R2 D R2 F2 L2 U2 L' B2 U B2 U' L2 D L'",
@@ -2477,7 +2477,7 @@
   {
     "id": "ZBLLU05_06",
     "set": "U",
-    "label": "U05_06_U",
+    "label": "U05_06",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "D F2 D' L2 F2 U2 F2 L2 F2 D' L' B2 U B2 U' L2 D L'",
@@ -2492,7 +2492,7 @@
   {
     "id": "ZBLLU05_07",
     "set": "U",
-    "label": "U05_07_U",
+    "label": "U05_07",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "B2 U L2 D' B2 R2 D B2 L2 D2 R U F2 U' D2 B2 U' L",
@@ -2507,7 +2507,7 @@
   {
     "id": "ZBLLU05_08",
     "set": "U",
-    "label": "U05_08_U",
+    "label": "U05_08",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "U L2 D R2 B2 L2 U2 R2 F2 U L' B2 U B2 U' L2 D L'",
@@ -2522,7 +2522,7 @@
   {
     "id": "ZBLLU05_09",
     "set": "U",
-    "label": "U05_09_U",
+    "label": "U05_09",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "R2 U2 R2 D L2 U' R2 U L2 U' R' D' R2 U' R2 D R' D'",
@@ -2537,7 +2537,7 @@
   {
     "id": "ZBLLU05_10",
     "set": "U",
-    "label": "U05_10_U",
+    "label": "U05_10",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "U L2 B2 D B2 L2 U L2 B2 D' B L' F R2 F' L B L2",
@@ -2552,7 +2552,7 @@
   {
     "id": "ZBLLU05_11",
     "set": "U",
-    "label": "U05_11_U",
+    "label": "U05_11",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "D R2 D B2 D L2 D2 R2 F2 D' B' U B L2 U2 F U' F'",
@@ -2567,7 +2567,7 @@
   {
     "id": "ZBLLU05_12",
     "set": "U",
-    "label": "U05_12_U",
+    "label": "U05_12",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "L2 F2 U' L2 U F2 L2 U' B2 D2 R U F2 U' D2 B2 U' L",
@@ -2582,7 +2582,7 @@
   {
     "id": "ZBLLU06_01",
     "set": "U",
-    "label": "U06_01_U",
+    "label": "U06_01",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "L2 D R2 D L2 U2 R2 D L2 D2 F R B' L2 B R' F' L2 D'",
@@ -2597,7 +2597,7 @@
   {
     "id": "ZBLLU06_02",
     "set": "U",
-    "label": "U06_02_U",
+    "label": "U06_02",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "B2 U' B2 F2 R2 D' R2 B2 F2 D F D' B2 D F' L2 D' L2",
@@ -2612,7 +2612,7 @@
   {
     "id": "ZBLLU06_03",
     "set": "U",
-    "label": "U06_03_U",
+    "label": "U06_03",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "R2 F2 U' F2 D R2 B2 D' B2 U2 R D' R2 U' R2 D R'",
@@ -2627,7 +2627,7 @@
   {
     "id": "ZBLLU06_04",
     "set": "U",
-    "label": "U06_04_U",
+    "label": "U06_04",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "R2 B2 U' R2 U B2 R2 U' B2 U2 R D' R2 U' R2 D R'",
@@ -2642,7 +2642,7 @@
   {
     "id": "ZBLLU06_05",
     "set": "U",
-    "label": "U06_05_U",
+    "label": "U06_05",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "L2 F2 D2 R2 U F2 D L2 B2 D L' D L2 U L2 D' L",
@@ -2657,7 +2657,7 @@
   {
     "id": "ZBLLU06_06",
     "set": "U",
-    "label": "U06_06_U",
+    "label": "U06_06",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "L2 D R2 D L2 U' B2 U R2 D' R D L2 D' R' F2 D' L2",
@@ -2672,7 +2672,7 @@
   {
     "id": "ZBLLU06_07",
     "set": "U",
-    "label": "U06_07_U",
+    "label": "U06_07",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "B2 D' R2 U R2 D B2 U2 L' D L2 U L2 D' L",
@@ -2687,7 +2687,7 @@
   {
     "id": "ZBLLU06_08",
     "set": "U",
-    "label": "U06_08_U",
+    "label": "U06_08",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "L2 D F2 R2 F2 R2 F2 D R2 D' F' U F D' F' U' F L2",
@@ -2702,7 +2702,7 @@
   {
     "id": "ZBLLU06_09",
     "set": "U",
-    "label": "U06_09_U",
+    "label": "U06_09",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "L2 B2 U L2 U' B2 L2 U B2 U2 L' D L2 U L2 D' L",
@@ -2717,7 +2717,7 @@
   {
     "id": "ZBLLU06_10",
     "set": "U",
-    "label": "U06_10_U",
+    "label": "U06_10",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "R2 F2 D2 L2 U' F2 D' R2 B2 D' R D' R2 U' R2 D R'",
@@ -2732,7 +2732,7 @@
   {
     "id": "ZBLLU06_11",
     "set": "U",
-    "label": "U06_11_U",
+    "label": "U06_11",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "B2 D L2 U' L2 D' B2 U2 R D' R2 U' R2 D R'",
@@ -2747,7 +2747,7 @@
   {
     "id": "ZBLLU06_12",
     "set": "U",
-    "label": "U06_12_U",
+    "label": "U06_12",
     "originalAlg": "R2 D' R U2 R' D R U2 R",
     "scrambles": [
       "L2 F2 U F2 D' L2 B2 D B2 U2 L' D L2 U L2 D' L",
@@ -2762,7 +2762,7 @@
   {
     "id": "ZBLLT01_01",
     "set": "T",
-    "label": "T01_01_T",
+    "label": "T01_01",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "U B2 U L2 D' R2 D' R2 D2 L' D2 R' U2 R D2 L'",
@@ -2777,7 +2777,7 @@
   {
     "id": "ZBLLT01_02",
     "set": "T",
-    "label": "T01_02_T",
+    "label": "T01_02",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "U B2 R2 L2 F2 D' F2 R2 L2 D B' U B D' B' U' B'",
@@ -2792,37 +2792,37 @@
   {
     "id": "ZBLLT01_03",
     "set": "T",
-    "label": "T01_03_T",
+    "label": "T01_03",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
-      "B2 D L2 D' B2 R2 D' F2 D F2 R' B2 R F2 R' B2 R'",
+      "B2 R2 F2 U F2 L2 U L2 D' F2 R' U' B2 D L' D F2 L'",
       "L2 D' B2 D L2 F2 D R2 D' L2 F' R2 F L2 F' R2 F'",
-      "R2 U R2 U' R2 F2 U' F2 D F2 R' B2 R F2 R' B2 R' D'",
-      "U2 D L2 D' B2 D L2 F2 U F2 R U' L2 U R' D' B2 L2"
+      "F2 D' L2 D F2 R2 D B2 D' F2 R' B2 R F2 R' B2 R'",
+      "R2 D B2 U' B2 D' L2 D R2 L' U' R2 U R2 L D' L2"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=B2DL2D'B2R2D'F2DF2R'B2RF2R'B2R'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=B2R2F2UF2L2UL2D'F2R'U'B2DL'DF2L'",
     "enabled": true,
     "subset": 3
   },
   {
     "id": "ZBLLT01_04",
     "set": "T",
-    "label": "T01_04_T",
+    "label": "T01_04",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
-      "L2 U' L2 D F2 U2 F2 U' F2 U R' B2 R F2 R' B2 R D'",
       "F2 D' L2 D F2 U2 F2 D' L2 D R' B2 R F2 R' B2 R",
-      "B2 D' R2 D B2 D2 F2 D' L2 D R' B2 R F2 R' B2 R D2",
-      "R2 U' R2 U R2 U2 R2 D' F2 U R' B2 R F2 R' B2 R D"
+      "R2 U' R2 U R2 U2 R2 D' F2 U R' B2 R F2 R' B2 R D",
+      "B2 L2 D' R2 D L2 B2 L2 D F2 L' U L D' L' U' L'",
+      "L2 U' L2 D F2 U2 F2 U' F2 U R' B2 R F2 R' B2 R D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=L2U'L2DF2U2F2U'F2UR'B2RF2R'B2RD'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=F2D'L2DF2U2F2D'L2DR'B2RF2R'B2R",
     "enabled": true,
     "subset": 4
   },
   {
     "id": "ZBLLT01_05",
     "set": "T",
-    "label": "T01_05_T",
+    "label": "T01_05",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "L2 B2 D2 F2 D R2 B2 D L2 D L D2 R U2 R' D2 L D'",
@@ -2837,7 +2837,7 @@
   {
     "id": "ZBLLT01_06",
     "set": "T",
-    "label": "T01_06_T",
+    "label": "T01_06",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "L2 U D L2 D' B2 D L2 D' L' D2 R' U2 R D2 L'",
@@ -2852,7 +2852,7 @@
   {
     "id": "ZBLLT01_07",
     "set": "T",
-    "label": "T01_07_T",
+    "label": "T01_07",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "L2 F2 U' F2 U L2 D' L2 D B2 R' F2 R B2 L' U2 L'",
@@ -2867,7 +2867,7 @@
   {
     "id": "ZBLLT01_08",
     "set": "T",
-    "label": "T01_08_T",
+    "label": "T01_08",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "B2 U L2 D' F2 L2 U L2 F2 D2 L' D2 L' B2 L D2 L'",
@@ -2882,7 +2882,7 @@
   {
     "id": "ZBLLT01_09",
     "set": "T",
-    "label": "T01_09_T",
+    "label": "T01_09",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "U' R2 F2 U R2 U R2 U2 F2 R2 B U' F2 U B' U' F2",
@@ -2897,7 +2897,7 @@
   {
     "id": "ZBLLT01_10",
     "set": "T",
-    "label": "T01_10_T",
+    "label": "T01_10",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "U2 L2 F2 U' L2 U F2 L2 U' L' D2 R U2 R' D2 L",
@@ -2912,7 +2912,7 @@
   {
     "id": "ZBLLT01_11",
     "set": "T",
-    "label": "T01_11_T",
+    "label": "T01_11",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "L2 B2 U' R2 U R2 D' F2 D F2 R' F2 R B2 L' U2 L'",
@@ -2927,7 +2927,7 @@
   {
     "id": "ZBLLT01_12",
     "set": "T",
-    "label": "T01_12_T",
+    "label": "T01_12",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "D2 F2 D' F2 D R2 U' R2 D2 B2 L D2 R' U2 R D2 L'",
@@ -2942,7 +2942,7 @@
   {
     "id": "ZBLLT02_01",
     "set": "T",
-    "label": "T02_01_T",
+    "label": "T02_01",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "L2 U L2 D' B2 U2 B2 U B2 U' R F2 R' B2 R F2 R' D",
@@ -2957,7 +2957,7 @@
   {
     "id": "ZBLLT02_02",
     "set": "T",
-    "label": "T02_02_T",
+    "label": "T02_02",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "B2 D L2 D' B2 R2 D' F2 D B2 R F2 R' B2 R F2 R",
@@ -2972,7 +2972,7 @@
   {
     "id": "ZBLLT02_03",
     "set": "T",
-    "label": "T02_03_T",
+    "label": "T02_03",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "F2 U R2 F2 U' R2 U F2 R2 U F' D F' U2 F D' F",
@@ -2987,7 +2987,7 @@
   {
     "id": "ZBLLT02_04",
     "set": "T",
-    "label": "T02_04_T",
+    "label": "T02_04",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "B2 D' B2 F2 L2 B2 F2 U R2 D L D2 L' B2 L D2 L'",
@@ -3002,7 +3002,7 @@
   {
     "id": "ZBLLT02_05",
     "set": "T",
-    "label": "T02_05_T",
+    "label": "T02_05",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "L2 U2 L2 B2 U' B2 U B2 L2 U' L' D2 R' U2 R D2 L'",
@@ -3017,7 +3017,7 @@
   {
     "id": "ZBLLT02_06",
     "set": "T",
-    "label": "T02_06_T",
+    "label": "T02_06",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "U' R2 B2 U' R2 U' R2 U2 B2 R2 F' U B2 U' F U B2",
@@ -3032,7 +3032,7 @@
   {
     "id": "ZBLLT02_07",
     "set": "T",
-    "label": "T02_07_T",
+    "label": "T02_07",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "R2 B2 U2 R2 U R2 U B2 R2 U2 F' U B2 U' F U B2",
@@ -3047,7 +3047,7 @@
   {
     "id": "ZBLLT02_08",
     "set": "T",
-    "label": "T02_08_T",
+    "label": "T02_08",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "D' L2 U L2 D' B2 U' B2 D2 F' D F' U2 F D' F",
@@ -3062,7 +3062,7 @@
   {
     "id": "ZBLLT02_09",
     "set": "T",
-    "label": "T02_09_T",
+    "label": "T02_09",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "B2 D2 F2 U F2 D' L2 U2 L2 D' L D2 R' U2 R D2 L'",
@@ -3077,7 +3077,7 @@
   {
     "id": "ZBLLT02_10",
     "set": "T",
-    "label": "T02_10_T",
+    "label": "T02_10",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "U L2 B2 U L2 U' B2 L2 U L D2 R' U2 R D2 L'",
@@ -3092,7 +3092,7 @@
   {
     "id": "ZBLLT02_11",
     "set": "T",
-    "label": "T02_11_T",
+    "label": "T02_11",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "L2 F2 U F2 D' L2 B2 D L D2 R' U2 R D2 L'",
@@ -3107,7 +3107,7 @@
   {
     "id": "ZBLLT02_12",
     "set": "T",
-    "label": "T02_12_T",
+    "label": "T02_12",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "U' B2 D' R2 U R2 D L D2 R' U2 R D2 L'",
@@ -3122,7 +3122,7 @@
   {
     "id": "ZBLLT03_01",
     "set": "T",
-    "label": "T03_01_T",
+    "label": "T03_01",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "F2 D R2 B2 D B2 U' B2 L2 D' R F2 R' B2 R F2 R D'",
@@ -3137,7 +3137,7 @@
   {
     "id": "ZBLLT03_02",
     "set": "T",
-    "label": "T03_02_T",
+    "label": "T03_02",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "L2 D2 L2 U F2 D' B2 D2 B2 D L' D2 L F2 L' D2 L",
@@ -3152,7 +3152,7 @@
   {
     "id": "ZBLLT03_03",
     "set": "T",
-    "label": "T03_03_T",
+    "label": "T03_03",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "D' B2 F2 D B2 D B2 D' F2 D R F2 L' D2 R' L2 D2 L'",
@@ -3167,7 +3167,7 @@
   {
     "id": "ZBLLT03_04",
     "set": "T",
-    "label": "T03_04_T",
+    "label": "T03_04",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "L2 U2 L2 F2 U L2 U L2 U F D F' U2 F D' F",
@@ -3182,7 +3182,7 @@
   {
     "id": "ZBLLT03_05",
     "set": "T",
-    "label": "T03_05_T",
+    "label": "T03_05",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "R2 U' B2 R2 U B2 U2 R2 B2 U' F L' B R2 B' L F'",
@@ -3197,7 +3197,7 @@
   {
     "id": "ZBLLT03_06",
     "set": "T",
-    "label": "T03_06_T",
+    "label": "T03_06",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "B2 R2 D' F2 U F2 R2 D L D2 R' U2 R D2 L'",
@@ -3212,7 +3212,7 @@
   {
     "id": "ZBLLT03_07",
     "set": "T",
-    "label": "T03_07_T",
+    "label": "T03_07",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "U D R2 F2 U R2 U' F2 R2 D' L' D2 R U2 R' D2 L",
@@ -3227,7 +3227,7 @@
   {
     "id": "ZBLLT03_08",
     "set": "T",
-    "label": "T03_08_T",
+    "label": "T03_08",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "B2 R2 D' R2 B2 D' B2 D L D2 L' B2 L D2 L'",
@@ -3242,7 +3242,7 @@
   {
     "id": "ZBLLT03_09",
     "set": "T",
-    "label": "T03_09_T",
+    "label": "T03_09",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "R2 D L2 U' L2 B2 D' R2 B2 R' F2 L' D2 L F2 R'",
@@ -3257,7 +3257,7 @@
   {
     "id": "ZBLLT03_10",
     "set": "T",
-    "label": "T03_10_T",
+    "label": "T03_10",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "F2 D2 R2 U' R2 D' F2 U2 F2 D' F D F' U2 F D' F",
@@ -3272,7 +3272,7 @@
   {
     "id": "ZBLLT03_11",
     "set": "T",
-    "label": "T03_11_T",
+    "label": "T03_11",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "B2 L2 D' R2 D L2 U D' R2 D L D2 R' U2 R D2 L'",
@@ -3287,7 +3287,7 @@
   {
     "id": "ZBLLT03_12",
     "set": "T",
-    "label": "T03_12_T",
+    "label": "T03_12",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "B2 F2 U' L2 U' F2 D B2 D R2 B' L F' R2 F L' B D",
@@ -3302,7 +3302,7 @@
   {
     "id": "ZBLLT04_01",
     "set": "T",
-    "label": "T04_01_T",
+    "label": "T04_01",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "U2 L2 D' R2 D' L2 U2 R2 U B2 L D2 L' B2 L D2 L'",
@@ -3317,7 +3317,7 @@
   {
     "id": "ZBLLT04_02",
     "set": "T",
-    "label": "T04_02_T",
+    "label": "T04_02",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "L2 D2 R2 D R2 D L2 U' B2 L D2 R' U2 R D2 L'",
@@ -3332,7 +3332,7 @@
   {
     "id": "ZBLLT04_03",
     "set": "T",
-    "label": "T04_03_T",
+    "label": "T04_03",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "U' R2 U' B2 F2 L2 D' L2 D L2 B D' F2 D B' D' B2",
@@ -3347,7 +3347,7 @@
   {
     "id": "ZBLLT04_04",
     "set": "T",
-    "label": "T04_04_T",
+    "label": "T04_04",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "B2 D2 R2 U R2 D' F2 D F2 D2 L D2 R' U2 R D2 L'",
@@ -3362,7 +3362,7 @@
   {
     "id": "ZBLLT04_05",
     "set": "T",
-    "label": "T04_05_T",
+    "label": "T04_05",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "B2 R2 U2 B2 U' B2 U' R2 B2 U2 F' U B2 U' F U B2",
@@ -3377,7 +3377,7 @@
   {
     "id": "ZBLLT04_06",
     "set": "T",
-    "label": "T04_06_T",
+    "label": "T04_06",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "R2 U R2 B2 F2 D' L2 D' L2 D F' D B2 D' F D F2",
@@ -3392,7 +3392,7 @@
   {
     "id": "ZBLLT04_07",
     "set": "T",
-    "label": "T04_07_T",
+    "label": "T04_07",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "L2 U' L2 D F2 D' F2 U2 F' D F' U2 F D' F",
@@ -3407,7 +3407,7 @@
   {
     "id": "ZBLLT04_08",
     "set": "T",
-    "label": "T04_08_T",
+    "label": "T04_08",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "R2 U2 R2 D B2 U B2 D' B2 R F2 R' B2 R F2 R'",
@@ -3422,7 +3422,7 @@
   {
     "id": "ZBLLT04_09",
     "set": "T",
-    "label": "T04_09_T",
+    "label": "T04_09",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "L2 D L2 U' L2 D' L2 U2 B2 L D2 R' U2 R D2 L'",
@@ -3437,7 +3437,7 @@
   {
     "id": "ZBLLT04_10",
     "set": "T",
-    "label": "T04_10_T",
+    "label": "T04_10",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "U2 B2 R2 U B2 U B2 U2 R2 B2 F' U B2 U' F U B2",
@@ -3452,7 +3452,7 @@
   {
     "id": "ZBLLT04_11",
     "set": "T",
-    "label": "T04_11_T",
+    "label": "T04_11",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "L2 D' L2 U2 R2 U F2 R2 U' F2 R B2 R F2 L' D2 L",
@@ -3467,7 +3467,7 @@
   {
     "id": "ZBLLT04_12",
     "set": "T",
-    "label": "T04_12_T",
+    "label": "T04_12",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "U' R2 U B2 F2 L2 D L2 D' L2 F' D B2 D' F D F2",
@@ -3482,7 +3482,7 @@
   {
     "id": "ZBLLT05_01",
     "set": "T",
-    "label": "T05_01_T",
+    "label": "T05_01",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "D2 R2 F2 R2 D2 L U2 L B2 L' U2 L'",
@@ -3497,7 +3497,7 @@
   {
     "id": "ZBLLT05_02",
     "set": "T",
-    "label": "T05_02_T",
+    "label": "T05_02",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "L2 F2 R2 D R2 B2 F2 L2 U' L U2 L B2 L' U2 L'",
@@ -3512,7 +3512,7 @@
   {
     "id": "ZBLLT05_03",
     "set": "T",
-    "label": "T05_03_T",
+    "label": "T05_03",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "R2 L2 D R2 L2 U R2 F2 R2 U2 L U2 L B2 L' U2 L'",
@@ -3527,7 +3527,7 @@
   {
     "id": "ZBLLT05_04",
     "set": "T",
-    "label": "T05_04_T",
+    "label": "T05_04",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "R2 F2 L2 D L2 B2 L2 D R2 F2 L' U2 L B2 L' U2 L'",
@@ -3542,7 +3542,7 @@
   {
     "id": "ZBLLT05_05",
     "set": "T",
-    "label": "T05_05_T",
+    "label": "T05_05",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "R2 L2 D L2 F2 L2 D R2 L' U2 R D2 R' U2 L'",
@@ -3557,7 +3557,7 @@
   {
     "id": "ZBLLT05_06",
     "set": "T",
-    "label": "T05_06_T",
+    "label": "T05_06",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "D' R2 D L2 D2 F2 D R2 D L' D2 R' U2 R D2 L'",
@@ -3572,7 +3572,7 @@
   {
     "id": "ZBLLT05_07",
     "set": "T",
-    "label": "T05_07_T",
+    "label": "T05_07",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "U' F2 L2 B2 D' L2 U' R2 L2 D L' U2 R D2 R' U2 L'",
@@ -3587,7 +3587,7 @@
   {
     "id": "ZBLLT05_08",
     "set": "T",
-    "label": "T05_08_T",
+    "label": "T05_08",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "R2 U B2 U' R2 L2 D F2 D' B2 L' U2 L B2 L' U2 L'",
@@ -3602,7 +3602,7 @@
   {
     "id": "ZBLLT05_09",
     "set": "T",
-    "label": "T05_09_T",
+    "label": "T05_09",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "R2 F2 L2 D' L2 B2 L2 D' R2 F2 L' U2 L B2 L' U2 L'",
@@ -3617,7 +3617,7 @@
   {
     "id": "ZBLLT05_10",
     "set": "T",
-    "label": "T05_10_T",
+    "label": "T05_10",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "R2 L2 D' L2 F2 L2 D' R2 L' U2 R D2 R' U2 L'",
@@ -3632,7 +3632,7 @@
   {
     "id": "ZBLLT05_11",
     "set": "T",
-    "label": "T05_11_T",
+    "label": "T05_11",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "U2 R2 L2 D R2 F2 R2 D R2 L U2 R' D2 R U2 L",
@@ -3647,7 +3647,7 @@
   {
     "id": "ZBLLT05_12",
     "set": "T",
-    "label": "T05_12_T",
+    "label": "T05_12",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "R2 L2 D' R2 L2 U' R2 F2 R2 U2 L U2 L B2 L' U2 L'",
@@ -3662,7 +3662,7 @@
   {
     "id": "ZBLLT06_01",
     "set": "T",
-    "label": "T06_01_T",
+    "label": "T06_01",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "U2 F2 R2 D' L2 D R2 D' L2 F U' F' D F U F",
@@ -3677,7 +3677,7 @@
   {
     "id": "ZBLLT06_02",
     "set": "T",
-    "label": "T06_02_T",
+    "label": "T06_02",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "F2 L2 D R2 D' L2 D R2 D2 F U' F' D F U F",
@@ -3692,7 +3692,7 @@
   {
     "id": "ZBLLT06_03",
     "set": "T",
-    "label": "T06_03_T",
+    "label": "T06_03",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "U2 R2 D R2 D2 L2 B2 D' R U' B2 D L' F2 D L'",
@@ -3707,7 +3707,7 @@
   {
     "id": "ZBLLT06_04",
     "set": "T",
-    "label": "T06_04_T",
+    "label": "T06_04",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "F2 D R2 U2 F2 D B2 D2 L2 D' B' D' B U2 B' D B' D",
@@ -3722,7 +3722,7 @@
   {
     "id": "ZBLLT06_05",
     "set": "T",
-    "label": "T06_05_T",
+    "label": "T06_05",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "B2 U' F2 L2 U F2 U' L2 B2 D R' D' F2 U L' B2 U L",
@@ -3737,7 +3737,7 @@
   {
     "id": "ZBLLT06_06",
     "set": "T",
-    "label": "T06_06_T",
+    "label": "T06_06",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "R2 D' R2 D' F2 R2 B2 U R2 D R' U F2 D' L B2 D' L",
@@ -3752,7 +3752,7 @@
   {
     "id": "ZBLLT06_07",
     "set": "T",
-    "label": "T06_07_T",
+    "label": "T06_07",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "F2 U' F2 D2 L2 U L2 D2 F2 D' F D F' U2 F D' F D",
@@ -3767,7 +3767,7 @@
   {
     "id": "ZBLLT06_08",
     "set": "T",
-    "label": "T06_08_T",
+    "label": "T06_08",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "U2 B2 R2 U' R2 U R2 D' R2 D2 B' U B D' B' U' B'",
@@ -3782,7 +3782,7 @@
   {
     "id": "ZBLLT06_09",
     "set": "T",
-    "label": "T06_09_T",
+    "label": "T06_09",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "B2 L2 U L2 U' L2 D L2 B' U B D' B' U' B'",
@@ -3797,7 +3797,7 @@
   {
     "id": "ZBLLT06_10",
     "set": "T",
-    "label": "T06_10_T",
+    "label": "T06_10",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "F2 R2 U R2 U' R2 D R2 D2 F U' F' D F U F",
@@ -3812,7 +3812,7 @@
   {
     "id": "ZBLLT06_11",
     "set": "T",
-    "label": "T06_11_T",
+    "label": "T06_11",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "U2 F2 L2 U' L2 U L2 D' L2 F U' F' D F U F",
@@ -3827,7 +3827,7 @@
   {
     "id": "ZBLLT06_12",
     "set": "T",
-    "label": "T06_12_T",
+    "label": "T06_12",
     "originalAlg": "r U R' U' r' F R F'",
     "scrambles": [
       "L2 D' B2 D L2 F2 D R2 D2 F U' F' D F U F",
@@ -3842,7 +3842,7 @@
   {
     "id": "ZBLLL01_01",
     "set": "L",
-    "label": "L01_01_L",
+    "label": "L01_01",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "R2 D' L2 D R D' L2 D R",
@@ -3857,7 +3857,7 @@
   {
     "id": "ZBLLL01_02",
     "set": "L",
-    "label": "L01_02_L",
+    "label": "L01_02",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "L2 U' F2 U F2 L2 F2 U F2 U R' L2 D' L2 D R",
@@ -3872,37 +3872,37 @@
   {
     "id": "ZBLLL01_03",
     "set": "L",
-    "label": "L01_03_L",
+    "label": "L01_03",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
-      "B2 D L2 D' B2 D2 F2 D R2 D2 B D F2 D' B' D'",
-      "L2 D' R2 D2 R2 B2 L2 U R2 F2 L' D' R2 D L U'",
       "F2 D' B2 D2 B2 L2 F2 U B2 R2 F' D' B2 D F U'",
-      "R2 D B2 D' R2 D2 L2 D F2 D2 R D L2 D' R' D'"
+      "L2 D F2 D' L2 D2 R2 D B2 D2 L D R2 D' L' D'",
+      "R2 D' L2 D2 L2 F2 R2 U L2 B2 R' D' L2 D R",
+      "B2 D L2 D' B2 D2 F2 D R2 D2 B D F2 D' B' D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=B2DL2D'B2D2F2DR2D2BDF2D'B'D'",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=F2D'B2D2B2L2F2UB2R2F'D'B2DFU'",
     "enabled": true,
     "subset": 3
   },
   {
     "id": "ZBLLL01_04",
     "set": "L",
-    "label": "L01_04_L",
+    "label": "L01_04",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
-      "U' R2 D' B2 R2 U L2 F2 R2 D2 R D' L2 D R",
-      "F2 D' R2 F2 U B2 L2 F2 D2 F D' B2 D F",
-      "U R2 L2 U R2 U' B2 D B2 R2 L' D R2 D' L'",
-      "R2 D' B2 R2 U L2 F2 R2 D2 R D' L2 D R"
+      "R2 D' B2 R2 U L2 F2 R2 D2 R D' L2 D R",
+      "U F2 D' R2 F2 U B2 L2 F2 D2 F D' B2 D F",
+      "U2 R2 L2 U R2 U' B2 D B2 R2 L' D R2 D' L'",
+      "U' R2 L2 U R2 U' B2 D B2 R2 L' D R2 D' L'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=U'R2D'B2R2UL2F2R2D2RD'L2DR",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=R2D'B2R2UL2F2R2D2RD'L2DR",
     "enabled": true,
     "subset": 4
   },
   {
     "id": "ZBLLL01_05",
     "set": "L",
-    "label": "L01_05_L",
+    "label": "L01_05",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "U F2 D' R2 F2 U' F2 R2 B2 F D' B2 D F U'",
@@ -3917,7 +3917,7 @@
   {
     "id": "ZBLLL01_06",
     "set": "L",
-    "label": "L01_06_L",
+    "label": "L01_06",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "F2 U L2 B2 U' L2 U' F2 L2 D2 R D' L2 D R D2",
@@ -3932,7 +3932,7 @@
   {
     "id": "ZBLLL01_07",
     "set": "L",
-    "label": "L01_07_L",
+    "label": "L01_07",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "U B2 L2 B2 D' R2 D B2 U' L2 B' D F2 D' B'",
@@ -3947,7 +3947,7 @@
   {
     "id": "ZBLLL01_08",
     "set": "L",
-    "label": "L01_08_L",
+    "label": "L01_08",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "F2 U R2 D B2 D' R2 U2 F2 U2 R' D' L2 D R",
@@ -3962,7 +3962,7 @@
   {
     "id": "ZBLLL01_09",
     "set": "L",
-    "label": "L01_09_L",
+    "label": "L01_09",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "U R2 F2 R2 U R2 F2 D' L2 D R' L2 U' L2 U R' L2",
@@ -3977,7 +3977,7 @@
   {
     "id": "ZBLLL01_10",
     "set": "L",
-    "label": "L01_10_L",
+    "label": "L01_10",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "L2 B2 U R2 B2 U B2 R2 F2 R2 B' D F2 D' B' D",
@@ -3992,7 +3992,7 @@
   {
     "id": "ZBLLL01_11",
     "set": "L",
-    "label": "L01_11_L",
+    "label": "L01_11",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "F2 U2 F2 U' F2 D R2 U' R2 D2 B D F2 D' B' D",
@@ -4007,7 +4007,7 @@
   {
     "id": "ZBLLL01_12",
     "set": "L",
-    "label": "L01_12_L",
+    "label": "L01_12",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "U' R2 D' B2 R2 U2 L2 F2 R2 D' R D' L2 D R",
@@ -4022,7 +4022,7 @@
   {
     "id": "ZBLLL02_01",
     "set": "L",
-    "label": "L02_01_L",
+    "label": "L02_01",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "F2 D' L2 D F2 R2 D B2 L2 D' R' D L2 D' R' U'",
@@ -4037,7 +4037,7 @@
   {
     "id": "ZBLLL02_02",
     "set": "L",
-    "label": "L02_02_L",
+    "label": "L02_02",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "F2 D B2 U L2 F2 R2 D F2 L2 F' U2 F D' F' U2 F'",
@@ -4052,7 +4052,7 @@
   {
     "id": "ZBLLL02_03",
     "set": "L",
-    "label": "L02_03_L",
+    "label": "L02_03",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "R2 D' F2 U R2 U' F2 L2 D B2 R D' L2 D R",
@@ -4067,7 +4067,7 @@
   {
     "id": "ZBLLL02_04",
     "set": "L",
-    "label": "L02_04_L",
+    "label": "L02_04",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "R2 U' B2 U' F2 D L2 D' F2 U F D B2 D' F' U2",
@@ -4082,7 +4082,7 @@
   {
     "id": "ZBLLL02_05",
     "set": "L",
-    "label": "L02_05_L",
+    "label": "L02_05",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "L2 F2 D R2 D' F2 U L2 F2 D' B' D F2 D' B' D",
@@ -4097,7 +4097,7 @@
   {
     "id": "ZBLLL02_06",
     "set": "L",
-    "label": "L02_06_L",
+    "label": "L02_06",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "F2 R2 U' F2 U' F2 U2 R2 U' F' D' F U F' D F'",
@@ -4112,7 +4112,7 @@
   {
     "id": "ZBLLL02_07",
     "set": "L",
-    "label": "L02_07_L",
+    "label": "L02_07",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "U F2 D L2 F2 U' B2 R2 F2 D' B R2 B D' F' U2 F'",
@@ -4127,7 +4127,7 @@
   {
     "id": "ZBLLL02_08",
     "set": "L",
-    "label": "L02_08_L",
+    "label": "L02_08",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "U2 R2 U R2 D' F2 L2 U2 L2 D F' D' F U F' D F'",
@@ -4142,7 +4142,7 @@
   {
     "id": "ZBLLL02_09",
     "set": "L",
-    "label": "L02_09_L",
+    "label": "L02_09",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "B2 D2 F2 D' B2 D' R2 U R2 D B D F2 D' B' D'",
@@ -4157,7 +4157,7 @@
   {
     "id": "ZBLLL02_10",
     "set": "L",
-    "label": "L02_10_L",
+    "label": "L02_10",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "L2 U2 L2 U' L2 U' L2 D L2 D R' D' L2 D R D2",
@@ -4172,7 +4172,7 @@
   {
     "id": "ZBLLL02_11",
     "set": "L",
-    "label": "L02_11_L",
+    "label": "L02_11",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "F2 U F2 D' L2 D' R2 U2 R2 D' R' D' L2 D R D'",
@@ -4187,7 +4187,7 @@
   {
     "id": "ZBLLL02_12",
     "set": "L",
-    "label": "L02_12_L",
+    "label": "L02_12",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "F2 D B2 L2 F2 U' R2 F2 L2 D' F' U2 F D' F' U2 F'",
@@ -4202,7 +4202,7 @@
   {
     "id": "ZBLLL03_01",
     "set": "L",
-    "label": "L03_01_L",
+    "label": "L03_01",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "F2 R2 U' F2 U R2 U' F2 L2 D R D' L2 D R D'",
@@ -4217,7 +4217,7 @@
   {
     "id": "ZBLLL03_02",
     "set": "L",
-    "label": "L03_02_L",
+    "label": "L03_02",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "L2 U B2 D' B2 D L2 U B2 F' D' B2 D F U'",
@@ -4232,7 +4232,7 @@
   {
     "id": "ZBLLL03_03",
     "set": "L",
-    "label": "L03_03_L",
+    "label": "L03_03",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "D L2 U L2 D' B2 R2 B2 L U' R2 U L' B2 R2",
@@ -4247,7 +4247,7 @@
   {
     "id": "ZBLLL03_04",
     "set": "L",
-    "label": "L03_04_L",
+    "label": "L03_04",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "L2 U2 L2 D F2 U F2 D' F2 D' B D F2 D' B' D",
@@ -4262,7 +4262,7 @@
   {
     "id": "ZBLLL03_05",
     "set": "L",
-    "label": "L03_05_L",
+    "label": "L03_05",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "U L2 D' F2 R2 U F2 L2 B2 D L' U2 L' D L U2 L",
@@ -4277,7 +4277,7 @@
   {
     "id": "ZBLLL03_06",
     "set": "L",
-    "label": "L03_06_L",
+    "label": "L03_06",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "U' B2 U' B2 D L2 F2 U2 F2 D' L D L' U' L D' L",
@@ -4292,7 +4292,7 @@
   {
     "id": "ZBLLL03_07",
     "set": "L",
-    "label": "L03_07_L",
+    "label": "L03_07",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "D' B2 R2 D L2 D F2 D2 R2 D L D L' U' L D' L",
@@ -4307,7 +4307,7 @@
   {
     "id": "ZBLLL03_08",
     "set": "L",
-    "label": "L03_08_L",
+    "label": "L03_08",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "F2 L2 D' B2 D L2 U' F2 L2 D R D' L2 D R D'",
@@ -4322,7 +4322,7 @@
   {
     "id": "ZBLLL03_09",
     "set": "L",
-    "label": "L03_09_L",
+    "label": "L03_09",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "L2 D R2 U2 R2 U' R2 U' R2 U' R' D' L2 D R D'",
@@ -4337,7 +4337,7 @@
   {
     "id": "ZBLLL03_10",
     "set": "L",
-    "label": "L03_10_L",
+    "label": "L03_10",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "R2 U' R2 D B2 D F2 D2 B2 D B D F2 D' B' D'",
@@ -4352,7 +4352,7 @@
   {
     "id": "ZBLLL03_11",
     "set": "L",
-    "label": "L03_11_L",
+    "label": "L03_11",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "U L2 D' F2 L2 U R2 B2 L2 D R' B2 R' D L U2 L",
@@ -4367,7 +4367,7 @@
   {
     "id": "ZBLLL03_12",
     "set": "L",
-    "label": "L03_12_L",
+    "label": "L03_12",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "R2 U R2 U' R2 F2 U' F2 L2 D R D' L2 D R D'",
@@ -4382,7 +4382,7 @@
   {
     "id": "ZBLLL04_01",
     "set": "L",
-    "label": "L04_01_L",
+    "label": "L04_01",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "U2 D' F2 R2 U' L2 D B2 R D' L2 D R",
@@ -4397,7 +4397,7 @@
   {
     "id": "ZBLLL04_02",
     "set": "L",
-    "label": "L04_02_L",
+    "label": "L04_02",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "F2 U' R2 L2 D R2 D' L2 F2 D' B F2 D F2 D' B' D",
@@ -4412,7 +4412,7 @@
   {
     "id": "ZBLLL04_03",
     "set": "L",
-    "label": "L04_03_L",
+    "label": "L04_03",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "L2 D R2 D2 R2 F2 L2 U' R2 B2 L D R2 D' L' U",
@@ -4427,7 +4427,7 @@
   {
     "id": "ZBLLL04_04",
     "set": "L",
-    "label": "L04_04_L",
+    "label": "L04_04",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "B2 D' R2 B2 U B2 R2 D' F2 D2 B' D F2 D' B'",
@@ -4442,7 +4442,7 @@
   {
     "id": "ZBLLL04_05",
     "set": "L",
-    "label": "L04_05_L",
+    "label": "L04_05",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "L2 B2 D F2 R2 D' B2 U' F2 U2 B F2 D F2 D' B'",
@@ -4457,7 +4457,7 @@
   {
     "id": "ZBLLL04_06",
     "set": "L",
-    "label": "L04_06_L",
+    "label": "L04_06",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "L2 U2 L2 U F2 D R2 D R2 D B D F2 D' B' D",
@@ -4472,7 +4472,7 @@
   {
     "id": "ZBLLL04_07",
     "set": "L",
-    "label": "L04_07_L",
+    "label": "L04_07",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "U B2 D R2 B2 U2 F2 L2 B2 D B' D F2 D' B'",
@@ -4487,7 +4487,7 @@
   {
     "id": "ZBLLL04_08",
     "set": "L",
-    "label": "L04_08_L",
+    "label": "L04_08",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "L2 U' B2 U D2 F2 U' R2 D2 B' D F2 D' B'",
@@ -4502,7 +4502,7 @@
   {
     "id": "ZBLLL04_09",
     "set": "L",
-    "label": "L04_09_L",
+    "label": "L04_09",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "U2 R2 F2 R2 D B2 D' R2 U F2 R D' L2 D R",
@@ -4517,7 +4517,7 @@
   {
     "id": "ZBLLL04_10",
     "set": "L",
-    "label": "L04_10_L",
+    "label": "L04_10",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "U' F2 D L2 F2 U F2 L2 B2 F' D B2 D' F' U2",
@@ -4532,7 +4532,7 @@
   {
     "id": "ZBLLL04_11",
     "set": "L",
-    "label": "L04_11_L",
+    "label": "L04_11",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "R2 U' B2 L2 U B2 U R2 B2 U2 B' D F2 D' B'",
@@ -4547,7 +4547,7 @@
   {
     "id": "ZBLLL04_12",
     "set": "L",
-    "label": "L04_12_L",
+    "label": "L04_12",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "U B2 D R2 B2 U' F2 L2 B2 D2 B' D F2 D' B'",
@@ -4562,7 +4562,7 @@
   {
     "id": "ZBLLL05_01",
     "set": "L",
-    "label": "L05_01_L",
+    "label": "L05_01",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "R2 D' F2 D R2 D2 F2 D R2 D2 B D F2 D' B' D'",
@@ -4577,7 +4577,7 @@
   {
     "id": "ZBLLL05_02",
     "set": "L",
-    "label": "L05_02_L",
+    "label": "L05_02",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "R2 U R2 U F2 D' F2 D' L2 D2 R' D' L2 D R",
@@ -4592,7 +4592,7 @@
   {
     "id": "ZBLLL05_03",
     "set": "L",
-    "label": "L05_03_L",
+    "label": "L05_03",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "F2 D' B2 D2 R2 D' F2 D' B2 D R L2 U' L2 U R' L2",
@@ -4607,7 +4607,7 @@
   {
     "id": "ZBLLL05_04",
     "set": "L",
-    "label": "L05_04_L",
+    "label": "L05_04",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "R2 D' L2 D2 B2 U' B2 U R2 D' R' D' L2 D R",
@@ -4622,7 +4622,7 @@
   {
     "id": "ZBLLL05_05",
     "set": "L",
-    "label": "L05_05_L",
+    "label": "L05_05",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "L2 F2 D F2 U F2 D' F2 L D L' U' L D' L",
@@ -4637,7 +4637,7 @@
   {
     "id": "ZBLLL05_06",
     "set": "L",
-    "label": "L05_06_L",
+    "label": "L05_06",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "L2 U' B2 U' B2 U' B2 U2 B2 L D L' U' L D' L",
@@ -4652,7 +4652,7 @@
   {
     "id": "ZBLLL05_07",
     "set": "L",
-    "label": "L05_07_L",
+    "label": "L05_07",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "B2 U' L2 U L2 B2 D L2 D2 R B2 R' D L U2 L",
@@ -4667,7 +4667,7 @@
   {
     "id": "ZBLLL05_08",
     "set": "L",
-    "label": "L05_08_L",
+    "label": "L05_08",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "F2 L2 D' L2 U' L2 D L2 F' D' F U F' D F'",
@@ -4682,7 +4682,7 @@
   {
     "id": "ZBLLL05_09",
     "set": "L",
-    "label": "L05_09_L",
+    "label": "L05_09",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "F2 U R2 U R2 U R2 U2 R2 F' D' F U F' D F'",
@@ -4697,7 +4697,7 @@
   {
     "id": "ZBLLL05_10",
     "set": "L",
-    "label": "L05_10_L",
+    "label": "L05_10",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "L2 D R2 D B2 U' B2 U' R2 D2 R L2 U' L2 U R' L2",
@@ -4712,7 +4712,7 @@
   {
     "id": "ZBLLL05_11",
     "set": "L",
-    "label": "L05_11_L",
+    "label": "L05_11",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "B2 D F2 D2 R2 U R2 U' B2 D B D F2 D' B'",
@@ -4727,7 +4727,7 @@
   {
     "id": "ZBLLL05_12",
     "set": "L",
-    "label": "L05_12_L",
+    "label": "L05_12",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "B2 D' R2 B2 U B2 R2 D B2 L' D L' U' L D' L",
@@ -4742,7 +4742,7 @@
   {
     "id": "ZBLLL06_01",
     "set": "L",
-    "label": "L06_01_L",
+    "label": "L06_01",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "U2 L2 F2 D' B2 D F2 D' B2 L U2 L' D L U2 L",
@@ -4757,7 +4757,7 @@
   {
     "id": "ZBLLL06_02",
     "set": "L",
-    "label": "L06_02_L",
+    "label": "L06_02",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "L2 B2 D F2 D' B2 D F2 D2 L U2 L' D L U2 L",
@@ -4772,7 +4772,7 @@
   {
     "id": "ZBLLL06_03",
     "set": "L",
-    "label": "L06_03_L",
+    "label": "L06_03",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "B2 D' R2 D B2 L2 D F2 D2 L U2 L' D L U2 L",
@@ -4787,7 +4787,7 @@
   {
     "id": "ZBLLL06_04",
     "set": "L",
-    "label": "L06_04_L",
+    "label": "L06_04",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "R2 D' L2 D2 R2 B2 R2 D' R D' L U2 L D R",
@@ -4802,7 +4802,7 @@
   {
     "id": "ZBLLL06_05",
     "set": "L",
-    "label": "L06_05_L",
+    "label": "L06_05",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "B2 U2 B2 D F2 D2 R2 B2 D B' D F' U2 F' D' B'",
@@ -4817,7 +4817,7 @@
   {
     "id": "ZBLLL06_06",
     "set": "L",
-    "label": "L06_06_L",
+    "label": "L06_06",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "U2 L2 F2 D' B2 D F2 D' B2 R B2 R' D L U2 L",
@@ -4832,7 +4832,7 @@
   {
     "id": "ZBLLL06_07",
     "set": "L",
-    "label": "L06_07_L",
+    "label": "L06_07",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "B2 D' R2 D B2 L2 D F2 D2 R B2 R' D L U2 L",
@@ -4847,7 +4847,7 @@
   {
     "id": "ZBLLL06_08",
     "set": "L",
-    "label": "L06_08_L",
+    "label": "L06_08",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "L2 F2 U F2 U' F2 D F2 D2 L U2 L' D L U2 L",
@@ -4862,7 +4862,7 @@
   {
     "id": "ZBLLL06_09",
     "set": "L",
-    "label": "L06_09_L",
+    "label": "L06_09",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "L2 B2 D F2 D' B2 D F2 D2 R B2 R' D L U2 L",
@@ -4877,7 +4877,7 @@
   {
     "id": "ZBLLL06_10",
     "set": "L",
-    "label": "L06_10_L",
+    "label": "L06_10",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "U2 L2 B2 U' B2 U B2 D' B2 L U2 L' D L U2 L",
@@ -4892,7 +4892,7 @@
   {
     "id": "ZBLLL06_11",
     "set": "L",
-    "label": "L06_11_L",
+    "label": "L06_11",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "D' R2 U' R2 D B2 D' B2 D L' D L' U' L D' L",
@@ -4907,7 +4907,7 @@
   {
     "id": "ZBLLL06_12",
     "set": "L",
-    "label": "L06_12_L",
+    "label": "L06_12",
     "originalAlg": "F' r U R' U' r' F R",
     "scrambles": [
       "L2 F2 U F2 U' F2 D F2 D2 R B2 R' D L U2 L",
@@ -4920,9 +4920,9 @@
     "subset": 12
   },
   {
-    "id": "ZBLLAntisune01_01",
-    "set": "Antisune",
-    "label": "Antisune01_01_Antisune",
+    "id": "ZBLLAS01_01",
+    "set": "AS",
+    "label": "AS01_01",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "F2 D R2 U' B2 U B2 D' R2 F2 R U' L' U R' U' L",
@@ -4935,9 +4935,9 @@
     "subset": 1
   },
   {
-    "id": "ZBLLAntisune01_02",
-    "set": "Antisune",
-    "label": "Antisune01_02_Antisune",
+    "id": "ZBLLAS01_02",
+    "set": "AS",
+    "label": "AS01_02",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "D' F2 L2 F2 U' F2 L2 F2 D R' F2 R U L' U L",
@@ -4950,39 +4950,39 @@
     "subset": 2
   },
   {
-    "id": "ZBLLAntisune01_03",
-    "set": "Antisune",
-    "label": "Antisune01_03_Antisune",
+    "id": "ZBLLAS01_03",
+    "set": "AS",
+    "label": "AS01_03",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
-      "L2 U' F2 L2 F2 U F2 L2 F2 U2 L' U L2 U' L2 U L",
-      "U2 R2 B2 L2 D' R2 L2 U' L2 F2 L' U L' U R B2 R'",
-      "B2 F2 D L2 B2 U' R2 B2 L2 D' B' U B' U F R2 F'",
-      "R2 L2 D F2 L2 U' B2 L2 F2 D' L' U L' U R B2 R'"
+      "L2 D L2 B2 R2 U' B2 L2 F2 D2 L U2 L U L' U L",
+      "R2 L2 D F2 L2 U' B2 L2 F2 D' L' U L' U R B2 R'",
+      "U L2 B2 L2 U R2 L2 D L2 F2 R' U R' U L F2 L'",
+      "F2 R2 B2 D' B2 F2 U' B2 L2 B' U B' U F R2 F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=L2U'F2L2F2UF2L2F2U2L'UL2U'L2UL",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=L2DL2B2R2U'B2L2F2D2LU2LUL'UL",
     "enabled": true,
     "subset": 3
   },
   {
-    "id": "ZBLLAntisune01_04",
-    "set": "Antisune",
-    "label": "Antisune01_04_Antisune",
+    "id": "ZBLLAS01_04",
+    "set": "AS",
+    "label": "AS01_04",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
-      "B2 L2 U' R2 F2 L2 D' R F2 R U L' U L",
-      "U2 F2 R2 U' L2 B2 R2 D' L2 U' L U L' U R B2 R'",
-      "U' B2 U L2 F2 R2 D F2 L2 U' B U B' U F R2 F'",
-      "U B2 L2 U' R2 F2 L2 D' R F2 R U L' U L"
+      "U B2 L2 U' R2 F2 L2 D' R F2 R U L' U L",
+      "U' F2 R2 U' L2 B2 R2 D' L2 U' L U L' U R B2 R'",
+      "D B2 U L2 F2 R2 D F2 L2 D' R U R' U L F2 L'",
+      "B2 U L2 F2 R2 D F2 L2 U' B U B' U F R2 F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=B2L2U'R2F2L2D'RF2RUL'UL",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=UB2L2U'R2F2L2D'RF2RUL'UL",
     "enabled": true,
     "subset": 4
   },
   {
-    "id": "ZBLLAntisune01_05",
-    "set": "Antisune",
-    "label": "Antisune01_05_Antisune",
+    "id": "ZBLLAS01_05",
+    "set": "AS",
+    "label": "AS01_05",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U L' U2 L U L' U L",
@@ -4995,9 +4995,9 @@
     "subset": 5
   },
   {
-    "id": "ZBLLAntisune01_06",
-    "set": "Antisune",
-    "label": "Antisune01_06_Antisune",
+    "id": "ZBLLAS01_06",
+    "set": "AS",
+    "label": "AS01_06",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "R2 L2 D' R2 B2 R2 U B2 L2 F2 L U L2 U' L2 U L D",
@@ -5010,9 +5010,9 @@
     "subset": 6
   },
   {
-    "id": "ZBLLAntisune01_07",
-    "set": "Antisune",
-    "label": "Antisune01_07_Antisune",
+    "id": "ZBLLAS01_07",
+    "set": "AS",
+    "label": "AS01_07",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "R2 B2 U' F2 L2 B2 D' F2 U' B2 F' D F' D F D2 B2 F",
@@ -5025,9 +5025,9 @@
     "subset": 7
   },
   {
-    "id": "ZBLLAntisune01_08",
-    "set": "Antisune",
-    "label": "Antisune01_08_Antisune",
+    "id": "ZBLLAS01_08",
+    "set": "AS",
+    "label": "AS01_08",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "D' F2 R2 U' L2 D B2 D' L2 D R' U' L' U R' U' L",
@@ -5040,9 +5040,9 @@
     "subset": 8
   },
   {
-    "id": "ZBLLAntisune01_09",
-    "set": "Antisune",
-    "label": "Antisune01_09_Antisune",
+    "id": "ZBLLAS01_09",
+    "set": "AS",
+    "label": "AS01_09",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U2 B2 U' R2 F2 L2 D' F2 R2 L U L2 U' L2 U L",
@@ -5055,9 +5055,9 @@
     "subset": 9
   },
   {
-    "id": "ZBLLAntisune01_10",
-    "set": "Antisune",
-    "label": "Antisune01_10_Antisune",
+    "id": "ZBLLAS01_10",
+    "set": "AS",
+    "label": "AS01_10",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "L2 U L2 U L2 U L2 U L2 U L' U L2 U' L2 U L",
@@ -5070,9 +5070,9 @@
     "subset": 10
   },
   {
-    "id": "ZBLLAntisune01_11",
-    "set": "Antisune",
-    "label": "Antisune01_11_Antisune",
+    "id": "ZBLLAS01_11",
+    "set": "AS",
+    "label": "AS01_11",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "F2 U' R2 U R2 F2 D R2 D' R' U' L' U R' U' L",
@@ -5085,9 +5085,9 @@
     "subset": 11
   },
   {
-    "id": "ZBLLAntisune01_12",
-    "set": "Antisune",
-    "label": "Antisune01_12_Antisune",
+    "id": "ZBLLAS01_12",
+    "set": "AS",
+    "label": "AS01_12",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U R2 B2 F2 L2 D' R2 B2 F2 L U2 L U L' U L",
@@ -5100,9 +5100,9 @@
     "subset": 12
   },
   {
-    "id": "ZBLLAntisune02_01",
-    "set": "Antisune",
-    "label": "Antisune02_01_Antisune",
+    "id": "ZBLLAS02_01",
+    "set": "AS",
+    "label": "AS02_01",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U' R2 B2 U B2 U' B2 D B2 D' R' U' L' U R' U' L",
@@ -5115,9 +5115,9 @@
     "subset": 1
   },
   {
-    "id": "ZBLLAntisune02_02",
-    "set": "Antisune",
-    "label": "Antisune02_02_Antisune",
+    "id": "ZBLLAS02_02",
+    "set": "AS",
+    "label": "AS02_02",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "B2 U' R2 U B2 U' R2 D B2 D' B' R2 B U' F' U' F R2",
@@ -5130,9 +5130,9 @@
     "subset": 2
   },
   {
-    "id": "ZBLLAntisune02_03",
-    "set": "Antisune",
-    "label": "Antisune02_03_Antisune",
+    "id": "ZBLLAS02_03",
+    "set": "AS",
+    "label": "AS02_03",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U' L2 U' B2 D' F2 D F2 D R' F2 R B2 U' L' U' L'",
@@ -5145,9 +5145,9 @@
     "subset": 3
   },
   {
-    "id": "ZBLLAntisune02_04",
-    "set": "Antisune",
-    "label": "Antisune02_04_Antisune",
+    "id": "ZBLLAS02_04",
+    "set": "AS",
+    "label": "AS02_04",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U2 B2 L2 U L2 U' L2 D L D F2 L D2 B2 U' R",
@@ -5160,9 +5160,9 @@
     "subset": 4
   },
   {
-    "id": "ZBLLAntisune02_05",
-    "set": "Antisune",
-    "label": "Antisune02_05_Antisune",
+    "id": "ZBLLAS02_05",
+    "set": "AS",
+    "label": "AS02_05",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "B2 R2 D L2 D' R2 D L D F2 L D2 B2 U' R",
@@ -5175,9 +5175,9 @@
     "subset": 5
   },
   {
-    "id": "ZBLLAntisune02_06",
-    "set": "Antisune",
-    "label": "Antisune02_06_Antisune",
+    "id": "ZBLLAS02_06",
+    "set": "AS",
+    "label": "AS02_06",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "D' R2 D L2 D F2 D F2 R2 D B D B' L2 U F U2 F'",
@@ -5190,9 +5190,9 @@
     "subset": 6
   },
   {
-    "id": "ZBLLAntisune02_07",
-    "set": "Antisune",
-    "label": "Antisune02_07_Antisune",
+    "id": "ZBLLAS02_07",
+    "set": "AS",
+    "label": "AS02_07",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U' R2 F2 D B2 D' F2 D B2 D' R' U' L' U R' U' L",
@@ -5205,9 +5205,9 @@
     "subset": 7
   },
   {
-    "id": "ZBLLAntisune02_08",
-    "set": "Antisune",
-    "label": "Antisune02_08_Antisune",
+    "id": "ZBLLAS02_08",
+    "set": "AS",
+    "label": "AS02_08",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "R2 F2 U B2 U B2 U B2 U2 B2 F' U F' R2 U F U2 F'",
@@ -5220,9 +5220,9 @@
     "subset": 8
   },
   {
-    "id": "ZBLLAntisune02_09",
-    "set": "Antisune",
-    "label": "Antisune02_09_Antisune",
+    "id": "ZBLLAS02_09",
+    "set": "AS",
+    "label": "AS02_09",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "F2 D F2 L2 D' L2 D' L2 U B D B' L2 U F U2 F'",
@@ -5235,9 +5235,9 @@
     "subset": 9
   },
   {
-    "id": "ZBLLAntisune02_10",
-    "set": "Antisune",
-    "label": "Antisune02_10_Antisune",
+    "id": "ZBLLAS02_10",
+    "set": "AS",
+    "label": "AS02_10",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "F2 D' L2 D F2 R2 D B2 D' R' U' L' U R' U' L",
@@ -5250,9 +5250,9 @@
     "subset": 10
   },
   {
-    "id": "ZBLLAntisune02_11",
-    "set": "Antisune",
-    "label": "Antisune02_11_Antisune",
+    "id": "ZBLLAS02_11",
+    "set": "AS",
+    "label": "AS02_11",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U R2 F2 U' F2 U F2 D' F2 D R' U' L' U R' U' L",
@@ -5265,9 +5265,9 @@
     "subset": 11
   },
   {
-    "id": "ZBLLAntisune02_12",
-    "set": "Antisune",
-    "label": "Antisune02_12_Antisune",
+    "id": "ZBLLAS02_12",
+    "set": "AS",
+    "label": "AS02_12",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "R2 B2 D' F2 D B2 D' F2 D R' U' L' U R' U' L",
@@ -5280,9 +5280,9 @@
     "subset": 12
   },
   {
-    "id": "ZBLLAntisune03_01",
-    "set": "Antisune",
-    "label": "Antisune03_01_Antisune",
+    "id": "ZBLLAS03_01",
+    "set": "AS",
+    "label": "AS03_01",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "D B2 D' R2 U F2 D' L2 D F2 R' U' L' U R' U' L",
@@ -5295,9 +5295,9 @@
     "subset": 1
   },
   {
-    "id": "ZBLLAntisune03_02",
-    "set": "Antisune",
-    "label": "Antisune03_02_Antisune",
+    "id": "ZBLLAS03_02",
+    "set": "AS",
+    "label": "AS03_02",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U2 F2 L2 D R2 D' L2 D R2 D' F' U F' U F U2 F'",
@@ -5310,9 +5310,9 @@
     "subset": 2
   },
   {
-    "id": "ZBLLAntisune03_03",
-    "set": "Antisune",
-    "label": "Antisune03_03_Antisune",
+    "id": "ZBLLAS03_03",
+    "set": "AS",
+    "label": "AS03_03",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "F2 U L2 D2 B2 D' F2 R2 D2 B2 L' D L2 U D' L2 D L'",
@@ -5325,9 +5325,9 @@
     "subset": 3
   },
   {
-    "id": "ZBLLAntisune03_04",
-    "set": "Antisune",
-    "label": "Antisune03_04_Antisune",
+    "id": "ZBLLAS03_04",
+    "set": "AS",
+    "label": "AS03_04",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "R2 D' L2 B2 U' L2 U R2 U' F2 L' B2 L U R' U R U2",
@@ -5340,9 +5340,9 @@
     "subset": 4
   },
   {
-    "id": "ZBLLAntisune03_05",
-    "set": "Antisune",
-    "label": "Antisune03_05_Antisune",
+    "id": "ZBLLAS03_05",
+    "set": "AS",
+    "label": "AS03_05",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "D' F2 D B2 D' L2 D B2 U' F2 R' U' L' U R' U' L",
@@ -5355,9 +5355,9 @@
     "subset": 5
   },
   {
-    "id": "ZBLLAntisune03_06",
-    "set": "Antisune",
-    "label": "Antisune03_06_Antisune",
+    "id": "ZBLLAS03_06",
+    "set": "AS",
+    "label": "AS03_06",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "D B2 R2 U' R2 U' B2 U2 R2 D' F U F' R2 U F U2 F'",
@@ -5370,9 +5370,9 @@
     "subset": 6
   },
   {
-    "id": "ZBLLAntisune03_07",
-    "set": "Antisune",
-    "label": "Antisune03_07_Antisune",
+    "id": "ZBLLAS03_07",
+    "set": "AS",
+    "label": "AS03_07",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "L2 U F2 U' B2 U F2 U' B2 L U2 L U L' U L",
@@ -5385,9 +5385,9 @@
     "subset": 7
   },
   {
-    "id": "ZBLLAntisune03_08",
-    "set": "Antisune",
-    "label": "Antisune03_08_Antisune",
+    "id": "ZBLLAS03_08",
+    "set": "AS",
+    "label": "AS03_08",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "F2 L2 U' L2 U L2 D' L2 D F' U F' U F U2 F'",
@@ -5400,9 +5400,9 @@
     "subset": 8
   },
   {
-    "id": "ZBLLAntisune03_09",
-    "set": "Antisune",
-    "label": "Antisune03_09_Antisune",
+    "id": "ZBLLAS03_09",
+    "set": "AS",
+    "label": "AS03_09",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "R2 D B2 D' R2 F2 D' L2 D F2 L' U2 L U L' U L",
@@ -5415,9 +5415,9 @@
     "subset": 9
   },
   {
-    "id": "ZBLLAntisune03_10",
-    "set": "Antisune",
-    "label": "Antisune03_10_Antisune",
+    "id": "ZBLLAS03_10",
+    "set": "AS",
+    "label": "AS03_10",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U2 L2 D' B2 D F2 D' B2 D F2 L U2 L U L' U L",
@@ -5430,9 +5430,9 @@
     "subset": 10
   },
   {
-    "id": "ZBLLAntisune03_11",
-    "set": "Antisune",
-    "label": "Antisune03_11_Antisune",
+    "id": "ZBLLAS03_11",
+    "set": "AS",
+    "label": "AS03_11",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U R2 D' F2 D B2 D' F2 D B2 R' U' L' U R' U' L",
@@ -5445,9 +5445,9 @@
     "subset": 11
   },
   {
-    "id": "ZBLLAntisune03_12",
-    "set": "Antisune",
-    "label": "Antisune03_12_Antisune",
+    "id": "ZBLLAS03_12",
+    "set": "AS",
+    "label": "AS03_12",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "R2 D L2 F2 U L2 U' R2 U B2 R' F2 R U L' U L",
@@ -5460,9 +5460,9 @@
     "subset": 12
   },
   {
-    "id": "ZBLLAntisune04_01",
-    "set": "Antisune",
-    "label": "Antisune04_01_Antisune",
+    "id": "ZBLLAS04_01",
+    "set": "AS",
+    "label": "AS04_01",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U2 R2 U F2 U' F2 R2 D' F2 D F' U F' U F U2 F'",
@@ -5475,9 +5475,9 @@
     "subset": 1
   },
   {
-    "id": "ZBLLAntisune04_02",
-    "set": "Antisune",
-    "label": "Antisune04_02_Antisune",
+    "id": "ZBLLAS04_02",
+    "set": "AS",
+    "label": "AS04_02",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "L2 U' F2 U F2 L2 D F2 D' F' U F' U F U2 F'",
@@ -5490,9 +5490,9 @@
     "subset": 2
   },
   {
-    "id": "ZBLLAntisune04_03",
-    "set": "Antisune",
-    "label": "Antisune04_03_Antisune",
+    "id": "ZBLLAS04_03",
+    "set": "AS",
+    "label": "AS04_03",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "B2 D F2 D F2 D2 R2 F2 R F2 R B2 U' L' U' L'",
@@ -5505,9 +5505,9 @@
     "subset": 3
   },
   {
-    "id": "ZBLLAntisune04_04",
-    "set": "Antisune",
-    "label": "Antisune04_04_Antisune",
+    "id": "ZBLLAS04_04",
+    "set": "AS",
+    "label": "AS04_04",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "D B2 D' F2 D L2 D' F2 U B2 R' U' L' U R' U' L",
@@ -5520,9 +5520,9 @@
     "subset": 4
   },
   {
-    "id": "ZBLLAntisune04_05",
-    "set": "Antisune",
-    "label": "Antisune04_05_Antisune",
+    "id": "ZBLLAS04_05",
+    "set": "AS",
+    "label": "AS04_05",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "B2 L2 U L2 U' L2 D L2 D' B2 L' U2 L U L' U L",
@@ -5535,9 +5535,9 @@
     "subset": 5
   },
   {
-    "id": "ZBLLAntisune04_06",
-    "set": "Antisune",
-    "label": "Antisune04_06_Antisune",
+    "id": "ZBLLAS04_06",
+    "set": "AS",
+    "label": "AS04_06",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U2 L2 D F2 D' B2 D F2 D' B2 L U2 L U L' U L",
@@ -5550,9 +5550,9 @@
     "subset": 6
   },
   {
-    "id": "ZBLLAntisune04_07",
-    "set": "Antisune",
-    "label": "Antisune04_07_Antisune",
+    "id": "ZBLLAS04_07",
+    "set": "AS",
+    "label": "AS04_07",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "F2 D' B2 R2 U' B2 U F2 U' B' D2 B L' F' R2 F L'",
@@ -5565,9 +5565,9 @@
     "subset": 7
   },
   {
-    "id": "ZBLLAntisune04_08",
-    "set": "Antisune",
-    "label": "Antisune04_08_Antisune",
+    "id": "ZBLLAS04_08",
+    "set": "AS",
+    "label": "AS04_08",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U' R2 D B2 D' F2 D B2 D' F2 R' U' L' U R' U' L",
@@ -5580,9 +5580,9 @@
     "subset": 8
   },
   {
-    "id": "ZBLLAntisune04_09",
-    "set": "Antisune",
-    "label": "Antisune04_09_Antisune",
+    "id": "ZBLLAS04_09",
+    "set": "AS",
+    "label": "AS04_09",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "D' F2 D R2 U' B2 D L2 D' B2 R' U' L' U R' U' L",
@@ -5595,9 +5595,9 @@
     "subset": 9
   },
   {
-    "id": "ZBLLAntisune04_10",
-    "set": "Antisune",
-    "label": "Antisune04_10_Antisune",
+    "id": "ZBLLAS04_10",
+    "set": "AS",
+    "label": "AS04_10",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "R2 D' F2 D R2 B2 D L2 D' B2 L' U2 L U L' U L",
@@ -5610,9 +5610,9 @@
     "subset": 10
   },
   {
-    "id": "ZBLLAntisune04_11",
-    "set": "Antisune",
-    "label": "Antisune04_11_Antisune",
+    "id": "ZBLLAS04_11",
+    "set": "AS",
+    "label": "AS04_11",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "L2 B2 D F2 L2 U' L2 F2 L2 U' L U2 L D' B2 L' U2 L'",
@@ -5625,9 +5625,9 @@
     "subset": 11
   },
   {
-    "id": "ZBLLAntisune04_12",
-    "set": "Antisune",
-    "label": "Antisune04_12_Antisune",
+    "id": "ZBLLAS04_12",
+    "set": "AS",
+    "label": "AS04_12",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "R2 D' F2 U L2 U' L2 D F2 R2 L' U2 L U L' U L",
@@ -5640,9 +5640,9 @@
     "subset": 12
   },
   {
-    "id": "ZBLLAntisune05_01",
-    "set": "Antisune",
-    "label": "Antisune05_01_Antisune",
+    "id": "ZBLLAS05_01",
+    "set": "AS",
+    "label": "AS05_01",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U F2 D R2 D' L2 D R2 D' L2 F' U F' U F U2 F'",
@@ -5655,9 +5655,9 @@
     "subset": 1
   },
   {
-    "id": "ZBLLAntisune05_02",
-    "set": "Antisune",
-    "label": "Antisune05_02_Antisune",
+    "id": "ZBLLAS05_02",
+    "set": "AS",
+    "label": "AS05_02",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U' F2 U' L2 U R2 U' L2 U R2 F' U F' U F U2 F'",
@@ -5670,9 +5670,9 @@
     "subset": 2
   },
   {
-    "id": "ZBLLAntisune05_03",
-    "set": "Antisune",
-    "label": "Antisune05_03_Antisune",
+    "id": "ZBLLAS05_03",
+    "set": "AS",
+    "label": "AS05_03",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U' L2 F2 U F2 U' F2 D F2 D' L U2 L U L' U L",
@@ -5685,9 +5685,9 @@
     "subset": 3
   },
   {
-    "id": "ZBLLAntisune05_04",
-    "set": "Antisune",
-    "label": "Antisune05_04_Antisune",
+    "id": "ZBLLAS05_04",
+    "set": "AS",
+    "label": "AS05_04",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U' B2 D' R2 D B2 L2 D F2 D' L U2 L U L' U L",
@@ -5700,9 +5700,9 @@
     "subset": 4
   },
   {
-    "id": "ZBLLAntisune05_05",
-    "set": "Antisune",
-    "label": "Antisune05_05_Antisune",
+    "id": "ZBLLAS05_05",
+    "set": "AS",
+    "label": "AS05_05",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U L2 F2 D' B2 D F2 D' B2 D L U2 L U L' U L",
@@ -5715,9 +5715,9 @@
     "subset": 5
   },
   {
-    "id": "ZBLLAntisune05_06",
-    "set": "Antisune",
-    "label": "Antisune05_06_Antisune",
+    "id": "ZBLLAS05_06",
+    "set": "AS",
+    "label": "AS05_06",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U' R2 B2 F2 L2 D' L2 B2 F2 R' U' L' U R' U' L",
@@ -5730,9 +5730,9 @@
     "subset": 6
   },
   {
-    "id": "ZBLLAntisune05_07",
-    "set": "Antisune",
-    "label": "Antisune05_07_Antisune",
+    "id": "ZBLLAS05_07",
+    "set": "AS",
+    "label": "AS05_07",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U B2 D R2 B2 U' F2 L2 B2 D' F D' B' D F D' B'",
@@ -5745,9 +5745,9 @@
     "subset": 7
   },
   {
-    "id": "ZBLLAntisune05_08",
-    "set": "Antisune",
-    "label": "Antisune05_08_Antisune",
+    "id": "ZBLLAS05_08",
+    "set": "AS",
+    "label": "AS05_08",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U F2 U' L2 B2 R2 D' B D2 B L' F' R2 F L'",
@@ -5760,9 +5760,9 @@
     "subset": 8
   },
   {
-    "id": "ZBLLAntisune05_09",
-    "set": "Antisune",
-    "label": "Antisune05_09_Antisune",
+    "id": "ZBLLAS05_09",
+    "set": "AS",
+    "label": "AS05_09",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U2 R U' L' U R' U' L",
@@ -5775,9 +5775,9 @@
     "subset": 9
   },
   {
-    "id": "ZBLLAntisune05_10",
-    "set": "Antisune",
-    "label": "Antisune05_10_Antisune",
+    "id": "ZBLLAS05_10",
+    "set": "AS",
+    "label": "AS05_10",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "L2 D' R2 D' R2 D' R2 D' R2 D' B' D2 B L' F' R2 F L'",
@@ -5790,9 +5790,9 @@
     "subset": 10
   },
   {
-    "id": "ZBLLAntisune05_11",
-    "set": "Antisune",
-    "label": "Antisune05_11_Antisune",
+    "id": "ZBLLAS05_11",
+    "set": "AS",
+    "label": "AS05_11",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U' L2 B2 D F2 D' B2 D F2 D' L U2 L U L' U L",
@@ -5805,9 +5805,9 @@
     "subset": 11
   },
   {
-    "id": "ZBLLAntisune05_12",
-    "set": "Antisune",
-    "label": "Antisune05_12_Antisune",
+    "id": "ZBLLAS05_12",
+    "set": "AS",
+    "label": "AS05_12",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "L2 D B2 R2 D' R2 B2 L2 D' B2 F' D' B' D F D' B' D",
@@ -5820,9 +5820,9 @@
     "subset": 12
   },
   {
-    "id": "ZBLLAntisune06_01",
-    "set": "Antisune",
-    "label": "Antisune06_01_Antisune",
+    "id": "ZBLLAS06_01",
+    "set": "AS",
+    "label": "AS06_01",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "B2 L2 U' L2 U B2 D' B2 D B2 L U L2 U' L2 U L",
@@ -5835,9 +5835,9 @@
     "subset": 1
   },
   {
-    "id": "ZBLLAntisune06_02",
-    "set": "Antisune",
-    "label": "Antisune06_02_Antisune",
+    "id": "ZBLLAS06_02",
+    "set": "AS",
+    "label": "AS06_02",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U F2 D' L2 D R2 D' L2 D R2 F' U F' U F U2 F'",
@@ -5850,9 +5850,9 @@
     "subset": 2
   },
   {
-    "id": "ZBLLAntisune06_03",
-    "set": "Antisune",
-    "label": "Antisune06_03_Antisune",
+    "id": "ZBLLAS06_03",
+    "set": "AS",
+    "label": "AS06_03",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "L2 D' F2 L2 U L2 F2 D B D2 B D' B' D' B' L2",
@@ -5865,9 +5865,9 @@
     "subset": 3
   },
   {
-    "id": "ZBLLAntisune06_04",
-    "set": "Antisune",
-    "label": "Antisune06_04_Antisune",
+    "id": "ZBLLAS06_04",
+    "set": "AS",
+    "label": "AS06_04",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U' F2 U L2 U' L2 F2 D' L2 D L U2 L U L' U L",
@@ -5880,9 +5880,9 @@
     "subset": 4
   },
   {
-    "id": "ZBLLAntisune06_05",
-    "set": "Antisune",
-    "label": "Antisune06_05_Antisune",
+    "id": "ZBLLAS06_05",
+    "set": "AS",
+    "label": "AS06_05",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "R2 U R2 U' R2 F2 U' F2 D R2 L' U2 L U L' U L D'",
@@ -5895,9 +5895,9 @@
     "subset": 5
   },
   {
-    "id": "ZBLLAntisune06_06",
-    "set": "Antisune",
-    "label": "Antisune06_06_Antisune",
+    "id": "ZBLLAS06_06",
+    "set": "AS",
+    "label": "AS06_06",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "F2 L2 D' B2 D L2 U' F2 D R2 L' U2 L U L' U L D'",
@@ -5910,9 +5910,9 @@
     "subset": 6
   },
   {
-    "id": "ZBLLAntisune06_07",
-    "set": "Antisune",
-    "label": "Antisune06_07_Antisune",
+    "id": "ZBLLAS06_07",
+    "set": "AS",
+    "label": "AS06_07",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "L2 U' B2 D' B2 U2 F2 D' F2 D2 L U' L2 U B2 D B2 L D'",
@@ -5925,9 +5925,9 @@
     "subset": 7
   },
   {
-    "id": "ZBLLAntisune06_08",
-    "set": "Antisune",
-    "label": "Antisune06_08_Antisune",
+    "id": "ZBLLAS06_08",
+    "set": "AS",
+    "label": "AS06_08",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "U B2 U' L2 U L2 B2 D L2 D' L U2 L U L' U L",
@@ -5940,9 +5940,9 @@
     "subset": 8
   },
   {
-    "id": "ZBLLAntisune06_09",
-    "set": "Antisune",
-    "label": "Antisune06_09_Antisune",
+    "id": "ZBLLAS06_09",
+    "set": "AS",
+    "label": "AS06_09",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "R2 D B2 U' L2 D F2 D' L2 B2 F U F' U F U2 F' D'",
@@ -5955,9 +5955,9 @@
     "subset": 9
   },
   {
-    "id": "ZBLLAntisune06_10",
-    "set": "Antisune",
-    "label": "Antisune06_10_Antisune",
+    "id": "ZBLLAS06_10",
+    "set": "AS",
+    "label": "AS06_10",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "R2 U' F2 R2 U F2 U' R2 F2 R2 F' U2 F U' F' U' F R2",
@@ -5970,9 +5970,9 @@
     "subset": 10
   },
   {
-    "id": "ZBLLAntisune06_11",
-    "set": "Antisune",
-    "label": "Antisune06_11_Antisune",
+    "id": "ZBLLAS06_11",
+    "set": "AS",
+    "label": "AS06_11",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "B2 L2 D L2 B2 U' L2 D F' R2 F D' B' D' B L2",
@@ -5985,9 +5985,9 @@
     "subset": 11
   },
   {
-    "id": "ZBLLAntisune06_12",
-    "set": "Antisune",
-    "label": "Antisune06_12_Antisune",
+    "id": "ZBLLAS06_12",
+    "set": "AS",
+    "label": "AS06_12",
     "originalAlg": "U' R U2 R' U' R U' R'",
     "scrambles": [
       "D L2 D' R2 D F2 D' F2 L2 D' R F2 R U L' U L",
@@ -6000,9 +6000,9 @@
     "subset": 12
   },
   {
-    "id": "ZBLLSune01_01",
-    "set": "Sune",
-    "label": "Sune01_01_Sune",
+    "id": "ZBLLS01_01",
+    "set": "S",
+    "label": "S01_01",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "F2 D2 R2 F2 L2 U B2 L2 F2 D' F U' F U' F' U2 F",
@@ -6015,9 +6015,9 @@
     "subset": 1
   },
   {
-    "id": "ZBLLSune01_02",
-    "set": "Sune",
-    "label": "Sune01_02_Sune",
+    "id": "ZBLLS01_02",
+    "set": "S",
+    "label": "S01_02",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "F2 D B2 R2 B2 D2 F2 L2 F2 D F U' F U' F' U2 F",
@@ -6030,39 +6030,39 @@
     "subset": 2
   },
   {
-    "id": "ZBLLSune01_03",
-    "set": "Sune",
-    "label": "Sune01_03_Sune",
+    "id": "ZBLLS01_03",
+    "set": "S",
+    "label": "S01_03",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
-      "L2 U L2 D F2 U F2 D R2 U R U' R2 U R2 U' R' D2",
-      "R2 U B2 L2 F2 D R2 F2 D R' D' R D' R2 L B2 L",
       "F2 U F2 U F2 U F2 D R2 U R U' R2 U R2 U' R' D'",
-      "B2 U L2 F2 R2 D B2 R2 D B' D' B D' B2 F L2 F"
+      "L2 D' R2 F2 L2 U B2 L2 F2 D2 L U' L U' L' U2 L",
+      "B2 U L2 F2 R2 D B2 R2 D B' D' B D' B2 F L2 F",
+      "R2 U R2 U R2 U R2 D B2 U B U' B2 U B2 U' B' D'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=L2UL2DF2UF2DR2URU'R2UR2U'R'D2",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=F2UF2UF2UF2DR2URU'R2UR2U'R'D'",
     "enabled": true,
     "subset": 3
   },
   {
-    "id": "ZBLLSune01_04",
-    "set": "Sune",
-    "label": "Sune01_04_Sune",
+    "id": "ZBLLS01_04",
+    "set": "S",
+    "label": "S01_04",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
-      "B2 U' B2 U' B2 U' B2 D' R2 U' R U' R2 U R2 U' R' D",
-      "F2 R2 U' L2 B2 R2 D' L2 U R2 L' D2 L' D' L D' R2 L",
       "L2 U' L2 D' B2 U' B2 D' R2 U' R U' R2 U R2 U' R' D2",
-      "U' L2 B2 L2 U' R2 L2 D' L2 F2 L D' L D' L' D2 R2 L'"
+      "U' L2 B2 L2 U' R2 L2 D' L2 F2 L D' L D' L' D2 R2 L'",
+      "B2 U2 B2 U B2 D' B2 D2 L2 D' B L2 B' U F U F' L2",
+      "F2 U' F2 U' F2 U' F2 U' F2 U' F U' F2 U F2 U' F'"
     ],
-    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=B2U'B2U'B2U'B2D'R2U'RU'R2UR2U'R'D",
+    "img": "https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=L2U'L2D'B2U'B2D'R2U'RU'R2UR2U'R'D2",
     "enabled": true,
     "subset": 4
   },
   {
-    "id": "ZBLLSune01_05",
-    "set": "Sune",
-    "label": "Sune01_05_Sune",
+    "id": "ZBLLS01_05",
+    "set": "S",
+    "label": "S01_05",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U2 R2 L2 D L2 B2 L2 D' R2 F2 L' F2 L' U' R U' R'",
@@ -6075,9 +6075,9 @@
     "subset": 5
   },
   {
-    "id": "ZBLLSune01_06",
-    "set": "Sune",
-    "label": "Sune01_06_Sune",
+    "id": "ZBLLS01_06",
+    "set": "S",
+    "label": "S01_06",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U B2 R2 U L2 F2 R2 D L' F2 L' U' R U' R'",
@@ -6090,9 +6090,9 @@
     "subset": 6
   },
   {
-    "id": "ZBLLSune01_07",
-    "set": "Sune",
-    "label": "Sune01_07_Sune",
+    "id": "ZBLLS01_07",
+    "set": "S",
+    "label": "S01_07",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "D' L2 F2 L2 U' L2 F2 L2 D R' U' R2 U R2 U' R'",
@@ -6105,9 +6105,9 @@
     "subset": 7
   },
   {
-    "id": "ZBLLSune01_08",
-    "set": "Sune",
-    "label": "Sune01_08_Sune",
+    "id": "ZBLLS01_08",
+    "set": "S",
+    "label": "S01_08",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U' F' U' F U' F' U2 F",
@@ -6120,9 +6120,9 @@
     "subset": 8
   },
   {
-    "id": "ZBLLSune01_09",
-    "set": "Sune",
-    "label": "Sune01_09_Sune",
+    "id": "ZBLLS01_09",
+    "set": "S",
+    "label": "S01_09",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U2 R2 L2 D' L2 B2 L2 D R2 F2 L' F2 L' U' R U' R'",
@@ -6135,9 +6135,9 @@
     "subset": 9
   },
   {
-    "id": "ZBLLSune01_10",
-    "set": "Sune",
-    "label": "Sune01_10_Sune",
+    "id": "ZBLLS01_10",
+    "set": "S",
+    "label": "S01_10",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "F2 L2 B2 U R2 B2 L2 D R' U' R2 U R2 U' R'",
@@ -6150,9 +6150,9 @@
     "subset": 10
   },
   {
-    "id": "ZBLLSune01_11",
-    "set": "Sune",
-    "label": "Sune01_11_Sune",
+    "id": "ZBLLS01_11",
+    "set": "S",
+    "label": "S01_11",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U' R2 B2 F2 L2 D' R2 B2 F2 L2 F' U' F U' F' U2 F",
@@ -6165,9 +6165,9 @@
     "subset": 11
   },
   {
-    "id": "ZBLLSune01_12",
-    "set": "Sune",
-    "label": "Sune01_12_Sune",
+    "id": "ZBLLS01_12",
+    "set": "S",
+    "label": "S01_12",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U' B2 L2 U' R2 F2 L2 D' R2 L F2 L' U' R U' R'",
@@ -6180,9 +6180,9 @@
     "subset": 12
   },
   {
-    "id": "ZBLLSune02_01",
-    "set": "Sune",
-    "label": "Sune02_01_Sune",
+    "id": "ZBLLS02_01",
+    "set": "S",
+    "label": "S02_01",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "L2 F2 U F2 U' F2 D F2 D' L U R U' L U R'",
@@ -6195,9 +6195,9 @@
     "subset": 1
   },
   {
-    "id": "ZBLLSune02_02",
-    "set": "Sune",
-    "label": "Sune02_02_Sune",
+    "id": "ZBLLS02_02",
+    "set": "S",
+    "label": "S02_02",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "B2 L2 U L2 U' L2 D L2 D2 R D' F2 R' D2 B2 U L'",
@@ -6210,9 +6210,9 @@
     "subset": 2
   },
   {
-    "id": "ZBLLSune02_03",
-    "set": "Sune",
-    "label": "Sune02_03_Sune",
+    "id": "ZBLLS02_03",
+    "set": "S",
+    "label": "S02_03",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "R2 B2 R2 F2 U R2 B2 D' L2 D2 B' D' B R2 U' F' U2 F",
@@ -6225,9 +6225,9 @@
     "subset": 3
   },
   {
-    "id": "ZBLLSune02_04",
-    "set": "Sune",
-    "label": "Sune02_04_Sune",
+    "id": "ZBLLS02_04",
+    "set": "S",
+    "label": "S02_04",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "B2 D L2 D F2 L2 D' B2 U2 B' D' B R2 U' F' U2 F",
@@ -6240,9 +6240,9 @@
     "subset": 4
   },
   {
-    "id": "ZBLLSune02_05",
-    "set": "Sune",
-    "label": "Sune02_05_Sune",
+    "id": "ZBLLS02_05",
+    "set": "S",
+    "label": "S02_05",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "R2 D R2 U F2 D2 L2 D' L2 D B U2 D F2 D' B2 D' B D2",
@@ -6255,9 +6255,9 @@
     "subset": 5
   },
   {
-    "id": "ZBLLSune02_06",
-    "set": "Sune",
-    "label": "Sune02_06_Sune",
+    "id": "ZBLLS02_06",
+    "set": "S",
+    "label": "S02_06",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U L2 B2 D F2 D' B2 D F2 D' L U R U' L U R'",
@@ -6270,9 +6270,9 @@
     "subset": 6
   },
   {
-    "id": "ZBLLSune02_07",
-    "set": "Sune",
-    "label": "Sune02_07_Sune",
+    "id": "ZBLLS02_07",
+    "set": "S",
+    "label": "S02_07",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U' B2 R2 U' R2 U R2 D' R' D' F2 R' D2 B2 U L'",
@@ -6285,9 +6285,9 @@
     "subset": 7
   },
   {
-    "id": "ZBLLSune02_08",
-    "set": "Sune",
-    "label": "Sune02_08_Sune",
+    "id": "ZBLLS02_08",
+    "set": "S",
+    "label": "S02_08",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U2 B2 L2 D' R2 D L2 D' R' D' F2 R' D2 B2 U L'",
@@ -6300,9 +6300,9 @@
     "subset": 8
   },
   {
-    "id": "ZBLLSune02_09",
-    "set": "Sune",
-    "label": "Sune02_09_Sune",
+    "id": "ZBLLS02_09",
+    "set": "S",
+    "label": "S02_09",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "F2 D R2 D' F2 L2 D' B2 D L U R U' L U R'",
@@ -6315,9 +6315,9 @@
     "subset": 9
   },
   {
-    "id": "ZBLLSune02_10",
-    "set": "Sune",
-    "label": "Sune02_10_Sune",
+    "id": "ZBLLS02_10",
+    "set": "S",
+    "label": "S02_10",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U' L2 B2 U' B2 U B2 D' B2 D L U R U' L U R'",
@@ -6330,9 +6330,9 @@
     "subset": 10
   },
   {
-    "id": "ZBLLSune02_11",
-    "set": "Sune",
-    "label": "Sune02_11_Sune",
+    "id": "ZBLLS02_11",
+    "set": "S",
+    "label": "S02_11",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U2 L2 F2 D' B2 D F2 D' B2 D L U R U' L U R'",
@@ -6345,9 +6345,9 @@
     "subset": 11
   },
   {
-    "id": "ZBLLSune02_12",
-    "set": "Sune",
-    "label": "Sune02_12_Sune",
+    "id": "ZBLLS02_12",
+    "set": "S",
+    "label": "S02_12",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "F2 U2 L2 D' B2 D2 R2 D B2 D2 R' D2 R' D' R D' R L2",
@@ -6360,9 +6360,9 @@
     "subset": 12
   },
   {
-    "id": "ZBLLSune03_01",
-    "set": "Sune",
-    "label": "Sune03_01_Sune",
+    "id": "ZBLLS03_01",
+    "set": "S",
+    "label": "S03_01",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U' R2 B2 D' F2 D B2 D' F2 D R' U2 R' U' R U' R'",
@@ -6375,9 +6375,9 @@
     "subset": 1
   },
   {
-    "id": "ZBLLSune03_02",
-    "set": "Sune",
-    "label": "Sune03_02_Sune",
+    "id": "ZBLLS03_02",
+    "set": "S",
+    "label": "S03_02",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U R2 F2 D B2 D' F2 D B2 D' R' U2 R' U' R U' R'",
@@ -6390,9 +6390,9 @@
     "subset": 2
   },
   {
-    "id": "ZBLLSune03_03",
-    "set": "Sune",
-    "label": "Sune03_03_Sune",
+    "id": "ZBLLS03_03",
+    "set": "S",
+    "label": "S03_03",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "R2 D B2 U' L2 D F2 D' L2 B2 F' U' F U' F' U2 F D'",
@@ -6405,9 +6405,9 @@
     "subset": 3
   },
   {
-    "id": "ZBLLSune03_04",
-    "set": "Sune",
-    "label": "Sune03_04_Sune",
+    "id": "ZBLLS03_04",
+    "set": "S",
+    "label": "S03_04",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "L2 D' R2 F2 L2 U B2 L2 F2 D2 L U R U' L U R'",
@@ -6420,9 +6420,9 @@
     "subset": 4
   },
   {
-    "id": "ZBLLSune03_05",
-    "set": "Sune",
-    "label": "Sune03_05_Sune",
+    "id": "ZBLLS03_05",
+    "set": "S",
+    "label": "S03_05",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "D' L2 D R2 D' B2 D R2 U' L2 F U' F U' F' U2 F",
@@ -6435,9 +6435,9 @@
     "subset": 5
   },
   {
-    "id": "ZBLLSune03_06",
-    "set": "Sune",
-    "label": "Sune03_06_Sune",
+    "id": "ZBLLS03_06",
+    "set": "S",
+    "label": "S03_06",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U R2 B2 F2 L2 D' R2 B2 F2 L U R U' L U R'",
@@ -6450,9 +6450,9 @@
     "subset": 6
   },
   {
-    "id": "ZBLLSune03_07",
-    "set": "Sune",
-    "label": "Sune03_07_Sune",
+    "id": "ZBLLS03_07",
+    "set": "S",
+    "label": "S03_07",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "L2 U' B2 U F2 U' R2 F2 D' B2 R' U' R2 U R2 U' R'",
@@ -6465,9 +6465,9 @@
     "subset": 7
   },
   {
-    "id": "ZBLLSune03_08",
-    "set": "Sune",
-    "label": "Sune03_08_Sune",
+    "id": "ZBLLS03_08",
+    "set": "S",
+    "label": "S03_08",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U' R2 F2 U' F2 U F2 D' F2 D R' U2 R' U' R U' R'",
@@ -6480,9 +6480,9 @@
     "subset": 8
   },
   {
-    "id": "ZBLLSune03_09",
-    "set": "Sune",
-    "label": "Sune03_09_Sune",
+    "id": "ZBLLS03_09",
+    "set": "S",
+    "label": "S03_09",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "D R2 D' F2 U L2 D' B2 D L2 F U' F U' F' U2 F",
@@ -6495,9 +6495,9 @@
     "subset": 9
   },
   {
-    "id": "ZBLLSune03_10",
-    "set": "Sune",
-    "label": "Sune03_10_Sune",
+    "id": "ZBLLS03_10",
+    "set": "S",
+    "label": "S03_10",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U B2 D' L2 B2 U F2 R2 B2 D F' D B D' F' D B",
@@ -6510,9 +6510,9 @@
     "subset": 10
   },
   {
-    "id": "ZBLLSune03_11",
-    "set": "Sune",
-    "label": "Sune03_11_Sune",
+    "id": "ZBLLS03_11",
+    "set": "S",
+    "label": "S03_11",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U F2 D' L2 D R2 D' L2 D R2 F U' F U' F' U2 F",
@@ -6525,9 +6525,9 @@
     "subset": 11
   },
   {
-    "id": "ZBLLSune03_12",
-    "set": "Sune",
-    "label": "Sune03_12_Sune",
+    "id": "ZBLLS03_12",
+    "set": "S",
+    "label": "S03_12",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U F2 D' L2 D F2 R2 D B2 D' R' U2 R' U' R U' R'",
@@ -6540,9 +6540,9 @@
     "subset": 12
   },
   {
-    "id": "ZBLLSune04_01",
-    "set": "Sune",
-    "label": "Sune04_01_Sune",
+    "id": "ZBLLS04_01",
+    "set": "S",
+    "label": "S04_01",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U F2 D R2 U' B2 U B2 D' R2 F U' F U' F' U2 F",
@@ -6555,9 +6555,9 @@
     "subset": 1
   },
   {
-    "id": "ZBLLSune04_02",
-    "set": "Sune",
-    "label": "Sune04_02_Sune",
+    "id": "ZBLLS04_02",
+    "set": "S",
+    "label": "S04_02",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U' F2 U' R2 U R2 F2 D R2 D' R' U2 R' U' R U' R'",
@@ -6570,9 +6570,9 @@
     "subset": 2
   },
   {
-    "id": "ZBLLSune04_03",
-    "set": "Sune",
-    "label": "Sune04_03_Sune",
+    "id": "ZBLLS04_03",
+    "set": "S",
+    "label": "S04_03",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "L2 D' F2 D F2 U F2 D' F2 D F' U2 F' U F U F L2",
@@ -6585,9 +6585,9 @@
     "subset": 3
   },
   {
-    "id": "ZBLLSune04_04",
-    "set": "Sune",
-    "label": "Sune04_04_Sune",
+    "id": "ZBLLS04_04",
+    "set": "S",
+    "label": "S04_04",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U F2 D R2 D' L2 D R2 D' L2 F U' F U' F' U2 F",
@@ -6600,9 +6600,9 @@
     "subset": 4
   },
   {
-    "id": "ZBLLSune04_05",
-    "set": "Sune",
-    "label": "Sune04_05_Sune",
+    "id": "ZBLLS04_05",
+    "set": "S",
+    "label": "S04_05",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "L2 U F2 U' B2 U R2 B2 D F2 R' U' R2 U R2 U' R'",
@@ -6615,9 +6615,9 @@
     "subset": 5
   },
   {
-    "id": "ZBLLSune04_06",
-    "set": "Sune",
-    "label": "Sune04_06_Sune",
+    "id": "ZBLLS04_06",
+    "set": "S",
+    "label": "S04_06",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U2 L2 D F2 U F2 D' B L2 B' U F U F' L2",
@@ -6630,9 +6630,9 @@
     "subset": 6
   },
   {
-    "id": "ZBLLSune04_07",
-    "set": "Sune",
-    "label": "Sune04_07_Sune",
+    "id": "ZBLLS04_07",
+    "set": "S",
+    "label": "S04_07",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "L2 D F2 U F2 D' L2 U2 B2 D' B R2 U R2 U B2 D B'",
@@ -6645,9 +6645,9 @@
     "subset": 7
   },
   {
-    "id": "ZBLLSune04_08",
-    "set": "Sune",
-    "label": "Sune04_08_Sune",
+    "id": "ZBLLS04_08",
+    "set": "S",
+    "label": "S04_08",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U' F2 U' L2 U R2 U' L2 U R2 F U' F U' F' U2 F",
@@ -6660,9 +6660,9 @@
     "subset": 8
   },
   {
-    "id": "ZBLLSune04_09",
-    "set": "Sune",
-    "label": "Sune04_09_Sune",
+    "id": "ZBLLS04_09",
+    "set": "S",
+    "label": "S04_09",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "L2 U2 L2 U' L2 D' B2 U2 B2 D F U2 F' U F U F' L2",
@@ -6675,9 +6675,9 @@
     "subset": 9
   },
   {
-    "id": "ZBLLSune04_10",
-    "set": "Sune",
-    "label": "Sune04_10_Sune",
+    "id": "ZBLLS04_10",
+    "set": "S",
+    "label": "S04_10",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U B2 U' B2 L2 U L2 D L2 D' B L2 B' U F U F' L2",
@@ -6690,9 +6690,9 @@
     "subset": 10
   },
   {
-    "id": "ZBLLSune04_11",
-    "set": "Sune",
-    "label": "Sune04_11_Sune",
+    "id": "ZBLLS04_11",
+    "set": "S",
+    "label": "S04_11",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U B2 U' B2 L2 U L2 D L2 D' F U2 F' U F U F' L2",
@@ -6705,9 +6705,9 @@
     "subset": 11
   },
   {
-    "id": "ZBLLSune04_12",
-    "set": "Sune",
-    "label": "Sune04_12_Sune",
+    "id": "ZBLLS04_12",
+    "set": "S",
+    "label": "S04_12",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "R2 D' F2 D R2 B2 D L2 D' B2 F U2 F' U' F U' F' U'",
@@ -6720,9 +6720,9 @@
     "subset": 12
   },
   {
-    "id": "ZBLLSune05_01",
-    "set": "Sune",
-    "label": "Sune05_01_Sune",
+    "id": "ZBLLS05_01",
+    "set": "S",
+    "label": "S05_01",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "R2 D B2 D' F2 D B2 D' F2 R' U2 R' U' R U' R'",
@@ -6735,9 +6735,9 @@
     "subset": 1
   },
   {
-    "id": "ZBLLSune05_02",
-    "set": "Sune",
-    "label": "Sune05_02_Sune",
+    "id": "ZBLLS05_02",
+    "set": "S",
+    "label": "S05_02",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U2 R2 U' F2 U B2 U' F2 U B2 R' U2 R' U' R U' R'",
@@ -6750,9 +6750,9 @@
     "subset": 2
   },
   {
-    "id": "ZBLLSune05_03",
-    "set": "Sune",
-    "label": "Sune05_03_Sune",
+    "id": "ZBLLS05_03",
+    "set": "S",
+    "label": "S05_03",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "D F2 R2 D B2 D' R2 U2 F2 D' F' U' F L2 U' F' U2 F",
@@ -6765,9 +6765,9 @@
     "subset": 3
   },
   {
-    "id": "ZBLLSune05_04",
-    "set": "Sune",
-    "label": "Sune05_04_Sune",
+    "id": "ZBLLS05_04",
+    "set": "S",
+    "label": "S05_04",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U' L2 U' B2 U F2 U' B2 U F2 L U R U' L U R'",
@@ -6780,9 +6780,9 @@
     "subset": 4
   },
   {
-    "id": "ZBLLSune05_05",
-    "set": "Sune",
-    "label": "Sune05_05_Sune",
+    "id": "ZBLLS05_05",
+    "set": "S",
+    "label": "S05_05",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "R2 D B2 U' L2 U L2 D' B2 R2 F' U' F U' F' U2 F",
@@ -6795,9 +6795,9 @@
     "subset": 5
   },
   {
-    "id": "ZBLLSune05_06",
-    "set": "Sune",
-    "label": "Sune05_06_Sune",
+    "id": "ZBLLS05_06",
+    "set": "S",
+    "label": "S05_06",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "L2 U F2 U' B2 U F2 U' B2 L2 F' U' F U' F' U2 F",
@@ -6810,9 +6810,9 @@
     "subset": 6
   },
   {
-    "id": "ZBLLSune05_07",
-    "set": "Sune",
-    "label": "Sune05_07_Sune",
+    "id": "ZBLLS05_07",
+    "set": "S",
+    "label": "S05_07",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U2 R2 L2 F2 U L2 F2 D' L2 U2 F' L2 F' D B D B' R2",
@@ -6825,9 +6825,9 @@
     "subset": 7
   },
   {
-    "id": "ZBLLSune05_08",
-    "set": "Sune",
-    "label": "Sune05_08_Sune",
+    "id": "ZBLLS05_08",
+    "set": "S",
+    "label": "S05_08",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "R2 U L2 U' L2 D F2 D' F2 R2 L F2 L' U' R U' R'",
@@ -6840,9 +6840,9 @@
     "subset": 8
   },
   {
-    "id": "ZBLLSune05_09",
-    "set": "Sune",
-    "label": "Sune05_09_Sune",
+    "id": "ZBLLS05_09",
+    "set": "S",
+    "label": "S05_09",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U2 F2 L2 D R2 D' L2 D R2 D' F U' F U' F' U2 F",
@@ -6855,9 +6855,9 @@
     "subset": 9
   },
   {
-    "id": "ZBLLSune05_10",
-    "set": "Sune",
-    "label": "Sune05_10_Sune",
+    "id": "ZBLLS05_10",
+    "set": "S",
+    "label": "S05_10",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "R2 D B2 D' R2 F2 D' L2 D F U' F U' F' U2 F",
@@ -6870,9 +6870,9 @@
     "subset": 10
   },
   {
-    "id": "ZBLLSune05_11",
-    "set": "Sune",
-    "label": "Sune05_11_Sune",
+    "id": "ZBLLS05_11",
+    "set": "S",
+    "label": "S05_11",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "R2 D L2 F2 U L2 U' R2 U B2 L F2 L' U' R U' R'",
@@ -6885,9 +6885,9 @@
     "subset": 11
   },
   {
-    "id": "ZBLLSune05_12",
-    "set": "Sune",
-    "label": "Sune05_12_Sune",
+    "id": "ZBLLS05_12",
+    "set": "S",
+    "label": "S05_12",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "F2 L2 U' L2 U L2 D' L2 D F U' F U' F' U2 F",
@@ -6900,9 +6900,9 @@
     "subset": 12
   },
   {
-    "id": "ZBLLSune06_01",
-    "set": "Sune",
-    "label": "Sune06_01_Sune",
+    "id": "ZBLLS06_01",
+    "set": "S",
+    "label": "S06_01",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "R2 D' F2 U L2 U' L2 D F2 R2 F' U' F U' F' U2 F",
@@ -6915,9 +6915,9 @@
     "subset": 1
   },
   {
-    "id": "ZBLLSune06_02",
-    "set": "Sune",
-    "label": "Sune06_02_Sune",
+    "id": "ZBLLS06_02",
+    "set": "S",
+    "label": "S06_02",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "R2 D' F2 D B2 D' F2 D B2 R' U2 R' U' R U' R'",
@@ -6930,9 +6930,9 @@
     "subset": 2
   },
   {
-    "id": "ZBLLSune06_03",
-    "set": "Sune",
-    "label": "Sune06_03_Sune",
+    "id": "ZBLLS06_03",
+    "set": "S",
+    "label": "S06_03",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U2 F2 D B2 L2 U B2 U' F2 U B D2 B' R F L2 F' R",
@@ -6945,9 +6945,9 @@
     "subset": 3
   },
   {
-    "id": "ZBLLSune06_04",
-    "set": "Sune",
-    "label": "Sune06_04_Sune",
+    "id": "ZBLLS06_04",
+    "set": "S",
+    "label": "S06_04",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "B2 D' R2 D L2 D' R2 D L2 D' R D' F2 R' D2 B2 U L'",
@@ -6960,9 +6960,9 @@
     "subset": 4
   },
   {
-    "id": "ZBLLSune06_05",
-    "set": "Sune",
-    "label": "Sune06_05_Sune",
+    "id": "ZBLLS06_05",
+    "set": "S",
+    "label": "S06_05",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U L2 U F2 U' B2 U F2 U' B2 L U R U' L U R'",
@@ -6975,9 +6975,9 @@
     "subset": 5
   },
   {
-    "id": "ZBLLSune06_06",
-    "set": "Sune",
-    "label": "Sune06_06_Sune",
+    "id": "ZBLLS06_06",
+    "set": "S",
+    "label": "S06_06",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U2 B2 D' F2 D' F2 D2 L2 F2 L' F2 L' B2 U R U R",
@@ -6990,9 +6990,9 @@
     "subset": 6
   },
   {
-    "id": "ZBLLSune06_07",
-    "set": "Sune",
-    "label": "Sune06_07_Sune",
+    "id": "ZBLLS06_07",
+    "set": "S",
+    "label": "S06_07",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "U2 R2 U F2 U' F2 R2 D' F2 D F U' F U' F' U2 F",
@@ -7005,9 +7005,9 @@
     "subset": 7
   },
   {
-    "id": "ZBLLSune06_08",
-    "set": "Sune",
-    "label": "Sune06_08_Sune",
+    "id": "ZBLLS06_08",
+    "set": "S",
+    "label": "S06_08",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "R2 D' F2 U L2 U' L2 D F2 R' U2 R' U' R U' R'",
@@ -7020,9 +7020,9 @@
     "subset": 8
   },
   {
-    "id": "ZBLLSune06_09",
-    "set": "Sune",
-    "label": "Sune06_09_Sune",
+    "id": "ZBLLS06_09",
+    "set": "S",
+    "label": "S06_09",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "R2 D' F2 D R2 B2 D L2 D' B2 F' U' F U' F' U2 F",
@@ -7035,9 +7035,9 @@
     "subset": 9
   },
   {
-    "id": "ZBLLSune06_10",
-    "set": "Sune",
-    "label": "Sune06_10_Sune",
+    "id": "ZBLLS06_10",
+    "set": "S",
+    "label": "S06_10",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "L2 U' B2 U F2 U' B2 U F2 L2 F' U' F U' F' U2 F",
@@ -7050,9 +7050,9 @@
     "subset": 10
   },
   {
-    "id": "ZBLLSune06_11",
-    "set": "Sune",
-    "label": "Sune06_11_Sune",
+    "id": "ZBLLS06_11",
+    "set": "S",
+    "label": "S06_11",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "B2 L2 U L2 U' L2 D L2 D' B2 F' U' F U' F' U2 F",
@@ -7065,9 +7065,9 @@
     "subset": 11
   },
   {
-    "id": "ZBLLSune06_12",
-    "set": "Sune",
-    "label": "Sune06_12_Sune",
+    "id": "ZBLLS06_12",
+    "set": "S",
+    "label": "S06_12",
     "originalAlg": "R U R' U R U2 R'",
     "scrambles": [
       "R2 D' F2 D R2 B2 D L2 D' B2 R U2 R' U' R U' R'",

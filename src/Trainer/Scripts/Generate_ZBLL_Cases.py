@@ -1,125 +1,23 @@
 import pycuber as pc
 import kociemba
 
-from utils import (
-    load_json, save_json, invert_alg, apply_z2_to_moves,  
-    cube_to_kociemba_string, generate_case
-)
+from utils import load_json, save_json, invert_alg, generate_case, generate_auf_variations, choose_unique_solutions, solve_then_invert_to_scramble
 
 SKIP_SUBSETS = {
     ("H", 1): {3, 4, 9, 11},
     ("H", 2): {3, 4, 10, 12},
 }
 
-def move_to_int(move):
-    if move == 'U':
-        return 1
-    elif move == 'U2':
-        return 2
-    elif move == "U'":
-        return 3
-    else:
-        return None
-
-def int_to_move(i):
-    if i == 1:
-        return 'U'
-    elif i == 2:
-        return 'U2'
-    elif i == 3:
-        return "U'"
-    else:
-        return ''
-
-def merge_adjacent_u_moves(moves_list):
-    result = []
-    i = 0
-    while i < len(moves_list):
-        move = moves_list[i]
-        if move[0] == 'U':
-            total = move_to_int(move)
-            i += 1
-            while i < len(moves_list) and moves_list[i][0] == 'U':
-                val = move_to_int(moves_list[i])
-                if val is not None:
-                    total = (total + val) % 4
-                i += 1
-            if total != 0:
-                result.append(int_to_move(total))
-        else:
-            result.append(move)
-            i += 1
-    return result
-
-def generate_auf_variations(sequence_str: str) -> list[str]:
-    """
-    16 variations with prefix/suffix U-moves; merges adjacent U's.
-    """
-    auf_moves = ['', 'U', "U'", 'U2']
-    variations = []
-    for prefix in auf_moves:
-        for suffix in auf_moves:
-            parts = []
-            if prefix:
-                parts.append(prefix)
-            parts.append(sequence_str)
-            if suffix:
-                parts.append(suffix)
-            combined = ' '.join(parts)
-            moves = combined.split()
-            merged = merge_adjacent_u_moves(moves)
-            variations.append(' '.join(merged))
-    return variations
-
-def choose_unique_solutions(solutions, max_solutions=4):
-    """
-    Keep up to max_solutions by distinct first move.
-    """
-    chosen = []
-    used_first_moves = set()
-    for sol in solutions:
-        moves = sol.split()
-        if not moves:
-            continue
-        first = moves[0]
-        if first not in used_first_moves:
-            chosen.append(sol)
-            used_first_moves.add(first)
-        if len(chosen) == max_solutions:
-            break
-    if len(chosen) < max_solutions:
-        for sol in solutions:
-            if sol not in chosen:
-                chosen.append(sol)
-            if len(chosen) == max_solutions:
-                break
-    return chosen
-
-def solve_then_invert_to_scramble(seq: str) -> str:
-    cube = pc.Cube()
-    if seq.strip():
-        cube(seq)
-    cube("z2")
-    state = cube_to_kociemba_string(cube)
-    solution = kociemba.solve(state)
-    solution_unz2 = apply_z2_to_moves(solution)
-    return invert_alg(solution_unz2)
-
 def build_bases_from_oll_cross(oll_data: list[dict]) -> list[dict]:
     cross_olls = [o for o in oll_data if o.get('set') == 'cross' and o.get('label', '').lower() != 'skip']
     if len(cross_olls) < 7:
         raise ValueError(f"Expected 7 OLL 'cross' entries, found {len(cross_olls)}.")
-
-    set_order = ["H", "Pi", "U", "T", "L", "Antisune", "Sune"]
+    set_order = ["H", "Pi", "U", "T", "L", "AS", "S"]
     cross_sorted = sorted(cross_olls, key=lambda x: x.get('label', ''))
-
     bases = []
     for i, set_name in enumerate(set_order):
         item = cross_sorted[i]
-        bases.append({
-            "set": set_name,
-            "alg": item["scramble"],
-        })
+        bases.append({"set": set_name, "alg": item["scramble"]})
     return bases
 
 ADJ_PLL_ORDER = ["Aa", "Ab", "F", "Ga", "Gb", "Gc", "Gd", "Ja", "Jb", "Ra", "Rb", "T"]
@@ -150,24 +48,20 @@ def fixed_auf_for_parent_idx(parent_idx: int) -> str:
 
 def process_zbll(oll_data: list[dict], pll_data: list[dict]):
     by_label = {p['label']: p for p in pll_data}
-
     required = {"H", "Z", "Ua", "Ub", "Na", "Nb", "E", "V", "Y"} | set(ADJ_PLL_ORDER)
     missing = [lab for lab in required if lab not in by_label]
     if missing:
         raise ValueError(f"Missing PLL(s) in pll.json: {missing}")
 
     bases = build_bases_from_oll_cross(oll_data)
-
     cases = []
+
     for base in bases:
         set_name = base['set']
         base_alg = base['alg']
         base_inv = invert_alg(base_alg)
 
-        if set_name == "H":
-            parent_plan = [(1, 1), (2, 2), (3, 3), (5, 4)]
-        else:
-            parent_plan = [(i, i) for i in range(1, 7)]
+        parent_plan = [(1, 1), (2, 2), (3, 3), (5, 4)] if set_name == "H" else [(i, i) for i in range(1, 7)]
 
         for raw_idx, canon_idx in parent_plan:
             base_code = f"{set_name}{canon_idx:02d}"
@@ -223,11 +117,9 @@ def process_zbll(oll_data: list[dict], pll_data: list[dict]):
 
             for old_subset in kept_subsets:
                 scrambles = choose_unique_solutions(buckets[old_subset], max_solutions=4)
-
                 new_subset = subset_map[old_subset]
                 case_id = f"ZBLL{base_code}_{new_subset:02d}"
-                label   = f"{base_code}_{new_subset:02d}_{set_name}"
-
+                label   = f"{base_code}_{new_subset:02d}"
                 case = generate_case(
                     case_id=case_id,
                     label=label,
@@ -246,7 +138,6 @@ def process_zbll(oll_data: list[dict], pll_data: list[dict]):
 def main():
     pll_data = load_json("pll.json")
     oll_data = load_json("oll.json")
-
     all_cases = process_zbll(oll_data, pll_data)
     save_json(all_cases, "zbll_cases.json")
     print(f"Total cases: {len(all_cases)}")

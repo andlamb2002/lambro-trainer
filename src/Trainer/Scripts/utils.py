@@ -84,3 +84,116 @@ def generate_scramble(pll, auf, inv_oll):
     state_str = cube_to_kociemba_string(cube)
     solution = kociemba.solve(state_str)
     return apply_z2_to_moves(solution)
+
+def _move_to_int(move: str) -> int | None:
+    if move == 'U': return 1
+    if move == 'U2': return 2
+    if move == "U'": return 3
+    return None
+
+def _int_to_move(i: int) -> str:
+    if i == 1: return 'U'
+    if i == 2: return 'U2'
+    if i == 3: return "U'"
+    return ''
+
+def merge_adjacent_u_moves(moves_list: list[str]) -> list[str]:
+    """
+    Compress consecutive U/U'/U2 into a single canonical U-move.
+    Preserves non-U moves verbatim and order.
+    """
+    result = []
+    i = 0
+    while i < len(moves_list):
+        move = moves_list[i]
+        if move and move[0] == 'U':
+            total = _move_to_int(move) or 0
+            i += 1
+            while i < len(moves_list) and moves_list[i] and moves_list[i][0] == 'U':
+                val = _move_to_int(moves_list[i])
+                if val is not None:
+                    total = (total + val) % 4
+                i += 1
+            if total != 0:
+                result.append(_int_to_move(total))
+        else:
+            result.append(move)
+            i += 1
+    return result
+
+def generate_auf_variations(sequence_str: str) -> list[str]:
+    """
+    Generate 16 prefix/suffix U-AUF variants of sequence_str,
+    merging adjacent U-moves to avoid junk like 'U U''.
+    """
+    auf_moves = ['', 'U', "U'", 'U2']
+    variations = []
+    for prefix in auf_moves:
+        for suffix in auf_moves:
+            parts = []
+            if prefix:
+                parts.append(prefix)
+            parts.append(sequence_str)
+            if suffix:
+                parts.append(suffix)
+            merged = merge_adjacent_u_moves(' '.join(parts).split())
+            variations.append(' '.join(merged))
+    return variations
+
+def choose_unique_solutions(solutions: list[str], max_solutions: int = 4) -> list[str]:
+    """
+    Keep up to max_solutions, preferring distinct first moves.
+    """
+    chosen: list[str] = []
+    used_first: set[str] = set()
+    for sol in solutions:
+        moves = sol.split()
+        if not moves:
+            continue
+        first = moves[0]
+        if first not in used_first:
+            chosen.append(sol)
+            used_first.add(first)
+        if len(chosen) == max_solutions:
+            break
+    if len(chosen) < max_solutions:
+        for sol in solutions:
+            if sol not in chosen:
+                chosen.append(sol)
+            if len(chosen) == max_solutions:
+                break
+    return chosen
+
+def kociemba_solve_from_sequence(seq: str) -> str:
+    """
+    Apply `seq` on a solved cube, rotate by z2, solve with Kociemba,
+    then unrotate the solution by z2 so it's back in original frame.
+    Returns the SOLUTION (not inverted).
+    """
+    cube = pc.Cube()
+    if seq.strip():
+        cube(seq)
+    cube("z2")
+    state = cube_to_kociemba_string(cube)
+    solution = kociemba.solve(state)
+    return apply_z2_to_moves(solution)
+
+def solve_then_invert_to_scramble(seq: str) -> str:
+    """
+    Like above but returns the SCRAMBLE (inverse of the solution).
+    """
+    return invert_alg(kociemba_solve_from_sequence(seq))
+
+def scrambles_from_base_sequence(base_scramble: str, max_solutions: int = 4) -> list[str]:
+    """
+    Reproduces PLL generator behavior:
+      - Build AUF variants around `base_scramble`
+      - Solve each state (with z2 correction)
+      - Keep up to 4 unique-by-first-move
+    Returns SOLUTIONS (not inverted), matching your current PLL script.
+    """
+    solutions: list[str] = []
+    for var in generate_auf_variations(base_scramble):
+        sol = kociemba_solve_from_sequence(var)
+        solutions.append(sol)
+    return choose_unique_solutions(solutions, max_solutions)
