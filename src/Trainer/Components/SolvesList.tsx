@@ -19,7 +19,7 @@ function SolvesList({ solves, setSelectedSolve, deleteSolve, deleteAllSolves }: 
     const deleteHidden = solves.length === 0 ? 'invisible' : '';
 
     return (
-        <div className="flex flex-col sm:pl-4 pr-1 sm:pr-0">
+        <div className="flex flex-col sm:pl-4 pt-2 pr-1 sm:pr-0">
             <div className="sm:text-xl">
                 <h3>Solves: {solves.length}</h3>
                 <h3>Mean: {mean}</h3>
