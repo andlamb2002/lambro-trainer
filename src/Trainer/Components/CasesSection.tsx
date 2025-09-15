@@ -23,6 +23,11 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
 
     const subsetMode = useMemo(() => hasSubsets(cases), [cases]);
 
+    const enabledCount = useMemo(
+        () => cases.reduce((acc, c) => acc + (c.enabled ? 1 : 0), 0),
+        [cases]
+    );
+
     const groupedBySet = useMemo(() => {
         return cases.reduce<Record<string, Case[]>>((acc, c) => {
             (acc[c.set] ||= []).push(c);
@@ -58,6 +63,7 @@ function CasesSection({ cases, toggleCase, toggleAllCases, toggleCasesInSet }: P
                 <button
                     className="order-1 sm:order-2 btn btn-primary flex items-center gap-1 text-2xl font-bold w-auto self-start sm:self-auto px-2 py-1 sm:px-4 sm:py-2"
                     onClick={() => navigate("timer")}
+                    disabled={enabledCount === 0}
                     title="Start Training"
                     aria-label="Start Training"
                 >
