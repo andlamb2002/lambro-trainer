@@ -94,6 +94,12 @@ function TimerPage({ cases, algset }: Props) {
         setCaseAndScramble(c);
     }, [setCaseAndScramble]);
 
+    const displayTime = useMemo(() => {
+        return isRunning
+            ? String(Math.floor(time / 1000))
+            : (time / 1000).toFixed(2);
+    }, [isRunning, time]);
+
     const start = useCallback(() => {
         if (Date.now() < startCooldownRef.current) return;
 
@@ -377,7 +383,7 @@ function TimerPage({ cases, algset }: Props) {
                         onTouchEnd={handleTouchEnd}
                         style={{ touchAction: 'manipulation' }}
                     >
-                        {(time / 1000).toFixed(2)}
+                        {displayTime}
                     </h1>
                 </div>
 
