@@ -1,4 +1,7 @@
+import { useState } from 'react';
+
 import SolveItem from './SolveItem';
+import StatsModal from './StatsModal';
 
 import type { Solve } from '../interfaces';
 
@@ -10,6 +13,7 @@ interface Props {
 }
 
 function SolvesList({ solves, setSelectedSolve, deleteSolve, deleteAllSolves }: Props) {
+    const [statsOpen, setStatsOpen] = useState(false);
 
     const mean: string = 
         solves.length > 0
@@ -24,6 +28,15 @@ function SolvesList({ solves, setSelectedSolve, deleteSolve, deleteAllSolves }: 
                 <h3>Solves: {solves.length}</h3>
                 <h3>Mean: {mean}</h3>
             </div>
+            <button
+                className={`btn btn-secondary ${solves.length === 0 ? 'opacity-50 pointer-events-none' : ''}`}
+                onClick={() => setStatsOpen(true)}
+                title="Open Statistics"
+                aria-label="Open Statistics"
+                >
+                <span aria-hidden>📊</span>
+                <span className="ml-2 hidden sm:inline">Statistics</span>
+            </button>
             <ul className="flex-1 overflow-y-auto max-h-50 sm:max-h-80 my-4 space-y-2 scrollbar-hide">
                 {[...solves].reverse().map((solve, index) => (
                     <SolveItem
@@ -43,6 +56,11 @@ function SolvesList({ solves, setSelectedSolve, deleteSolve, deleteAllSolves }: 
             >
                 Delete All
             </button>
+            <StatsModal
+                open={statsOpen}
+                onClose={() => setStatsOpen(false)}
+                solves={solves}
+            />
         </div>
     )
 }
