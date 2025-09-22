@@ -5,6 +5,8 @@ import StatsModal from './StatsModal';
 
 import type { Solve } from '../interfaces';
 
+import { MdBarChart } from 'react-icons/md';
+
 interface Props {
     solves: Solve[];
     setSelectedSolve: (solve: Solve | null) => void;
@@ -34,7 +36,7 @@ function SolvesList({ solves, setSelectedSolve, deleteSolve, deleteAllSolves }: 
                 title="Open Statistics"
                 aria-label="Open Statistics"
                 >
-                <span aria-hidden>📊</span>
+                <MdBarChart className="w-5 h-5" />
                 <span className="ml-2 hidden sm:inline">Statistics</span>
             </button>
             <ul className="flex-1 overflow-y-auto max-h-50 sm:max-h-80 my-4 space-y-2 scrollbar-hide">

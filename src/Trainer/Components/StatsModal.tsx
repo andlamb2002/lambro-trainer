@@ -1,8 +1,7 @@
 import { useMemo, useState } from 'react';
 import type { Solve } from '../interfaces';
 
-import { FiX, FiArrowUp, FiArrowDown } from "react-icons/fi";
-import { HiArrowsUpDown } from "react-icons/hi2";
+import { MdClose, MdArrowUpward, MdArrowDownward, MdUnfoldMore } from 'react-icons/md';
 
 type SortKey =
     | 'firstIndex'
@@ -117,7 +116,7 @@ function StatsModal({ open, onClose, solves }: Props) {
                     aria-label="Close"
                     title="Close"
                 >
-                    <FiX className="w-5 h-5" />
+                    <MdClose className="w-5 h-5" />
                 </button>
 
                 <div className="flex items-end justify-between pb-4 pr-8">
@@ -228,10 +227,10 @@ function StatsModal({ open, onClose, solves }: Props) {
 }
 
 function SortIndicator({ active, dir }: { active: boolean; dir: 'ascending' | 'descending' }) {
-    if (!active) return <HiArrowsUpDown className="opacity-40 w-4 h-4" />;
+    if (!active) return <MdUnfoldMore className="opacity-40 w-4 h-4" />;
     return dir === 'ascending'
-        ? <FiArrowUp className="w-4 h-4" />
-        : <FiArrowDown className="w-4 h-4" />;
+        ? <MdArrowUpward className="w-4 h-4" />
+        : <MdArrowDownward className="w-4 h-4" />;
 }
 
 function SortableTh({
