@@ -42,11 +42,11 @@ function StatsModal({ open, onClose, solves }: Props) {
     const rows = useMemo<Row[]>(() => {
     const map = new Map<string, { label: string; img?: string; times: number[]; firstIdx: number }>();
     solves.forEach((s, i) => {
-      const k = s.label; 
-      if (!map.has(k)) {
-        map.set(k, { label: s.label, img: s.img, times: [], firstIdx: i + 1 });
-      }
-      map.get(k)!.times.push(s.time);
+        const k = s.label; 
+        if (!map.has(k)) {
+            map.set(k, { label: s.label, img: s.img, times: [], firstIdx: i + 1 });
+        }
+        map.get(k)!.times.push(s.time);
     });
 
     const out: Row[] = [];
@@ -93,7 +93,7 @@ function StatsModal({ open, onClose, solves }: Props) {
             prev.key === key
                 ? { key, dir: prev.dir === 'ascending' ? 'descending' : 'ascending' }
                 : { key, dir: 'ascending' }
-            );
+        );
     }
 
     if (!open) return null;
@@ -111,113 +111,110 @@ function StatsModal({ open, onClose, solves }: Props) {
                 aria-labelledby="stats-title"
             >
                 <button
-                    className="absolute right-3 top-3 rounded hover:bg-secondary/40 p-2"
+                    className="absolute right-3 top-3 btn btn-danger p-2"
                     onClick={onClose}
                     aria-label="Close"
                     title="Close"
                 >
                     <MdClose className="w-5 h-5" />
                 </button>
-
                 <div className="flex items-end justify-between pb-4 pr-8">
-                <h3 id="stats-title" className="text-lg">Statistics</h3>
-                {/* room for future filters */}
+                    <h3 id="stats-title" className="text-lg">Statistics</h3>
                 </div>
 
-                {/* TABLE WRAPPER: scroll on both axes if needed, sticky header */}
-                <div className="border rounded-md overflow-auto max-h-[65vh]">
+                <div className="rounded-md overflow-auto max-h-[65vh] scrollbar-hide">
                 <table className="min-w-[720px] w-full text-sm sm:text-base">
                     <thead className="bg-secondary sticky top-0 z-10">
-                    <tr>
-                        <SortableTh
-                        label="#"
-                        active={sort.key === 'firstIndex'}
-                        dir={sort.dir}
-                        onClick={() => toggleSort('firstIndex')}
-                        ariaSort={sort.key === 'firstIndex' ? sort.dir : 'none'}
-                        className="w-[64px]"
-                        />
-                        <SortableTh
-                        label="Case"
-                        active={sort.key === 'label'}
-                        dir={sort.dir}
-                        onClick={() => toggleSort('label')}
-                        ariaSort={sort.key === 'label' ? sort.dir : 'none'}
-                        />
-                        <th className="text-left px-3 py-2">Image</th>
-                        <SortableTh
-                        label="# of solves"
-                        active={sort.key === 'count'}
-                        dir={sort.dir}
-                        onClick={() => toggleSort('count')}
-                        ariaSort={sort.key === 'count' ? sort.dir : 'none'}
-                        className="text-right"
-                        />
-                        <SortableTh
-                        label="Avg"
-                        active={sort.key === 'avgMs'}
-                        dir={sort.dir}
-                        onClick={() => toggleSort('avgMs')}
-                        ariaSort={sort.key === 'avgMs' ? sort.dir : 'none'}
-                        className="text-right"
-                        />
-                        <SortableTh
-                        label="Best"
-                        active={sort.key === 'bestMs'}
-                        dir={sort.dir}
-                        onClick={() => toggleSort('bestMs')}
-                        ariaSort={sort.key === 'bestMs' ? sort.dir : 'none'}
-                        className="text-right"
-                        />
-                        <SortableTh
-                        label="Worst"
-                        active={sort.key === 'worstMs'}
-                        dir={sort.dir}
-                        onClick={() => toggleSort('worstMs')}
-                        ariaSort={sort.key === 'worstMs' ? sort.dir : 'none'}
-                        className="text-right"
-                        />
-                        <SortableTh
-                        label="Std Dev"
-                        active={sort.key === 'stdevMs'}
-                        dir={sort.dir}
-                        onClick={() => toggleSort('stdevMs')}
-                        ariaSort={sort.key === 'stdevMs' ? sort.dir : 'none'}
-                        className="text-right"
-                        />
-                    </tr>
+                        <tr>
+                            <SortableTh
+                                label="#"
+                                active={sort.key === 'firstIndex'}
+                                dir={sort.dir}
+                                onClick={() => toggleSort('firstIndex')}
+                                ariaSort={sort.key === 'firstIndex' ? sort.dir : 'none'}
+                                className="w-[64px]"
+                            />
+                            <SortableTh
+                                label="Case"
+                                active={sort.key === 'label'}
+                                dir={sort.dir}
+                                onClick={() => toggleSort('label')}
+                                ariaSort={sort.key === 'label' ? sort.dir : 'none'}
+                            />
+                            <th className="text-left px-3 py-2"> Image </th>
+                            <SortableTh
+                                label="Count"
+                                active={sort.key === 'count'}
+                                dir={sort.dir}
+                                onClick={() => toggleSort('count')}
+                                ariaSort={sort.key === 'count' ? sort.dir : 'none'}
+                                className="text-right"
+                            />
+                            <SortableTh
+                                label="Avg"
+                                active={sort.key === 'avgMs'}
+                                dir={sort.dir}
+                                onClick={() => toggleSort('avgMs')}
+                                ariaSort={sort.key === 'avgMs' ? sort.dir : 'none'}
+                                className="text-right"
+                            />
+                            <SortableTh
+                                label="Best"
+                                active={sort.key === 'bestMs'}
+                                dir={sort.dir}
+                                onClick={() => toggleSort('bestMs')}
+                                ariaSort={sort.key === 'bestMs' ? sort.dir : 'none'}
+                                className="text-right"
+                            />
+                            <SortableTh
+                                label="Worst"
+                                active={sort.key === 'worstMs'}
+                                dir={sort.dir}
+                                onClick={() => toggleSort('worstMs')}
+                                ariaSort={sort.key === 'worstMs' ? sort.dir : 'none'}
+                                className="text-right"
+                            />
+                            <SortableTh
+                                label="Std Dev"
+                                active={sort.key === 'stdevMs'}
+                                dir={sort.dir}
+                                onClick={() => toggleSort('stdevMs')}
+                                ariaSort={sort.key === 'stdevMs' ? sort.dir : 'none'}
+                                className="text-right"
+                            />
+                        </tr>
                     </thead>
                     <tbody>
-                    {sorted.map((r) => (
-                        <tr key={r.key} className="even:bg-secondary/30">
-                        <td className="px-3 py-2">{r.firstIndex}</td>
-                        <td className="px-3 py-2">{r.label}</td>
-                        <td className="px-3 py-2">
-                            {r.img ? (
-                            <img
-                                src={r.img}
-                                alt={r.label}
-                                className="w-12 h-12 object-contain mx-auto"
-                                loading="lazy"
-                            />
-                            ) : (
-                            <span className="text-xs opacity-60">—</span>
-                            )}
-                        </td>
-                        <td className="px-3 py-2 text-right">{r.count}</td>
-                        <td className="px-3 py-2 text-right">{fmt(r.avgMs)}</td>
-                        <td className="px-3 py-2 text-right">{fmt(r.bestMs)}</td>
-                        <td className="px-3 py-2 text-right">{fmt(r.worstMs)}</td>
-                        <td className="px-3 py-2 text-right">{fmt(r.stdevMs)}</td>
-                        </tr>
-                    ))}
-                    {sorted.length === 0 && (
-                        <tr>
-                        <td className="px-3 py-6 text-center opacity-70" colSpan={8}>
-                            No solves yet.
-                        </td>
-                        </tr>
-                    )}
+                        {sorted.map((r, i) => (
+                            <tr key={r.key} className="even:bg-secondary/30">
+                                <td className="px-3 py-2" title={`First seen at solve #${r.firstIndex}`}>{i + 1}</td>
+                                <td className="px-3 py-2">{r.label}</td>
+                                <td className="px-3 py-2">
+                                    {r.img ? (
+                                    <img
+                                        src={r.img}
+                                        alt={r.label}
+                                        className="w-12 h-12 object-contain mx-auto"
+                                        loading="lazy"
+                                    />
+                                    ) : (
+                                    <span className="text-xs opacity-60">—</span>
+                                    )}
+                                </td>
+                                <td className="px-3 py-2 text-right">{r.count}</td>
+                                <td className="px-3 py-2 text-right">{fmt(r.avgMs)}</td>
+                                <td className="px-3 py-2 text-right">{fmt(r.bestMs)}</td>
+                                <td className="px-3 py-2 text-right">{fmt(r.worstMs)}</td>
+                                <td className="px-3 py-2 text-right">{fmt(r.stdevMs)}</td>
+                            </tr>
+                        ))}
+                        {sorted.length === 0 && (
+                            <tr>
+                                <td className="px-3 py-6 text-center opacity-70" colSpan={8}>
+                                    No solves yet.
+                                </td>
+                            </tr>
+                        )}
                     </tbody>
                 </table>
             </div>
@@ -257,7 +254,7 @@ function SortableTh({
             <button
                 type="button"
                 onClick={onClick}
-                className="inline-flex items-center gap-2 hover:underline"
+                className="link inline-flex items-center gap-2"
                 title={`Sort by ${label}`}
                 aria-label={`Sort by ${label}`}
             >
