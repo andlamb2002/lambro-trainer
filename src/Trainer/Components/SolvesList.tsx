@@ -26,19 +26,21 @@ function SolvesList({ solves, setSelectedSolve, deleteSolve, deleteAllSolves }: 
 
     return (
         <div className="flex flex-col sm:pl-4 pt-2 pr-1 sm:pr-0">
-            <div className="sm:text-xl">
-                <h3>Solves: {solves.length}</h3>
-                <h3>Mean: {mean}</h3>
+            <div className="flex items-start justify-between">
+                <div className="sm:text-xl">
+                    <h3>Solves: {solves.length}</h3>
+                    <h3>Mean: {mean}</h3>
+                </div>
+                <button
+                    className="btn btn-primary p-1"
+                    onClick={() => setStatsOpen(true)}
+                    title="Open Statistics"
+                    aria-label="Open Statistics"
+                    >
+                    <MdBarChart size={24} />
+                </button>
             </div>
-            <button
-                className={`btn btn-secondary ${solves.length === 0 ? 'opacity-50 pointer-events-none' : ''}`}
-                onClick={() => setStatsOpen(true)}
-                title="Open Statistics"
-                aria-label="Open Statistics"
-                >
-                <MdBarChart className="w-5 h-5" />
-                <span className="ml-2 hidden sm:inline">Statistics</span>
-            </button>
+            
             <ul className="flex-1 overflow-y-auto max-h-50 sm:max-h-80 my-4 space-y-2 scrollbar-hide">
                 {[...solves].reverse().map((solve, index) => (
                     <SolveItem
