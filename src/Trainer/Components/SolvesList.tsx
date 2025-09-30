@@ -32,7 +32,7 @@ function SolvesList({ solves, setSelectedSolve, deleteSolve, deleteAllSolves }: 
                     <h3>Mean: {mean}</h3>
                 </div>
                 <button
-                    className="btn btn-primary p-1"
+                    className="btn btn-primary p-1 sm:p-2"
                     onClick={() => setStatsOpen(true)}
                     title="Open Statistics"
                     aria-label="Open Statistics"
