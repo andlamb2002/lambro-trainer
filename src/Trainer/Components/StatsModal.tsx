@@ -1,28 +1,19 @@
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
 import type { Solve } from '../interfaces';
 
-import { MdClose, MdArrowUpward, MdArrowDownward, MdUnfoldMore } from 'react-icons/md';
+// import { MdClose, MdArrowUpward, MdArrowDownward, MdUnfoldMore } from 'react-icons/md';
+import { MdClose } from 'react-icons/md';
 
-type SortKey =
-    | 'firstIndex'
-    | 'label'
-    | 'count'
-    | 'avgMs'
-    | 'bestMs'
-    | 'worstMs'
-    | 'stdevMs';
-
-type Row = {
-    key: string;
-    label: string;
-    img?: string;
-    count: number;
-    avgMs: number;
-    bestMs: number;
-    worstMs: number;
-    stdevMs: number;
-    firstIndex: number;
-};
+const headers = [
+    { id: 'firstIndex', key: 'firstIndex', label: '#' },
+    { id: 'label',      key: 'label',      label: 'Case' },
+    { id: 'img',        key: 'img',        label: 'Image' },
+    { id: 'count',      key: 'count',      label: 'Count' },
+    { id: 'avgMs',      key: 'avgMs',      label: 'Avg' },
+    { id: 'bestMs',     key: 'bestMs',     label: 'Best' },
+    { id: 'worstMs',    key: 'worstMs',    label: 'Worst' },
+    { id: 'stdevMs',    key: 'stdevMs',    label: 'SD' },
+];
 
 interface Props {
     open: boolean;
@@ -31,237 +22,116 @@ interface Props {
 }
 
 function StatsModal({ open, onClose, solves }: Props) {
+    const aggregated = useMemo(() => {
+        const map = new Map<string, { label: string; img?: string; times: number[]; firstSeenAt: number }>();
 
-    const [sort, setSort] = useState<{ key: SortKey; dir: 'ascending' | 'descending' }>({
-        key: 'firstIndex',
-        dir: 'ascending',
-    });
+        solves.forEach((s, i) => {
+            if (!map.has(s.label)) {
+                map.set(s.label, { label: s.label, img: s.img, times: [], firstSeenAt: i + 1 }); 
+            }
+            map.get(s.label)!.times.push(s.time);
+        });
 
-    const fmt = (ms: number) => (ms / 1000).toFixed(2);
-
-    const rows = useMemo<Row[]>(() => {
-    const map = new Map<string, { label: string; img?: string; times: number[]; firstIdx: number }>();
-    solves.forEach((s, i) => {
-        const k = s.label; 
-        if (!map.has(k)) {
-            map.set(k, { label: s.label, img: s.img, times: [], firstIdx: i + 1 });
-        }
-        map.get(k)!.times.push(s.time);
-    });
-
-    const out: Row[] = [];
-        for (const { label, img, times, firstIdx } of map.values()) {
+        const rawRows = Array.from(map.values()).map(({ label, img, times, firstSeenAt }) => {
             const n = times.length;
             const sum = times.reduce((a, b) => a + b, 0);
             const avg = sum / n;
             const best = Math.min(...times);
             const worst = Math.max(...times);
             const variance = n > 1 ? times.reduce((a, t) => a + (t - avg) ** 2, 0) / (n - 1) : 0;
-            out.push({
-                key: label,
+            const stdev = Math.sqrt(variance);
+
+            return {
+                firstIndex: 0,
                 label,
                 img,
                 count: n,
-                avgMs: avg,
-                bestMs: best,
-                worstMs: worst,
-                stdevMs: Math.sqrt(variance),
-                firstIndex: firstIdx,
-            });
-        }
-        return out;
-    }, [solves]);
-
-    const sorted = useMemo(() => {
-        const data = [...rows];
-        data.sort((a, b) => {
-            const k = sort.key;
-            const va = a[k] as number | string;
-            const vb = b[k] as number | string;
-            if (typeof va === 'number' && typeof vb === 'number') {
-                return sort.dir === 'ascending' ? va - vb : vb - va;
-            }
-            return sort.dir === 'ascending'
-                ? String(va).localeCompare(String(vb))
-                : String(vb).localeCompare(String(va));
+                avgMs: (avg / 1000).toFixed(2),
+                bestMs: (best / 1000).toFixed(2),
+                worstMs: (worst / 1000).toFixed(2),
+                stdevMs: (stdev / 1000).toFixed(2),
+                firstSeenAt,
+            };
         });
-        return data;
-    }, [rows, sort]);
 
-    function toggleSort(key: SortKey) {
-        setSort((prev) =>
-            prev.key === key
-                ? { key, dir: prev.dir === 'ascending' ? 'descending' : 'ascending' }
-                : { key, dir: 'ascending' }
-        );
-    }
+        rawRows.sort((a, b) => a.firstSeenAt - b.firstSeenAt);
+
+        const finalRows = rawRows.map((r, idx) => ({
+            ...r,
+            firstIndex: idx + 1,
+        }));
+
+        console.log('stats rows (for table):', finalRows);
+
+        return finalRows;
+    }, [solves]);
 
     if (!open) return null;
 
     return (
         <div
-            className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center px-2"
+            className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center px-4"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="stats-title"
             onClick={onClose}
         >
             <div
-                className="bg-primary rounded w-[95vw] sm:w-full max-w-5xl p-4 sm:p-6 shadow-md max-h-[80vh] overflow-hidden relative"
+                className="bg-primary rounded w-full max-w-4xl p-4 shadow-md relative"
                 onClick={(e) => e.stopPropagation()}
-                role="dialog"
-                aria-modal="true"
-                aria-labelledby="stats-title"
             >
                 <button
-                    className="absolute right-3 top-3 btn btn-danger p-2"
+                    type="button"
+                    className="absolute right-2 top-2 btn btn-danger p-1"
                     onClick={onClose}
                     aria-label="Close"
                     title="Close"
                 >
-                    <MdClose className="w-5 h-5" />
+                    <MdClose size={24} />
                 </button>
-                <div className="flex items-end justify-between pb-4 pr-8">
-                    <h3 id="stats-title" className="text-lg">Statistics</h3>
+
+                <div className="flex items-center justify-between pr-8">
+                    <h3 id="stats-title" className="text-xl font-bold">
+                        Statistics
+                    </h3>
                 </div>
 
-                <div className="rounded-md overflow-auto max-h-[65vh] scrollbar-hide">
-                <table className="min-w-[720px] w-full text-sm sm:text-base">
-                    <thead className="bg-secondary sticky top-0 z-10">
-                        <tr>
-                            <SortableTh
-                                label="#"
-                                active={sort.key === 'firstIndex'}
-                                dir={sort.dir}
-                                onClick={() => toggleSort('firstIndex')}
-                                ariaSort={sort.key === 'firstIndex' ? sort.dir : 'none'}
-                                className="w-[64px]"
-                            />
-                            <SortableTh
-                                label="Case"
-                                active={sort.key === 'label'}
-                                dir={sort.dir}
-                                onClick={() => toggleSort('label')}
-                                ariaSort={sort.key === 'label' ? sort.dir : 'none'}
-                            />
-                            <th className="text-left px-3 py-2"> Image </th>
-                            <SortableTh
-                                label="Count"
-                                active={sort.key === 'count'}
-                                dir={sort.dir}
-                                onClick={() => toggleSort('count')}
-                                ariaSort={sort.key === 'count' ? sort.dir : 'none'}
-                                className="text-right"
-                            />
-                            <SortableTh
-                                label="Avg"
-                                active={sort.key === 'avgMs'}
-                                dir={sort.dir}
-                                onClick={() => toggleSort('avgMs')}
-                                ariaSort={sort.key === 'avgMs' ? sort.dir : 'none'}
-                                className="text-right"
-                            />
-                            <SortableTh
-                                label="Best"
-                                active={sort.key === 'bestMs'}
-                                dir={sort.dir}
-                                onClick={() => toggleSort('bestMs')}
-                                ariaSort={sort.key === 'bestMs' ? sort.dir : 'none'}
-                                className="text-right"
-                            />
-                            <SortableTh
-                                label="Worst"
-                                active={sort.key === 'worstMs'}
-                                dir={sort.dir}
-                                onClick={() => toggleSort('worstMs')}
-                                ariaSort={sort.key === 'worstMs' ? sort.dir : 'none'}
-                                className="text-right"
-                            />
-                            <SortableTh
-                                label="Std Dev"
-                                active={sort.key === 'stdevMs'}
-                                dir={sort.dir}
-                                onClick={() => toggleSort('stdevMs')}
-                                ariaSort={sort.key === 'stdevMs' ? sort.dir : 'none'}
-                                className="text-right"
-                            />
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {sorted.map((r, i) => (
-                            <tr key={r.key} className="even:bg-secondary/30">
-                                <td className="px-3 py-2" title={`First seen at solve #${r.firstIndex}`}>{i + 1}</td>
-                                <td className="px-3 py-2">{r.label}</td>
-                                <td className="px-3 py-2">
-                                    {r.img ? (
-                                    <img
-                                        src={r.img}
-                                        alt={r.label}
-                                        className="w-12 h-12 object-contain mx-auto"
-                                        loading="lazy"
-                                    />
-                                    ) : (
-                                    <span className="text-xs opacity-60">—</span>
-                                    )}
-                                </td>
-                                <td className="px-3 py-2 text-right">{r.count}</td>
-                                <td className="px-3 py-2 text-right">{fmt(r.avgMs)}</td>
-                                <td className="px-3 py-2 text-right">{fmt(r.bestMs)}</td>
-                                <td className="px-3 py-2 text-right">{fmt(r.worstMs)}</td>
-                                <td className="px-3 py-2 text-right">{fmt(r.stdevMs)}</td>
-                            </tr>
-                        ))}
-                        {sorted.length === 0 && (
+                <div className="mt-4 flex justify-center overflow-auto max-h-[65vh] scrollbar-hide">
+                    <table>
+                        <thead>
                             <tr>
-                                <td className="px-3 py-6 text-center opacity-70" colSpan={8}>
-                                    No solves yet.
-                                </td>
+                                {headers.map((header, index) => (
+                                    <th key={index}>
+                                        {header.label}
+                                    </th>
+                                ))}
                             </tr>
-                        )}
-                    </tbody>
-                </table>
+                        </thead>
+                        <tbody>
+                            {aggregated.map((row) => (
+                                <tr key={row.label}>
+                                    {headers.map((h) =>
+                                        h.key === 'img' ? (
+                                            <td key={h.id}>
+                                                {row.img ? (
+                                                    <img src={row.img} alt={row.label} />
+                                                ) : (
+                                                    '—'
+                                                )}
+                                            </td>
+                                        ) : (
+                                            <td key={h.id}>
+                                                {row[h.key as keyof typeof row] as string}
+                                            </td>
+                                        )
+                                    )}
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
-    </div>
-    )
-}
-
-function SortIndicator({ active, dir }: { active: boolean; dir: 'ascending' | 'descending' }) {
-    if (!active) return <MdUnfoldMore className="opacity-40 w-4 h-4" />;
-    return dir === 'ascending'
-        ? <MdArrowUpward className="w-4 h-4" />
-        : <MdArrowDownward className="w-4 h-4" />;
-}
-
-function SortableTh({
-    label,
-    active,
-    dir,
-    onClick,
-    ariaSort,
-    className = '',
-}: {
-    label: string;
-    active: boolean;
-    dir: 'ascending' | 'descending';
-    onClick: () => void;
-    ariaSort: 'ascending' | 'descending' | 'none';
-    className?: string;
-}) {
-    return (
-        <th
-            className={`text-left px-3 py-2 select-none ${className}`}
-            aria-sort={ariaSort}
-            scope="col"
-        >
-            <button
-                type="button"
-                onClick={onClick}
-                className="link inline-flex items-center gap-2"
-                title={`Sort by ${label}`}
-                aria-label={`Sort by ${label}`}
-            >
-                <span>{label}</span>
-                <SortIndicator active={active} dir={dir} />
-            </button>
-        </th>
     );
 }
 
