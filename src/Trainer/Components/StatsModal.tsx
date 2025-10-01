@@ -61,8 +61,6 @@ function StatsModal({ open, onClose, solves }: Props) {
             firstIndex: idx + 1,
         }));
 
-        console.log('stats rows (for table):', finalRows);
-
         return finalRows;
     }, [solves]);
 
@@ -77,7 +75,7 @@ function StatsModal({ open, onClose, solves }: Props) {
             onClick={onClose}
         >
             <div
-                className="bg-primary rounded w-full max-w-4xl p-4 shadow-md relative"
+                className="bg-primary rounded-lg w-full max-w-2xl shadow-md relative overflow-hidden"
                 onClick={(e) => e.stopPropagation()}
             >
                 <button
@@ -90,18 +88,16 @@ function StatsModal({ open, onClose, solves }: Props) {
                     <MdClose size={24} />
                 </button>
 
-                <div className="flex items-center justify-between pr-8">
-                    <h3 id="stats-title" className="text-xl font-bold">
-                        Statistics
-                    </h3>
-                </div>
+                <h3 id="stats-title" className="text-xl font-bold pt-2 pl-2">
+                    Statistics
+                </h3>
 
-                <div className="mt-4 flex justify-center overflow-auto max-h-[65vh] scrollbar-hide">
-                    <table className="w-full text-center">
-                        <thead className="bg-secondary">
+                <div className="mt-4 flex overflow-auto max-h-[80vh] scrollbar-hide">
+                    <table className="w-full">
+                        <thead className="bg-secondary sticky top-0 z-10 shadow-md">
                             <tr>
                                 {headers.map((header, index) => (
-                                    <th key={index} className="p-2">
+                                    <th key={index} className="p-2 text-left">
                                         {header.label}
                                     </th>
                                 ))}
@@ -109,7 +105,7 @@ function StatsModal({ open, onClose, solves }: Props) {
                         </thead>
                         <tbody>
                             {aggregated.map((row) => (
-                                <tr key={row.label} className="odd:bg-secondary/30 even:bg-secondary">
+                                <tr key={row.label} className="odd:bg-secondary/40 even:bg-secondary">
                                     {headers.map((h) =>
                                         h.key === 'img' ? (
                                             <td key={h.id} className="p-2">
@@ -117,7 +113,7 @@ function StatsModal({ open, onClose, solves }: Props) {
                                                     <img 
                                                         src={row.img}
                                                         alt={row.label}
-                                                        className="w-12 h-12 object-contain mx-auto"
+                                                        className="w-16 h-16 object-contain"
                                                         loading="lazy"
                                                     />
                                                 ) : (
