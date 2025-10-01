@@ -97,11 +97,11 @@ function StatsModal({ open, onClose, solves }: Props) {
                 </div>
 
                 <div className="mt-4 flex justify-center overflow-auto max-h-[65vh] scrollbar-hide">
-                    <table>
-                        <thead>
+                    <table className="w-full text-center">
+                        <thead className="bg-secondary">
                             <tr>
                                 {headers.map((header, index) => (
-                                    <th key={index}>
+                                    <th key={index} className="p-2">
                                         {header.label}
                                     </th>
                                 ))}
@@ -109,18 +109,23 @@ function StatsModal({ open, onClose, solves }: Props) {
                         </thead>
                         <tbody>
                             {aggregated.map((row) => (
-                                <tr key={row.label}>
+                                <tr key={row.label} className="odd:bg-secondary/30 even:bg-secondary">
                                     {headers.map((h) =>
                                         h.key === 'img' ? (
-                                            <td key={h.id}>
+                                            <td key={h.id} className="p-2">
                                                 {row.img ? (
-                                                    <img src={row.img} alt={row.label} />
+                                                    <img 
+                                                        src={row.img}
+                                                        alt={row.label}
+                                                        className="w-12 h-12 object-contain mx-auto"
+                                                        loading="lazy"
+                                                    />
                                                 ) : (
                                                     '—'
                                                 )}
                                             </td>
                                         ) : (
-                                            <td key={h.id}>
+                                            <td key={h.id} className="p-2">
                                                 {row[h.key as keyof typeof row] as string}
                                             </td>
                                         )
