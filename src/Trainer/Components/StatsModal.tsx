@@ -192,6 +192,13 @@ function StatsModal({ open, onClose, solves }: Props) {
                                     )}
                                 </tr>
                             ))}
+                            {aggregated.length === 0 && (
+                                <tr>
+                                    <td className="py-4 text-center" colSpan={headers.length}>
+                                        No solves
+                                    </td>
+                                </tr>
+                            )}
                         </tbody>
                     </table>
                 </div>
