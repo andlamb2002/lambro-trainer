@@ -1,7 +1,6 @@
 import { useMemo, useState } from 'react';
 import type { Solve } from '../interfaces';
 
-// import { MdClose, MdArrowUpward, MdArrowDownward, MdUnfoldMore } from 'react-icons/md';
 import { MdClose } from 'react-icons/md';
 
 const headers = [
@@ -139,11 +138,26 @@ function StatsModal({ open, onClose, solves }: Props) {
                     <table className="w-full">
                         <thead className="bg-secondary sticky top-0 z-10 shadow-md">
                             <tr>
-                                {headers.map((header, index) => (
-                                    <th key={index} onClick={() => handleHeaderClick(header)} className="p-2 text-left">
-                                        {header.label}
-                                    </th>
-                                ))}
+                                {headers.map((header, index) => {
+                                    if (header.key === 'img') {
+                                        return (
+                                            <th key={index} className="p-2 text-left">
+                                                <span> {header.label} </span>
+                                            </th>
+                                        );
+                                    }
+                                    return (
+                                        <th key={index} onClick={() => handleHeaderClick(header)} className="link p-2 text-left">
+                                            <div>
+                                                {sort.key === header.key ? (
+                                                    <span className="underline font-bold"> {header.label} </span>
+                                                ) : (
+                                                    <span> {header.label} </span>
+                                                )}
+                                            </div>
+                                        </th>
+                                    );
+                                })}
                             </tr>
                         </thead>
                         <tbody>
