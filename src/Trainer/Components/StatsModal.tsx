@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import type { Solve } from '../interfaces';
 
 // import { MdClose, MdArrowUpward, MdArrowDownward, MdUnfoldMore } from 'react-icons/md';
@@ -13,7 +13,10 @@ const headers = [
     { id: 'bestMs',     key: 'bestMs',     label: 'Best' },
     { id: 'worstMs',    key: 'worstMs',    label: 'Worst' },
     { id: 'stdevMs',    key: 'stdevMs',    label: 'SD' },
-];
+] as const;
+
+type HeaderKey = typeof headers[number]['key'];
+type Dir = 'asc' | 'desc';
 
 interface Props {
     open: boolean;
@@ -46,10 +49,10 @@ function StatsModal({ open, onClose, solves }: Props) {
                 label,
                 img,
                 count: n,
-                avgMs: (avg / 1000).toFixed(2),
-                bestMs: (best / 1000).toFixed(2),
-                worstMs: (worst / 1000).toFixed(2),
-                stdevMs: (stdev / 1000).toFixed(2),
+                avgMs: avg / 1000,
+                bestMs: best / 1000,
+                worstMs: worst / 1000,
+                stdevMs: stdev / 1000,
                 firstSeenAt,
             };
         });
@@ -63,6 +66,46 @@ function StatsModal({ open, onClose, solves }: Props) {
 
         return finalRows;
     }, [solves]);
+
+    const [sort, setSort] = useState<{ key: HeaderKey; dir: Dir }>({
+        key: 'firstIndex', dir: 'asc'
+    });
+
+    function handleHeaderClick(h: { key: HeaderKey }) {
+        if (h.key === 'img') return;
+        setSort((prev) =>
+        prev.key === h.key
+            ? { key: h.key, dir: prev.dir === 'asc' ? 'desc' : 'asc' }
+            : { key: h.key, dir: 'asc' }
+        );
+    }
+
+    function getSortedArray (rows: typeof aggregated) {
+        const { key, dir } = sort;
+        if (key === 'img') return rows;
+
+        const data = [...rows];
+        data.sort((a, b) => {
+            let cmp = 0;
+            switch (key) {
+                case 'label':
+                    cmp = a.label.localeCompare(b.label);
+                    break;
+                case 'firstIndex':
+                case 'count':
+                case 'avgMs':
+                case 'bestMs':
+                case 'worstMs':
+                case 'stdevMs':
+                    cmp = a[key] - b[key];
+                    break;
+                default:
+                    cmp = 0;
+            }
+            return dir === 'asc' ? cmp : -cmp;
+        });
+        return data;
+    }
 
     if (!open) return null;
 
@@ -97,34 +140,36 @@ function StatsModal({ open, onClose, solves }: Props) {
                         <thead className="bg-secondary sticky top-0 z-10 shadow-md">
                             <tr>
                                 {headers.map((header, index) => (
-                                    <th key={index} className="p-2 text-left">
+                                    <th key={index} onClick={() => handleHeaderClick(header)} className="p-2 text-left">
                                         {header.label}
                                     </th>
                                 ))}
                             </tr>
                         </thead>
                         <tbody>
-                            {aggregated.map((row) => (
+                            {getSortedArray(aggregated).map((row) => (
                                 <tr key={row.label} className="odd:bg-secondary/40 even:bg-secondary">
                                     {headers.map((h) =>
-                                        h.key === 'img' ? (
-                                            <td key={h.id} className="p-2">
-                                                {row.img ? (
-                                                    <img 
-                                                        src={row.img}
-                                                        alt={row.label}
-                                                        className="w-16 h-16 object-contain"
-                                                        loading="lazy"
-                                                    />
+                                        <td key={h.id} className="p-2">
+                                            {h.key === 'img' ? (
+                                                row.img ? (
+                                                <img
+                                                    src={row.img}
+                                                    alt={row.label}
+                                                    className="w-16 h-16 object-contain"
+                                                    loading="lazy"
+                                                />
                                                 ) : (
-                                                    '—'
-                                                )}
-                                            </td>
-                                        ) : (
-                                            <td key={h.id} className="p-2">
-                                                {row[h.key as keyof typeof row] as string}
-                                            </td>
-                                        )
+                                                '—'
+                                                )
+                                            ) : h.key === 'label' ? (
+                                                row.label
+                                            ) : h.key === 'count' || h.key === 'firstIndex' ? (
+                                                row[h.key] 
+                                            ) : (
+                                                (row[h.key] as number).toFixed(2)
+                                            )}
+                                        </td>
                                     )}
                                 </tr>
                             ))}
