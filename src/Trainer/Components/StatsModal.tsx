@@ -138,23 +138,28 @@ function StatsModal({ open, onClose, solves }: Props) {
                     <table className="w-full">
                         <thead className="bg-secondary sticky top-0 z-10 shadow-md">
                             <tr>
-                                {headers.map((header, index) => {
+                                {headers.map((header) => {
                                     if (header.key === 'img') {
                                         return (
-                                            <th key={index} className="p-2 text-left">
+                                            <th key={header.id} className="p-2 text-left">
                                                 <span> {header.label} </span>
                                             </th>
                                         );
                                     }
                                     return (
-                                        <th key={index} onClick={() => handleHeaderClick(header)} className="link p-2 text-left">
-                                            <div>
-                                                {sort.key === header.key ? (
-                                                    <span className="underline font-bold"> {header.label} </span>
-                                                ) : (
-                                                    <span> {header.label} </span>
-                                                )}
-                                            </div>
+                                        <th 
+                                            key={header.id} 
+                                            scope="col"
+                                            aria-sort={sort.key === header.key ? (sort.dir === 'asc' ? 'ascending' : 'descending') : 'none'}
+                                            title={`Sort by ${header.label}`}
+                                            onClick={() => handleHeaderClick(header)} 
+                                            className="link p-2 text-left"
+                                        >
+                                            {sort.key === header.key ? (
+                                                <span className="underline font-bold"> {header.label} </span>
+                                            ) : (
+                                                <span> {header.label} </span>
+                                            )}
                                         </th>
                                     );
                                 })}
