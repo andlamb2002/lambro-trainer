@@ -15,7 +15,7 @@ def process_oll(oll_data: list[dict], pll_data: list[dict]):
                 scrambles.append(invert_alg(generate_scramble(pll, auf, inv_oll)))
 
         case_id = f"OLL{str(counter).zfill(2)}"
-        output_label = f"{str(counter).zfill(2)}_{oll['label']}"
+        output_label = case_id
 
         cases.append(generate_case(
             case_id,
@@ -23,7 +23,8 @@ def process_oll(oll_data: list[dict], pll_data: list[dict]):
             scrambles,
             oll["scramble"],
             set_name=oll["set"],
-            img_stage="oll"
+            img_stage="oll",
+            shape=oll["label"]
         ))
         print(f"{oll['label']}: {len(scrambles)} scrambles")
         counter += 1

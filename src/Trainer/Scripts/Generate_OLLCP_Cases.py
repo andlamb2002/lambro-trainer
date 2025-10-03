@@ -41,7 +41,6 @@ def process_ollcp(oll_data: list[dict], pll_data: list[dict]):
         for pll in pll_data:
             auf_list = get_auf_moves(pll["label"])
             for auf in auf_list:
-                # subset = subset_from_pll_and_auf(pll, auf)
                 raw_subset = subset_from_pll_and_auf(pll, auf)
                 if raw_subset in drop_subsets:
                     continue
@@ -56,14 +55,15 @@ def process_ollcp(oll_data: list[dict], pll_data: list[dict]):
 
         for subset in sorted(present_subsets):
             case_id = f"OLL{counter:02d}_{subset:02d}"
-            label = f"{counter:02d}_{subset:02d}_{oll['label']}"
+            label = case_id
             case = generate_case(
                 case_id=case_id,
                 label=label,
                 scrambles=buckets[subset],
                 original_alg=oll["scramble"],
                 img_stage="coll",
-                set_name=oll["set"]
+                set_name=oll["set"],
+                shape=oll["label"]
             )
             case["subset"] = subset
             cases.append(case)

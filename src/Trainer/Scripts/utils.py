@@ -59,7 +59,7 @@ def cube_to_kociemba_string(cube: pc.Cube) -> str:
     return s
 
 def generate_case(case_id: str, label: str, scrambles: list[str],
-                  original_alg: str, img_stage: str = None, set_name: str = None):
+                  original_alg: str, img_stage: str = None, set_name: str = None, shape: str = None):
     case = {
         "id": case_id,
         "set": set_name,
@@ -69,6 +69,8 @@ def generate_case(case_id: str, label: str, scrambles: list[str],
         "img": f"https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&bg=t&case={original_alg.replace(' ','')}",
         "enabled": True,
     }
+    if shape:
+        case["shape"] = shape
     if img_stage == "oll":
         case["img"] = f"https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage={img_stage}&bg=t&case={original_alg.replace(' ','')}"
     elif img_stage:
@@ -98,10 +100,6 @@ def _int_to_move(i: int) -> str:
     return ''
 
 def merge_adjacent_u_moves(moves_list: list[str]) -> list[str]:
-    """
-    Compress consecutive U/U'/U2 into a single canonical U-move.
-    Preserves non-U moves verbatim and order.
-    """
     result = []
     i = 0
     while i < len(moves_list):
@@ -122,10 +120,6 @@ def merge_adjacent_u_moves(moves_list: list[str]) -> list[str]:
     return result
 
 def generate_auf_variations(sequence_str: str) -> list[str]:
-    """
-    Generate 16 prefix/suffix U-AUF variants of sequence_str,
-    merging adjacent U-moves to avoid junk like 'U U''.
-    """
     auf_moves = ['', 'U', "U'", 'U2']
     variations = []
     for prefix in auf_moves:
@@ -141,9 +135,6 @@ def generate_auf_variations(sequence_str: str) -> list[str]:
     return variations
 
 def choose_unique_solutions(solutions: list[str], max_solutions: int = 4) -> list[str]:
-    """
-    Keep up to max_solutions, preferring distinct first moves.
-    """
     chosen: list[str] = []
     used_first: set[str] = set()
     for sol in solutions:
@@ -165,11 +156,6 @@ def choose_unique_solutions(solutions: list[str], max_solutions: int = 4) -> lis
     return chosen
 
 def kociemba_solve_from_sequence(seq: str) -> str:
-    """
-    Apply `seq` on a solved cube, rotate by z2, solve with Kociemba,
-    then unrotate the solution by z2 so it's back in original frame.
-    Returns the SOLUTION (not inverted).
-    """
     cube = pc.Cube()
     if seq.strip():
         cube(seq)
@@ -179,19 +165,9 @@ def kociemba_solve_from_sequence(seq: str) -> str:
     return apply_z2_to_moves(solution)
 
 def solve_then_invert_to_scramble(seq: str) -> str:
-    """
-    Like above but returns the SCRAMBLE (inverse of the solution).
-    """
     return invert_alg(kociemba_solve_from_sequence(seq))
 
 def scrambles_from_base_sequence(base_scramble: str, max_solutions: int = 4) -> list[str]:
-    """
-    Reproduces PLL generator behavior:
-      - Build AUF variants around `base_scramble`
-      - Solve each state (with z2 correction)
-      - Keep up to 4 unique-by-first-move
-    Returns SOLUTIONS (not inverted), matching your current PLL script.
-    """
     solutions: list[str] = []
     for var in generate_auf_variations(base_scramble):
         sol = kociemba_solve_from_sequence(var)
