@@ -117,17 +117,17 @@
   {
     "set": "cross",
     "label": "cross",
-    "scramble": "r U R' U' r' F R F'"
+    "scramble": "U' r U R' U' r' F R F'"
   },
   {
     "set": "cross",
     "label": "cross",
-    "scramble": "F' r U R' U' r' F R"
+    "scramble": "U2 F' r U R' U' r' F R"
   },
   {
     "set": "cross",
     "label": "cross",
-    "scramble": "U' R U2 R' U' R U' R'"
+    "scramble": "U R U2 R' U' R U' R'"
   },
   {
     "set": "cross",
