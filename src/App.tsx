@@ -8,7 +8,7 @@ import Homepage from "./Homepage";
 import pllCases from './Trainer/Data/pll_cases.json';
 import ollCases from './Trainer/Data/oll_cases.json';
 import ollcpCases from './Trainer/Data/ollcp_cases.json';
-import zbllCases from './Trainer/Data/zbll_cases.json';
+import zbllCases from './Trainer/Data/zbll_reordered_cases.json';
 
 function App() {
 
