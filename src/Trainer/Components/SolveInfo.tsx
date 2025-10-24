@@ -45,12 +45,12 @@ function SolveInfo({ solves, selectedSolve, deleteSolve }: Props) {
                     className="w-24 h-24 sm:w-36 sm:h-36 object-contain"
                 />
             </div>
-            <div className="select-text">
+            <div>
                 {selectedSolve.scramble}
             </div>
             {!hasSubset && (
-                <div className="select-text mt-2">
-                Solution: {selectedSolve.originalAlg}
+                <div className="mt-2">
+                    Solution: {selectedSolve.originalAlg}
                 </div>
             )}
         </div>
