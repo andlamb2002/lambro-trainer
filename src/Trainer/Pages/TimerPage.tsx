@@ -201,10 +201,16 @@ function TimerPage({ cases, algset }: Props) {
     const deleteSolve = useCallback((solve: Solve) => {
         if (window.confirm('Delete solve?')) {
             setSolves(prev => {
+                const idx = prev.findIndex(s => s.id === solve.id);
+                const isLast = idx === prev.length - 1;
                 const updated = prev.filter(s => s.id !== solve.id);
-                if (selectedSolve?.id === solve.id) {
-                    setSelectedSolve(updated.at(-1) ?? null);
+
+                if (isLast) {
+                    const next = updated.at(-1) ?? null;
+                    setSelectedSolve(next);
+                    if (!isRunning) setTime(next?.time ?? 0);
                 }
+                
                 return updated;
             });
 
@@ -233,7 +239,7 @@ function TimerPage({ cases, algset }: Props) {
                 setRecapProgress(p => Math.max(1, p - 1));
             }
         }
-    }, [selectedSolve, recapMode, recapIndex, cases]);
+    }, [recapMode, isRunning, cases, recapIndex]);
 
     const deleteAllSolves = useCallback(() => {
         if (window.confirm('Delete all solves?')) {
