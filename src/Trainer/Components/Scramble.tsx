@@ -29,6 +29,7 @@ function Scramble({ currentScramble, recapMode, recapProgress, recapTotal, toggl
                 <div className="flex items-center whitespace-nowrap gap-2">
                     <button 
                         className="btn btn-primary text-2xl font-bold px-2 py-1 sm:px-4 sm:py-2" 
+                        onMouseDown={(e) => e.preventDefault()}
                         onClick={toggleRecap}
                         title={recapMode ? "End Recap" : "Recap Each Selected Case"}
                         aria-label={recapMode ? "End Recap" : "Recap Each Selected Case"}
