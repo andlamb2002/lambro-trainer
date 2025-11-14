@@ -12,9 +12,10 @@ interface Props {
     setSelectedSolve: (solve: Solve | null) => void;
     deleteSolve: (solve: Solve) => void;
     deleteAllSolves: () => void;
+    isCooldown: boolean;
 }
 
-function SolvesList({ solves, setSelectedSolve, deleteSolve, deleteAllSolves }: Props) {
+function SolvesList({ solves, setSelectedSolve, deleteSolve, deleteAllSolves, isCooldown }: Props) {
     const [statsOpen, setStatsOpen] = useState(false);
 
     const mean: string = 
@@ -36,6 +37,7 @@ function SolvesList({ solves, setSelectedSolve, deleteSolve, deleteAllSolves }: 
                     onClick={() => setStatsOpen(true)}
                     title="Open Statistics"
                     aria-label="Open Statistics"
+                    disabled={isCooldown} 
                     >
                     <MdBarChart size={24} />
                 </button>

@@ -6,9 +6,10 @@ interface Props {
     solves: Solve[];
     selectedSolve: Solve | null;
     deleteSolve: (solve: Solve) => void;
+    isCooldown: boolean;
 }
 
-function SolveInfo({ solves, selectedSolve, deleteSolve }: Props) {
+function SolveInfo({ solves, selectedSolve, deleteSolve, isCooldown }: Props) {
     if (!selectedSolve) {
         return (
             <div className="bg-secondary text-xl font-bold rounded shadow-md p-4 ml-1 sm:ml-0 sm:mr-4">
@@ -31,6 +32,7 @@ function SolveInfo({ solves, selectedSolve, deleteSolve }: Props) {
                     onClick={() => deleteSolve(selectedSolve)}
                     title={`Delete Solve ${index}`}
                     aria-label={`Delete Solve ${index}`}
+                    disabled={isCooldown} 
                 >
                     <MdDelete size={24} />
                 </button>

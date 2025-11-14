@@ -53,6 +53,8 @@ function TimerPage({ cases, algset }: Props) {
     const hasStoppedRef = useRef<boolean>(false);
     const startCooldownRef = useRef(0);
     const recapUndoRef = useRef<string | null>(null);
+    const [isCooldown, setIsCooldown] = useState(false);
+    const cooldownTimeoutRef = useRef<number | undefined>(undefined);
 
     const hudHidden = preStartHold || postStopHold || isRunning;
     const timerColorClass = postStopHold ? 'text-danger' : preStartHold ? 'text-success' : '';
@@ -141,6 +143,15 @@ function TimerPage({ cases, algset }: Props) {
         setIsRunning(false);
         hasStoppedRef.current = true;
         startCooldownRef.current = Date.now() + START_COOLDOWN_MS;
+
+        setIsCooldown(true);
+        if (cooldownTimeoutRef.current !== undefined) {
+            clearTimeout(cooldownTimeoutRef.current);
+        }
+        cooldownTimeoutRef.current = window.setTimeout(() => {
+            setIsCooldown(false);
+            cooldownTimeoutRef.current = undefined;
+        }, START_COOLDOWN_MS);
 
         const finalTime = Date.now() - startTimeRef.current;
         setTime(finalTime);
@@ -246,6 +257,14 @@ function TimerPage({ cases, algset }: Props) {
             setSolves([]);
             setSelectedSolve(null);
         }
+    }, []);
+
+    useEffect(() => {
+        return () => {
+            if (cooldownTimeoutRef.current !== undefined) {
+                clearTimeout(cooldownTimeoutRef.current);
+            }
+        };
     }, []);
 
     useEffect(() => {
@@ -364,11 +383,11 @@ function TimerPage({ cases, algset }: Props) {
         <div className="px-2 py-2 sm:py-4">
             {currentCase && (
                 <Scramble
-                currentScramble={currentScramble}
-                recapMode={recapMode}
-                recapProgress={recapProgress}
-                recapTotal={recapTotal}
-                toggleRecap={toggleRecap}
+                    currentScramble={currentScramble}
+                    recapMode={recapMode}
+                    recapProgress={recapProgress}
+                    recapTotal={recapTotal}
+                    toggleRecap={toggleRecap}
                 />
             )}
 
@@ -379,6 +398,7 @@ function TimerPage({ cases, algset }: Props) {
                         setSelectedSolve={setSelectedSolve}
                         deleteSolve={deleteSolve}
                         deleteAllSolves={deleteAllSolves}
+                        isCooldown={isCooldown}
                     />
                 </div>
 
@@ -398,6 +418,7 @@ function TimerPage({ cases, algset }: Props) {
                         solves={sortedSolves}
                         selectedSolve={selectedSolve}
                         deleteSolve={deleteSolve}
+                        isCooldown={isCooldown}
                     />
                 </div>
             </div>
