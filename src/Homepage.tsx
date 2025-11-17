@@ -45,7 +45,7 @@ function Homepage() {
             <TrainerCard
                 to="/zbll"
                 title="ZBLL Trainer"
-                imgSrc="https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=R2 D' F2 D R2 D2 F2 D R2 D2 B D F2 D' B' D'"
+                imgSrc="https://visualcube.api.cubing.net/visualcube.php?fmt=svg&view=plan&stage=ll&bg=t&alg=B2DL2D'B2U2R2D'F2D2L'D'R2DLD'"
                 alt="ZBLL Trainer"
             />
         </div>
