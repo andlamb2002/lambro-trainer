@@ -33,7 +33,7 @@ return (
                 darkMode={darkMode}
                 setDarkMode={setDarkMode}
             />
-            <main className="flex-grow">
+            <main className="flex flex-col flex-grow">
                 <Routes>
                     <Route path="/" element={<Homepage />} />
                     <Route path="/pll/*" element={<Trainer key="pll" algset="pll" data={pllCases} />} />
