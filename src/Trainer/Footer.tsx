@@ -6,7 +6,7 @@ function Footer() {
     const GITHUB_URL = "https://github.com/andlamb2002/lambro-trainer";
     const YT_URL = "https://youtube.com/your-video-or-channel";
     const USER_URL = "https://andrelambro.com/";
-    const FEEDBACK_URL = "https://forms.gle/your-google-form";
+    const FEEDBACK_URL = "https://forms.gle/UU7TxjF18dac6wpn8";
 
     return (
         <footer className="bg-secondary">
