@@ -4,7 +4,7 @@ import { MdFeedback } from "react-icons/md";
 function Footer() {
 
     const GITHUB_URL = "https://github.com/andlamb2002/lambro-trainer";
-    const YT_URL = "https://youtube.com/your-video-or-channel";
+    const YT_URL = "https://youtu.be/1G_ktB7Vkbk";
     const USER_URL = "https://andrelambro.com/";
     const FEEDBACK_URL = "https://forms.gle/UU7TxjF18dac6wpn8";
 
