@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import Trainer from './Trainer/Trainer';
 import Header from './Trainer/Header';
 import Homepage from "./Homepage";
+import AnnouncementModal from "./Trainer/Components/AnnouncementModal";
 
 import pllCases from './Trainer/Data/pll_cases.json';
 import ollCases from './Trainer/Data/oll_cases.json';
@@ -29,6 +30,7 @@ function App() {
 
 return (
         <div className="flex flex-col min-h-screen bg-primary text-text scrollbar-hide">
+            <AnnouncementModal testSiteUrl="https://andlamb2002.github.io/lambro-trainer-v2" />
             <Header 
                 darkMode={darkMode}
                 setDarkMode={setDarkMode}
