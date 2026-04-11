@@ -43,7 +43,7 @@ function AnnouncementModal({ testSiteUrl }: Props) {
                         Lambro Trainer V2 Coming Soon
                     </h2>
                     <p>
-                        Includes improved features, including sessions replacing presets and recap progress surviving page reloads. Try it out at:
+                        Includes improved features like sessions replacing presets and recap progress surviving page reloads. Try it out at:
                     </p>
                     <a
                         href={testSiteUrl}
